@@ -685,11 +685,17 @@
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
       }
     </style>
 </head>
@@ -1298,8 +1304,8 @@
 
 
 
-<section class="urgency-banner" role="banner" aria-label="מבצע מוגבל בזמן">
-  <div class="urgency-banner__inner">
+<section class="urgency-banner" role="banner" aria-label="מבצע מוגבל בזמן" id="urgency-banner" style="text-align: left;">
+  <div class="urgency-banner__inner" style="outline: currentcolor;">
     <span class="urgency-banner__text">
       🔥 <strong>מבצע סוף עונה</strong> — עד 40% הנחה
       <span class="urgency-banner__divider">|</span>
