@@ -18793,6 +18793,286 @@ main,
 }
 /* /Zappy custom logo size */
 
+
+/* AI-generated section */
+.announce-bar {
+  background: #000000;
+  width: 100%;
+  padding: 9px 16px;
+  text-align: center;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+.announce-bar__text {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 480px) {
+  .announce-bar {
+    padding: 8px 12px;
+  }
+  .announce-bar__text {
+    font-size: 12px;
+    white-space: normal;
+  }
+}
+
+/* AI-generated section */
+/* ===== Fashion Categories Section ===== */
+.fashcat-section {
+  background: var(--primary-color, #000000);
+  padding: 80px 24px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+}
+
+.fashcat-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Section Title */
+.fashcat-title {
+  text-align: center;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  margin: 0 0 52px 0;
+  position: relative;
+}
+
+.fashcat-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #ffffff;
+  margin: 16px auto 0;
+  opacity: 0.5;
+}
+
+/* Grid Layout */
+.fashcat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Card Base */
+.fashcat-card {
+  position: relative;
+  display: block;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fashcat-card:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Card Image */
+.fashcat-card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Dark Overlay */
+.fashcat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.82) 0%,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  transition: background 0.4s ease;
+  z-index: 1;
+}
+
+.fashcat-overlay--sale {
+  background: linear-gradient(
+    to top,
+    rgba(20, 0, 0, 0.88) 0%,
+    rgba(60, 0, 0, 0.5) 50%,
+    rgba(20, 0, 0, 0.28) 100%
+  );
+}
+
+/* Card Content */
+.fashcat-content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Category Name */
+.fashcat-name {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.1;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.35s ease, letter-spacing 0.35s ease;
+}
+
+.fashcat-name--sale {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  text-shadow: 0 2px 20px rgba(200, 0, 0, 0.5);
+}
+
+/* Buy Button */
+.fashcat-btn {
+  display: inline-block;
+  padding: 11px 28px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(4px);
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+  transform: translateY(6px);
+  opacity: 0.85;
+}
+
+.fashcat-btn--sale {
+  border-color: rgba(255, 80, 80, 0.9);
+  background: rgba(180, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+/* ===== Hover States ===== */
+.fashcat-card:hover .fashcat-card-img,
+.fashcat-card:focus-visible .fashcat-card-img {
+  transform: scale(1.07);
+}
+
+.fashcat-card:hover .fashcat-overlay,
+.fashcat-card:focus-visible .fashcat-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.88) 0%,
+    rgba(0, 0, 0, 0.55) 55%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+}
+
+.fashcat-card--sale:hover .fashcat-overlay,
+.fashcat-card--sale:focus-visible .fashcat-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(20, 0, 0, 0.93) 0%,
+    rgba(80, 0, 0, 0.62) 55%,
+    rgba(20, 0, 0, 0.38) 100%
+  );
+}
+
+.fashcat-card:hover .fashcat-name,
+.fashcat-card:focus-visible .fashcat-name {
+  transform: translateY(-4px);
+  letter-spacing: 0.16em;
+}
+
+.fashcat-card:hover .fashcat-btn,
+.fashcat-card:focus-visible .fashcat-btn {
+  background: rgba(255, 255, 255, 0.95);
+  color: #111111;
+  border-color: rgba(255, 255, 255, 0.95);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fashcat-card--sale:hover .fashcat-btn,
+.fashcat-card--sale:focus-visible .fashcat-btn {
+  background: rgba(200, 0, 0, 0.9);
+  color: #ffffff;
+  border-color: rgba(220, 40, 40, 0.9);
+}
+
+/* ===== Responsive: Tablet ===== */
+@media (max-width: 768px) {
+  .fashcat-section {
+    padding: 60px 16px;
+  }
+
+  .fashcat-grid {
+    gap: 14px;
+  }
+
+  .fashcat-card {
+    height: 280px;
+  }
+
+  .fashcat-title {
+    margin-bottom: 36px;
+  }
+
+  .fashcat-btn {
+    padding: 9px 22px;
+    font-size: 0.82rem;
+  }
+}
+
+/* ===== Responsive: Mobile ===== */
+@media (max-width: 480px) {
+  .fashcat-section {
+    padding: 48px 12px;
+  }
+
+  .fashcat-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .fashcat-card {
+    height: 300px;
+  }
+
+  .fashcat-title {
+    font-size: 1.6rem;
+    margin-bottom: 28px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
