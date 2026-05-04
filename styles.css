@@ -19116,6 +19116,20 @@ main,
 }
 /* /Zappy custom logo size */
 
+
+.navbar .logo {
+  width: 220px !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+.navbar .logo {
+  width: 160px !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: 80px !important;
+  object-fit: contain !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
