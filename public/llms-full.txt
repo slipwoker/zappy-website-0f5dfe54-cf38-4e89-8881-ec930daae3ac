@@ -121,65 +121,6 @@ Description: הודיה היא החנות המקוונת המובילה לאופ
 
 
 
-## כל המוצרים
-
-
-
-
-
-
-
-
-
-
-
-### סט ירוק — חולצה וחצאית ריב (Copy)
-
-
-280 ₪
-
-לרכישה
-
-
-
-
-
-
-
-
-
-
-
-### סט ירוק — חולצה וחצאית ריב
-
-
-280 ₪
-
-לרכישה
-
-
-
-
-
-
-
-
-
-
-
-### סט ירוק חצאית וחולצה
-
-
-250 ₪ 280 ₪
-
-לרכישה
-
-
-
-
-
-
-
 
 
 
@@ -6680,7 +6621,7 @@ Description: יש שאלה על מידות, סגנון או הזמנה? צוות
 ## Product Catalog
 
 ### סט ירוק חצאית וחולצה
-URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2
+URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-2q7wh1
 Price: 250.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 

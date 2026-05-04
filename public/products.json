@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T12:58:42.030Z",
+  "generated_at": "2026-05-04T13:02:14.228Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 1,
   "products": [
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
-      "slug": "st-yrvk-chtsayt-vchvltsh-gbmxm2",
+      "slug": "st-yrvk-chtsayt-vchvltsh-2q7wh1",
       "name": "סט ירוק חצאית וחולצה",
       "name_translations": {},
       "description": "",
@@ -19,13 +19,14 @@
       "sale_price": 250,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1777897376001-dlv2z6.webp"
+        "https://example.com/assets/product-1777897376001-dlv2z6.webp",
+        "https://example.com/assets/product-1777899516528-k89k2f.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2",
+      "url": "https://example.com/product/st-yrvk-chtsayt-vchvltsh-2q7wh1",
       "categories": [],
-      "updated_at": "2026-05-04T12:40:19.146Z"
+      "updated_at": "2026-05-04T12:58:47.783Z"
     }
   ]
 }

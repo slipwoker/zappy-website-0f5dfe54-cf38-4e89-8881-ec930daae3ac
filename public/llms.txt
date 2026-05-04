@@ -90,7 +90,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### סט ירוק חצאית וחולצה
-https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2
+https://example.com/product/st-yrvk-chtsayt-vchvltsh-2q7wh1
 - Price: 250.00 ILS (sale, was 280.00 ILS)
 - Availability: In stock
 - Description: חצאית וחולצה סט ירוק
