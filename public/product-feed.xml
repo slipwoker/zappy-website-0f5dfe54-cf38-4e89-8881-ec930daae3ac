@@ -4,29 +4,7 @@
     <title>הודיה</title>
     <link>https://example.com</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Mon, 04 May 2026 12:55:58 GMT</lastBuildDate>
-    <item>
-      <g:id>d6f9ee08-dc72-49ee-b557-0aff70c46654</g:id>
-      <g:title>סט ירוק — חולצה וחצאית ריב (Copy)</g:title>
-      <g:description>סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי. מידות זמינות: • מידה 0 — 4 יחידות • מידה 1 — 6 יחידות</g:description>
-      <g:link>https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-copy-u44h1c</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>280.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:mpn>SET-GREEN-RIB-COPY</g:mpn>
-    </item>
-    <item>
-      <g:id>f5f9eb8a-79b0-4060-9c3a-f226c352fd96</g:id>
-      <g:title>סט ירוק — חולצה וחצאית ריב</g:title>
-      <g:description>סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי. מידות זמינות: • מידה 0 — 4 יחידות • מידה 1 — 6 יחידות</g:description>
-      <g:link>https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-x26p6i</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>280.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:mpn>SET-GREEN-RIB</g:mpn>
-    </item>
+    <lastBuildDate>Mon, 04 May 2026 12:58:42 GMT</lastBuildDate>
     <item>
       <g:id>66f75300-a171-46f5-b380-fcaa8fc524dc</g:id>
       <g:title>סט ירוק חצאית וחולצה</g:title>

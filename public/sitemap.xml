@@ -61,12 +61,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/new-collection</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://example.com/shirts</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -125,18 +119,6 @@
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-copy-u44h1c</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-x26p6i</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2</loc>
