@@ -19159,6 +19159,13 @@ main,
   max-width: 160px !important;
   object-fit: contain !important;
 }
+
+.navbar .logo {
+  height: 60px !important;
+  max-height: 60px !important;
+  width: auto !important;
+  max-width: 200px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
