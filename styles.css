@@ -19073,6 +19073,75 @@ main,
     margin-bottom: 28px;
   }
 }
+
+.fashcat-section {
+  padding: 48px 0 40px;
+  overflow: hidden;
+}
+
+.fashcat-section .fashcat-grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 20px !important;
+  overflow-x: auto !important;
+  padding-bottom: 12px !important;
+  cursor: grab !important;
+  grid-template-columns: unset !important;
+}
+
+.fashcat-section .fashcat-grid:active {
+  cursor: grabbing !important;
+}
+
+.fashcat-section .fashcat-grid::-webkit-scrollbar {
+  height: 4px !important;
+}
+
+.fashcat-section .fashcat-grid::-webkit-scrollbar-track {
+  background: #f0f0f0 !important;
+  border-radius: 2px !important;
+}
+
+.fashcat-section .fashcat-grid::-webkit-scrollbar-thumb {
+  background: #999 !important;
+  border-radius: 2px !important;
+}
+
+.fashcat-section .fashcat-card {
+  flex: 0 0 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
+  height: 400px !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+}
+
+.fashcat-section .fashcat-card-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+@media (max-width: 768px) {
+.fashcat-section .fashcat-card {
+  flex: 0 0 240px !important;
+  min-width: 240px !important;
+  max-width: 240px !important;
+  height: 320px !important;
+}
+}
+
+.fashcat-section .fashcat-grid {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+
+.fashcat-section .fashcat-container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  max-width: 100% !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
