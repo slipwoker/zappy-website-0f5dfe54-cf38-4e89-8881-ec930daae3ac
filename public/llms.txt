@@ -1,0 +1,100 @@
+# הודיה — Generative Engine Optimization Map
+
+> An online clothing store catering specifically to religious women, focusing on modest fashion that combines style with religious values. The brand serves a niche market that values both elegance and modesty in dress, offering clothing that adheres to religious dress codes while remaining fashionable and contemporary.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+הודיה היא החנות המקוונת המובילה לאופנה צנועה לנשים דתיות. שמלות, חולצות ועוד — כולם משלבים סגנון עכשווי עם ערכי צניעות. קני עכשיו וגלי את הקולקציה!
+
+### מדריך סגנון
+https://example.com/style-guide
+מדריך הסגנון של הודיה נותן לך כלים מעשיים לבחור לבוש צנוע אופנתי לכל מצב — מהיומיום ועד אירועים חגיגיים. גלי כיצד להרכיב תלבושות שמשדרות ביטחון ויופי אמיתי.
+
+### אודות
+https://example.com/about
+הודיה נולדה מתוך חזון אחד: להוכיח שצניעות ואופנה הולכות יד ביד. הכירי את הצוות שמאחורי המותג, הערכים שמנחים אותנו והדרך שעברנו כדי לשרת נשים דתיות בסטייל.
+
+### צור קשר
+https://example.com/contact
+יש שאלה על מידות, סגנון או הזמנה? צוות הודיה כאן בשבילך! צרי קשר עכשיו ונעזור לך למצוא את הבגד הצנוע והאופנתי שתמיד חלמת עליו — שירות אישי וחם מחכה לך.
+
+### Products
+https://example.com/products
+המוצרים שלנו - הודיה
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - הודיה
+
+### Category
+https://example.com/category/:slug
+מוצרים - הודיה
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About הודיה
+An online clothing store catering specifically to religious women, focusing on modest fashion that combines style with religious values. The brand serves a niche market that values both elegance and modesty in dress, offering clothing that adheres to religious dress codes while remaining fashionable and contemporary.
+
+## Target Audience
+- נשים דתיות
+- מקצועניות דתיות צעירות
+- אמהות למשפחות דתיות
+
+## Industry
+אופנה ולבוש
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
