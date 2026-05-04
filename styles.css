@@ -14347,6 +14347,182 @@ nav.navbar .sub-menu li a:hover { color: #6F2D5C !important; background-color: r
     padding: 5px 14px;
   }
 }
+
+/* AI-generated section */
+/* ===== TESTIMONIALS SECTION ===== */
+.hodaya-testimonials {
+  background-color: var(--background-color, #ffffff);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.hodaya-testimonials__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* --- Heading --- */
+.hodaya-testimonials__title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: var(--text-color, #111111);
+  text-align: center;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.hodaya-testimonials__subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary-color, #555555);
+  text-align: center;
+  margin: 0 0 56px 0;
+  line-height: 1.6;
+}
+
+/* --- Grid --- */
+.hodaya-testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+/* --- Card --- */
+.hodaya-testimonials__card {
+  background-color: var(--surface-color, #f5f5f5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 36px 32px 30px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.hodaya-testimonials__card::before {
+  content: '\201C';
+  position: absolute;
+  top: -10px;
+  right: 24px;
+  font-size: 7rem;
+  color: var(--primary-color, #000000);
+  opacity: 0.06;
+  font-family: Georgia, serif;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.hodaya-testimonials__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* --- Stars --- */
+.hodaya-testimonials__stars {
+  font-size: 1.3rem;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+/* --- Quote --- */
+.hodaya-testimonials__quote {
+  margin: 0;
+  flex: 1;
+  border-right: 3px solid var(--primary-color, #000000);
+  padding-right: 16px;
+}
+
+.hodaya-testimonials__quote-text {
+  font-size: 1rem;
+  color: var(--text-color, #111111);
+  line-height: 1.75;
+  margin: 0;
+  font-style: italic;
+}
+
+/* --- Footer --- */
+.hodaya-testimonials__footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.hodaya-testimonials__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary-color, #000000);
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hodaya-testimonials__name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--secondary-color, #333333);
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+/* --- Responsive: Tablet --- */
+@media (max-width: 900px) {
+  .hodaya-testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .hodaya-testimonials__card:last-child {
+    grid-column: 1 / -1;
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* --- Responsive: Mobile --- */
+@media (max-width: 580px) {
+  .hodaya-testimonials {
+    padding: 60px 16px;
+  }
+
+  .hodaya-testimonials__subtitle {
+    margin-bottom: 36px;
+  }
+
+  .hodaya-testimonials__grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .hodaya-testimonials__card:last-child {
+    grid-column: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .hodaya-testimonials__card {
+    padding: 28px 22px 24px 22px;
+  }
+
+  .hodaya-testimonials__card::before {
+    font-size: 5rem;
+    right: 16px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
