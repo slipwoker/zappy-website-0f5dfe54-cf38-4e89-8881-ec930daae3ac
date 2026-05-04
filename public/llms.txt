@@ -66,6 +66,12 @@ https://example.com/dresses
 ### Page
 https://example.com/lookssets
 
+### Page
+https://example.com/sale
+
+### Page
+https://example.com/accessories
+
 ## Legal & Policy
 
 ### Privacy Policy
