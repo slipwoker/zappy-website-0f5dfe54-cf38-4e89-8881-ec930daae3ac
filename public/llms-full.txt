@@ -176,51 +176,7 @@ Description: הודיה היא החנות המקוונת המובילה לאופ
 
 
 
-### חולצות
 
-לקנייה עכשיו
-
-
-
-
-
-
-
-
-
-
-
-### שמלות
-
-לקנייה עכשיו
-
-
-
-
-
-
-
-
-
-
-
-### לוקים / סטים
-
-לקנייה עכשיו
-
-
-
-
-
-
-
-
-
-
-
-### SALE
-
-לקנייה עכשיו
 
 
 
@@ -5507,7 +5463,7 @@ Description: יש שאלה על מידות, סגנון או הזמנה? צוות
 ## Product Catalog
 
 ### סט ירוק חצאית וחולצה
-URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-z74yrx
+URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-55dgoj
 Price: 250.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 

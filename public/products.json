@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T15:58:25.124Z",
+  "generated_at": "2026-05-04T16:15:02.778Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 1,
   "products": [
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
-      "slug": "st-yrvk-chtsayt-vchvltsh-z74yrx",
+      "slug": "st-yrvk-chtsayt-vchvltsh-55dgoj",
       "name": "סט ירוק חצאית וחולצה",
       "name_translations": {},
       "description": "",
@@ -24,11 +24,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/st-yrvk-chtsayt-vchvltsh-z74yrx",
+      "url": "https://example.com/product/st-yrvk-chtsayt-vchvltsh-55dgoj",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-04T13:06:42.527Z"
+      "updated_at": "2026-05-04T16:05:06.947Z"
     }
   ]
 }
