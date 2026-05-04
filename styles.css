@@ -14523,6 +14523,10 @@ nav.navbar .sub-menu li a:hover { color: #6F2D5C !important; background-color: r
     right: 16px;
   }
 }
+
+.home-all-products-section .home-all-products-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
