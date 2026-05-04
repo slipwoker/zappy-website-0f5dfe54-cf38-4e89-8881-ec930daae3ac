@@ -12852,6 +12852,369 @@ body.accessibility-widget-visible ._access-menu {
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+.index-hero-section,
+.index-features-section,
+.index-showcase-section,
+.index-testimonials-section,
+.index-cta-section {
+  background-color: var(--background-color) !important;
+  background-image: none !important;
+}
+
+.index-features-section {
+  background: var(--surface-color) !important;
+}
+
+.index-showcase-section {
+  background: var(--background-color) !important;
+}
+
+.index-testimonials-section {
+  background: var(--text-color) !important;
+}
+
+.index-cta-section {
+  background: var(--surface-color) !important;
+}
+
+.featured-products-section,
+.featured-categories-section {
+  background: var(--background-color) !important;
+}
+
+.featured-products-section .section-title,
+.featured-categories-section .section-title {
+  color: var(--text-color) !important;
+}
+
+.featured-products-section .btn-primary,
+.featured-categories-section .btn-primary {
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.site-footer {
+  background: var(--text-color) !important;
+}
+
+.site-footer, .site-footer p, .site-footer span, .site-footer li, .site-footer a,
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4 {
+  color: var(--background-color) !important;
+}
+
+.site-footer a:hover {
+  color: #bbbbbb !important;
+}
+
+.footer-cta {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border-color: var(--background-color) !important;
+}
+
+.footer-divider {
+  background: #444444 !important;
+}
+
+.featured-products-section .section-title {
+  color: var(--background-color) !important;
+}
+
+.featured-categories-section .section-title {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list li {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list span {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-legal a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .copyright p {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-description {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: var(--background-color) !important;
+}
+
+.index-hero-section .index-hero-scrim {
+  background: rgba(0,0,0,0.35) !important;
+}
+
+.index-hero-section .index-hero-card {
+  background: var(--background-color) !important;
+  border-color: #cccccc !important;
+}
+
+.index-hero-section .index-hero-h1,
+.index-hero-section .index-hero-subtitle,
+.index-hero-section .index-hero-label {
+  color: var(--text-color) !important;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  background: transparent !important;
+  color: var(--text-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg path {
+  fill: var(--background-color) !important;
+}
+
+.index-hero-section .index-hero-card-divider {
+  background: #cccccc !important;
+}
+
+.index-features-section .index-features-title,
+.index-features-section .index-features-subtitle {
+  color: var(--text-color) !important;
+}
+
+.index-features-section .index-features-card {
+  background: var(--background-color) !important;
+  border-color: #dddddd !important;
+}
+
+.index-features-section .index-features-card-title,
+.index-features-section .index-features-card-text {
+  color: var(--text-color) !important;
+}
+
+.index-features-section .index-features-card-divider {
+  background: #cccccc !important;
+}
+
+.index-features-section .index-features-divider-wrapper svg path {
+  fill: var(--background-color) !important;
+}
+
+.index-showcase-section .showcase-heading,
+.index-showcase-section .showcase-subtext,
+.index-showcase-section .theme-title,
+.index-showcase-section .theme-desc {
+  color: var(--text-color) !important;
+}
+
+.index-showcase-section .theme-accent-line {
+  background: var(--secondary-color) !important;
+}
+
+.index-showcase-section .showcase-cta {
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-showcase-section .showcase-divider-wrapper svg path {
+  fill: var(--text-color) !important;
+}
+
+.index-showcase-section .image-label-tag {
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+}
+
+.index-testimonials-section {
+  background: var(--text-color) !important;
+}
+
+.index-testimonials-section .itm-title,
+.index-testimonials-section .itm-subtitle {
+  color: var(--background-color) !important;
+}
+
+.index-testimonials-section .itm-card {
+  background: #222222 !important;
+  border-color: #444444 !important;
+}
+
+.index-testimonials-section .itm-quote p,
+.index-testimonials-section .itm-name,
+.index-testimonials-section .itm-descriptor {
+  color: #eeeeee !important;
+}
+
+.index-testimonials-section .itm-stars span {
+  color: var(--background-color) !important;
+}
+
+.index-testimonials-section .itm-quote-mark svg path {
+  fill: #888888 !important;
+}
+
+.index-testimonials-section .itm-divider {
+  background: #444444 !important;
+}
+
+.index-testimonials-section .itm-divider-wrapper svg path {
+  fill: var(--background-color) !important;
+}
+
+.index-cta-section .index-cta-card {
+  background: var(--background-color) !important;
+  border-color: #dddddd !important;
+}
+
+.index-cta-section .index-cta-heading,
+.index-cta-section .index-cta-text,
+.index-cta-section .index-cta-subtext {
+  color: var(--text-color) !important;
+}
+
+.index-cta-section .index-cta-btn {
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-cta-section .index-cta-divider {
+  background: #cccccc !important;
+}
+
+.index-cta-section .index-cta-texture-panel {
+  background: #dddddd !important;
+}
+
+.site-footer {
+  background: var(--text-color) !important;
+  background-image: none !important;
+}
+
+.site-footer p,
+.site-footer span,
+.site-footer li,
+.site-footer a,
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.site-footer .footer-tagline,
+.site-footer .footer-copy,
+.site-footer .footer-note {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-cta {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border-color: var(--background-color) !important;
+}
+
+.site-footer .footer-divider {
+  background: #444444 !important;
+}
+
+.site-footer .footer-social a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list li {
+  color: var(--background-color) !important;
+}
+
+.site-footer .contact-list span {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-legal a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .copyright p {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-description {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: var(--background-color) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: var(--background-color) !important;
+}
+
+.site-footer span {
+  color: var(--background-color) !important;
+}
+
+.site-footer li {
+  color: var(--background-color) !important;
+}
+
+.site-footer a {
+  color: var(--background-color) !important;
+}
+
+.site-footer h1 {
+  color: var(--background-color) !important;
+}
+
+.site-footer h2 {
+  color: var(--background-color) !important;
+}
+
+.site-footer h3 {
+  color: var(--background-color) !important;
+}
+
+.site-footer h4 {
+  color: var(--background-color) !important;
+}
+
+.site-footer p {
+  color: var(--background-color) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
