@@ -128,25 +128,6 @@ Description: הודיה היא החנות המקוונת המובילה לאופ
 
 
 
-🚚
-משלוח חינם בקנייה מעל 299₪
-
-
-
-↩️
-החזרות קלות תוך 14 יום
-
-
-
-🔒
-תשלום מאובטח 100%
-
-
-
-
-
-
-
 
 
 
@@ -180,6 +161,23 @@ Description: הודיה היא החנות המקוונת המובילה לאופ
 
 
 
+
+
+
+
+
+🚚
+משלוח חינם בקנייה מעל 299₪
+
+
+
+↩️
+החזרות קלות תוך 14 יום
+
+
+
+🔒
+תשלום מאובטח 100%
 
 
 
@@ -6621,7 +6619,7 @@ Description: יש שאלה על מידות, סגנון או הזמנה? צוות
 ## Product Catalog
 
 ### סט ירוק חצאית וחולצה
-URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-2q7wh1
+URL: https://example.com/product/st-yrvk-chtsayt-vchvltsh-z74yrx
 Price: 250.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
