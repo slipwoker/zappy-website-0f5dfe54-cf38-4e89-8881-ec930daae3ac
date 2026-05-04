@@ -75,7 +75,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### סט ירוק חצאית וחולצה
-https://example.com/product/st-yrvk-chtsayt-vchvltsh-55dgoj
+https://example.com/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
 - Price: 250.00 ILS (sale, was 280.00 ILS)
 - Availability: In stock
 - Category: סטים/לוקים

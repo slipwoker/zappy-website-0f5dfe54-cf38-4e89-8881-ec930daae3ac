@@ -687,17 +687,37 @@
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
       @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
       @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
       @media (max-width: 768px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
       @media (min-width: 769px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -804,7 +824,18 @@
     <h2>3. מוצר פגום</h2>
     <p>במקרה של מוצר פגום או שונה מהמתואר, זכאים אתם להחזר מלא ללא דמי ביטול, כולל החזר דמי משלוח.</p>
 
-    <h2>4. יצירת קשר</h2>
+    <h2>4. זמני משלוח</h2>
+    <p>אנו שואפים לספק את הזמנתך במהירות ובמקצועיות:</p>
+    <ul>
+      <li><strong>משלוח רגיל:</strong> 3–5 ימי עסקים ממועד אישור ההזמנה</li>
+      <li><strong>משלוח מהיר:</strong> 1–2 ימי עסקים (בתשלום נוסף)</li>
+      <li><strong>איסוף עצמי:</strong> זמין בתיאום מראש</li>
+      <li>הזמנות שבוצעו עד השעה 12:00 יישלחו באותו יום עסקים</li>
+      <li>בתקופות עומס (חגים, מבצעים) ייתכן עיכוב של 1–2 ימים נוספים</li>
+    </ul>
+    <p>לאחר המשלוח תישלח הודעת אימות עם פרטי המעקב לדוא"ל שהזנת.</p>
+
+    <h2>5. יצירת קשר</h2>
     <div class="contact-box">
       <p>לביצוע החזרה או לשאלות:</p>
       <p><strong>אימייל:</strong> <a href="mailto:[business_email]">[business_email]</a></p>
