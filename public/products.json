@@ -1,8 +1,71 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-04T10:59:27.766Z",
+  "generated_at": "2026-05-04T12:44:54.838Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 3,
+  "products": [
+    {
+      "id": "d6f9ee08-dc72-49ee-b557-0aff70c46654",
+      "slug": "st-yrvk-chvltsh-vchtsayt-ryb-copy-u44h1c",
+      "name": "סט ירוק — חולצה וחצאית ריב (Copy)",
+      "name_translations": {},
+      "description": "סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי.\n\nמידות זמינות:\n• מידה 0 — 4 יחידות\n• מידה 1 — 6 יחידות",
+      "short_description": null,
+      "sku": "SET-GREEN-RIB-COPY",
+      "brand": null,
+      "price": 280,
+      "base_price": 280,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-copy-u44h1c",
+      "categories": [],
+      "updated_at": "2026-05-04T12:30:15.540Z"
+    },
+    {
+      "id": "f5f9eb8a-79b0-4060-9c3a-f226c352fd96",
+      "slug": "st-yrvk-chvltsh-vchtsayt-ryb-x26p6i",
+      "name": "סט ירוק — חולצה וחצאית ריב",
+      "name_translations": {},
+      "description": "סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי.\n\nמידות זמינות:\n• מידה 0 — 4 יחידות\n• מידה 1 — 6 יחידות",
+      "short_description": null,
+      "sku": "SET-GREEN-RIB",
+      "brand": null,
+      "price": 280,
+      "base_price": 280,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-x26p6i",
+      "categories": [],
+      "updated_at": "2026-05-04T12:26:45.095Z"
+    },
+    {
+      "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
+      "slug": "st-yrvk-chtsayt-vchvltsh-gbmxm2",
+      "name": "סט ירוק חצאית וחולצה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית וחולצה סט ירוק",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 280,
+      "sale_price": 250,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1777897376001-dlv2z6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2",
+      "categories": [],
+      "updated_at": "2026-05-04T12:40:19.146Z"
+    }
+  ]
 }

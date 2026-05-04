@@ -223,34 +223,25 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="לבשי נכון בכל אירוע עם המדריך שלנו — הודיה">
     <meta name="twitter:description" content="מדריך הסגנון של הודיה נותן לך כלים מעשיים לבחור לבוש צנוע אופנתי לכל מצב — מהיומיום ועד אירועים חגיגיים. גלי כיצד להרכיב תלבושות שמשדרות ביטחון ויופי אמיתי.">
-    </meta>
-  </meta>
+    <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
   
-  </meta>
-  </meta>
-  </meta>
   
-  </meta>
-  </meta>
-  <meta property="og:type" content="website"></meta>
-  <meta property="og:locale" content="he_IL"></meta>
   
-  </meta>
-  </meta>
-  </meta>
-  </link>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"></link>
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"></link>
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"></link>
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png"></link>
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png"></link>
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png"></link>
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"></link>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -280,8 +271,8 @@
             }
             
             /* Menu Group styling (non-clickable parent) - TOP LEVEL ONLY with ultra-specific selector */
-            .nav-menu &gt; li &gt; .menu-group-title,
-            #navMenu &gt; li &gt; .menu-group-title {
+            .nav-menu > li > .menu-group-title,
+            #navMenu > li > .menu-group-title {
               display: inline-block !important;
               padding: 0.5rem 1rem !important;
               color: var(--nav-color) !important;
@@ -295,13 +286,13 @@
               transition: color 0.3s ease !important;
             }
             
-            .nav-menu &gt; li &gt; .menu-group-title:hover,
-            #navMenu &gt; li &gt; .menu-group-title:hover {
+            .nav-menu > li > .menu-group-title:hover,
+            #navMenu > li > .menu-group-title:hover {
               color: var(--nav-hover-color) !important;
             }
             
             /* Desktop: show submenu on Menu Group hover */
-            li:has(.menu-group-title):hover &gt; .sub-menu {
+            li:has(.menu-group-title):hover > .sub-menu {
               opacity: 1 !important;
               visibility: visible !important;
               transform: translateY(0) !important;
@@ -310,7 +301,7 @@
             
             /* Hide menu items marked as hidden (overrides hover states) */
             .zappy-hidden-menu-item,
-            li:has(.menu-group-title):hover &gt; .sub-menu .zappy-hidden-menu-item {
+            li:has(.menu-group-title):hover > .sub-menu .zappy-hidden-menu-item {
               display: none !important;
               opacity: 0 !important;
               visibility: hidden !important;
@@ -363,9 +354,9 @@
             }
             
             /* Show submenu on parent hover - more specific selectors */
-            .nav-menu li:hover &gt; .sub-menu,
-            nav li:hover &gt; .sub-menu,
-            .navbar li:hover &gt; .sub-menu {
+            .nav-menu li:hover > .sub-menu,
+            nav li:hover > .sub-menu,
+            .navbar li:hover > .sub-menu {
               opacity: 1 !important;
               visibility: visible !important;
               transform: translateY(0) !important;
@@ -403,8 +394,8 @@
             }
             
             /* CRITICAL: Override submenu styles for TOP-LEVEL Menu Groups only - must come AFTER submenu styles */
-            .nav-menu &gt; li &gt; .menu-group-title,
-            #navMenu &gt; li &gt; .menu-group-title {
+            .nav-menu > li > .menu-group-title,
+            #navMenu > li > .menu-group-title {
               display: inline-block !important;
               padding: 0.5rem 1rem !important;
               color: var(--nav-color) !important;
@@ -418,8 +409,8 @@
               transition: color 0.3s ease !important;
             }
             
-            .nav-menu &gt; li &gt; .menu-group-title:hover,
-            #navMenu &gt; li &gt; .menu-group-title:hover {
+            .nav-menu > li > .menu-group-title:hover,
+            #navMenu > li > .menu-group-title:hover {
               color: var(--nav-hover-color) !important;
               background-color: transparent !important;
             }
@@ -461,18 +452,18 @@
               }
               
               /* Disable hover behavior on mobile */
-              .nav-menu li:hover &gt; .sub-menu,
-              nav li:hover &gt; .sub-menu,
-              .navbar li:hover &gt; .sub-menu {
+              .nav-menu li:hover > .sub-menu,
+              nav li:hover > .sub-menu,
+              .navbar li:hover > .sub-menu {
                 opacity: 0;
                 visibility: hidden;
                 pointer-events: none;
               }
               
               /* Enable visibility for expanded submenus */
-              .nav-menu li &gt; .sub-menu.mobile-expanded,
-              nav li &gt; .sub-menu.mobile-expanded,
-              .navbar li &gt; .sub-menu.mobile-expanded {
+              .nav-menu li > .sub-menu.mobile-expanded,
+              nav li > .sub-menu.mobile-expanded,
+              .navbar li > .sub-menu.mobile-expanded {
                 opacity: 1 !important;
                 visibility: visible !important;
                 pointer-events: auto !important;
@@ -501,39 +492,39 @@
               }
               
               /* Parent link - takes full width since toggle is absolute (not a flex child) */
-              .nav-menu li:has(.sub-menu) &gt; a,
-              nav li:has(.sub-menu) &gt; a,
-              .navbar li:has(.sub-menu) &gt; a,
-              .nav-menu &gt; li &gt; .menu-group-title,
-              #navMenu &gt; li &gt; .menu-group-title {
+              .nav-menu li:has(.sub-menu) > a,
+              nav li:has(.sub-menu) > a,
+              .navbar li:has(.sub-menu) > a,
+              .nav-menu > li > .menu-group-title,
+              #navMenu > li > .menu-group-title {
                 flex: 1 !important;
                 min-width: 0 !important;
               }
               
               /* Normalize menu-group-title in mobile nav to match link alignment */
-              .nav-menu &gt; li &gt; .menu-group-title,
-              #navMenu &gt; li &gt; .menu-group-title {
+              .nav-menu > li > .menu-group-title,
+              #navMenu > li > .menu-group-title {
                 padding: 0 !important;
                 line-height: inherit !important;
               }
               
               /* Submenu takes full width below parent */
-              .nav-menu li:has(.sub-menu) &gt; .sub-menu,
-              nav li:has(.sub-menu) &gt; .sub-menu,
-              .navbar li:has(.sub-menu) &gt; .sub-menu {
+              .nav-menu li:has(.sub-menu) > .sub-menu,
+              nav li:has(.sub-menu) > .sub-menu,
+              .navbar li:has(.sub-menu) > .sub-menu {
                 flex-basis: 100% !important;
                 width: 100% !important;
               }
               
               /* HIDE EXISTING CHEVRONS/ARROWS from cloned sites to prevent duplicates */
-              .nav-menu li:has(.sub-menu) &gt; a .fa-chevron-down,
-              .nav-menu li:has(.sub-menu) &gt; a .fa-angle-down,
-              .nav-menu li:has(.sub-menu) &gt; a [class*="chevron"],
-              .nav-menu li:has(.sub-menu) &gt; a [class*="arrow"],
-              nav li:has(.sub-menu) &gt; a [class*="chevron"],
-              nav li:has(.sub-menu) &gt; a [class*="arrow"],
-              #navMenu li:has(.sub-menu) &gt; a [class*="chevron"],
-              #navMenu li:has(.sub-menu) &gt; a [class*="arrow"] {
+              .nav-menu li:has(.sub-menu) > a .fa-chevron-down,
+              .nav-menu li:has(.sub-menu) > a .fa-angle-down,
+              .nav-menu li:has(.sub-menu) > a [class*="chevron"],
+              .nav-menu li:has(.sub-menu) > a [class*="arrow"],
+              nav li:has(.sub-menu) > a [class*="chevron"],
+              nav li:has(.sub-menu) > a [class*="arrow"],
+              #navMenu li:has(.sub-menu) > a [class*="chevron"],
+              #navMenu li:has(.sub-menu) > a [class*="arrow"] {
                 display: none !important;
                 visibility: hidden !important;
               }
@@ -588,10 +579,10 @@
             (function() {
               function initMobileMenuToggles() {
                 // Only run on mobile
-                if (window.innerWidth &gt; 768) {
+                if (window.innerWidth > 768) {
                   // Remove any toggle buttons on desktop
-                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn =&gt; btn.remove());
-                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu =&gt; {
+                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn => btn.remove());
+                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu => {
                     menu.classList.remove('mobile-expanded');
                   });
                   console.log('[MOBILE MENU] Desktop mode - cleanup done');
@@ -614,7 +605,7 @@
                   }
                   
                   const submenu = li.querySelector('.sub-menu');
-                  const parentLink = li.querySelector(':scope &gt; a') || li.querySelector(':scope &gt; .menu-group-title');
+                  const parentLink = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
                   
                   if (!submenu || !parentLink) return;
                   
@@ -674,7 +665,7 @@
               // This handles cases where the mobile menu is hidden initially
               const observer = new MutationObserver(function(mutations) {
                 mutations.forEach(function(mutation) {
-                  if (mutation.type === 'attributes' &amp;&amp; mutation.attributeName === 'class') {
+                  if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const target = mutation.target;
                     if (target.classList.contains('active') || target.style.display !== 'none') {
                       console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
@@ -707,12 +698,12 @@
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
-        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off"></input>
+        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -721,16 +712,16 @@
 <script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -738,12 +729,12 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/logo.webp" alt="הודיה" class="logo"></img>
+        <img src="/assets/logo.webp" alt="הודיה" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
-        <svg class="dropdown-arrow" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
@@ -751,13 +742,13 @@
         <li><a href="/products">כל המוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
-    </li><li><a href="/about">אודות</a></li><li><a href="/new-collection" class="">NEW COLLECTION</a></li><li><a href="/shirts" class="">חולצות</a></li><li><a href="/dresses" class="">שמלות</a></li><li><a href="/lookssets" class="">לוקים/ סטים</a></li><li><a href="/sale" class="">SALE</a></li><li><a href="/accessories" class="">ACCESSORIES</a></li><li><a href="/style-guide">מדריך סגנון</a></li><li><a href="/contact">צור קשר</a></li><li><a href="/copy">אודות (copy)</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
-    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off"></input>
+    </li><li><a href="/about">אודות</a></li><li><a href="/new-collection" class="">NEW COLLECTION</a></li><li><a href="/shirts" class="">חולצות</a></li><li><a href="/dresses" class="">שמלות</a></li><li><a href="/lookssets" class="">לוקים/ סטים</a></li><li><a href="/sale" class="">SALE</a></li><li><a href="/accessories" class="">ACCESSORIES</a></li><li><a href="/style-guide">מדריך סגנון</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
 
     
 
@@ -800,12 +791,12 @@
     // Check if background is transparent or rgba with 0 alpha
     const isTransparent = bgColor === 'transparent' || 
                          bgColor === 'rgba(0, 0, 0, 0)' ||
-                         (bgColor.startsWith('rgba') &amp;&amp; bgColor.includes(', 0)'));
+                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
     
     if (isTransparent) {
       // Check for background-image or gradient
       const bgImage = computedStyle.backgroundImage;
-      if (bgImage &amp;&amp; bgImage !== 'none') {
+      if (bgImage && bgImage !== 'none') {
         console.log('[Navbar] Navbar has background image/gradient, using dark text');
         bgColor = 'rgb(240, 240, 240)'; // Assume light background
       } else {
@@ -818,7 +809,7 @@
     
     // Calculate luminance to determine if background is light or dark
     const rgb = bgColor.match(/\d+/g);
-    if (rgb &amp;&amp; rgb.length &gt;= 3) {
+    if (rgb && rgb.length >= 3) {
       const r = parseInt(rgb[0]);
       const g = parseInt(rgb[1]);
       const b = parseInt(rgb[2]);
@@ -954,7 +945,7 @@
       // ONLY apply inline positioning styles on mobile viewport
       // On desktop, the CSS handles hiding these buttons with display: none
       // Inline styles were breaking desktop layout by overriding CSS
-      const isMobileViewport = window.innerWidth &lt;= 768;
+      const isMobileViewport = window.innerWidth <= 768;
       
       if (mobileToggle) {
         // Icon sizing applies to all viewports for consistency
@@ -1145,7 +1136,7 @@
       phoneBtn.addEventListener('click', function() {
         // Get phone number from placeholder in page or use default
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
-        const phoneNumber = phoneLinks.length &gt; 0 
+        const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
           : '[business_phone]';
         
@@ -1162,7 +1153,7 @@
     const handleWhatsAppVisibility = function() {
       const whatsappBtn = document.querySelector('.whatsapp-float');
       if (whatsappBtn) {
-        const isDesktop = window.innerWidth &gt;= 769;
+        const isDesktop = window.innerWidth >= 769;
         if (isDesktop) {
           whatsappBtn.style.setProperty('display', 'none', 'important');
           whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
@@ -1197,7 +1188,7 @@
     <section class="style-guide-intro-section" data-layout-spec="מדריך סגנון-intro" dir="rtl">
   <!-- Decorative background floral motif -->
   <div class="sgi-bg-motif" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid meet">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
       <g opacity="0.05" fill="#C4A882">
         <circle cx="50" cy="80" r="6"></circle><circle cx="80" cy="50" r="4"></circle><circle cx="120" cy="100" r="5"></circle>
         <circle cx="200" cy="60" r="7"></circle><circle cx="240" cy="120" r="4"></circle><circle cx="300" cy="80" r="6"></circle>
@@ -1218,7 +1209,7 @@
     <div class="sgi-header">
       <!-- Section ornament -->
       <div class="sgi-ornament" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="20" viewbox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+        <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
           <line x1="0" y1="10" x2="48" y2="10" stroke="#C4A882" stroke-width="1" opacity="0.6"></line>
           <polygon points="60,4 64,10 60,16 56,10" fill="none" stroke="#C4A882" stroke-width="1" opacity="0.7"></polygon>
           <line x1="72" y1="10" x2="120" y2="10" stroke="#C4A882" stroke-width="1" opacity="0.6"></line>
@@ -1241,7 +1232,7 @@
         <ul class="sgi-feature-list">
           <li class="sgi-feature-item">
             <span class="sgi-feature-icon" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="10" cy="10" r="9" stroke="#C4A882" stroke-width="1.2"></circle>
                 <path d="M6 10.5l2.5 2.5 5-5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -1250,7 +1241,7 @@
           </li>
           <li class="sgi-feature-item">
             <span class="sgi-feature-icon" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="10" cy="10" r="9" stroke="#C4A882" stroke-width="1.2"></circle>
                 <path d="M6 10.5l2.5 2.5 5-5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -1259,7 +1250,7 @@
           </li>
           <li class="sgi-feature-item">
             <span class="sgi-feature-icon" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="10" cy="10" r="9" stroke="#C4A882" stroke-width="1.2"></circle>
                 <path d="M6 10.5l2.5 2.5 5-5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -1268,7 +1259,7 @@
           </li>
           <li class="sgi-feature-item">
             <span class="sgi-feature-icon" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="10" cy="10" r="9" stroke="#C4A882" stroke-width="1.2"></circle>
                 <path d="M6 10.5l2.5 2.5 5-5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -1284,14 +1275,14 @@
       <div class="sgi-image-col">
         <div class="sgi-image-frame">
           <div class="sgi-mat">
-            <img data-placeholder="style-guide-intro-image-1" data-context="Elegant religious Jewish woman in modest fashion — wearing a beautifully tailored long-sleeve dress in soft dusty rose or warm ivory, with a coordinated head covering. She stands in a serene, naturally lit setting — perhaps near a window with sheer curtains or in a minimalist boutique interior. The image conveys quiet confidence, femininity, and timeless modest style. Editorial fashion photography, soft bokeh, warm neutral tones, high-end boutique aesthetic." width="520" height="680" src="/assets/site-style-guide-intro-image-1.webp" alt="אישה דתית לבושה בצניעות ואלגנטיות — אופנה צנועה של הודיה"></img>
+            <img data-placeholder="style-guide-intro-image-1" data-context="Elegant religious Jewish woman in modest fashion — wearing a beautifully tailored long-sleeve dress in soft dusty rose or warm ivory, with a coordinated head covering. She stands in a serene, naturally lit setting — perhaps near a window with sheer curtains or in a minimalist boutique interior. The image conveys quiet confidence, femininity, and timeless modest style. Editorial fashion photography, soft bokeh, warm neutral tones, high-end boutique aesthetic." width="520" height="680" src="/assets/site-style-guide-intro-image-1.webp" alt="אישה דתית לבושה בצניעות ואלגנטיות — אופנה צנועה של הודיה">
           </div>
           <!-- Champagne frame accent -->
           <div class="sgi-frame-accent" aria-hidden="true"></div>
         </div>
         <!-- Floating quote accent -->
         <div class="sgi-quote-accent">
-          <svg data-no-icon-edit="true" aria-hidden="true" width="28" height="22" viewbox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
+          <svg data-no-icon-edit="true" aria-hidden="true" width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 22 Q4 10 12 0 L16 4 Q10 12 10 22Z" fill="#C4A882" opacity="0.5"></path>
             <path d="M14 22 Q18 10 26 0 L28 4 Q22 12 24 22Z" fill="#C4A882" opacity="0.5"></path>
           </svg>
@@ -1310,7 +1301,7 @@
 <section class="style-guide-benefits-section" data-layout-spec="מדריך סגנון-benefits" dir="rtl">
   <!-- Decorative background motif -->
   <div class="sgb-bg-motif" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid slice">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
       <g opacity="0.045" fill="#C4A882">
         <circle cx="80" cy="120" r="3"></circle><circle cx="160" cy="60" r="2"></circle><circle cx="240" cy="140" r="2.5"></circle><circle cx="320" cy="80" r="2"></circle><circle cx="400" cy="150" r="3"></circle><circle cx="480" cy="70" r="2"></circle><circle cx="560" cy="130" r="2.5"></circle>
         <circle cx="50" cy="260" r="2"></circle><circle cx="130" cy="200" r="3"></circle><circle cx="210" cy="280" r="2"></circle><circle cx="290" cy="220" r="2.5"></circle><circle cx="370" cy="290" r="2"></circle><circle cx="450" cy="210" r="3"></circle><circle cx="530" cy="270" r="2"></circle>
@@ -1347,7 +1338,7 @@
           <div class="sgb-card-accent-line" aria-hidden="true"></div>
           <div class="sgb-card-content">
             <div class="sgb-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 12 C6 8 10 6 16 6 C22 6 26 8 26 12 L26 26 L6 26 Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" fill="none"></path>
                 <path d="M6 12 C4 10 2 11 2 14 L2 22 C2 24 4 25 6 24" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"></path>
                 <path d="M26 12 C28 10 30 11 30 14 L30 22 C30 24 28 25 26 24" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"></path>
@@ -1369,7 +1360,7 @@
           <div class="sgb-card-accent-line" aria-hidden="true"></div>
           <div class="sgb-card-content">
             <div class="sgb-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="4" y="8" width="24" height="16" rx="2" stroke="currentColor" stroke-width="1.4" fill="none"></rect>
                 <rect x="7" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.2" fill="none" opacity="0.5"></rect>
                 <line x1="10" y1="15" x2="22" y2="15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></line>
@@ -1390,7 +1381,7 @@
           <div class="sgb-card-accent-line" aria-hidden="true"></div>
           <div class="sgb-card-content">
             <div class="sgb-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="16" cy="16" r="11" stroke="currentColor" stroke-width="1.4" fill="none"></circle>
                 <path d="M16 5 L16 27" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2" opacity="0.4"></path>
                 <path d="M5 16 L27 16" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2" opacity="0.4"></path>
@@ -1413,7 +1404,7 @@
           <div class="sgb-card-accent-line" aria-hidden="true"></div>
           <div class="sgb-card-content">
             <div class="sgb-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 26 L8 10 Q8 6 12 6 L20 6 Q24 6 24 10 L24 26" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"></path>
                 <path d="M6 26 L26 26" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path>
                 <path d="M12 6 Q12 10 16 10 Q20 10 20 6" stroke="currentColor" stroke-width="1.2" fill="none"></path>
@@ -1435,7 +1426,7 @@
 
   <!-- Bottom arch divider transitioning to darker section -->
   <div class="sgb-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 70" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,70 L0,40 Q300,0 600,20 Q900,40 1200,10 L1200,70 Z" fill="#3D2A35"></path>
     </svg>
   </div>
@@ -1445,7 +1436,7 @@
 
   <!-- Decorative background motif -->
   <div class="sge-bg-motif" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.06">
         <circle cx="200" cy="200" r="80" stroke="#555555" stroke-width="1"></circle>
         <circle cx="200" cy="200" r="120" stroke="#555555" stroke-width="0.5"></circle>
@@ -1464,7 +1455,7 @@
   <div class="sge-header">
     <!-- Ornament above heading -->
     <div class="sge-ornament" aria-hidden="true">
-      <svg data-no-icon-edit="true" aria-hidden="true" width="160" height="20" viewbox="0 0 160 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg data-no-icon-edit="true" aria-hidden="true" width="160" height="20" viewBox="0 0 160 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line x1="0" y1="10" x2="60" y2="10" stroke="#555555" stroke-width="0.8" opacity="0.7"></line>
         <path d="M80 2 L86 10 L80 18 L74 10 Z" fill="#555555" opacity="0.7"></path>
         <line x1="100" y1="10" x2="160" y2="10" stroke="#555555" stroke-width="0.8" opacity="0.7"></line>
@@ -1481,7 +1472,7 @@
     <!-- Column 1: Layering -->
     <article class="sge-column">
       <figure class="sge-image-wrap">
-        <img data-placeholder="style-guide-editorial-image-1" data-context="Elegant modest fashion editorial: a religious Jewish woman wearing beautifully layered modest clothing — a long-sleeve blouse under a sleeveless dress, soft neutral tones of cream and sage, styled with quiet sophistication against a warm studio background. Fashion-journal aesthetic, high contrast, 3:4 portrait crop." width="400" height="530" src="/assets/site-style-guide-editorial-image-1.webp" alt="שכבות לבוש מושלמות — אופנה צנועה לנשים דתיות"></img>
+        <img data-placeholder="style-guide-editorial-image-1" data-context="Elegant modest fashion editorial: a religious Jewish woman wearing beautifully layered modest clothing — a long-sleeve blouse under a sleeveless dress, soft neutral tones of cream and sage, styled with quiet sophistication against a warm studio background. Fashion-journal aesthetic, high contrast, 3:4 portrait crop." width="400" height="530" src="/assets/site-style-guide-editorial-image-1.webp" alt="שכבות לבוש מושלמות — אופנה צנועה לנשים דתיות">
         <div class="sge-image-overlay" aria-hidden="true"></div>
         <div class="sge-col-number" aria-hidden="true">01</div>
       </figure>
@@ -1495,7 +1486,7 @@
     <!-- Column 2: Proportions -->
     <article class="sge-column sge-column--center">
       <figure class="sge-image-wrap">
-        <img data-placeholder="style-guide-editorial-image-2" data-context="Modest fashion editorial portrait: a stylish religious woman in a flowing midi skirt and structured blouse with graceful proportions, warm plum and champagne palette, soft natural light, editorial magazine style, 3:4 portrait crop, clean background." width="400" height="530" src="/assets/site-style-guide-editorial-image-2.webp" alt="פרופורציות אלגנטיות בלבוש צנוע"></img>
+        <img data-placeholder="style-guide-editorial-image-2" data-context="Modest fashion editorial portrait: a stylish religious woman in a flowing midi skirt and structured blouse with graceful proportions, warm plum and champagne palette, soft natural light, editorial magazine style, 3:4 portrait crop, clean background." width="400" height="530" src="/assets/site-style-guide-editorial-image-2.webp" alt="פרופורציות אלגנטיות בלבוש צנוע">
         <div class="sge-image-overlay" aria-hidden="true"></div>
         <div class="sge-col-number" aria-hidden="true">02</div>
       </figure>
@@ -1509,7 +1500,7 @@
     <!-- Column 3: Occasion dressing -->
     <article class="sge-column">
       <figure class="sge-image-wrap">
-        <img data-placeholder="style-guide-editorial-image-3" data-context="Modest occasion fashion editorial: a religious Jewish woman dressed elegantly for a special event in a long modest gown with delicate details, rich plum or champagne tones, refined and polished, editorial photography style, 3:4 portrait crop, soft studio lighting." width="400" height="530" src="/assets/site-style-guide-editorial-image-3.webp" alt="לבוש צנוע לאירועים — שמלות צנועות לאירועים"></img>
+        <img data-placeholder="style-guide-editorial-image-3" data-context="Modest occasion fashion editorial: a religious Jewish woman dressed elegantly for a special event in a long modest gown with delicate details, rich plum or champagne tones, refined and polished, editorial photography style, 3:4 portrait crop, soft studio lighting." width="400" height="530" src="/assets/site-style-guide-editorial-image-3.webp" alt="לבוש צנוע לאירועים — שמלות צנועות לאירועים">
         <div class="sge-image-overlay" aria-hidden="true"></div>
         <div class="sge-col-number" aria-hidden="true">03</div>
       </figure>
@@ -1524,7 +1515,7 @@
 
   <!-- Bottom paper-layer divider to next section -->
   <div class="sge-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Layer 1: deeper porcelain -->
       <path d="M0,90 L0,55 L100,48 L200,58 L300,44 L400,52 L500,42 L600,50 L700,46 L800,54 L900,44 L1000,56 L1100,46 L1200,52 L1200,90 Z" fill="#FDFAF7" opacity="0.6"></path>
       <!-- Layer 2: main porcelain -->
@@ -1542,7 +1533,7 @@
     <!-- Section Header -->
     <div class="faq-header">
       <div class="faq-ornament" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="24" viewbox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0" y1="12" x2="48" y2="12" stroke="#C4A882" stroke-width="1" opacity="0.6"></line>
           <rect x="54" y="8" width="8" height="8" transform="rotate(45 58 12)" fill="none" stroke="#C4A882" stroke-width="1" opacity="0.8"></rect>
           <line x1="72" y1="12" x2="120" y2="12" stroke="#C4A882" stroke-width="1" opacity="0.6"></line>
@@ -1596,12 +1587,12 @@
 
   <!-- Bottom sage-tinted gradient fade divider -->
   <div class="faq-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="faqFadeGrad" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="faqFadeGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#FCFBF8" stop-opacity="0"></stop>
           <stop offset="100%" stop-color="#F5F0EB" stop-opacity="1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <rect width="1200" height="60" fill="url(#faqFadeGrad)"></rect>
     </svg>
@@ -1611,7 +1602,7 @@
 <section class="style-guide-cta-section" data-layout-spec="מדריך סגנון-cta" dir="rtl">
   <!-- Decorative background motif -->
   <div class="sgcta-bg-motif" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 600 400" preserveaspectratio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
       <g opacity="0.045" fill="#C4A882">
         <circle cx="80" cy="60" r="3"></circle><circle cx="160" cy="120" r="2"></circle><circle cx="240" cy="40" r="2.5"></circle><circle cx="320" cy="100" r="2"></circle><circle cx="400" cy="55" r="3"></circle><circle cx="480" cy="130" r="2"></circle><circle cx="550" cy="70" r="2.5"></circle>
         <circle cx="40" cy="200" r="2"></circle><circle cx="130" cy="260" r="3"></circle><circle cx="210" cy="180" r="2.5"></circle><circle cx="300" cy="240" r="2"></circle><circle cx="380" cy="190" r="3"></circle><circle cx="460" cy="270" r="2"></circle><circle cx="540" cy="210" r="2.5"></circle>
@@ -1631,7 +1622,7 @@
     <div class="sgcta-panel">
       <!-- Ornamental divider above heading -->
       <div class="sgcta-ornament" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 160 20" width="160" height="20" xmlns="http://www.w3.org/2000/svg">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 160 20" width="160" height="20" xmlns="http://www.w3.org/2000/svg">
           <line x1="0" y1="10" x2="60" y2="10" stroke="#C4A882" stroke-width="0.8" opacity="0.7"></line>
           <path d="M72,10 L76,6 L80,10 L84,14 L88,10 L84,6 L80,2 L76,6 Z M80,10 L84,6 L88,10 L84,14 Z" fill="none" stroke="#C4A882" stroke-width="0.9" opacity="0.75"></path>
           <circle cx="80" cy="10" r="2" fill="#C4A882" opacity="0.6"></circle>
@@ -1659,9 +1650,9 @@
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
         <a href="/" class="footer-logo-link">
-          <img src="/assets/logo.webp" alt="הודיה" class="logo"></img>
+          <img src="/assets/logo.webp" alt="הודיה" class="logo">
         </a>
-        <p class="footer-tagline">אופנה צנועה ומעוצבת לאישה המודרנית.<br></br><br></br><br></br><br></br>סגנון שמדבר בשקט.</p>
+        <p class="footer-tagline">אופנה צנועה ומעוצבת לאישה המודרנית.<br><br><br><br><br><br><br><br>סגנון שמדבר בשקט.</p>
         <div class="footer-social">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>

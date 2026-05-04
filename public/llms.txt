@@ -72,9 +72,6 @@ https://example.com/style-guide
 https://example.com/contact
 יש שאלה על מידות, סגנון או הזמנה? צוות הודיה כאן בשבילך! צרי קשר עכשיו ונעזור לך למצוא את הבגד הצנוע והאופנתי שתמיד חלמת עליו — שירות אישי וחם מחכה לך.
 
-### Page
-https://example.com/copy
-
 ## Legal & Policy
 
 ### Privacy Policy
@@ -93,7 +90,28 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 3**
+
+### סט ירוק — חולצה וחצאית ריב (Copy)
+https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-copy-u44h1c
+- Price: 280.00 ILS
+- Availability: In stock
+- SKU: SET-GREEN-RIB-COPY
+- Description: סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי. מידות זמינות: • מידה 0 — 4 יחידות • מידה 1 — 6 יחידות
+
+### סט ירוק — חולצה וחצאית ריב
+https://example.com/product/st-yrvk-chvltsh-vchtsayt-ryb-x26p6i
+- Price: 280.00 ILS
+- Availability: In stock
+- SKU: SET-GREEN-RIB
+- Description: סט מעוצב הכולל חולצת ריב עם שרוול תלת-רבע וחצאית ריב ארוכה. בגוון ירוק מנטה עדין, בד ריב נוח ואיכותי. מושלם לסגנון צנוע ואלגנטי. מידות זמינות: • מידה 0 — 4 יחידות • מידה 1 — 6 יחידות
+
+### סט ירוק חצאית וחולצה
+https://example.com/product/st-yrvk-chtsayt-vchvltsh-gbmxm2
+- Price: 250.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Description: חצאית וחולצה סט ירוק
+- Image: https://example.com/assets/product-1777897376001-dlv2z6.webp
 
 ---
 
