@@ -13853,6 +13853,500 @@ nav.navbar .sub-menu li a:hover { color: #6F2D5C !important; background-color: r
     font-size: 14px;
   }
 }
+
+/* AI-generated section */
+/* =============================================
+   HODAYA HERO SECTION
+   Modest Fashion Hero — RTL Hebrew
+   ============================================= */
+
+.hodaya-hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  overflow: hidden;
+}
+
+/* --- Background Image --- */
+.hodaya-hero__bg-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hodaya-hero__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* --- Dark Overlay --- */
+.hodaya-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(0, 0, 0, 0.72) 0%,
+    rgba(0, 0, 0, 0.55) 50%,
+    rgba(0, 0, 0, 0.20) 100%
+  );
+  z-index: 1;
+}
+
+/* --- Content Container --- */
+.hodaya-hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 680px;
+  width: 100%;
+  padding: 120px 80px 100px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+/* --- Decorative Label --- */
+.hodaya-hero__label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 30px;
+  padding: 6px 18px;
+  margin-bottom: 28px;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* --- Main Title --- */
+.hodaya-hero__title {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 800;
+  line-height: 1.12;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.4);
+}
+
+.hodaya-hero__title-break {
+  display: block;
+}
+
+/* --- Subtitle --- */
+.hodaya-hero__subtitle {
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  font-weight: 400;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 0 0 44px 0;
+  max-width: 520px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hodaya-hero__sub-break {
+  display: block;
+}
+
+/* --- CTA Group --- */
+.hodaya-hero__cta-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* --- Base Button --- */
+.hodaya-hero__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 34px;
+  border-radius: 50px;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease, color 0.22s ease, border-color 0.22s ease;
+  white-space: nowrap;
+}
+
+.hodaya-hero__btn:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* --- Primary Button --- */
+.hodaya-hero__btn--primary {
+  background: #ffffff;
+  color: var(--primary-color, #000000);
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hodaya-hero__btn--primary:hover {
+  background: rgba(255, 255, 255, 0.90);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.hodaya-hero__btn--primary:active {
+  transform: translateY(0);
+}
+
+/* --- Primary Button Arrow Icon --- */
+.hodaya-hero__btn-icon {
+  font-size: 1.1rem;
+  display: inline-block;
+  transition: transform 0.22s ease;
+}
+
+.hodaya-hero__btn--primary:hover .hodaya-hero__btn-icon {
+  transform: translateX(-4px);
+}
+
+/* --- Secondary Button --- */
+.hodaya-hero__btn--secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  box-shadow: none;
+}
+
+.hodaya-hero__btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hodaya-hero__btn--secondary:active {
+  transform: translateY(0);
+}
+
+/* --- Scroll Indicator --- */
+.hodaya-hero__scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 60px;
+  opacity: 0.55;
+  animation: hodaya-fade-in 1.5s ease 1s both;
+}
+
+.hodaya-hero__scroll-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  animation: hodaya-scroll-bounce 2s ease-in-out infinite;
+}
+
+.hodaya-hero__scroll-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, #ffffff, transparent);
+}
+
+/* --- Animations --- */
+@keyframes hodaya-scroll-bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(6px); }
+}
+
+@keyframes hodaya-fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 0.55; transform: translateY(0); }
+}
+
+/* --- Content Entrance Animation --- */
+.hodaya-hero__label,
+.hodaya-hero__title,
+.hodaya-hero__subtitle,
+.hodaya-hero__cta-group {
+  animation: hodaya-content-in 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hodaya-hero__label       { animation-delay: 0.1s; }
+.hodaya-hero__title       { animation-delay: 0.25s; }
+.hodaya-hero__subtitle    { animation-delay: 0.4s; }
+.hodaya-hero__cta-group   { animation-delay: 0.55s; }
+
+@keyframes hodaya-content-in {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================================
+   RESPONSIVE — TABLET
+   ============================================= */
+@media (max-width: 900px) {
+  .hodaya-hero__content {
+    padding: 100px 48px 80px 32px;
+    max-width: 600px;
+  }
+
+  .hodaya-hero__overlay {
+    background: linear-gradient(
+      105deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.60) 60%,
+      rgba(0, 0, 0, 0.30) 100%
+    );
+  }
+}
+
+/* =============================================
+   RESPONSIVE — MOBILE
+   ============================================= */
+@media (max-width: 600px) {
+  .hodaya-hero {
+    min-height: 100svh;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .hodaya-hero__bg-img {
+    object-position: 65% top;
+  }
+
+  .hodaya-hero__overlay {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.88) 0%,
+      rgba(0, 0, 0, 0.55) 50%,
+      rgba(0, 0, 0, 0.20) 100%
+    );
+  }
+
+  .hodaya-hero__content {
+    padding: 40px 24px 56px 24px;
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .hodaya-hero__label {
+    font-size: 11px;
+    padding: 5px 14px;
+    margin-bottom: 20px;
+  }
+
+  .hodaya-hero__title {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+    margin-bottom: 18px;
+  }
+
+  .hodaya-hero__title-break {
+    display: inline;
+  }
+
+  .hodaya-hero__subtitle {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+
+  .hodaya-hero__sub-break {
+    display: inline;
+  }
+
+  .hodaya-hero__cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .hodaya-hero__btn {
+    justify-content: center;
+    padding: 15px 28px;
+    font-size: 0.97rem;
+  }
+
+  .hodaya-hero__scroll-indicator {
+    display: none;
+  }
+}
+
+/* =============================================
+   ACCESSIBILITY — Reduced Motion
+   ============================================= */
+@media (prefers-reduced-motion: reduce) {
+  .hodaya-hero__label,
+  .hodaya-hero__title,
+  .hodaya-hero__subtitle,
+  .hodaya-hero__cta-group,
+  .hodaya-hero__scroll-indicator {
+    animation: none;
+    opacity: 1;
+  }
+
+  .hodaya-hero__scroll-dot {
+    animation: none;
+  }
+
+  .hodaya-hero__btn,
+  .hodaya-hero__btn-icon {
+    transition: none;
+  }
+}
+
+/* AI-generated section */
+.urgency-banner {
+  width: 100%;
+  background-color: #6F2D5C;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.urgency-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.04) 100%);
+  pointer-events: none;
+}
+
+.urgency-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 11px 20px;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.urgency-banner__text {
+  color: #ffffff;
+  font-size: 14.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.01em;
+}
+
+.urgency-banner__text strong {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.urgency-banner__divider {
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.urgency-banner__timer {
+  color: #FFD6F0;
+  font-weight: 600;
+  font-size: 14px;
+  animation: urgency-pulse 2s ease-in-out infinite;
+}
+
+.urgency-banner__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #6F2D5C;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.01em;
+}
+
+.urgency-banner__cta:hover {
+  background-color: #FFD6F0;
+  color: #5a2049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.urgency-banner__cta:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.urgency-banner__cta:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes urgency-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.75; }
+}
+
+@media (max-width: 600px) {
+  .urgency-banner__inner {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 16px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .urgency-banner__text {
+    font-size: 13px;
+    white-space: normal;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .urgency-banner__text strong {
+    font-size: 13.5px;
+  }
+
+  .urgency-banner__divider {
+    display: none;
+  }
+
+  .urgency-banner__timer {
+    font-size: 13px;
+  }
+
+  .urgency-banner__cta {
+    font-size: 12.5px;
+    padding: 5px 14px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
