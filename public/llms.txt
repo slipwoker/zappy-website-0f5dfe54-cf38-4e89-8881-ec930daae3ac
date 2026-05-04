@@ -54,6 +54,9 @@ https://example.com/category/:slug
 https://example.com/contact
 יש שאלה על מידות, סגנון או הזמנה? צוות הודיה כאן בשבילך! צרי קשר עכשיו ונעזור לך למצוא את הבגד הצנוע והאופנתי שתמיד חלמת עליו — שירות אישי וחם מחכה לך.
 
+### Page
+https://example.com/new-collection
+
 ## Legal & Policy
 
 ### Privacy Policy
