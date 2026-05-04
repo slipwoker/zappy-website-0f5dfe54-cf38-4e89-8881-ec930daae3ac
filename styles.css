@@ -13215,6 +13215,40 @@ body.accessibility-widget-visible ._access-menu {
 .site-footer p {
   color: var(--background-color) !important;
 }
+
+.index-hero-section .index-hero-img {
+  filter: grayscale(100%) !important;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  background-color: var(--text-color) !important;
+  background: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-hero-section a[class*="btn"],
+.index-hero-section button[class*="btn"] {
+  background-color: var(--text-color) !important;
+  color: var(--background-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+.index-hero-section .index-hero-h1 {
+  color: var(--background-color) !important;
+}
+
+.index-hero-section .index-hero-subtitle {
+  color: var(--background-color) !important;
+}
+
+.index-hero-section .index-hero-label {
+  color: var(--background-color) !important;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  color: var(--background-color) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
