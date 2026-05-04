@@ -57,6 +57,9 @@ https://example.com/contact
 ### Page
 https://example.com/new-collection
 
+### Page
+https://example.com/shirts
+
 ## Legal & Policy
 
 ### Privacy Policy
