@@ -63,6 +63,9 @@ https://example.com/shirts
 ### Page
 https://example.com/dresses
 
+### Page
+https://example.com/lookssets
+
 ## Legal & Policy
 
 ### Privacy Policy
