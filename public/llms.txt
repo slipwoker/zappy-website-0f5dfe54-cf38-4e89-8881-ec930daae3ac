@@ -60,6 +60,9 @@ https://example.com/new-collection
 ### Page
 https://example.com/shirts
 
+### Page
+https://example.com/dresses
+
 ## Legal & Policy
 
 ### Privacy Policy
