@@ -7,65 +7,65 @@
 ## Pages
 
 ### הודיה — הודיה
-https://example.com
+https://hodiya.zappy5.app
 הודיה היא החנות המקוונת המובילה לאופנה צנועה לנשים דתיות. שמלות, חולצות ועוד — כולם משלבים סגנון עכשווי עם ערכי צניעות. קני עכשיו וגלי את הקולקציה!
 
 ### Products
-https://example.com/products
+https://hodiya.zappy5.app/products
 המוצרים שלנו - הודיה
 
 ### Cart
-https://example.com/cart
+https://hodiya.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://hodiya.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://hodiya.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://hodiya.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://hodiya.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://hodiya.zappy5.app/product/:slug
 פרטי המוצר - הודיה
 
 ### Category
-https://example.com/category/:slug
+https://hodiya.zappy5.app/category/:slug
 מוצרים - הודיה
 
 ### הסיפור שמאחורי האופנה הצנועה שאוהבים — הודיה
-https://example.com/about
+https://hodiya.zappy5.app/about
 הודיה נולדה מתוך חזון אחד: להוכיח שצניעות ואופנה הולכות יד ביד. הכירי את הצוות שמאחורי המותג, הערכים שמנחים אותנו והדרך שעברנו כדי לשרת נשים דתיות בסטייל.
 
 ### לבשי נכון בכל אירוע עם המדריך שלנו — הודיה
-https://example.com/style-guide
+https://hodiya.zappy5.app/style-guide
 מדריך הסגנון של הודיה נותן לך כלים מעשיים לבחור לבוש צנוע אופנתי לכל מצב — מהיומיום ועד אירועים חגיגיים. גלי כיצד להרכיב תלבושות שמשדרות ביטחון ויופי אמיתי.
 
 ### דברי איתנו ותמצאי את הלוק המושלם — הודיה
-https://example.com/contact
+https://hodiya.zappy5.app/contact
 יש שאלה על מידות, סגנון או הזמנה? צוות הודיה כאן בשבילך! צרי קשר עכשיו ונעזור לך למצוא את הבגד הצנוע והאופנתי שתמיד חלמת עליו — שירות אישי וחם מחכה לך.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://hodiya.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://hodiya.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://hodiya.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -75,12 +75,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### סט ירוק חצאית וחולצה
-https://example.com/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
+https://hodiya.zappy5.app/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
 - Price: 250.00 ILS (sale, was 280.00 ILS)
 - Availability: In stock
 - Category: סטים/לוקים
 - Description: חצאית וחולצה סט ירוק
-- Image: https://example.com/assets/product-1777897376001-dlv2z6.webp
+- Image: https://hodiya.zappy5.app/assets/product-1777897376001-dlv2z6.webp
 
 ---
 
@@ -101,8 +101,8 @@ An online clothing store catering specifically to religious women, focusing on m
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://hodiya.zappy5.app/sitemap.xml
+- Robots: https://hodiya.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://hodiya.zappy5.app/llms-full.txt
+- Products (JSON): https://hodiya.zappy5.app/products.json
+- Products (Google Merchant RSS): https://hodiya.zappy5.app/product-feed.xml
