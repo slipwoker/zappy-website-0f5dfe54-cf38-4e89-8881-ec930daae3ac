@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 11**
+**Total active products: 12**
+
+### לבן פשתן אלגנט
+https://hodayaboutique.co.il/product/lbn-pshtn-algnt-brkct3
+- Price: 159.00 ILS
+- Availability: In stock
+- Category: סטים/לוקים
+- Description: חליפת “ענן פשתן” לבנה היא סט מכופתר אלגנטי ונושם שמשלב בין מראה טבעי, נקי ויוקרתי לבין נוחות מקסימלית ליום-יום. החליפה עשויה בד פשתן איכותי וקליל, שמעניק תחושת אווריריות ונעימות על הגוף ומתאים במיוחד לאקלים חם. הגוון הלבן הנקי יוצר מראה רענן, קלאסי ועל-זמני שמשדר אלגנטיות שקטה ולא מתאמצת. החלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל חצאית תואמת כחלק מהתחתית, בגזרה נשית ומחמיאה שמשלימה את הלוק ויוצרת מראה אחיד, אלגנטי ומדויק.
+- Image: https://hodayaboutique.co.il/assets/product-1778069558251-60a1a.webp
 
 ### קרן שמש
 https://hodayaboutique.co.il/product/krn-shmsh-d9qvhj
