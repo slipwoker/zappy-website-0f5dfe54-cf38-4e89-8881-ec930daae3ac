@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:41:42.591Z",
+  "generated_at": "2026-05-06T11:47:56.116Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 5,
+  "count": 6,
   "products": [
+    {
+      "id": "473c67e4-ca16-4d53-b721-474efeda7292",
+      "slug": "avr-lyly-ci7gmb",
+      "name": "אור לילי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת סאטן לבנה “אור לילי” היא סט אלגנטי ונשי המשלב בין יוקרה רכה לסטייל נקי ומדויק.\n\nהחליפה כוללת חצאית בגזרה מחמיאה ועליונית תואמת, עשויות בד סאטן חלק ונשפך שמעניק מראה מבריק ועדין עם נוכחות יוקרתית. הצבע הלבן הקלאסי יוצר מראה נקי, אלגנטי ועל-זמני שמתאים לאירועים מיוחדים, חגיגות, או לוקים אלגנטיים במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778067856811-6hx1i9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/avr-lyly-ci7gmb",
+      "categories": [
+        "סטים/לוקים"
+      ],
+      "updated_at": "2026-05-06T11:47:29.135Z"
+    },
     {
       "id": "35e71576-d877-47a1-931d-aa445d279f92",
       "slug": "chvltst-nvah-byysyk-c9w3ot",

@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 5**
+**Total active products: 6**
+
+### אור לילי
+https://hodayaboutique.co.il/product/avr-lyly-ci7gmb
+- Price: 179.00 ILS
+- Availability: In stock
+- Category: סטים/לוקים
+- Description: חליפת סאטן לבנה “אור לילי” היא סט אלגנטי ונשי המשלב בין יוקרה רכה לסטייל נקי ומדויק. החליפה כוללת חצאית בגזרה מחמיאה ועליונית תואמת, עשויות בד סאטן חלק ונשפך שמעניק מראה מבריק ועדין עם נוכחות יוקרתית. הצבע הלבן הקלאסי יוצר מראה נקי, אלגנטי ועל-זמני שמתאים לאירועים מיוחדים, חגיגות, או לוקים אלגנטיים במיוחד.
+- Image: https://hodayaboutique.co.il/assets/product-1778067856811-6hx1i9.webp
 
 ### חולצת נועה בייסיק
 https://hodayaboutique.co.il/product/chvltst-nvah-byysyk-c9w3ot
