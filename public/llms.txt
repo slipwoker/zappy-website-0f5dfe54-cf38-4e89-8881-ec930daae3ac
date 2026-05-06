@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
+**Total active products: 2**
+
+### שמלת אמור
+https://hodayaboutique.co.il/product/shmlt-amvr-ndrhk5
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: שמלות
+- Description: שמלת נואר אלגנט שמלת ערב קלאסית ונשית בעיצוב נקי ומדויק, שמדגישה את קווי הגוף בצורה מחמיאה ומעניקה מראה יוקרתי ואלגנטי. הגזרה הצמודה משתלבת עם שרוולים ארוכים ופתח עדין באזור החזה, ליצירת לוק מתוחכם עם טאץ’ מודרני – מושלם לאירועים, ערב או הופעה מרשימה.
+- Image: https://hodayaboutique.co.il/assets/product-1778066070654-k6l1nb.webp
 
 ### סט ירוק חצאית וחולצה
 https://hodayaboutique.co.il/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
