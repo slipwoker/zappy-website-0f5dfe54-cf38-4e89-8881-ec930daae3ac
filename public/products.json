@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T13:27:48.681Z",
+  "generated_at": "2026-05-06T13:29:04.794Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -275,7 +275,7 @@
     },
     {
       "id": "20f9e928-5478-4dd8-87c5-85330953d529",
-      "slug": "shmlt-amvr-us1c37",
+      "slug": "shmlt-amvr-n8fc4s",
       "name": "שמלת אמור",
       "name_translations": {},
       "description": "",
@@ -288,18 +288,18 @@
       "currency": "ILS",
       "images": [
         "https://hodayaboutique.co.il/assets/product-enhanced-1778074030485-280iaa.webp",
-        "https://hodayaboutique.co.il/assets/product-enhanced-1778073870767-aq8s64.webp",
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778074106159-lvxplg.webp",
         "https://hodayaboutique.co.il/assets/product-enhanced-1778073919172-xeotcg.webp",
         "https://hodayaboutique.co.il/assets/product-enhanced-1778073894284-yp04n8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-amvr-us1c37",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amvr-n8fc4s",
       "categories": [
         "שמלות",
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-06T13:27:17.862Z"
+      "updated_at": "2026-05-06T13:28:34.057Z"
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
