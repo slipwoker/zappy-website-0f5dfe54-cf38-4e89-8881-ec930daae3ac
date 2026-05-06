@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:58:07.634Z",
+  "generated_at": "2026-05-06T12:00:56.117Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 8,
+  "count": 9,
   "products": [
+    {
+      "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
+      "slug": "ppyvn-tklt-68dho8",
+      "name": "פפיון תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין.\n\nהחליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778068706090-6t955k.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-68dho8",
+      "categories": [
+        "סטים/לוקים"
+      ],
+      "updated_at": "2026-05-06T12:00:32.730Z"
+    },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
       "slug": "pynk-shyk-t7a8ff",

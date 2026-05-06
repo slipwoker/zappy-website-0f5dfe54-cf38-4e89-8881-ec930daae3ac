@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 8**
+**Total active products: 9**
+
+### פפיון תכלת
+https://hodayaboutique.co.il/product/ppyvn-tklt-68dho8
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: סטים/לוקים
+- Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
+- Image: https://hodayaboutique.co.il/assets/product-1778068706090-6t955k.webp
 
 ### פינק שיק
 https://hodayaboutique.co.il/product/pynk-shyk-t7a8ff
