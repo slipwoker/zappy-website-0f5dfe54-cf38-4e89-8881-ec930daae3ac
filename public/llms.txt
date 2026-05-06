@@ -7,65 +7,65 @@
 ## Pages
 
 ### הודיה — הודיה
-https://hodiya.zappy5.app
+https://hodayaboutique.co.il
 הודיה היא החנות המקוונת המובילה לאופנה צנועה לנשים דתיות. שמלות, חולצות ועוד — כולם משלבים סגנון עכשווי עם ערכי צניעות. קני עכשיו וגלי את הקולקציה!
 
 ### Products
-https://hodiya.zappy5.app/products
+https://hodayaboutique.co.il/products
 המוצרים שלנו - הודיה
 
 ### Cart
-https://hodiya.zappy5.app/cart
+https://hodayaboutique.co.il/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://hodiya.zappy5.app/checkout
+https://hodayaboutique.co.il/checkout
 תשלום
 
 ### Login
-https://hodiya.zappy5.app/login
+https://hodayaboutique.co.il/login
 התחברות לקוחות
 
 ### Account
-https://hodiya.zappy5.app/account
+https://hodayaboutique.co.il/account
 החשבון שלי
 
 ### Order Success
-https://hodiya.zappy5.app/order-success
+https://hodayaboutique.co.il/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://hodiya.zappy5.app/product/:slug
+https://hodayaboutique.co.il/product/:slug
 פרטי המוצר - הודיה
 
 ### Category
-https://hodiya.zappy5.app/category/:slug
+https://hodayaboutique.co.il/category/:slug
 מוצרים - הודיה
 
 ### הסיפור שמאחורי האופנה הצנועה שאוהבים — הודיה
-https://hodiya.zappy5.app/about
+https://hodayaboutique.co.il/about
 הודיה נולדה מתוך חזון אחד: להוכיח שצניעות ואופנה הולכות יד ביד. הכירי את הצוות שמאחורי המותג, הערכים שמנחים אותנו והדרך שעברנו כדי לשרת נשים דתיות בסטייל.
 
 ### לבשי נכון בכל אירוע עם המדריך שלנו — הודיה
-https://hodiya.zappy5.app/style-guide
+https://hodayaboutique.co.il/style-guide
 מדריך הסגנון של הודיה נותן לך כלים מעשיים לבחור לבוש צנוע אופנתי לכל מצב — מהיומיום ועד אירועים חגיגיים. גלי כיצד להרכיב תלבושות שמשדרות ביטחון ויופי אמיתי.
 
 ### דברי איתנו ותמצאי את הלוק המושלם — הודיה
-https://hodiya.zappy5.app/contact
+https://hodayaboutique.co.il/contact
 יש שאלה על מידות, סגנון או הזמנה? צוות הודיה כאן בשבילך! צרי קשר עכשיו ונעזור לך למצוא את הבגד הצנוע והאופנתי שתמיד חלמת עליו — שירות אישי וחם מחכה לך.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://hodiya.zappy5.app/privacy
+https://hodayaboutique.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://hodiya.zappy5.app/terms
+https://hodayaboutique.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://hodiya.zappy5.app/accessibility
+https://hodayaboutique.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -75,12 +75,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### סט ירוק חצאית וחולצה
-https://hodiya.zappy5.app/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
+https://hodayaboutique.co.il/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
 - Price: 250.00 ILS (sale, was 280.00 ILS)
 - Availability: In stock
 - Category: סטים/לוקים
 - Description: חצאית וחולצה סט ירוק
-- Image: https://hodiya.zappy5.app/assets/product-1777897376001-dlv2z6.webp
+- Image: https://hodayaboutique.co.il/assets/product-1777897376001-dlv2z6.webp
 
 ---
 
@@ -101,8 +101,8 @@ An online clothing store catering specifically to religious women, focusing on m
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://hodiya.zappy5.app/sitemap.xml
-- Robots: https://hodiya.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://hodiya.zappy5.app/llms-full.txt
-- Products (JSON): https://hodiya.zappy5.app/products.json
-- Products (Google Merchant RSS): https://hodiya.zappy5.app/product-feed.xml
+- Sitemap (XML): https://hodayaboutique.co.il/sitemap.xml
+- Robots: https://hodayaboutique.co.il/robots.txt
+- Flattened page text (for LLMs): https://hodayaboutique.co.il/llms-full.txt
+- Products (JSON): https://hodayaboutique.co.il/products.json
+- Products (Google Merchant RSS): https://hodayaboutique.co.il/product-feed.xml
