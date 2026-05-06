@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:45:48.282Z",
+  "generated_at": "2026-05-06T12:48:58.957Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -55,7 +55,7 @@
     },
     {
       "id": "446c35d0-6fa4-4b9b-80e1-5280d7ac88bf",
-      "slug": "krn-shmsh-d9qvhj",
+      "slug": "krn-shmsh-bdu5lh",
       "name": "קרן שמש",
       "name_translations": {},
       "description": "",
@@ -67,13 +67,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778069296601-1sx8h.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778071691294-43ytz5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/krn-shmsh-d9qvhj",
+      "url": "https://hodayaboutique.co.il/product/krn-shmsh-bdu5lh",
       "categories": [],
-      "updated_at": "2026-05-06T12:11:59.203Z"
+      "updated_at": "2026-05-06T12:48:28.099Z"
     },
     {
       "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
