@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:51:31.993Z",
+  "generated_at": "2026-05-06T13:02:01.356Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -304,7 +304,7 @@
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
-      "slug": "chlypt-yryn-bl2ihl",
+      "slug": "chlypt-yryn-cwlk0c",
       "name": "חליפת ירין",
       "name_translations": {},
       "description": "",
@@ -316,16 +316,15 @@
       "sale_price": 250,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1777897376001-dlv2z6.webp",
-        "https://hodayaboutique.co.il/assets/product-1777899516528-k89k2f.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778072447091-jm59or.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-bl2ihl",
+      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-cwlk0c",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T12:07:45.506Z"
+      "updated_at": "2026-05-06T13:01:30.418Z"
     }
   ]
 }
