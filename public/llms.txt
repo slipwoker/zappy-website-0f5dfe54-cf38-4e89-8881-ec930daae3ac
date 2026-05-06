@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 2**
+**Total active products: 3**
+
+### שמלת נועם
+https://hodayaboutique.co.il/product/shmlt-nvam-cy76py
+- Price: 169.00 ILS
+- Availability: In stock
+- Description: שמלת נועם היא הבחירה המושלמת למראה אלגנטי, נקי ומדויק שמדגיש את הגוף בצורה מחמיאה ועדינה. השמלה מגיעה בגזרה צמודה שמלטפת את הקווים הטבעיים של הגוף ויוצרת מראה נשי ומוקפד, תוך שמירה על סטייל יוקרתי ולא מתאמץ. הצבע השחור הקלאסי מעניק לה מראה על-זמני שמתאים לכל אירוע – ערב, דייט או יציאה חגיגית. הדגש המיוחד בשמלה הוא האבזם הייחודי בעיצוב “אש”, שמוסיף טאץ’ עוצמתי וייחודי למראה כולו והופך את השמלה מפריט בסיסי לפריט עם אמירה. ניתן להסיר את האבזם לפי בחירה, כך שאפשר ליהנות ממראה נקי ומינימליסטי.
+- Image: https://hodayaboutique.co.il/assets/product-1778066758346-eh3r86.webp
 
 ### שמלת אמור
 https://hodayaboutique.co.il/product/shmlt-amvr-ndrhk5
