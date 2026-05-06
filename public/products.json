@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:51:31.244Z",
+  "generated_at": "2026-05-06T11:52:05.257Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 7,
   "products": [
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
-      "slug": "lvryan-tchrh-lbnh-bjobso",
+      "slug": "lvryan-tchrh-lbnh-aoirz3",
       "name": "לוריאן תחרה לבנה",
       "name_translations": {},
       "description": "",
@@ -23,11 +23,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-bjobso",
+      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-aoirz3",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T11:51:00.233Z"
+      "updated_at": "2026-05-06T11:51:34.387Z"
     },
     {
       "id": "473c67e4-ca16-4d53-b721-474efeda7292",
