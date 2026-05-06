@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T13:02:01.356Z",
+  "generated_at": "2026-05-06T13:18:16.612Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -174,7 +174,7 @@
     },
     {
       "id": "473c67e4-ca16-4d53-b721-474efeda7292",
-      "slug": "avr-lyly-lwytld",
+      "slug": "avr-lyly-3wdj1n",
       "name": "אור לילי",
       "name_translations": {},
       "description": "",
@@ -186,17 +186,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778067856811-6hx1i9.webp",
-        "https://hodayaboutique.co.il/assets/product-1778069038308-bcoylf.webp",
-        "https://hodayaboutique.co.il/assets/product-1778069046007-dmduar.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778073281187-x8kgg.webp",
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778073457406-dv7mf.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/avr-lyly-lwytld",
+      "url": "https://hodayaboutique.co.il/product/avr-lyly-3wdj1n",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T12:04:14.794Z"
+      "updated_at": "2026-05-06T13:17:45.752Z"
     },
     {
       "id": "35e71576-d877-47a1-931d-aa445d279f92",
