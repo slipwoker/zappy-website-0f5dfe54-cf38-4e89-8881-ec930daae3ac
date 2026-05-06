@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:24:48.828Z",
+  "generated_at": "2026-05-06T12:34:50.446Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
   "products": [
     {
       "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
-      "slug": "ann-kkav-q93a8y",
+      "slug": "ann-kkav-ez3pfy",
       "name": "ענן קקאו",
       "name_translations": {},
       "description": "",
@@ -19,15 +19,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778070117966-2sx4y.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778070841150-j5bf8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/ann-kkav-q93a8y",
+      "url": "https://hodayaboutique.co.il/product/ann-kkav-ez3pfy",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T12:24:20.118Z"
+      "updated_at": "2026-05-06T12:34:19.556Z"
     },
     {
       "id": "b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb",
