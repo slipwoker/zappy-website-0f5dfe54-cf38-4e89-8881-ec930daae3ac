@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:42:37.349Z",
+  "generated_at": "2026-05-06T12:45:48.282Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -102,7 +102,7 @@
     },
     {
       "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
-      "slug": "ppyvn-tklt-68dho8",
+      "slug": "ppyvn-tklt-upom0j",
       "name": "פפיון תכלת",
       "name_translations": {},
       "description": "",
@@ -114,15 +114,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778068706090-6t955k.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778071479511-wlk91.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-68dho8",
+      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-upom0j",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T12:00:32.730Z"
+      "updated_at": "2026-05-06T12:45:17.353Z"
     },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
