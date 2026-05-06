@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 3**
+**Total active products: 4**
+
+### חצאית לוריין תחרה שחורה
+https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-6hs6ad
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חציות
+- Description: חצאית תחרה שחורה היא פריט קלאסי ועל-זמני שמשלב בין אלגנטיות נשית לבין מראה יוקרתי ומדויק. החצאית עשויה תחרה עדינה בגוון שחור עמוק, היוצרת מראה עשיר עם טקסטורה מיוחדת שמוסיפה עניין וסטייל לכל הופעה. הגזרה המחמיאה מדגישה את המותן ויוצרת סילואטה נשית ואלגנטית, שמתאימה גם ליציאות ערב וגם ללוק מוקפד ליום-יום
+- Image: https://hodayaboutique.co.il/assets/product-1778067010427-7226ih.webp
 
 ### שמלת נועם
 https://hodayaboutique.co.il/product/shmlt-nvam-427wr6

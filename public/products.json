@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:28:40.739Z",
+  "generated_at": "2026-05-06T11:34:07.166Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 3,
+  "count": 4,
   "products": [
+    {
+      "id": "ef43a3ae-3c00-4145-8303-d255f5a474b8",
+      "slug": "chtsayt-lvryyn-tchrh-shchvrh-6hs6ad",
+      "name": "חצאית לוריין תחרה שחורה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית תחרה שחורה היא פריט קלאסי ועל-זמני שמשלב בין אלגנטיות נשית לבין מראה יוקרתי ומדויק.\n\nהחצאית עשויה תחרה עדינה בגוון שחור עמוק, היוצרת מראה עשיר עם טקסטורה מיוחדת שמוסיפה עניין וסטייל לכל הופעה. הגזרה המחמיאה מדגישה את המותן ויוצרת סילואטה נשית ואלגנטית, שמתאימה גם ליציאות ערב וגם ללוק מוקפד ליום-יום",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778067010427-7226ih.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-6hs6ad",
+      "categories": [
+        "חציות"
+      ],
+      "updated_at": "2026-05-06T11:33:40.634Z"
+    },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
       "slug": "shmlt-nvam-427wr6",
