@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:48:58.957Z",
+  "generated_at": "2026-05-06T12:50:22.228Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -126,7 +126,7 @@
     },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
-      "slug": "pynk-shyk-t7a8ff",
+      "slug": "pynk-shyk-4ua6cj",
       "name": "פינק שיק",
       "name_translations": {},
       "description": "",
@@ -138,15 +138,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778068417407-b1l5ic.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778071783351-3bs0ld.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/pynk-shyk-t7a8ff",
+      "url": "https://hodayaboutique.co.il/product/pynk-shyk-4ua6cj",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T11:57:36.782Z"
+      "updated_at": "2026-05-06T12:49:51.339Z"
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
