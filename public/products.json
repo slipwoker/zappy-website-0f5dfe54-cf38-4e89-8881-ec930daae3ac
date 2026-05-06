@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T12:34:50.446Z",
+  "generated_at": "2026-05-06T12:36:30.403Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -31,7 +31,7 @@
     },
     {
       "id": "b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb",
-      "slug": "lbn-pshtn-algnt-brkct3",
+      "slug": "lbn-pshtn-algnt-a271wj",
       "name": "לבן פשתן אלגנט",
       "name_translations": {},
       "description": "",
@@ -43,15 +43,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778069558251-60a1a.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778070948746-n4rt1f.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/lbn-pshtn-algnt-brkct3",
+      "url": "https://hodayaboutique.co.il/product/lbn-pshtn-algnt-a271wj",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T12:21:30.547Z"
+      "updated_at": "2026-05-06T12:35:59.530Z"
     },
     {
       "id": "446c35d0-6fa4-4b9b-80e1-5280d7ac88bf",
