@@ -5481,10 +5481,10 @@ Availability: In stock
 
 ---
 
-### סט ירוק חצאית וחולצה
-URL: https://hodayaboutique.co.il/product/st-yrvk-chtsayt-vchvltsh-d0e4nm
-Price: 250.00 ILS (sale, was 280.00 ILS)
-Availability: In stock
+### חליפת ירין
+URL: https://hodayaboutique.co.il/product/chlypt-yryn-ch9zjh
+Price: 250.00 ILS
+Availability: Out of stock
 
 ---
 
