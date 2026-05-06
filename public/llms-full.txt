@@ -164,19 +164,6 @@ Description: הודיה היא החנות המקוונת המובילה לאופ
 
 
 
-## כותרת שלך כאן
-
-
-
-
-
-
-
-
-
-
-
-
 ## מוצרים מומלצים
 
 
@@ -5482,7 +5469,7 @@ Availability: In stock
 ---
 
 ### אור לבן
-URL: https://hodayaboutique.co.il/product/avr-lbn-m959k9
+URL: https://hodayaboutique.co.il/product/avr-lbn-kxr0ve
 Price: 69.00 ILS
 Availability: In stock
 
