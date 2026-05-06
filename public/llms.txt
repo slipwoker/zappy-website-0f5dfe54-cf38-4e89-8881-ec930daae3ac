@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 12**
+**Total active products: 13**
+
+### ענן קקאו
+https://hodayaboutique.co.il/product/ann-kkav-q93a8y
+- Price: 159.00 ILS
+- Availability: In stock
+- Category: סטים/לוקים
+- Description: חליפת “ענן קקאו” היא סט פשתן מכופתר אלגנטי בגוון חום חמים וטבעי, שמעניק מראה יוקרתי אך רגוע ונוח ליום-יום. החליפה עשויה בד פשתן איכותי, נושם וקליל, שמרגיש נעים על הגוף ומתאים במיוחד ללבישה יומיומית. הגוון החום העמוק יוצר מראה עשיר, טבעי ומלא סטייל, שמשדר אלגנטיות שקטה ותחכום מודרני. החלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל גם חצאית תואמת בגזרה נשית ומחמיאה, שמשלימה את הלוק ויוצרת הופעה אחידה, נקייה ומדויקת.
+- Image: https://hodayaboutique.co.il/assets/product-1778070117966-2sx4y.webp
 
 ### לבן פשתן אלגנט
 https://hodayaboutique.co.il/product/lbn-pshtn-algnt-brkct3
