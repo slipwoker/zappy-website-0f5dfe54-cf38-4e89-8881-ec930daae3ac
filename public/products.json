@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T13:38:51.667Z",
+  "generated_at": "2026-05-06T15:51:35.150Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 13,
+  "count": 14,
   "products": [
+    {
+      "id": "a06d21cd-cd5f-409f-be30-40b75900424c",
+      "slug": "bdykh-wki3jy",
+      "name": "בדיקה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 50,
+      "base_price": 50,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778082648186-7giirw.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bdykh-wki3jy",
+      "categories": [],
+      "updated_at": "2026-05-06T15:51:04.238Z"
+    },
     {
       "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
       "slug": "ann-kkav-ez3pfy",
