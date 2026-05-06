@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:47:56.116Z",
+  "generated_at": "2026-05-06T11:51:21.715Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 6,
+  "count": 7,
   "products": [
+    {
+      "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
+      "slug": "lvryan-tchrh-lbnh-bjobso",
+      "name": "לוריאן תחרה לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת תחרה לבנה הכוללת חצאית וחולצה היא סט אלגנטי ונשי שמשדר ניקיון, עדינות ויוקרה קלאסית.\n\nהחליפה עשויה תחרה איכותית עם דיטיילים עדינים שמוסיפים עומק ועניין למראה כולו. הגזרה של החצאית מחמיאה ומדגישה את המותן בצורה טבעית ונשית, בעוד החולצה משלימה את הלוק עם מראה רך, אלגנטי ומוקפד.",
+      "sku": null,
+      "brand": null,
+      "price": 189,
+      "base_price": 199,
+      "sale_price": 189,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778068107336-096ubt.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-bjobso",
+      "categories": [
+        "סטים/לוקים"
+      ],
+      "updated_at": "2026-05-06T11:51:00.233Z"
+    },
     {
       "id": "473c67e4-ca16-4d53-b721-474efeda7292",
       "slug": "avr-lyly-ci7gmb",
