@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T13:18:16.612Z",
+  "generated_at": "2026-05-06T13:20:04.367Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -223,7 +223,7 @@
     },
     {
       "id": "ef43a3ae-3c00-4145-8303-d255f5a474b8",
-      "slug": "chtsayt-lvryyn-tchrh-shchvrh-6hs6ad",
+      "slug": "chtsayt-lvryyn-tchrh-shchvrh-0fi00j",
       "name": "חצאית לוריין תחרה שחורה",
       "name_translations": {},
       "description": "",
@@ -235,15 +235,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778067010427-7226ih.webp"
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778073565567-4p7lk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-6hs6ad",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-0fi00j",
       "categories": [
         "חציות"
       ],
-      "updated_at": "2026-05-06T11:34:42.658Z"
+      "updated_at": "2026-05-06T13:19:32.895Z"
     },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
