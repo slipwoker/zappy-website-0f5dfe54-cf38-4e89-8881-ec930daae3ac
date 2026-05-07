@@ -78,7 +78,7 @@ Information about WCAG compliance and accessibility features.
 https://hodayaboutique.co.il/product/ann-kkav-ez3pfy
 - Price: 159.00 ILS
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת “ענן קקאו” היא סט פשתן מכופתר אלגנטי בגוון חום חמים וטבעי, שמעניק מראה יוקרתי אך רגוע ונוח ליום-יום. החליפה עשויה בד פשתן איכותי, נושם וקליל, שמרגיש נעים על הגוף ומתאים במיוחד ללבישה יומיומית. הגוון החום העמוק יוצר מראה עשיר, טבעי ומלא סטייל, שמשדר אלגנטיות שקטה ותחכום מודרני. החלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל גם חצאית תואמת בגזרה נשית ומחמיאה, שמשלימה את הלוק ויוצרת הופעה אחידה, נקייה ומדויקת.
 - Image: https://hodayaboutique.co.il/assets/product-enhanced-1778070841150-j5bf8.webp
 
@@ -86,7 +86,7 @@ https://hodayaboutique.co.il/product/ann-kkav-ez3pfy
 https://hodayaboutique.co.il/product/lbn-pshtn-algnt-psaj0s
 - Price: 159.00 ILS
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת “ענן פשתן” לבנה היא סט מכופתר אלגנטי ונושם שמשלב בין מראה טבעי, נקי ויוקרתי לבין נוחות מקסימלית ליום-יום. החליפה עשויה בד פשתן איכותי וקליל, שמעניק תחושת אווריריות ונעימות על הגוף ומתאים במיוחד לאקלים חם. הגוון הלבן הנקי יוצר מראה רענן, קלאסי ועל-זמני שמשדר אלגנטיות שקטה ולא מתאמצת. החלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל חצאית תואמת כחלק מהתחתית, בגזרה נשית ומחמיאה שמשלימה את הלוק ויוצרת מראה אחיד, אלגנטי ומדויק.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184386065-pjoh5h.webp
 
@@ -109,7 +109,7 @@ https://hodayaboutique.co.il/product/avr-lbn-8h2blu
 https://hodayaboutique.co.il/product/ppyvn-tklt-5c9ctg
 - Price: 169.00 ILS
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
 
@@ -117,7 +117,7 @@ https://hodayaboutique.co.il/product/ppyvn-tklt-5c9ctg
 https://hodayaboutique.co.il/product/pynk-shyk-zj9yd7
 - Price: 169.00 ILS
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת “פפיון ורוד” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם טאץ’ נשי ועדין. החליפה מגיעה בגוון ורוד רך שמוסיף מראה רענן ומתוק לכל הופעה, יחד עם סרט קשירה (פפיון) שמעניק דיטייל מיוחד והופך את הלוק לפשוט אבל לא משעמם. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום בלי לוותר על מראה מסודר ואופנתי.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184775690-vj6vgj.webp
 
@@ -125,7 +125,7 @@ https://hodayaboutique.co.il/product/pynk-shyk-zj9yd7
 https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-pdgjo7
 - Price: 189.00 ILS (sale, was 199.00 ILS)
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת תחרה לבנה הכוללת חצאית וחולצה היא סט אלגנטי ונשי שמשדר ניקיון, עדינות ויוקרה קלאסית. החליפה עשויה תחרה איכותית עם דיטיילים עדינים שמוסיפים עומק ועניין למראה כולו. הגזרה של החצאית מחמיאה ומדגישה את המותן בצורה טבעית ונשית, בעוד החולצה משלימה את הלוק עם מראה רך, אלגנטי ומוקפד.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184852271-k70vdq.webp
 
@@ -133,7 +133,7 @@ https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-pdgjo7
 https://hodayaboutique.co.il/product/avr-lyly-hdyav5
 - Price: 179.00 ILS
 - Availability: In stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפת סאטן לבנה “אור לילי” היא סט אלגנטי ונשי המשלב בין יוקרה רכה לסטייל נקי ומדויק. החליפה כוללת חצאית בגזרה מחמיאה ועליונית תואמת, עשויות בד סאטן חלק ונשפך שמעניק מראה מבריק ועדין עם נוכחות יוקרתית. הצבע הלבן הקלאסי יוצר מראה נקי, אלגנטי ועל-זמני שמתאים לאירועים מיוחדים, חגיגות, או לוקים אלגנטיים במיוחד.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184955654-yyp7j.webp
 
@@ -173,7 +173,7 @@ https://hodayaboutique.co.il/product/shmlt-amvr-shkoqq
 https://hodayaboutique.co.il/product/chlypt-yryn-ppkemf
 - Price: 169.00 ILS
 - Availability: Out of stock
-- Category: סטים/לוקים
+- Category: חליפות
 - Description: חליפה ירוקה בגזרה מחויטת ועדינה, מושלמת ליום-יום עם מראה נקי, נוח ומלא סטייל. החליפה מגיעה בגוון ירוק אלגנטי שמוסיף צבע רענן ללוק היומיומי בלי להיות מוגזם. הגזרה נוחה ומחמיאה, מאפשרת תנועה חופשית ונוחות לאורך כל היום, תוך שמירה על מראה מסודר ומוקפד
 - Image: https://hodayaboutique.co.il/assets/product-enhanced-1778072447091-jm59or.webp
 

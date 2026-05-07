@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Thu, 07 May 2026 20:42:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 20:43:18 GMT</lastBuildDate>
     <item>
       <g:id>03606ca9-4f69-4e0a-85ab-ba5cb6949791</g:id>
       <g:title>ענן קקאו</g:title>
@@ -16,7 +16,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb</g:id>
@@ -29,7 +29,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>446c35d0-6fa4-4b9b-80e1-5280d7ac88bf</g:id>
@@ -67,7 +67,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>8e1ce9f7-f029-4a31-947f-36351bee7092</g:id>
@@ -80,7 +80,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>f347771c-03e5-49d4-92e4-a845aecb0558</g:id>
@@ -94,7 +94,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>473c67e4-ca16-4d53-b721-474efeda7292</g:id>
@@ -107,7 +107,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
     <item>
       <g:id>35e71576-d877-47a1-931d-aa445d279f92</g:id>
@@ -178,7 +178,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סטים/לוקים</g:product_type>
+      <g:product_type>חליפות</g:product_type>
     </item>
   </channel>
 </rss>

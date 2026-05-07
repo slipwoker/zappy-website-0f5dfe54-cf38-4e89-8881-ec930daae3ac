@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T20:42:00.811Z",
+  "generated_at": "2026-05-07T20:43:18.194Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -25,7 +25,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/ann-kkav-ez3pfy",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-06T12:34:19.556Z"
     },
@@ -49,7 +49,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/lbn-pshtn-algnt-psaj0s",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:06:38.257Z"
     },
@@ -119,7 +119,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-5c9ctg",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:11:51.226Z"
     },
@@ -143,7 +143,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/pynk-shyk-zj9yd7",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:13:04.692Z"
     },
@@ -167,7 +167,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-pdgjo7",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:14:20.263Z"
     },
@@ -191,7 +191,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/avr-lyly-hdyav5",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:16:03.466Z"
     },
@@ -319,7 +319,7 @@
       "stock_status": "out_of_stock",
       "url": "https://hodayaboutique.co.il/product/chlypt-yryn-ppkemf",
       "categories": [
-        "סטים/לוקים"
+        "חליפות"
       ],
       "updated_at": "2026-05-07T20:41:29.668Z"
     }
