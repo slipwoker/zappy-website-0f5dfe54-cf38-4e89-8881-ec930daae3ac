@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T20:29:11.955Z",
+  "generated_at": "2026-05-07T20:32:16.088Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 14,
@@ -267,7 +267,7 @@
     },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
-      "slug": "shmlt-nvam-fvoqz2",
+      "slug": "shmlt-nvam-mwff14",
       "name": "שמלת נועם",
       "name_translations": {},
       "description": "",
@@ -286,12 +286,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-fvoqz2",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-mwff14",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-05-07T20:28:41.135Z"
+      "updated_at": "2026-05-07T20:31:45.032Z"
     },
     {
       "id": "20f9e928-5478-4dd8-87c5-85330953d529",
