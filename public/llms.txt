@@ -72,13 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 15**
-
-### בדיקה זאפי 
-https://hodayaboutique.co.il/product/bdykh-zapy-sqr1fk
-- Price: 50.00 ILS
-- Availability: In stock
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778163182351-l5z32l.webp
+**Total active products: 14**
 
 ### בדיקה
 https://hodayaboutique.co.il/product/bdykh-wki3jy
