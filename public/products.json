@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T20:22:57.530Z",
+  "generated_at": "2026-05-07T20:29:11.955Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 14,
@@ -267,7 +267,7 @@
     },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
-      "slug": "shmlt-nvam-427wr6",
+      "slug": "shmlt-nvam-fvoqz2",
       "name": "שמלת נועם",
       "name_translations": {},
       "description": "",
@@ -279,19 +279,19 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778066758346-eh3r86.webp",
-        "https://hodayaboutique.co.il/assets/product-1778066766710-ymhd.webp",
-        "https://hodayaboutique.co.il/assets/product-1778066776866-hfzx7.webp",
-        "https://hodayaboutique.co.il/assets/product-1778066787347-b192v4.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185713440-uye92d.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185570409-si5d5.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185686500-id9k9n.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185623231-dt7rb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-427wr6",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-fvoqz2",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-05-06T11:28:09.907Z"
+      "updated_at": "2026-05-07T20:28:41.135Z"
     },
     {
       "id": "20f9e928-5478-4dd8-87c5-85330953d529",
