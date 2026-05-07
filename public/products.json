@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T20:39:08.049Z",
+  "generated_at": "2026-05-07T20:42:00.811Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 13,
@@ -301,27 +301,27 @@
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
-      "slug": "chlypt-yryn-cwlk0c",
+      "slug": "chlypt-yryn-ppkemf",
       "name": "חליפת ירין",
       "name_translations": {},
       "description": "",
       "short_description": "חליפה ירוקה בגזרה מחויטת ועדינה, מושלמת ליום-יום עם מראה נקי, נוח ומלא סטייל.\n\nהחליפה מגיעה בגוון ירוק אלגנטי שמוסיף צבע רענן ללוק היומיומי בלי להיות מוגזם. הגזרה נוחה ומחמיאה, מאפשרת תנועה חופשית ונוחות לאורך כל היום, תוך שמירה על מראה מסודר ומוקפד",
       "sku": null,
       "brand": null,
-      "price": 250,
-      "base_price": 179,
-      "sale_price": 250,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://hodayaboutique.co.il/assets/product-enhanced-1778072447091-jm59or.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-cwlk0c",
+      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-ppkemf",
       "categories": [
         "סטים/לוקים"
       ],
-      "updated_at": "2026-05-06T13:01:30.418Z"
+      "updated_at": "2026-05-07T20:41:29.668Z"
     }
   ]
 }
