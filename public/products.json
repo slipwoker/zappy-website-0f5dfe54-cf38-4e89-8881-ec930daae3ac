@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T20:08:52.525Z",
+  "generated_at": "2026-05-07T20:10:25.347Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 14,
@@ -99,7 +99,7 @@
     },
     {
       "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
-      "slug": "avr-lbn-kxr0ve",
+      "slug": "avr-lbn-8h2blu",
       "name": "אור לבן",
       "name_translations": {},
       "description": "",
@@ -111,16 +111,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-enhanced-1778074635656-8ae3ls.webp",
-        "https://hodayaboutique.co.il/assets/product-enhanced-1778071198435-yh0v6.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184580192-cbezik.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/avr-lbn-kxr0ve",
+      "url": "https://hodayaboutique.co.il/product/avr-lbn-8h2blu",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-05-06T13:38:25.426Z"
+      "updated_at": "2026-05-07T20:09:54.457Z"
     },
     {
       "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
