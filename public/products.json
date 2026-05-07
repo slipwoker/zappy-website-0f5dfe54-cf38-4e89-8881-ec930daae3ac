@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T09:19:28.102Z",
+  "generated_at": "2026-05-07T14:13:55.100Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 14,
+  "count": 15,
   "products": [
+    {
+      "id": "0ee3fd73-d0e1-44c8-8d96-c6b6e1305f0d",
+      "slug": "bdykh-zapy-sqr1fk",
+      "name": "בדיקה זאפי ",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 50,
+      "base_price": 50,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778163182351-l5z32l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bdykh-zapy-sqr1fk",
+      "categories": [],
+      "updated_at": "2026-05-07T14:13:24.237Z"
+    },
     {
       "id": "a06d21cd-cd5f-409f-be30-40b75900424c",
       "slug": "bdykh-wki3jy",
