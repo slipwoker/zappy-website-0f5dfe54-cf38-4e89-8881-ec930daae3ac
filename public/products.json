@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:40:54.903Z",
+  "generated_at": "2026-05-08T10:42:11.260Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 20,
@@ -253,7 +253,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/krn-shmsh-4ibvu9",
       "categories": [],
-      "updated_at": "2026-05-08T10:40:54.674Z"
+      "updated_at": "2026-05-08T10:41:10.622Z"
     },
     {
       "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
@@ -277,7 +277,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-05-07T20:09:54.457Z"
+      "updated_at": "2026-05-08T10:41:40.425Z"
     },
     {
       "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
@@ -325,7 +325,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-07T20:13:04.692Z"
+      "updated_at": "2026-05-08T10:42:06.493Z"
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
