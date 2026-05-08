@@ -1,14 +1,14 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T14:23:22.268Z",
+  "generated_at": "2026-05-08T14:24:03.602Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 32,
   "products": [
     {
       "id": "d15105e0-6ca4-47df-b107-dd02c356741c",
-      "slug": "shmcht-kyvvtsym-xgzu1j",
-      "name": "שמחת כיווצים",
+      "slug": "shmlt-kyvvtsym-lsjbw0",
+      "name": "שמלת כיווצים",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -24,12 +24,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmcht-kyvvtsym-xgzu1j",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyvvtsym-lsjbw0",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-05-08T14:22:54.810Z"
+      "updated_at": "2026-05-08T14:23:56.808Z"
     },
     {
       "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
