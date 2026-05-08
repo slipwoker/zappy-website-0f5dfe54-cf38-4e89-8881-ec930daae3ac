@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:42:11.260Z",
+  "generated_at": "2026-05-08T10:42:37.450Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 20,
@@ -325,7 +325,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T10:42:06.493Z"
+      "updated_at": "2026-05-08T10:42:13.842Z"
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
@@ -397,7 +397,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-05-07T20:20:36.107Z"
+      "updated_at": "2026-05-08T10:42:37.214Z"
     },
     {
       "id": "ef43a3ae-3c00-4145-8303-d255f5a474b8",
