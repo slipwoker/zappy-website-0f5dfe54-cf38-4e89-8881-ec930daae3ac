@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:10:00.438Z",
+  "generated_at": "2026-05-08T10:13:11.798Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 17,
+  "count": 18,
   "products": [
+    {
+      "id": "8536ab7c-f45d-49da-81ea-8a8214c7f948",
+      "slug": "tyshrt-nvbh-hplubo",
+      "name": "טישרט נובה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235103282-fpqxtu.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235146474-r2ke5.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/tyshrt-nvbh-hplubo",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T10:13:05.262Z"
+    },
     {
       "id": "22668127-8938-4603-b908-7d8d2345c157",
       "slug": "shmlt-ayydn-kchvl-3f1c1h",
