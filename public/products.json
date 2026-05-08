@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T13:26:49.781Z",
+  "generated_at": "2026-05-08T13:34:44.858Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 29,
+  "count": 30,
   "products": [
+    {
+      "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
+      "slug": "chlyph-chtsayt-lvlavt-bz-h4dvt0",
+      "name": "חליפה חצאית לולאות ב׳ז",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 219,
+      "base_price": 219,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778247159719-0jssq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778247191681-4lotxo.webp",
+        "https://hodayaboutique.co.il/assets/product-1778246886580-8e8fzk.webp",
+        "https://hodayaboutique.co.il/assets/product-1778246892131-ql0xcgr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-h4dvt0",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T13:34:13.921Z"
+    },
     {
       "id": "d329f5a2-8d89-4ff4-aeff-4c33d9765b3f",
       "slug": "chlypt-chtsayt-lvlavt-shchvr-tgpdsd",
