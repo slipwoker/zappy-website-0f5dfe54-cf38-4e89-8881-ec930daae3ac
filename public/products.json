@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T14:00:43.233Z",
+  "generated_at": "2026-05-08T14:04:39.307Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 30,
@@ -139,29 +139,29 @@
     },
     {
       "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
-      "slug": "chtsayt-arb-shchvr-0zvw7n",
-      "name": "חצאית ערב שחור ",
+      "slug": "shmlt-klarys-shchvr-tvlt4q",
+      "name": "שמלת קלאריס שחור",
       "name_translations": {},
       "description": "",
       "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 359,
-      "base_price": 359,
+      "price": 299,
+      "base_price": 299,
       "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://hodayaboutique.co.il/assets/product-ai-fit-1778244892803-ymau0l.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244866614-51dwsq.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244923310-cjz6n7h.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244923310-cjz6n7h.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244866614-51dwsq.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-0zvw7n",
+      "url": "https://hodayaboutique.co.il/product/shmlt-klarys-shchvr-tvlt4q",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-05-08T12:56:00.050Z"
+      "updated_at": "2026-05-08T14:04:30.572Z"
     },
     {
       "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
