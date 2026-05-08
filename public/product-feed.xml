@@ -4,7 +4,21 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Fri, 08 May 2026 14:05:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 14:08:36 GMT</lastBuildDate>
+    <item>
+      <g:id>2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43</g:id>
+      <g:title>חצאית ערב שחור</g:title>
+      <g:description>חצאית ערב שחור</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um</g:link>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778249215753-zvolbp.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778249244013-rj8g8r.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>359.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חצאיות</g:product_type>
+    </item>
     <item>
       <g:id>ef389f3e-2f16-43ad-9d6d-53512d23d77c</g:id>
       <g:title>חליפה חצאית לולאות ב׳ז</g:title>
@@ -38,6 +52,20 @@
       <g:product_type>חליפות</g:product_type>
     </item>
     <item>
+      <g:id>fefeead5-d696-4754-8ddd-58a9ac1c6565</g:id>
+      <g:title>חצאית ערב</g:title>
+      <g:description>חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-arb-rio3pt</g:link>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778245057328-d6he7h.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778245138334-kw4bvu.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>349.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חצאיות</g:product_type>
+    </item>
+    <item>
       <g:id>f188c528-1331-4d17-9302-1fd30100d2e0</g:id>
       <g:title>חליפת לורן ב׳ז</g:title>
       <g:description>חליפת שני חלקים חולצה עם שרוולי 3/4 וחצאית מקסי תואמת, עם חגורת קשירה במותן למראה אלגנטי. מידת הבגד על הדוגמנית XS.</g:description>
@@ -67,20 +95,6 @@
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>חליפות</g:product_type>
-    </item>
-    <item>
-      <g:id>fefeead5-d696-4754-8ddd-58a9ac1c6565</g:id>
-      <g:title>חצאית ערב</g:title>
-      <g:description>חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.</g:description>
-      <g:link>https://hodayaboutique.co.il/product/chtsayt-arb-rio3pt</g:link>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778245057328-d6he7h.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778245138334-kw4bvu.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>349.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>חצאיות</g:product_type>
     </item>
     <item>
       <g:id>9ae5d29f-188f-4731-891e-212c1d6b445a</g:id>
