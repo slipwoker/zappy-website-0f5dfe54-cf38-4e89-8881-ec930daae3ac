@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:58:24.865Z",
+  "generated_at": "2026-05-08T10:58:42.022Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 21,
@@ -267,7 +267,7 @@
     },
     {
       "id": "446c35d0-6fa4-4b9b-80e1-5280d7ac88bf",
-      "slug": "krn-shmsh-4ibvu9",
+      "slug": "krn-shmsh-ucys8y",
       "name": "קרן שמש",
       "name_translations": {},
       "description": "",
@@ -283,9 +283,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/krn-shmsh-4ibvu9",
-      "categories": [],
-      "updated_at": "2026-05-08T10:41:10.622Z"
+      "url": "https://hodayaboutique.co.il/product/krn-shmsh-ucys8y",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T10:58:32.162Z"
     },
     {
       "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
