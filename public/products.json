@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:15:42.080Z",
+  "generated_at": "2026-05-08T10:26:07.531Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 18,
+  "count": 19,
   "products": [
+    {
+      "id": "eeb4b4b3-d9be-49f0-93f7-d14e68620cb5",
+      "slug": "ty-shrt-nvbh-shchvr-f13pbf",
+      "name": "טי שרט נובה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "טי שרט בגזרת אובר סייז עם שרוול 3/4.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235837885-vzlshd.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235797062-112hyb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-f13pbf",
+      "categories": [],
+      "updated_at": "2026-05-08T10:25:42.793Z"
+    },
     {
       "id": "8536ab7c-f45d-49da-81ea-8a8214c7f948",
       "slug": "tyshrt-nvbh-hplubo",
