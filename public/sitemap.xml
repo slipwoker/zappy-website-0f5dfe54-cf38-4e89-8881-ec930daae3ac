@@ -91,12 +91,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-rrrm0g</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,6 +98,12 @@
   </url>
   <url>
     <loc>https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-tgpdsd</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

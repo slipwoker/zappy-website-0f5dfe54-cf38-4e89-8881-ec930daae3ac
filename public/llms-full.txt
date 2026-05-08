@@ -5415,13 +5415,6 @@ Hodayasuissa5@gmail.com
 
 ## Product Catalog
 
-### חצאית ערב שחור
-URL: https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um
-Price: 359.00 ILS
-Availability: In stock
-
----
-
 ### חליפה חצאית לולאות ב׳ז
 URL: https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-rrrm0g
 Price: 219.00 ILS
@@ -5432,6 +5425,13 @@ Availability: In stock
 ### חליפת חצאית לולאות שחור
 URL: https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-tgpdsd
 Price: 219.00 ILS
+Availability: In stock
+
+---
+
+### חצאית ערב שחור
+URL: https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um
+Price: 359.00 ILS
 Availability: In stock
 
 ---
