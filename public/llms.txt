@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 25**
+**Total active products: 26**
+
+### חצאית ערב
+https://hodayaboutique.co.il/product/chtsayt-arb-rio3pt
+- Price: 349.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778245057328-d6he7h.webp
 
 ### חצאית ערב שחור 
 https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-0zvw7n
