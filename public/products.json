@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T12:46:40.300Z",
+  "generated_at": "2026-05-08T12:53:09.751Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 24,
+  "count": 25,
   "products": [
+    {
+      "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
+      "slug": "chtsayt-arb-shchvr-8fmorl",
+      "name": "חצאית ערב שחור ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 359,
+      "base_price": 359,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244506491-9b7di.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244678670-7f6qk1.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244541584-zddrt.webp",
+        "https://hodayaboutique.co.il/assets/product-1778244436237-yinzz.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-8fmorl",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-08T12:52:42.604Z"
+    },
     {
       "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
       "slug": "chlypt-arykh-shchvr-bj5y1d",
