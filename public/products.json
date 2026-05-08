@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T14:15:32.725Z",
+  "generated_at": "2026-05-08T14:22:55.263Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 31,
+  "count": 32,
   "products": [
+    {
+      "id": "d15105e0-6ca4-47df-b107-dd02c356741c",
+      "slug": "shmcht-kyvvtsym-xgzu1j",
+      "name": "שמחת כיווצים",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250041274-wg2k7.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250118766-jl3pnj.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmcht-kyvvtsym-xgzu1j",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:22:54.810Z"
+    },
     {
       "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
       "slug": "chlyph-chtsayt-lvlavt-bz-rrrm0g",
