@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T11:00:13.138Z",
+  "generated_at": "2026-05-08T11:13:43.855Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 21,
+  "count": 22,
   "products": [
+    {
+      "id": "39fb161d-b450-4db4-891f-f7528de77090",
+      "slug": "shmlt-mvnh-g0x9m7",
+      "name": "שמלת מונה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0.\nצבע",
+      "sku": null,
+      "brand": null,
+      "price": 439,
+      "base_price": 439,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238608480-m9suh.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238639582-fjaoco.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238690327-37cq6b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-g0x9m7",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T11:13:15.234Z"
+    },
     {
       "id": "7d6be071-9322-4fb8-86d6-d4d8f14a518b",
       "slug": "shmchh-tchrh-shchvrh-dx1nj6",
