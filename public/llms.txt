@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 23**
+**Total active products: 24**
+
+### חליפת אריקה שחור
+https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-bj5y1d
+- Price: 369.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת שני חלקים, בגד גוף מבד מחטב בגזרה צמודה עם גולף, שרוולים ארוכים וכפפה ביד וחצאית עם קיפול לבן באורך מקסי. מידת הבגד על הדוגמנית XS
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778243914784-ctvseo.webp
 
 ### שמלת מונה
 https://hodayaboutique.co.il/product/shmlt-mvnh-qlbxqy

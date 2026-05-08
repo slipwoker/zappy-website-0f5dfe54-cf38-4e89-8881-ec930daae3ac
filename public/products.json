@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T11:24:20.858Z",
+  "generated_at": "2026-05-08T12:46:18.432Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 23,
+  "count": 24,
   "products": [
+    {
+      "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
+      "slug": "chlypt-arykh-shchvr-bj5y1d",
+      "name": "חליפת אריקה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים, בגד גוף מבד מחטב בגזרה צמודה עם גולף, שרוולים ארוכים וכפפה ביד וחצאית עם קיפול לבן באורך מקסי.\nמידת הבגד על הדוגמנית XS",
+      "sku": null,
+      "brand": null,
+      "price": 369,
+      "base_price": 369,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243914784-ctvseo.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243948168-z5sel.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243975097-9tcf9n.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-bj5y1d",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T12:46:09.239Z"
+    },
     {
       "id": "f59f4f15-1714-40f2-85af-27a61dd52b34",
       "slug": "shmlt-mvnh-qlbxqy",
