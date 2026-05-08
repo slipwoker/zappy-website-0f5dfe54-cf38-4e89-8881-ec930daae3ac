@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 20**
+**Total active products: 21**
+
+### שמחה תחרה שחורה
+https://hodayaboutique.co.il/product/shmchh-tchrh-shchvrh-ugjco0
+- Price: 249.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת מקסי עם תחרה עשירה וגזרה מחטבת. החלק העליון כולל צווארון סגור ועיטורי מחוך עדין שמוסיף מבנה ואלגנטיות. מתאימה לערב ולאירועים, ומשלבת קלאסיות עם טוויסט מודרני. מידת הבגד על הדוגמנית 0.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778237250713-buobfk.webp
 
 ### טי שרט נובה
 https://hodayaboutique.co.il/product/ty-shrt-nvbh-4ur8sa
