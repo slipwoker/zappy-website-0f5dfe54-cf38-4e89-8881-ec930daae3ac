@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 16**
+**Total active products: 17**
+
+### שמלת איידן כחול
+https://hodayaboutique.co.il/product/shmlt-ayydn-kchvl-3f1c1h
+- Price: 279.00 ILS
+- Availability: In stock
+- Category: שמלות
+- Description: שמלת מקסי סריג בגזרה צמודה ומחמיאה עם טקסטורת פסים לאורך כוללת שרוולים ארוכים מתרחבים קלות וצווארון עגול קלאסי. הדוגמנית לובשת מידה XS.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234861038-juorh.webp
 
 ### שמלת איידן שחור
 https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-ldqmdf
