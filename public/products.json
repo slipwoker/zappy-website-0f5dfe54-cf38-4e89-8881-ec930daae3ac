@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T10:57:45.920Z",
+  "generated_at": "2026-05-08T10:58:24.865Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 21,
@@ -62,7 +62,7 @@
     },
     {
       "id": "eeb4b4b3-d9be-49f0-93f7-d14e68620cb5",
-      "slug": "ty-shrt-nvbh-shchvr-f13pbf",
+      "slug": "ty-shrt-nvbh-shchvr-c2lsbq",
       "name": "טי שרט נובה שחור",
       "name_translations": {},
       "description": "",
@@ -80,9 +80,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-f13pbf",
-      "categories": [],
-      "updated_at": "2026-05-08T10:36:05.601Z"
+      "url": "https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T10:57:54.015Z"
     },
     {
       "id": "8536ab7c-f45d-49da-81ea-8a8214c7f948",
@@ -137,7 +139,7 @@
     },
     {
       "id": "8ade6408-710b-4a07-816a-cc99c112ea48",
-      "slug": "shmlt-ayydn-shchvr-ldqmdf",
+      "slug": "shmlt-ayydn-shchvr-jbr0uw",
       "name": "שמלת איידן שחור",
       "name_translations": {},
       "description": "",
@@ -155,9 +157,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-ldqmdf",
-      "categories": [],
-      "updated_at": "2026-05-08T10:37:40.955Z"
+      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-jbr0uw",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T10:58:11.163Z"
     },
     {
       "id": "042120b9-ca08-4587-9234-4ba90cd50f26",

@@ -91,9 +91,10 @@ https://hodayaboutique.co.il/product/ty-shrt-nvbh-4ur8sa
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778236118375-gmp577.webp
 
 ### טי שרט נובה שחור
-https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-f13pbf
+https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq
 - Price: 69.00 ILS
 - Availability: In stock
+- Category: חולצות
 - Description: טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp
 
@@ -113,9 +114,10 @@ https://hodayaboutique.co.il/product/shmlt-ayydn-kchvl-3f1c1h
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234861038-juorh.webp
 
 ### שמלת איידן שחור
-https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-ldqmdf
+https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-jbr0uw
 - Price: 279.00 ILS
 - Availability: In stock
+- Category: שמלות
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234567874-f47clc.webp
 
 ### שמלת קייטי לבן

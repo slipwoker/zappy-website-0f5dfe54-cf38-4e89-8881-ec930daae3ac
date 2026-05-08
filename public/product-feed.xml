@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Fri, 08 May 2026 10:57:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 10:58:24 GMT</lastBuildDate>
     <item>
       <g:id>7d6be071-9322-4fb8-86d6-d4d8f14a518b</g:id>
       <g:title>שמחה תחרה שחורה</g:title>
@@ -41,7 +41,7 @@
       <g:id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5</g:id>
       <g:title>טי שרט נובה שחור</g:title>
       <g:description>טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.</g:description>
-      <g:link>https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-f13pbf</g:link>
+      <g:link>https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq</g:link>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235837885-vzlshd.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235797062-112hyb.webp</g:additional_image_link>
@@ -50,6 +50,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חולצות</g:product_type>
     </item>
     <item>
       <g:id>8536ab7c-f45d-49da-81ea-8a8214c7f948</g:id>
@@ -84,7 +85,7 @@
       <g:id>8ade6408-710b-4a07-816a-cc99c112ea48</g:id>
       <g:title>שמלת איידן שחור</g:title>
       <g:description>שמלת איידן שחור</g:description>
-      <g:link>https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-ldqmdf</g:link>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-jbr0uw</g:link>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234567874-f47clc.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234526291-6hq5mx.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234605310-crht8.webp</g:additional_image_link>
@@ -93,6 +94,7 @@
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות</g:product_type>
     </item>
     <item>
       <g:id>042120b9-ca08-4587-9234-4ba90cd50f26</g:id>
