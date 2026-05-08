@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 28**
+**Total active products: 29**
+
+### חליפת חצאית לולאות שחור
+https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-tgpdsd
+- Price: 219.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה. מידת הבגד על הדוגמנית XS.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778246554501-qr85wq.webp
 
 ### חליפת לורן ב׳ז
 https://hodayaboutique.co.il/product/chlypt-lvrn-bz-nmjmc5
