@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T14:08:51.448Z",
+  "generated_at": "2026-05-08T14:10:11.036Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 31,
@@ -61,11 +61,11 @@
     },
     {
       "id": "2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43",
-      "slug": "chtsayt-arb-shchvr-wb69um",
+      "slug": "chtsayt-arb-shchvr-zborlx",
       "name": "חצאית ערב שחור",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
       "price": 359,
@@ -78,11 +78,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-wb69um",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-zborlx",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-08T14:09:40.100Z"
     },
     {
       "id": "fefeead5-d696-4754-8ddd-58a9ac1c6565",
