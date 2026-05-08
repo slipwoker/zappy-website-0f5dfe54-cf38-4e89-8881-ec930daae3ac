@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 14**
+**Total active products: 15**
+
+### שמלת קייטי לבן
+https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-iym32c
+- Price: 349.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234036152-hdayh.webp
 
 ### שמלת קייטי שחור
 https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q
