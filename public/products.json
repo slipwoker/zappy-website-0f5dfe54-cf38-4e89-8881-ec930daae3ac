@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-08T09:58:10.676Z",
+  "generated_at": "2026-05-08T09:58:38.242Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 15,
   "products": [
     {
       "id": "042120b9-ca08-4587-9234-4ba90cd50f26",
-      "slug": "shmlt-kyyty-lbn-iym32c",
+      "slug": "shmlt-kyyty-lbn-gfyiji",
       "name": "שמלת קייטי לבן",
       "name_translations": {},
       "description": "",
@@ -26,11 +26,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-iym32c",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-gfyiji",
       "categories": [
-        "שמלות ערב"
+        "שמלות ערב",
+        "שמלות"
       ],
-      "updated_at": "2026-05-08T09:58:07.225Z"
+      "updated_at": "2026-05-08T09:58:30.271Z"
     },
     {
       "id": "0358393e-f8f9-4c03-a108-de8c97c7cf86",
