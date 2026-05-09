@@ -1404,6 +1404,11 @@
   
   <div data-integration="accessibility:toolbar"></div>
 
+<!-- Floating Accessibility Button -->
+<button id="zappy-a11y-btn" aria-label="פתח תפריט נגישות" title="נגישות" onclick="if(window.acctoolbar){window.acctoolbar.open ? window.acctoolbar.open() : (document.querySelector('#acctoolbar,#acc-toolbar,.acctoolbar') || document.body).dispatchEvent(new MouseEvent('click'))}" style="position:fixed;bottom:90px;left:24px;width:52px;height:52px;border-radius:50%;background-color:#6F2D5C;color:#ffffff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(111,45,92,0.45);z-index:9998;transition:transform 0.2s ease,box-shadow 0.2s ease;" onmouseenter="this.style.transform='scale(1.12)';this.style.boxShadow='0 6px 20px rgba(111,45,92,0.55)'" onmouseleave="this.style.transform='scale(1)';this.style.boxShadow='0 4px 16px rgba(111,45,92,0.45)'">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm7 4.5l-5 .5v2l3 1-1 5-2-1-2 4h-2l-2-4-2 1-1-5 3-1v-2l-5-.5v-2l5.5.5h4l5.5-.5v2z"/></svg>
+</button>
+
     <script src="/script.js"></script>
 
     <script id="zappy-mobile-submenu-script">
