@@ -722,7 +722,6 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-to-main" style="position:absolute;top:-100px;right:0;background:#1A6FD4;color:#fff;padding:10px 20px;z-index:99999;border-radius:0 0 8px 8px;font-size:16px;font-weight:700;text-decoration:none;transition:top 0.2s;" onblur="this.style.top='-100px'" onfocus="this.style.top='0'">דלג לתוכן הראשי</a>
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -737,7 +736,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <div id="announcement-bar" style="background:#111111;color:#ffffff;text-align:center;padding:8px 16px;font-size:13px;font-weight:500;letter-spacing:0.02em;width:100%;box-sizing:border-box;position:relative;z-index:1001;">משלוח חינם בקנייה מעל 399 ₪</div>
 <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
@@ -1252,7 +1251,7 @@
 <section class="hodaya-hero" id="hodaya-hero">
   <!-- Background Image -->
   <div class="hodaya-hero__bg-wrapper">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777899212345-s2bfezjyc" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="390px" data-zappy-zoom-wrapper-height="719px" data-zappy-zoom-wrapper-align="center"><img class="hodaya-hero__bg-img" src="/assets/image-1778367154516-tjomp1.webp?v=1778367156630" alt="אישה בלבוש צנוע ואלגנטי" data-placeholder="hero-modest-fashion" data-context="Elegant modest fashion woman wearing flowing long dress with long sleeves in neutral earth tones, standing gracefully in a bright airy studio, soft natural lighting, fashion editorial style, sophisticated and refined" data-element-type="image" data-element-id="img-1777899212345-s2bfezjyc" style="object-position: 50% 50% !important; width: 100% !important; height: 100% !important; object-fit: cover !important; position: absolute !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important" data-zappy-zoom="1" data-zappy-original-width="390" data-zappy-original-height="719" data-zappy-object-position="50% 50%"></div>
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777899212345-s2bfezjyc" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="390px" data-zappy-zoom-wrapper-height="719px" data-zappy-zoom-wrapper-align="center"><img class="hodaya-hero__bg-img" src="/assets/image-1778350162698-svtfpy.webp?v=1778350164930" alt="אישה בלבוש צנוע ואלגנטי" data-placeholder="hero-modest-fashion" data-context="Elegant modest fashion woman wearing flowing long dress with long sleeves in neutral earth tones, standing gracefully in a bright airy studio, soft natural lighting, fashion editorial style, sophisticated and refined" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1777899212345-s2bfezjyc" style="width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: 50% 50% !important; position: absolute !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important" data-zappy-zoom="1" data-zappy-original-width="390" data-zappy-original-height="719" data-zappy-object-position="50% 50%"></div>
     <!-- Dark overlay -->
     <div class="hodaya-hero__overlay" aria-hidden="true"></div>
   </div>
@@ -1260,11 +1259,11 @@
   <!-- Hero Content -->
   <div class="hodaya-hero__content">
     <!-- Decorative label -->
-    <p ><span class="hodaya-hero__label">קולקציית אביב-קיץ 2026</span>&nbsp;</p><!-- Main Heading -->
-    <h1 class="hodaya-hero__title" >הקולקציה החדשה<br class="hodaya-hero__title-break"> הגיעה<br>האתר בהרצה&nbsp;</h1>
+    <p style=""><span class="hodaya-hero__label">קולקציית אביב-קיץ 2026</span>&nbsp;</p><!-- Main Heading -->
+    <h1 class="hodaya-hero__title" style="">הקולקציה החדשה<br class="hodaya-hero__title-break"> הגיעה<br>האתר בהרצה&nbsp;</h1>
 
     <!-- Subtitle -->
-    <p class="hodaya-hero__subtitle">סגנון עכשווי, ערכי צניעות —<br class="hodaya-hero__sub-break"> כי את לא צריכה לבחור</p>
+    
 
     <!-- CTA Buttons -->
     <div class="hodaya-hero__cta-group" role="group" aria-label="כפתורי פעולה">
@@ -1272,7 +1271,7 @@
         לקולקציה החדשה
         <span class="hodaya-hero__btn-icon" aria-hidden="true">←</span>
       </a>
-      <a href="/category/suits" class="hodaya-hero__btn hodaya-hero__btn--secondary btn btn-primary" aria-label="גלי את הלוקים שלנו" data-element-type="button" data-element-id="btn-1777899212335-nebcwmwyb" data-native-element="true" style="outline: currentcolor; border-color: rgb(255, 255, 255) !important; color: var(--text-color, #1a1a1a) !important; background-color: rgb(255, 255, 255) !important; background-image: none !important;" data-text-color="dark">
+      <a href="#looks" class="hodaya-hero__btn hodaya-hero__btn--secondary" aria-label="גלי את הלוקים שלנו" data-element-type="button" data-element-id="btn-1777899212335-nebcwmwyb" data-native-element="true">
         גלי את הלוקים
       </a>
     </div>
@@ -1336,7 +1335,7 @@
         <a href="/" class="footer-logo-link">
           <img src="/assets/logo.webp" alt="הודיה" class="logo" data-zappy-footer-image="true">
         </a>
-        <p class="footer-tagline" >אופנה צנועה ומעוצבת לאישה המודרנית.<br><br><br><br><br><br><br><br>סגנון שמדבר בשקט.</p>
+        <p class="footer-tagline" style="">אופנה צנועה ומעוצבת לאישה המודרנית.<br><br><br><br><br><br><br><br>סגנון שמדבר בשקט.</p>
         <div class="footer-social">
           <a href="https://facebook.com/share/18k5xXj3Rq/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1778220703400-twdiq7wuw" data-icon-type="fontawesome"></i></a>
@@ -1385,7 +1384,7 @@
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 הודיה. כל הזכויות שמורות.</p>
-      <div class="footer-legal" >
+      <div class="footer-legal" style="">
         <a href="/privacy">מדיניות פרטיות</a>
         <span class="footer-legal-sep"></span>
         <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
@@ -1404,11 +1403,6 @@
   </a>
   
   <div data-integration="accessibility:toolbar"></div>
-
-<!-- Floating Accessibility Button -->
-<button id="zappy-a11y-btn" role="button" aria-label="פתח תפריט נגישות — לחץ לכלי נגישות" aria-haspopup="true" title="נגישות — לחץ לפתיחת תפריט נגישות" onfocus="this.style.outline='3px solid #FFD700';this.style.outlineOffset='4px'" onblur="this.style.outline='none'" onclick="if(window.acctoolbar){window.acctoolbar.open ? window.acctoolbar.open() : (document.querySelector('#acctoolbar,#acc-toolbar,.acctoolbar') || document.body).dispatchEvent(new MouseEvent('click'))}" style="position: fixed; bottom: 90px; left: 24px; width: 52px; height: 52px; border-radius: 50%; background-color: #1A6FD4; color: #ffffff; border: 2px solid #ffffff; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(26,111,212,0.5); z-index: 9998; transition: transform 0.2s ease,box-shadow 0.2s ease" onmouseenter="this.style.transform='scale(1.12)';this.style.boxShadow='0 6px 20px rgba(26,111,212,0.7)'" onmouseleave="this.style.transform='scale(1)';this.style.boxShadow='0 4px 16px rgba(26,111,212,0.5)'">
-  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm-1 4.5h2l1 3 2.5 1-.5 1.5-2.5-1L13 14h3l1 4h-2l-.75-3H11l-1.5-5.5L8 10.5 7 9l3-1L11 7zm-2 10a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm-2 0a6 6 0 1 1 12 0A6 6 0 0 1 7 17z"></path></svg>
-</button>
 
     <script src="/script.js"></script>
 
