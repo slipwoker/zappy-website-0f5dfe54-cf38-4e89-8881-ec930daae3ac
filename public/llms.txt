@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 34**
+**Total active products: 35**
+
+### חצאית איסמטרית
+https://hodayaboutique.co.il/product/chtsayt-aysmtryt-ssyyoh
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית איסמטרית בעיצוב מודרני ומדויק, עם גזרה מחמיאה שיוצרת מראה אלגנטי וייחודי. מתאימה לשילוב לוק יומי או ערב בסטייל נקי ועדכני. הבד נעים ואיכותי עם נוכחות מרשימה בכל הופעה. הדוגמנית לובשת מידה XS
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778358932057-qrmozh.webp
 
 ### בגד גוף סקיל שחור
 https://hodayaboutique.co.il/product/bgd-gvp-skyl-shchvr-ar34vx
