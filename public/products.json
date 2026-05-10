@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-10T05:36:32.716Z",
+  "generated_at": "2026-05-10T05:38:26.004Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 37,
+  "count": 38,
   "products": [
+    {
+      "id": "1b24af28-f021-4daf-902c-21202890e6af",
+      "slug": "chtsayt-byysyk-chvm-6it5x1",
+      "name": "חצאית בייסיק חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391443200-i59mto.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-chvm-6it5x1",
+      "categories": [],
+      "updated_at": "2026-05-10T05:38:01.125Z"
+    },
     {
       "id": "ffae7b97-e048-4fdb-b9c8-8f6943c612a0",
       "slug": "chtsayt-byysyk-apvrh-8gq3wx",
