@@ -736,7 +736,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1363,7 +1363,7 @@
 
 </section>
 
-<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl">
+<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl" id="contact-contact-form-section">
   <!-- Decorative background motif -->
   <div class="ccf-bg-motif" aria-hidden="true">
     <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true" aria-hidden="true">
@@ -1466,7 +1466,7 @@
               </div>
               <div class="ccf-info-content">
                 <strong>טלפון</strong>
-                <a href="tel:972557756758" class="ccf-contact-link">972557756758</a>
+                <a href="tel:972557756758" class="ccf-contact-link" data-native-element="true" data-element-id="btn-1778373829860-glrwdky3t" data-element-type="button" style="outline: currentcolor;">0557756758</a>
               </div>
             </div>
           </div>
@@ -1477,25 +1477,25 @@
           <div class="ccf-hours-block" data-element-id="element-ai-1777995666080-rp9x4n" data-element-type="section">
             <h4 class="ccf-hours-block-title">שעות פעילות</h4>
             <ul class="ccf-hours-list">
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="0">
                 <span class="ccf-hours-day">יום ראשון:</span>&nbsp;<span class="ccf-hours-time">09:00 - 20:00</span>
               </li>
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="1">
                 <span class="ccf-hours-day">יום שני:</span>&nbsp;<span class="ccf-hours-time">09:00 - 20:00</span>
               </li>
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="2">
                 <span class="ccf-hours-day">יום שלישי:</span>&nbsp;<span class="ccf-hours-time">09:00 - 20:00</span>
               </li>
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="3">
                 <span class="ccf-hours-day">יום רביעי:</span>&nbsp;<span class="ccf-hours-time">09:00 - 20:00</span>
               </li>
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="4">
                 <span class="ccf-hours-day">יום חמישי:</span>&nbsp;<span class="ccf-hours-time">09:00 - 20:00</span>
               </li>
-              <li class="ccf-hours-item">
+              <li class="ccf-hours-item" data-grid-item-index="5">
                 <span class="ccf-hours-day">יום שישי:</span>&nbsp;<span class="ccf-hours-time">09:00 - 14:00</span>
               </li>
-              <li class="ccf-hours-item ccf-hours-item--closed">
+              <li class="ccf-hours-item ccf-hours-item--closed" data-grid-item-index="6">
                 <span class="ccf-hours-day">יום שבת:</span>&nbsp;<span class="ccf-hours-time">סגור</span>
               </li>
             </ul>
@@ -1505,13 +1505,13 @@
 
           <div class="ccf-social-row">
             <a href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" target="_blank" rel="noopener" class="ccf-social-link" aria-label="אינסטגרם">
-              <i class="fab fa-instagram"></i>
+              <i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1778373818885-l694tmfiu" data-icon-type="fontawesome"></i>
             </a>
             <a href="https://facebook.com/share/18k5xXj3Rq/?mibextid=wwXIfr" target="_blank" rel="noopener" class="ccf-social-link" aria-label="פייסבוק">
               <i class="fab fa-facebook-f"></i>
             </a>
             <a href="https://wa.me/972557756758" target="_blank" rel="noopener" class="ccf-social-link" aria-label="וואטסאפ">
-              <i class="fab fa-whatsapp"></i>
+              <i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1778373818885-ve8s2fwom" data-icon-type="fontawesome"></i>
             </a>
           </div>
         </div>
@@ -1519,25 +1519,25 @@
 
       <!-- Contact Form Card -->
       <div class="ccf-form-card">
-        <form class="contact-form ccf-form" novalidate="">
+        <form class="contact-form ccf-form" novalidate="" __gchrome_uniqueid="1">
           <div class="ccf-field-group">
             <label class="ccf-label" for="ccf-name">שם מלא</label>
-            <input class="ccf-input" type="text" id="ccf-name" name="name" placeholder="השם שלכן" required="" autocomplete="name">
+            <input class="ccf-input" type="text" id="ccf-name" name="name" placeholder="השם שלכן" required="" autocomplete="name" __gchrome_uniqueid="2">
           </div>
 
           <div class="ccf-field-group">
             <label class="ccf-label" for="ccf-email">דוא"ל</label>
-            <input class="ccf-input" type="email" id="ccf-email" name="email" placeholder="כתובת הדוא&quot;ל שלכן" required="" autocomplete="email">
+            <input class="ccf-input" type="email" id="ccf-email" name="email" placeholder="כתובת הדוא&quot;ל שלכן" required="" autocomplete="email" __gchrome_uniqueid="3">
           </div>
 
           <div class="ccf-field-group">
             <label class="ccf-label" for="ccf-phone">טלפון</label>
-            <input class="ccf-input" type="tel" id="ccf-phone" name="phone" placeholder="מספר הטלפון שלכן" autocomplete="tel">
+            <input class="ccf-input" type="tel" id="ccf-phone" name="phone" placeholder="מספר הטלפון שלכן" autocomplete="tel" __gchrome_uniqueid="4">
           </div>
 
           <div class="ccf-field-group">
             <label class="ccf-label" for="ccf-message">הודעה</label>
-            <textarea class="ccf-input ccf-textarea" id="ccf-message" name="message" placeholder="ספרו לנו במה נוכל לעזור — שאלות על מידות, קולקציות, סגנון, ועוד..." required="" rows="5"></textarea>
+            <textarea class="ccf-input ccf-textarea" id="ccf-message" name="message" placeholder="ספרו לנו במה נוכל לעזור — שאלות על מידות, קולקציות, סגנון, ועוד..." required="" rows="5" __gchrome_uniqueid="5"></textarea>
           </div>
 
           <div class="privacy-consent">
@@ -1550,7 +1550,7 @@
             </label>
           </div>
 
-          <button type="submit" class="ccf-submit btn-primary">שלחו הודעה</button>
+          <button type="submit" class="ccf-submit btn-primary" data-element-type="button" data-element-id="btn-1778373818880-irzpj1krp" data-native-element="true">שלחו הודעה</button>
         </form>
       </div>
 
@@ -1770,7 +1770,7 @@
         <a href="/" class="footer-logo-link">
           <img src="/assets/logo.webp" alt="הודיה" class="logo" data-zappy-footer-image="true">
         </a>
-        <p class="footer-tagline" >אופנה צנועה ומעוצבת לאישה המודרנית.<br><br><br><br><br><br><br><br>סגנון שמדבר בשקט.</p>
+        <p class="footer-tagline" style="">אופנה צנועה ומעוצבת לאישה המודרנית.<br><br><br><br><br><br><br><br>סגנון שמדבר בשקט.</p>
         <div class="footer-social">
           <a href="https://facebook.com/share/18k5xXj3Rq/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1778220703400-twdiq7wuw" data-icon-type="fontawesome"></i></a>
@@ -1798,7 +1798,7 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1778002937144-pmtfgv27x" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="tel:972557756758">972557756758</a></span>
+            <span class="contact-text"><a href="tel:972557756758" style="">0557756758<br></a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">גבע 53, נתניה, ישראל, 4237353, ישראל</span></a></li>
@@ -1819,7 +1819,7 @@
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 הודיה. כל הזכויות שמורות.</p>
-      <div class="footer-legal" >
+      <div class="footer-legal" style="">
         <a href="/privacy">מדיניות פרטיות</a>
         <span class="footer-legal-sep"></span>
         <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
