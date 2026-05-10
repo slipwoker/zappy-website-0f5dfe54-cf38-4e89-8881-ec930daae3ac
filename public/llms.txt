@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 35**
+**Total active products: 36**
+
+### חצאית בייסיק צהובה
+https://hodayaboutique.co.il/product/chtsayt-byysyk-tshvbh-c53fkl
+- Price: 69.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨ בגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע. בד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778390993531-b52bq9.webp
 
 ### חצאית איסמטרית
 https://hodayaboutique.co.il/product/chtsayt-aysmtryt-xugk26
