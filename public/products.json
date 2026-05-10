@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-10T05:40:01.926Z",
+  "generated_at": "2026-05-10T05:41:52.613Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 39,
   "products": [
     {
       "id": "a70d68da-3daa-4134-b315-c7cddeeaef53",
-      "slug": "chtsayt-byysyk-vrvdh-8ief8f",
+      "slug": "chtsayt-byysyk-vrvdh-6m3g5y",
       "name": "חצאית בייסיק ורודה ",
       "name_translations": {},
       "description": "",
@@ -19,15 +19,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1778391552961-h4e1pe.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391634332-bk88gm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-8ief8f",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-6m3g5y",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-05-10T05:39:31.016Z"
+      "updated_at": "2026-05-10T05:41:24.594Z"
     },
     {
       "id": "1b24af28-f021-4daf-902c-21202890e6af",
