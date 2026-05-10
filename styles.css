@@ -19535,6 +19535,312 @@ main,
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* AI-generated section */
+/* ============================================
+   WhatsApp Join Section — הודיה
+   ============================================ */
+
+.wa-join-section {
+  position: relative;
+  background: linear-gradient(135deg, #1a0a2e 0%, #2d1052 40%, #1e0a3c 70%, #120520 100%);
+  padding: 90px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Decorative orbs */
+.wa-bg-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(80px);
+  opacity: 0.25;
+}
+
+.wa-bg-orb--1 {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, #7b2d8b 0%, transparent 70%);
+  top: -120px;
+  left: -100px;
+}
+
+.wa-bg-orb--2 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, #4a1060 0%, transparent 70%);
+  bottom: -80px;
+  right: -80px;
+}
+
+/* Container */
+.wa-container {
+  position: relative;
+  z-index: 2;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* WhatsApp Icon Badge */
+.wa-icon-badge {
+  width: 80px;
+  height: 80px;
+  background: rgba(37, 211, 102, 0.15);
+  border: 2px solid rgba(37, 211, 102, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  box-shadow: 0 0 30px rgba(37, 211, 102, 0.2), 0 0 60px rgba(37, 211, 102, 0.08);
+  animation: wa-pulse-badge 3s ease-in-out infinite;
+}
+
+@keyframes wa-pulse-badge {
+  0%, 100% { box-shadow: 0 0 30px rgba(37, 211, 102, 0.2), 0 0 60px rgba(37, 211, 102, 0.08); }
+  50% { box-shadow: 0 0 45px rgba(37, 211, 102, 0.35), 0 0 80px rgba(37, 211, 102, 0.15); }
+}
+
+.wa-main-icon {
+  width: 42px;
+  height: 42px;
+  color: #25d366;
+}
+
+/* Headline */
+.wa-headline {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheadline */
+.wa-subheadline {
+  font-size: clamp(1rem, 2.5vw, 1.15rem);
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  margin: 0 0 40px 0;
+  max-width: 520px;
+  font-weight: 400;
+}
+
+/* Benefits List */
+.wa-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 44px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 460px;
+}
+
+.wa-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 16px 22px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.wa-benefit-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(123, 45, 139, 0.5);
+  transform: translateX(-3px);
+}
+
+.wa-benefit-icon {
+  color: #c084fc;
+  font-size: 1rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.wa-benefit-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: right;
+}
+
+/* CTA Wrapper */
+.wa-cta-wrapper {
+  margin-bottom: 20px;
+}
+
+/* CTA Button */
+.wa-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  padding: 18px 36px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.35), 0 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.wa-cta-button:hover {
+  background: linear-gradient(135deg, #2de070 0%, #15a085 100%);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 14px 40px rgba(37, 211, 102, 0.5), 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.wa-cta-button:focus-visible {
+  outline: 3px solid #25d366;
+  outline-offset: 4px;
+}
+
+.wa-cta-button:active {
+  transform: translateY(-1px) scale(1.00);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+}
+
+.wa-btn-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.wa-btn-text {
+  color: #ffffff;
+}
+
+.wa-btn-arrow {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+  transition: transform 0.25s ease;
+  display: inline-block;
+}
+
+.wa-cta-button:hover .wa-btn-arrow {
+  transform: translateX(-4px);
+}
+
+/* Trust Note */
+.wa-trust-note {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+/* ============================================
+   Responsive — Mobile
+   ============================================ */
+@media (max-width: 768px) {
+  .wa-join-section {
+    padding: 70px 20px;
+  }
+
+  .wa-icon-badge {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 22px;
+  }
+
+  .wa-main-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .wa-headline {
+    font-size: 1.55rem;
+    margin-bottom: 14px;
+  }
+
+  .wa-subheadline {
+    font-size: 0.97rem;
+    margin-bottom: 30px;
+  }
+
+  .wa-benefits {
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+
+  .wa-benefit-item {
+    padding: 14px 18px;
+    gap: 12px;
+  }
+
+  .wa-benefit-text {
+    font-size: 0.95rem;
+  }
+
+  .wa-cta-button {
+    font-size: 1.05rem;
+    padding: 16px 28px;
+    gap: 10px;
+  }
+
+  .wa-btn-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .wa-bg-orb--1 {
+    width: 280px;
+    height: 280px;
+    top: -80px;
+    left: -80px;
+  }
+
+  .wa-bg-orb--2 {
+    width: 220px;
+    height: 220px;
+    bottom: -60px;
+    right: -60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .wa-join-section {
+    padding: 56px 16px;
+  }
+
+  .wa-headline {
+    font-size: 1.35rem;
+  }
+
+  .wa-cta-button {
+    width: 100%;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 16px 20px;
+  }
+
+  .wa-benefits {
+    width: 100%;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
