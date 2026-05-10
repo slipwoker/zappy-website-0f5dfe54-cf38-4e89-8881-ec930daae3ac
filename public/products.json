@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-10T05:33:55.614Z",
+  "generated_at": "2026-05-10T05:35:47.860Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 36,
+  "count": 37,
   "products": [
+    {
+      "id": "ffae7b97-e048-4fdb-b9c8-8f6943c612a0",
+      "slug": "chtsayt-byysyk-apvrh-8gq3wx",
+      "name": "חצאית בייסיק אפורה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391286971-bmnvid.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-apvrh-8gq3wx",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-10T05:35:38.732Z"
+    },
     {
       "id": "000cdadb-4c7f-4eec-91f9-244b250bcff3",
       "slug": "chtsayt-byysyk-tshvbh-c53fkl",
