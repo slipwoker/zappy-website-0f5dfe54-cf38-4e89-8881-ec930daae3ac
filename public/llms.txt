@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 38**
+**Total active products: 39**
+
+### חצאית בייסיק ורודה 
+https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-8ief8f
+- Price: 69.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨ בגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע. בד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-1778391552961-h4e1pe.webp
 
 ### חצאית בייסיק חום
 https://hodayaboutique.co.il/product/chtsayt-byysyk-chvm-6it5x1

@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-10T05:38:32.362Z",
+  "generated_at": "2026-05-10T05:40:01.926Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 38,
+  "count": 39,
   "products": [
+    {
+      "id": "a70d68da-3daa-4134-b315-c7cddeeaef53",
+      "slug": "chtsayt-byysyk-vrvdh-8ief8f",
+      "name": "חצאית בייסיק ורודה ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1778391552961-h4e1pe.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-8ief8f",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-10T05:39:31.016Z"
+    },
     {
       "id": "1b24af28-f021-4daf-902c-21202890e6af",
       "slug": "chtsayt-byysyk-chvm-6it5x1",
