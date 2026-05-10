@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-10T04:26:02.696Z",
+  "generated_at": "2026-05-10T05:06:32.559Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 35,
@@ -186,8 +186,8 @@
     },
     {
       "id": "fefeead5-d696-4754-8ddd-58a9ac1c6565",
-      "slug": "chtsayt-arb-rio3pt",
-      "name": "חצאית ערב",
+      "slug": "chtsayt-arb-lbnh-fwtckb",
+      "name": "חצאית ערב לבנה",
       "name_translations": {},
       "description": "",
       "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
@@ -203,11 +203,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-rio3pt",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-lbnh-fwtckb",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-10T05:06:01.662Z"
     },
     {
       "id": "f188c528-1331-4d17-9302-1fd30100d2e0",
