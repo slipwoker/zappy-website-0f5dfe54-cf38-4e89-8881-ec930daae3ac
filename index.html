@@ -1292,11 +1292,190 @@
 
 
 
-<section id="layout-1778371463052" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0px; direction: rtl;" data-component-id="empty-section">
-  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
-    
+<section id="hodaya-categories-section" class="hodaya-categories-section" dir="rtl">
+  <div class="hodaya-categories-container">
+    <div class="hodaya-categories-header">
+      <h2 class="hodaya-categories-title">קנו לפי קטגוריה</h2>
+      <p class="hodaya-categories-subtitle">גלי את הקולקציה שלנו — אופנה צנועה ואלגנטית לכל אירוע</p>
+    </div>
+    <div class="hodaya-categories-grid">
+
+      <!-- שמלות -->
+      <div class="hodaya-cat-card">
+        <div class="hodaya-cat-image-wrap">
+          <img src="/assets/image-1778350162698-svtfpy.webp" alt="שמלות" class="hodaya-cat-img">
+          <div class="hodaya-cat-overlay"></div>
+        </div>
+        <div class="hodaya-cat-content">
+          <h3 class="hodaya-cat-name">שמלות</h3>
+          <p class="hodaya-cat-desc">שמלות אלגנטיות לכל מנגנה</p>
+          <a href="/products?category=שמלות" class="hodaya-cat-btn">לקנייה ←</a>
+        </div>
+      </div>
+
+      <!-- חצאיות -->
+      <div class="hodaya-cat-card">
+        <div class="hodaya-cat-image-wrap">
+          <img src="/assets/image-1778350162698-svtfpy.webp" alt="חצאיות" class="hodaya-cat-img">
+          <div class="hodaya-cat-overlay"></div>
+        </div>
+        <div class="hodaya-cat-content">
+          <h3 class="hodaya-cat-name">חצאיות</h3>
+          <p class="hodaya-cat-desc">חצאיות צנועות ועכשוויות</p>
+          <a href="/products?category=חצאיות" class="hodaya-cat-btn">לקנייה ←</a>
+        </div>
+      </div>
+
+      <!-- חולצות -->
+      <div class="hodaya-cat-card">
+        <div class="hodaya-cat-image-wrap">
+          <img src="/assets/image-1778350162698-svtfpy.webp" alt="חולצות" class="hodaya-cat-img">
+          <div class="hodaya-cat-overlay"></div>
+        </div>
+        <div class="hodaya-cat-content">
+          <h3 class="hodaya-cat-name">חולצות</h3>
+          <p class="hodaya-cat-desc">חולצות נשיות עם סטייל</p>
+          <a href="/products?category=חולצות" class="hodaya-cat-btn">לקנייה ←</a>
+        </div>
+      </div>
+
+      <!-- חליפות -->
+      <div class="hodaya-cat-card">
+        <div class="hodaya-cat-image-wrap">
+          <img src="/assets/image-1778350162698-svtfpy.webp" alt="חליפות" class="hodaya-cat-img">
+          <div class="hodaya-cat-overlay"></div>
+        </div>
+        <div class="hodaya-cat-content">
+          <h3 class="hodaya-cat-name">חליפות</h3>
+          <p class="hodaya-cat-desc">חליפות מרשימות לאירועים מיוחדים</p>
+          <a href="/products?category=חליפות" class="hodaya-cat-btn">לקנייה ←</a>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
+
+<style>
+.hodaya-categories-section {
+  background: #FDFAF7;
+  padding: 80px 0;
+  direction: rtl;
+}
+.hodaya-categories-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.hodaya-categories-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.hodaya-categories-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111111;
+  margin: 0 0 12px;
+  letter-spacing: -0.02em;
+}
+.hodaya-categories-subtitle {
+  font-size: 1rem;
+  color: #555555;
+  margin: 0;
+}
+.hodaya-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.hodaya-cat-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #111111;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hodaya-cat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+.hodaya-cat-image-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hodaya-cat-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.4s ease;
+}
+.hodaya-cat-card:hover .hodaya-cat-img {
+  transform: scale(1.04);
+}
+.hodaya-cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 60%, transparent 100%);
+}
+.hodaya-cat-content {
+  position: relative;
+  z-index: 1;
+  padding: 28px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.hodaya-cat-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.hodaya-cat-desc {
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0;
+}
+.hodaya-cat-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 22px;
+  background: #ffffff;
+  color: #111111;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+  letter-spacing: 0.01em;
+}
+.hodaya-cat-btn:hover {
+  background: #6F2D5C;
+  color: #ffffff;
+  transform: translateX(-3px);
+}
+@media (max-width: 640px) {
+  .hodaya-categories-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .hodaya-cat-card {
+    min-height: 220px;
+  }
+  .hodaya-categories-title {
+    font-size: 1.5rem;
+  }
+}
+</style>
 
 
 
