@@ -20054,6 +20054,26 @@ main,
   }
 }
 
+
+.hodaya-categories-section .hodaya-categories-container {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.hodaya-categories-section .hodaya-categories-header {
+  padding: 60px 24px 40px;
+}
+
+.hodaya-categories-section .hodaya-categories-grid {
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 0 !important;
+}
+
+.hodaya-categories-section .hodaya-cat-card {
+  border-radius: 0 !important;
+  min-height: 380px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
