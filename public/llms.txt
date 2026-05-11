@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 39**
+**Total active products: 40**
+
+### שמלת מונה חומה
+https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-pf68sz
+- Price: 439.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778505469455-1bu2ja.webp
 
 ### חצאית בייסיק ורודה 
 https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-6m3g5y

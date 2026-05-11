@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-11T10:09:04.192Z",
+  "generated_at": "2026-05-11T13:20:40.098Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 39,
+  "count": 40,
   "products": [
+    {
+      "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
+      "slug": "shmlt-mvnh-chvmh-pf68sz",
+      "name": "שמלת מונה חומה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 439,
+      "base_price": 439,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505469455-1bu2ja.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505529178-2ibx7.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505499290-nc8ku9.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505557991-uq68u.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-pf68sz",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-11T13:20:26.119Z"
+    },
     {
       "id": "a70d68da-3daa-4134-b315-c7cddeeaef53",
       "slug": "chtsayt-byysyk-vrvdh-6m3g5y",
