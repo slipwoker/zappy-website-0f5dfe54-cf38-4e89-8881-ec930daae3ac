@@ -5645,7 +5645,7 @@ Hodayasuissa5@gmail.com
 ## Product Catalog
 
 ### שמלת מונה חומה
-URL: https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-pf68sz
+URL: https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-1lfuqu
 Price: 439.00 ILS
 Availability: In stock
 
@@ -5759,13 +5759,6 @@ Availability: In stock
 ### חליפת אריקה שחור
 URL: https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-bj5y1d
 Price: 369.00 ILS
-Availability: In stock
-
----
-
-### שמלת מונה
-URL: https://hodayaboutique.co.il/product/shmlt-mvnh-qlbxqy
-Price: 439.00 ILS
 Availability: In stock
 
 ---

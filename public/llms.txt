@@ -72,13 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 40**
+**Total active products: 39**
 
 ### שמלת מונה חומה
-https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-pf68sz
+https://hodayaboutique.co.il/product/shmlt-mvnh-chvmh-1lfuqu
 - Price: 439.00 ILS
 - Availability: In stock
 - Category: שמלות ערב
+- Description: שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778505469455-1bu2ja.webp
 
 ### חצאית בייסיק ורודה 
@@ -204,14 +205,6 @@ https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-bj5y1d
 - Category: חליפות
 - Description: חליפת שני חלקים, בגד גוף מבד מחטב בגזרה צמודה עם גולף, שרוולים ארוכים וכפפה ביד וחצאית עם קיפול לבן באורך מקסי. מידת הבגד על הדוגמנית XS
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778243914784-ctvseo.webp
-
-### שמלת מונה
-https://hodayaboutique.co.il/product/shmlt-mvnh-qlbxqy
-- Price: 439.00 ILS
-- Availability: In stock
-- Category: שמלות ערב
-- Description: שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0. צבע
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778239221585-44bn0e.webp
 
 ### שמלת מונה
 https://hodayaboutique.co.il/product/shmlt-mvnh-g0x9m7
