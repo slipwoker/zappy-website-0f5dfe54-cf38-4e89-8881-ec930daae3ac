@@ -737,7 +737,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1674,7 +1674,7 @@
   
   
 
-<section class="hodaya-hero-launch" aria-label="השקת האתר - מבצע מיוחד">
+<section class="hodaya-hero-launch" aria-label="השקת האתר - מבצע מיוחד" id="zappy-section-5">
   <!-- Decorative background elements -->
   <div class="hodaya-hero-bg-decor" aria-hidden="true">
     <div class="hodaya-decor-line hodaya-decor-line--top-left"></div>
@@ -1713,8 +1713,8 @@
     </div>
 
     <!-- Main headline -->
-    <h1 class="hodaya-hero-headline">
-      <span class="hodaya-headline-percent">20%</span>
+    <h1 class="hodaya-hero-headline" style="">
+      <span class="hodaya-headline-percent">15%</span>
       <span class="hodaya-headline-text">הנחה על כל הקולקציה</span>
     </h1>
 
@@ -1726,10 +1726,10 @@
 
     <!-- Coupon code -->
     <div class="hodaya-coupon-wrapper" aria-label="קוד קופון">
-      <span class="hodaya-coupon-label">קוד הקופון שלך</span>
-      <div class="hodaya-coupon-frame">
+      <p class="zappy-editable"><span class="hodaya-coupon-label">קוד הקופון שלך</span>
+      </p><div class="hodaya-coupon-frame">
         <span class="hodaya-coupon-dashes hodaya-coupon-dashes--right" aria-hidden="true"></span>
-        <button class="hodaya-coupon-code" onclick="hodayaCopyCoupon(this)" aria-label="לחצי להעתקת קוד הקופון HODAYA20">
+        <button class="hodaya-coupon-code" onclick="hodayaCopyCoupon(this)" aria-label="לחצי להעתקת קוד הקופון HODAYA20" data-element-type="button" data-element-id="btn-1778593651811-avgoaq2v8" data-native-element="true">
           <span class="hodaya-coupon-text">HODAYA20</span>
           <span class="hodaya-coupon-copy-icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
@@ -1744,22 +1744,19 @@
     <div class="hodaya-countdown" aria-label="ספירה לאחור לסיום המבצע" role="timer">
       <p class="hodaya-countdown-label">המבצע מסתיים בעוד</p>
       <div class="hodaya-countdown-units">
-        <div class="hodaya-countdown-unit">
-          <span class="hodaya-countdown-num" id="hodaya-days">00</span>
-          <span class="hodaya-countdown-unit-label">ימים</span>
-        </div>
-        <span class="hodaya-countdown-sep" aria-hidden="true">:</span>
-        <div class="hodaya-countdown-unit">
-          <span class="hodaya-countdown-num" id="hodaya-hours">00</span>
+        
+        <p class="zappy-editable"><span class="hodaya-countdown-sep" aria-hidden="true">:</span>
+        </p><div class="hodaya-countdown-unit">
+          <span class="hodaya-countdown-num" id="hodaya-hours" style="">23</span>
           <span class="hodaya-countdown-unit-label">שעות</span>
         </div>
-        <span class="hodaya-countdown-sep" aria-hidden="true">:</span>
-        <div class="hodaya-countdown-unit">
-          <span class="hodaya-countdown-num" id="hodaya-minutes">00</span>
+        <p class="zappy-editable"><span class="hodaya-countdown-sep" aria-hidden="true">:</span>
+        </p><div class="hodaya-countdown-unit">
+          <span class="hodaya-countdown-num" id="hodaya-minutes" style="">59</span>
           <span class="hodaya-countdown-unit-label">דקות</span>
         </div>
-        <span class="hodaya-countdown-sep" aria-hidden="true">:</span>
-        <div class="hodaya-countdown-unit">
+        <p class="zappy-editable"><span class="hodaya-countdown-sep" aria-hidden="true">:</span>
+        </p><div class="hodaya-countdown-unit">
           <span class="hodaya-countdown-num" id="hodaya-seconds">00</span>
           <span class="hodaya-countdown-unit-label">שניות</span>
         </div>
@@ -1805,7 +1802,7 @@
         <a href="/" class="footer-logo-link">
           <img src="/assets/logo.webp" alt="הודיה" class="logo" data-zappy-footer-image="true">
         </a>
-        <p class="footer-tagline" >אופנה צנועה ומעוצבת לאישה המודרנית.<br>סגנון שמדבר בשקט.</p>
+        <p class="footer-tagline" style="">אופנה צנועה ומעוצבת לאישה המודרנית.<br>סגנון שמדבר בשקט.</p>
         <div class="footer-social">
           <a href="https://facebook.com/share/18k5xXj3Rq/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" aria-label="Instagram" data-zappy-original-link="true" data-zappy-orig-href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" data-zappy-orig-target="" data-zappy-orig-rel="" data-zappy-click-action="link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1778220703400-twdiq7wuw" data-icon-type="fontawesome" style="font-size: 12px !important; color: rgb(255, 255, 255); cursor: pointer;" data-zappy-click-action="link"></i></a>
@@ -1833,7 +1830,7 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1778002937144-pmtfgv27x" data-icon-type="fontawesome"></i></span>
-            <span class="contact-text"><a href="tel:972557756758" >0557756758<br><br></a></span>
+            <span class="contact-text"><a href="tel:972557756758" style="">0557756758<br><br></a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">גבע 53, נתניה, ישראל, 4237353, ישראל</span></a></li>
@@ -1854,7 +1851,7 @@
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 הודיה. כל הזכויות שמורות.</p>
-      <div class="footer-legal" >
+      <div class="footer-legal" style="">
         <a href="/privacy">מדיניות פרטיות</a>
         <span class="footer-legal-sep"></span>
         <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
