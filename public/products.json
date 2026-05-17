@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T05:03:57.429Z",
+  "generated_at": "2026-05-17T09:15:04.499Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 39,
@@ -821,7 +821,7 @@
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
-      "slug": "lvryan-tchrh-lbnh-pdgjo7",
+      "slug": "lvryan-tchrh-lbnh-ceuz2p",
       "name": "לוריאן תחרה לבנה",
       "name_translations": {},
       "description": "",
@@ -833,15 +833,15 @@
       "sale_price": 189,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184852271-k70vdq.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779009264637-48mrbm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-pdgjo7",
+      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-ceuz2p",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-17T09:14:33.238Z"
     },
     {
       "id": "473c67e4-ca16-4d53-b721-474efeda7292",
