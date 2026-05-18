@@ -1467,6 +1467,8 @@ window.onload = function() {
 })();
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -10910,12 +10912,12 @@ function fixContrast(){
 
       var css = '';
       if (hPx !== 0 || vPx !== 0) css += sel + '{overflow:hidden!important}';
-      css += sel + '>[data-zappy-align-target]{' + t.join(';') + '}';
-      css += sel + '>[data-zappy-align-target]>*{' + c.join(';') + '}';
+      css += sel + ' [data-zappy-align-target]{' + t.join(';') + '}';
+      css += sel + ' [data-zappy-align-target]>*{' + c.join(';') + '}';
       css += '@media(max-width:768px){' +
-        sel + '>[data-zappy-align-target]{align-items:center!important;margin-left:auto!important;margin-right:auto!important;' +
+        sel + ' [data-zappy-align-target]{align-items:center!important;margin-left:auto!important;margin-right:auto!important;' +
         (vPx !== 0 ? 'transform:translateY(' + vPx + 'px)!important' : 'transform:none!important') +
-        '}' + sel + '>[data-zappy-align-target]>*{margin-left:auto!important;margin-right:auto!important}}';
+        '}' + sel + ' [data-zappy-align-target]>*{margin-left:auto!important;margin-right:auto!important}}';
 
       var s = document.createElement('style');
       s.setAttribute('data-zappy-align-style', 'true');
