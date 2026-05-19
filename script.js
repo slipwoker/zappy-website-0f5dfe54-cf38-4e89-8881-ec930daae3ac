@@ -9301,6 +9301,51 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* Added Component Script */
+(function () {
+  const modal = document.getElementById('vgalModal');
+  const closeBtn = document.getElementById('vgalClose');
+  const backdrop = modal ? modal.querySelector('.vgal-modal-backdrop') : null;
+  const items = document.querySelectorAll('.vgal-item');
+
+  function openModal() {
+    if (!modal) return;
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function closeModal() {
+    if (!modal) return;
+    modal.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  items.forEach(function (item) {
+    item.addEventListener('click', openModal);
+    item.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openModal();
+      }
+    });
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeModal);
+  }
+
+  if (backdrop) {
+    backdrop.addEventListener('click', closeModal);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal && !modal.hidden) {
+      closeModal();
+    }
+  });
+})();
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
