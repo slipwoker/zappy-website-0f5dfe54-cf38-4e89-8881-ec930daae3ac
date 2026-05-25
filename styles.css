@@ -21728,6 +21728,11 @@ main,
     font-size: 1.25rem;
   }
 }
+
+.checkout-section .checkout-accordion-header-left > div > div > span:nth-of-type(3) {
+  color: #0070f3 !important;
+  font-weight: 700;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
