@@ -11552,17 +11552,17 @@ nav.navbar .sub-menu li a:hover { color: #6F2D5C !important; background-color: r
 }
 
 .hodaya-categories-section .hodaya-categories-header {
-  padding: 60px 24px 40px;
+  padding: 48px 24px 32px;
 }
 
 .hodaya-categories-section .hodaya-categories-grid {
-  grid-template-columns: repeat(4, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 0 !important;
 }
 
 .hodaya-categories-section .hodaya-cat-card {
   border-radius: 0 !important;
-  min-height: 380px;
+  min-height: 320px;
 }
 
 /* AI-generated section */
