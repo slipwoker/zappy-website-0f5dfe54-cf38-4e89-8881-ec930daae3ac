@@ -1211,7 +1211,7 @@ Description: תשלום
 
 💳 אשראי
 |
-Bit
+bit
 |
 🍎 Apple Pay
 |
@@ -1223,16 +1223,6 @@ Google Pay
 
 
 טוען אפשרויות תשלום...
-
-אנו מקבלים:
-💳 כרטיס אשראי
-|
-Bit
-|
-🍎 Apple Pay
-|
-Google Pay
-
 
 הבא
 
