@@ -21740,23 +21740,6 @@ main,
   text-align: center !important;
   padding: 120px 40px 100px 40px !important;
 }
-
-#featured-categories .hodaya-cat-card::before {
-  content: 'NEW COLLECTION';
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0.92);
-  color: var(--text-color);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  padding: 5px 12px;
-  border-radius: 20px;
-  text-transform: uppercase;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
