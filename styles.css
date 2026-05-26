@@ -21740,6 +21740,20 @@ main,
   text-align: center !important;
   padding: 120px 40px 100px 40px !important;
 }
+
+#hodaya-hero .hodaya-hero__content {
+  align-items: center !important;
+  text-align: center !important;
+  padding: 120px 40px 100px 40px !important;
+}
+
+#hodaya-hero .hodaya-hero__cta-group {
+  justify-content: center !important;
+}
+
+#hodaya-hero .hodaya-hero__overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.25) 100%) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
