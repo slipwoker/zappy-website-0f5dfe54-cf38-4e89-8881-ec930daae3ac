@@ -1,10 +1,33 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T18:34:14.581Z",
+  "generated_at": "2026-05-26T18:43:08.194Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 39,
+  "count": 40,
   "products": [
+    {
+      "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
+      "slug": "shmlt-aryanh-s4qk4s",
+      "name": "שמלת אריאנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820703883-6epo68.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-s4qk4s",
+      "categories": [],
+      "updated_at": "2026-05-26T18:42:40.938Z"
+    },
     {
       "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
       "slug": "shmlt-mvnh-mvkh-kfjgl3",
