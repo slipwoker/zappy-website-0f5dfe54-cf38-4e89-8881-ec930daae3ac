@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T19:51:39.498Z",
+  "generated_at": "2026-05-26T19:52:14.539Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 46,
@@ -452,7 +452,7 @@
     },
     {
       "id": "2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43",
-      "slug": "chtsayt-arb-shchvr-zborlx",
+      "slug": "chtsayt-arb-shchvr-ky3a84",
       "name": "חצאית ערב שחור",
       "name_translations": {},
       "description": "",
@@ -469,11 +469,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-zborlx",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-ky3a84",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-05-08T14:09:40.100Z"
+      "updated_at": "2026-05-26T19:51:43.030Z"
     },
     {
       "id": "fefeead5-d696-4754-8ddd-58a9ac1c6565",
@@ -943,7 +943,7 @@
     },
     {
       "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
-      "slug": "ppyvn-tklt-5c9ctg",
+      "slug": "ppyvn-tklt-1r7m0h",
       "name": "פפיון תכלת",
       "name_translations": {},
       "description": "",
@@ -959,11 +959,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-5c9ctg",
+      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-1r7m0h",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-26T19:52:07.077Z"
     },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
