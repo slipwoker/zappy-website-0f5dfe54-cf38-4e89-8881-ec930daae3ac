@@ -11546,13 +11546,14 @@ nav.navbar .sub-menu li a:hover { color: #6F2D5C !important; background-color: r
 
 
 .hodaya-categories-section .hodaya-categories-container {
-  max-width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  max-width: 1200px !important;
+  padding: 0 24px !important;
+  margin: 0 auto !important;
 }
 
 .hodaya-categories-section .hodaya-categories-header {
   padding: 48px 24px 32px;
+  text-align: center;
 }
 
 .hodaya-categories-section .hodaya-categories-grid {
