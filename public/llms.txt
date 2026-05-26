@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 42**
+**Total active products: 43**
+
+### בגד ים אוריאן
+https://hodayaboutique.co.il/product/bgd-ym-avryan-n71eeh
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Description: בגד ים אוריאן בצבע תכלת – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💎 מעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק. הבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️ הדגם מגיע במידת One Size
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822296024-zpojhq.webp
 
 ### שמלת אריאנה בז׳
 https://hodayaboutique.co.il/product/shmlt-aryanh-bz-6ptm7m
