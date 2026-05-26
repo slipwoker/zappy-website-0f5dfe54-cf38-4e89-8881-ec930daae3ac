@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 43**
+**Total active products: 44**
+
+### בגד ים אוריאן ירוק
+https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-z6gu16
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Description: בגד ים אוריאן בצבע ירוק – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💚 מעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק. הבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️ הדגם מגיע במידת One Size
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822540880-ji4bs.webp
 
 ### בגד ים אוריאן
 https://hodayaboutique.co.il/product/bgd-ym-avryan-n71eeh
