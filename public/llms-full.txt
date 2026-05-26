@@ -1213,7 +1213,7 @@ Description: תשלום
 |
 bit
 |
-🍎 Apple Pay
+
 |
 Google Pay
 
