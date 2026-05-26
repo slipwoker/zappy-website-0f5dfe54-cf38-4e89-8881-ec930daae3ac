@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T19:48:10.638Z",
+  "generated_at": "2026-05-26T19:48:54.287Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 46,
@@ -1087,15 +1087,15 @@
     },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
-      "slug": "shmlt-nvam-mwff14",
+      "slug": "shmlt-nvam-xxa5rw",
       "name": "שמלת נועם",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת נועם היא הבחירה המושלמת למראה אלגנטי, נקי ומדויק שמדגיש את הגוף בצורה מחמיאה ועדינה.\n\nהשמלה מגיעה בגזרה צמודה שמלטפת את הקווים הטבעיים של הגוף ויוצרת מראה נשי ומוקפד, תוך שמירה על סטייל יוקרתי ולא מתאמץ. הצבע השחור הקלאסי מעניק לה מראה על-זמני שמתאים לכל אירוע – ערב, דייט או יציאה חגיגית.\n\nהדגש המיוחד בשמלה הוא האבזם הייחודי בעיצוב “אש”, שמוסיף טאץ’ עוצמתי וייחודי למראה כולו והופך את השמלה מפריט בסיסי לפריט עם אמירה. ניתן להסיר את האבזם לפי בחירה, כך שאפשר ליהנות ממראה נקי ומינימליסטי.",
       "sku": null,
       "brand": null,
-      "price": 169,
-      "base_price": 169,
+      "price": 199,
+      "base_price": 199,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -1106,24 +1106,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-mwff14",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-xxa5rw",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-26T19:48:22.987Z"
     },
     {
       "id": "20f9e928-5478-4dd8-87c5-85330953d529",
-      "slug": "shmlt-amvr-shkoqq",
+      "slug": "shmlt-amvr-rpp424",
       "name": "שמלת אמור",
       "name_translations": {},
       "description": "",
       "short_description": "\n שמלת נואר אלגנט\n\n\nשמלת ערב קלאסית ונשית בעיצוב נקי ומדויק, שמדגישה את קווי הגוף בצורה מחמיאה ומעניקה מראה יוקרתי ואלגנטי.\n\nהגזרה הצמודה משתלבת עם שרוולים ארוכים ופתח עדין באזור החזה, ליצירת לוק מתוחכם עם טאץ’ מודרני – מושלם לאירועים, ערב או הופעה מרשימה.\n",
       "sku": null,
       "brand": null,
-      "price": 169,
-      "base_price": 169,
+      "price": 199,
+      "base_price": 199,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -1134,12 +1134,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-amvr-shkoqq",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amvr-rpp424",
       "categories": [
         "שמלות",
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-26T19:48:43.440Z"
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
