@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T19:13:26.828Z",
+  "generated_at": "2026-05-26T19:17:11.032Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 45,
+  "count": 46,
   "products": [
+    {
+      "id": "41de5cae-0116-48f2-98d1-8f6acaa6a7cf",
+      "slug": "bgd-ym-avryan-chvm-ou8j4z",
+      "name": "בגד ים אוריאן חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים אוריאן בצבע חום – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 🤎\nמעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק.\n\nהבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️\n\nהדגם מגיע במידת One Size",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779822913547-1hjb2g.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-chvm-ou8j4z",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-05-26T19:17:09.952Z"
+    },
     {
       "id": "beb9610d-3f95-474d-9d6b-2cbba8f80cc8",
       "slug": "bgd-ym-avryan-kchvl-9xxxd1",
