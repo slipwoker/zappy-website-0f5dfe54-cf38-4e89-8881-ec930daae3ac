@@ -21733,6 +21733,12 @@ main,
   color: #0070f3 !important;
   font-weight: 700;
 }
+
+#hodaya-hero .hodaya-hero__content {
+  align-items: center !important;
+  text-align: center !important;
+  padding: 120px 40px 100px 40px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
