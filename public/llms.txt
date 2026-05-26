@@ -72,12 +72,21 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 40**
+**Total active products: 41**
 
-### שמלת אריאנה
-https://hodayaboutique.co.il/product/shmlt-aryanh-s4qk4s
+### שמלת עדן
+https://hodayaboutique.co.il/product/shmlt-adn-4xf4z5
 - Price: 749.00 ILS
 - Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת עדן בצבע תכלת – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין. מעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי. הצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779821107584-r0cp4.webp
+
+### שמלת אריאנה
+https://hodayaboutique.co.il/product/shmlt-aryanh-ok7abb
+- Price: 749.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
 - Description: שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד. מעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp
 
