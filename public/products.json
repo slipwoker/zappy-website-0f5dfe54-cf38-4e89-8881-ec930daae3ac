@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T18:57:23.343Z",
+  "generated_at": "2026-05-26T18:58:16.858Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 42,
@@ -32,7 +32,7 @@
     },
     {
       "id": "7124803c-9507-4b1d-bdd6-d431e747f327",
-      "slug": "shmlt-adn-4xf4z5",
+      "slug": "shmlt-adn-gcfzne",
       "name": "שמלת עדן",
       "name_translations": {},
       "description": "",
@@ -48,16 +48,16 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-adn-4xf4z5",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-gcfzne",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-26T18:51:06.793Z"
+      "updated_at": "2026-05-26T18:58:03.376Z"
     },
     {
       "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
-      "slug": "shmlt-aryanh-zymbst",
-      "name": "שמלת אריאנה",
+      "slug": "shmlt-aryanh-chvm-ns9bk8",
+      "name": "שמלת אריאנה חום",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף\nהדוגמנית לובשת מידה 1\nניתן להצניע ",
@@ -73,11 +73,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-zymbst",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-ns9bk8",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-26T18:51:47.742Z"
+      "updated_at": "2026-05-26T18:57:45.645Z"
     },
     {
       "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
