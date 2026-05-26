@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T19:52:38.297Z",
+  "generated_at": "2026-05-26T19:53:28.130Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 46,
@@ -1143,7 +1143,7 @@
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
-      "slug": "chlypt-yryn-ppkemf",
+      "slug": "chlypt-yryn-ivau80",
       "name": "חליפת ירין",
       "name_translations": {},
       "description": "",
@@ -1159,11 +1159,11 @@
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-ppkemf",
+      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-ivau80",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-26T19:53:05.702Z"
     }
   ]
 }
