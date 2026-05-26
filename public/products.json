@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-26T19:47:31.398Z",
+  "generated_at": "2026-05-26T19:48:10.638Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 46,
@@ -635,15 +635,15 @@
     },
     {
       "id": "7d6be071-9322-4fb8-86d6-d4d8f14a518b",
-      "slug": "shmchh-tchrh-shchvrh-dx1nj6",
+      "slug": "shmchh-tchrh-shchvrh-oims4u",
       "name": "שמחה תחרה שחורה",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת מקסי עם תחרה עשירה וגזרה מחטבת. החלק העליון כולל צווארון סגור ועיטורי מחוך עדין שמוסיף מבנה ואלגנטיות. מתאימה לערב ולאירועים, ומשלבת קלאסיות עם טוויסט מודרני. מידת הבגד על הדוגמנית 0.",
       "sku": null,
       "brand": null,
-      "price": 249,
-      "base_price": 249,
+      "price": 289,
+      "base_price": 289,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -654,12 +654,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmchh-tchrh-shchvrh-dx1nj6",
+      "url": "https://hodayaboutique.co.il/product/shmchh-tchrh-shchvrh-oims4u",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-05-26T19:47:39.396Z"
     },
     {
       "id": "51d2cc04-d683-4907-947a-6a99a100d7f0",
