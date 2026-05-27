@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-27T18:50:49.870Z",
+  "generated_at": "2026-05-27T18:52:34.153Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 48,
+  "count": 49,
   "products": [
+    {
+      "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
+      "slug": "shmlt-aryanh-tshvb-6kvn4j",
+      "name": "שמלת אריאנה צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-tshvb-6kvn4j",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-27T18:52:02.501Z"
+    },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
       "slug": "shmlt-avdry-pvdrh-1g90z9",
