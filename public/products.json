@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-27T18:53:57.825Z",
+  "generated_at": "2026-05-27T18:54:41.332Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 49,
@@ -200,8 +200,8 @@
     },
     {
       "id": "7124803c-9507-4b1d-bdd6-d431e747f327",
-      "slug": "shmlt-adn-gcfzne",
-      "name": "שמלת עדן",
+      "slug": "shmlt-adn-tklt-9leowe",
+      "name": "שמלת עדן תכלת",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת עדן בצבע תכלת – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין.\nמעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי.\n\nהצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎\n\n",
@@ -216,11 +216,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-adn-gcfzne",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tklt-9leowe",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-26T18:58:03.376Z"
+      "updated_at": "2026-05-27T18:54:10.319Z"
     },
     {
       "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
