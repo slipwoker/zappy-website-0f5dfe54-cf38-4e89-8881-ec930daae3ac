@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-27T18:52:34.153Z",
+  "generated_at": "2026-05-27T18:53:57.825Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 49,
   "products": [
     {
       "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
-      "slug": "shmlt-aryanh-tshvb-6kvn4j",
-      "name": "שמלת אריאנה צהוב",
+      "slug": "shmlt-adn-tshvb-tml19u",
+      "name": "שמלת עדן צהוב",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין.\nמעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי.\n\nהצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎\n",
       "sku": null,
       "brand": null,
       "price": 749,
@@ -23,11 +23,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-tshvb-6kvn4j",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tshvb-tml19u",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-27T18:52:02.501Z"
+      "updated_at": "2026-05-27T18:53:26.619Z"
     },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
