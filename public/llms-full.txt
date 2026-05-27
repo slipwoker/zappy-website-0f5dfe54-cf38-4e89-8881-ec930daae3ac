@@ -6130,10 +6130,3 @@ Availability: In stock
 
 ---
 
-### חליפת ירין
-URL: https://hodayaboutique.co.il/product/chlypt-yryn-ivau80
-Price: 169.00 ILS
-Availability: Out of stock
-
----
-

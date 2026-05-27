@@ -72,7 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 49**
+**Total active products: 48**
 
 ### שמלת עדן צהוב
 https://hodayaboutique.co.il/product/shmlt-adn-tshvb-tml19u
@@ -451,14 +451,6 @@ https://hodayaboutique.co.il/product/shmlt-amvr-rpp424
 - Category: שמלות
 - Description: שמלת נואר אלגנט שמלת ערב קלאסית ונשית בעיצוב נקי ומדויק, שמדגישה את קווי הגוף בצורה מחמיאה ומעניקה מראה יוקרתי ואלגנטי. הגזרה הצמודה משתלבת עם שרוולים ארוכים ופתח עדין באזור החזה, ליצירת לוק מתוחכם עם טאץ’ מודרני – מושלם לאירועים, ערב או הופעה מרשימה.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778186037939-raxyi.webp
-
-### חליפת ירין
-https://hodayaboutique.co.il/product/chlypt-yryn-ivau80
-- Price: 169.00 ILS
-- Availability: Out of stock
-- Category: חליפות
-- Description: חליפה ירוקה בגזרה מחויטת ועדינה, מושלמת ליום-יום עם מראה נקי, נוח ומלא סטייל. החליפה מגיעה בגוון ירוק אלגנטי שמוסיף צבע רענן ללוק היומיומי בלי להיות מוגזם. הגזרה נוחה ומחמיאה, מאפשרת תנועה חופשית ונוחות לאורך כל היום, תוך שמירה על מראה מסודר ומוקפד
-- Image: https://hodayaboutique.co.il/assets/product-enhanced-1778072447091-jm59or.webp
 
 ---
 
