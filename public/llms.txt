@@ -72,7 +72,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 49**
+**Total active products: 50**
+
+### מוצר בדיקת תשלום
+https://hodayaboutique.co.il/product/mvtsr-bdykt-tshlvm-bco7rg
+- Price: 5.00 ILS
+- Availability: In stock
+- Category: חולצות
 
 ### שמלת עדן צהוב
 https://hodayaboutique.co.il/product/shmlt-adn-tshvb-tml19u
