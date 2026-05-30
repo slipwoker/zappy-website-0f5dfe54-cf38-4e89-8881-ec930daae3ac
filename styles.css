@@ -21755,6 +21755,8 @@ main,
 }
 /* Batch: תיקון לחיצות כפתור וואטסאפ צף בכל העמודים */
 body a.whatsapp-float { z-index: 99999 !important; pointer-events: auto !important; cursor: pointer !important; position: fixed !important; }
+/* Batch: כפתור וואטסאפ צף — כפיית נראות ועיצוב בכל העמודים */
+a.whatsapp-float { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; position: fixed !important; bottom: 24px !important; left: 24px !important; right: auto !important; width: 56px !important; height: 56px !important; background-color: #25D366 !important; border-radius: 50% !important; align-items: center !important; justify-content: center !important; box-shadow: 0 4px 16px rgba(37,211,102,0.4) !important; z-index: 999999 !important; text-decoration: none !important; } a.whatsapp-float i.fa-whatsapp { color: #ffffff !important; font-size: 28px !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
