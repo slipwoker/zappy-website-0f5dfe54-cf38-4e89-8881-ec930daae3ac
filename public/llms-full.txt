@@ -140,6 +140,14 @@ Description: הודיה בוטיק — אופנה צנועה לנשים עם ס�
 
 
 
+Your browser does not support the video tag.
+
+
+
+
+
+
+
 
 
 
@@ -5730,76 +5738,6 @@ Hodayasuissa5@gmail.com
 ---
 
 ## Product Catalog
-
-### חליפת ירין
-URL: https://hodayaboutique.co.il/product/chlypt-yryn-8xdiur
-Price: 169.00 ILS
-Availability: In stock
-
----
-
-### שמלת אמור
-URL: https://hodayaboutique.co.il/product/shmlt-amvr-01w9d7
-Price: 169.00 ILS
-Availability: In stock
-
----
-
-### חולצת נועה בייסיק
-URL: https://hodayaboutique.co.il/product/chvltst-nvah-byysyk-ars8hq
-Price: 69.00 ILS
-Availability: In stock
-
----
-
-### לוריאן תחרה לבנה
-URL: https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-pgre9s
-Price: 189.00 ILS (sale, was 199.00 ILS)
-Availability: In stock
-
----
-
-### פינק שיק
-URL: https://hodayaboutique.co.il/product/pynk-shyk-y24bk8
-Price: 169.00 ILS
-Availability: In stock
-
----
-
-### חצאית לוריין תחרה שחורה
-URL: https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-orjb1r
-Price: 99.00 ILS
-Availability: In stock
-
----
-
-### אור לילי
-URL: https://hodayaboutique.co.il/product/avr-lyly-2gq26i
-Price: 179.00 ILS
-Availability: In stock
-
----
-
-### פפיון תכלת
-URL: https://hodayaboutique.co.il/product/ppyvn-tklt-k9l3fd
-Price: 169.00 ILS
-Availability: In stock
-
----
-
-### שמלת נועם
-URL: https://hodayaboutique.co.il/product/shmlt-nvam-x4a4nx
-Price: 169.00 ILS
-Availability: In stock
-
----
-
-### שמלת איידן שחור
-URL: https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-4otnuw
-Price: 279.00 ILS
-Availability: In stock
-
----
 
 ### אור לבן
 URL: https://hodayaboutique.co.il/product/avr-lbn-9ucxrr
