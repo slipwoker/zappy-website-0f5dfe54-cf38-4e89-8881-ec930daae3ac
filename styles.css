@@ -21740,6 +21740,19 @@ main,
   text-align: center !important;
   padding: 120px 40px 100px 40px !important;
 }
+
+#hodaya-hero .hodaya-hero__cta-group {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto !important;
+}
+
+#hodaya-hero .hodaya-hero__cta-group a {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  position: relative;
+  z-index: 10;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
