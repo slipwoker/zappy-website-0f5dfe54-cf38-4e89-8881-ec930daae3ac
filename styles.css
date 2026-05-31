@@ -21809,6 +21809,10 @@ nav.navbar img.logo, .navbar img.logo {
 .navbar .nav-brand, .navbar .logo-link {
   background-color: var(--nav-bg) !important;
 }
+
+.navbar .logo {
+  mix-blend-mode: multiply;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
