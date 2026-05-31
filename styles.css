@@ -21793,6 +21793,10 @@ a.whatsapp-float { display: flex !important; visibility: visible !important; opa
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+nav.navbar img.logo, .navbar img.logo {
+  filter: brightness(0) invert(1) sepia(1) saturate(0.3) hue-rotate(5deg) brightness(0.97);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
