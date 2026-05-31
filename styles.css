@@ -21805,6 +21805,10 @@ nav.navbar img.logo, .navbar img.logo {
 nav.navbar img.logo, .navbar img.logo {
   filter: none !important;
 }
+
+.navbar .nav-brand, .navbar .logo-link {
+  background-color: var(--nav-bg) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
