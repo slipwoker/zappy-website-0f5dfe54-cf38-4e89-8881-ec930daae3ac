@@ -21813,6 +21813,11 @@ nav.navbar img.logo, .navbar img.logo {
 .navbar .logo {
   mix-blend-mode: multiply;
 }
+
+.navbar .logo {
+  background-color: transparent !important;
+  mix-blend-mode: normal !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
