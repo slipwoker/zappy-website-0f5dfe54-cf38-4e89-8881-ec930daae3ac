@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 31 May 2026 11:22:15 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 11:23:26 GMT</lastBuildDate>
     <item>
       <g:id>2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c__d5a91e95-ee00-4fbd-8dde-674211c0ea90</g:id>
       <g:title>שמלת עדן צהוב - 1</g:title>
@@ -182,10 +182,26 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12</g:id>
-      <g:title>שמלת אריאנה חום</g:title>
+      <g:id>c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12__394aa882-b603-4c3a-a66e-16d766819de5</g:id>
+      <g:title>שמלת אריאנה חום - חום / 0</g:title>
       <g:description>שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד. מעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף הדוגמנית לובשת מידה 1 ניתן להצניע</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-ns9bk8</g:link>
+      <g:item_group_id>c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1779820703883-6epo68.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>749.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12__d95a1ef4-4f42-4eff-850e-d7eb4a21e5e2</g:id>
+      <g:title>שמלת אריאנה חום - חום / 1</g:title>
+      <g:description>שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד. מעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף הדוגמנית לובשת מידה 1 ניתן להצניע</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-ns9bk8</g:link>
+      <g:item_group_id>c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1779820703883-6epo68.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
