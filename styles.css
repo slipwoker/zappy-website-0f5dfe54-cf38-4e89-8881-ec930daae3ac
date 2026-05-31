@@ -21818,6 +21818,11 @@ nav.navbar img.logo, .navbar img.logo {
   background-color: transparent !important;
   mix-blend-mode: normal !important;
 }
+
+.navbar .nav-brand, .navbar .logo-link {
+  background-color: transparent !important;
+  background: transparent !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
