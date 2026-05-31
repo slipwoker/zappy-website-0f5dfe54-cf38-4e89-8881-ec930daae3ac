@@ -21783,6 +21783,10 @@ a.whatsapp-float { display: flex !important; visibility: visible !important; opa
 .wa-join-section .wa-main-icon {
   color: var(--primary-color) !important;
 }
+
+.navbar .logo-link img.logo, .navbar .nav-brand img.logo {
+  background-color: rgb(250, 247, 242);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
