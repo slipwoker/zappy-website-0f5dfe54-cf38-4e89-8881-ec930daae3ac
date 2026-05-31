@@ -21823,6 +21823,10 @@ nav.navbar img.logo, .navbar img.logo {
   background-color: transparent !important;
   background: transparent !important;
 }
+
+:root {
+  --nav-bg: #FAF7F2;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
