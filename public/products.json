@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:04:48.301Z",
+  "generated_at": "2026-06-03T18:07:08.490Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 56,
   "products": [
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
-      "slug": "shmlt-alyh-tshvb-af6522",
+      "slug": "shmlt-alyh-tshvb-posyrh",
       "name": "שמלת אליה צהוב",
       "name_translations": {},
       "description": "",
@@ -19,19 +19,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780509757096-5yzh2.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509784164-9ie01.webp",
         "https://hodayaboutique.co.il/assets/product-1780509767025-1uny79.webp",
         "https://hodayaboutique.co.il/assets/product-1780509776024-s8z56b.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509784164-9ie01.webp",
         "https://hodayaboutique.co.il/assets/product-1780509792617-xmiyh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-af6522",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-posyrh",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-03T18:04:03.307Z"
+      "updated_at": "2026-06-03T18:06:37.278Z"
     },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
