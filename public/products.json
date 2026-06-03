@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:26:39.399Z",
+  "generated_at": "2026-06-03T18:27:45.235Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
   "products": [
     {
       "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
-      "slug": "shmlt-nvah-xp8rg4",
+      "slug": "shmlt-nvah-ciyygi",
       "name": "שמלת נועה",
       "name_translations": {},
       "description": "",
@@ -27,12 +27,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-xp8rg4",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-ciyygi",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-03T18:26:07.908Z"
+      "updated_at": "2026-06-03T18:27:14.109Z"
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
