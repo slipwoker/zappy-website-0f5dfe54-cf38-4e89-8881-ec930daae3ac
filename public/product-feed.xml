@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Wed, 03 Jun 2026 10:20:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 10:20:51 GMT</lastBuildDate>
     <item>
       <g:id>2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c__d5a91e95-ee00-4fbd-8dde-674211c0ea90</g:id>
       <g:title>שמלת עדן צהוב - 1</g:title>
@@ -1531,6 +1531,22 @@
       <g:product_type>חולצות</g:product_type>
     </item>
     <item>
+      <g:id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5__b9756318-b1b9-4887-bcfa-e5f183ffc252</g:id>
+      <g:title>טי שרט נובה שחור - XS / Black</g:title>
+      <g:description>טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq</g:link>
+      <g:item_group_id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235837885-vzlshd.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235797062-112hyb.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>69.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חולצות</g:product_type>
+    </item>
+    <item>
       <g:id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5__57196a67-69ca-4a99-9ac3-80f2bd636be8</g:id>
       <g:title>טי שרט נובה שחור - M / Black</g:title>
       <g:description>טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.</g:description>
@@ -1565,22 +1581,6 @@
     <item>
       <g:id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5__c1ff8021-907b-49d9-bafe-b67b9a23be49</g:id>
       <g:title>טי שרט נובה שחור - XL / Black</g:title>
-      <g:description>טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.</g:description>
-      <g:link>https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq</g:link>
-      <g:item_group_id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5</g:item_group_id>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235837885-vzlshd.webp</g:additional_image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778235797062-112hyb.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>69.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>חולצות</g:product_type>
-    </item>
-    <item>
-      <g:id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5__b9756318-b1b9-4887-bcfa-e5f183ffc252</g:id>
-      <g:title>טי שרט נובה שחור - XS / Black</g:title>
       <g:description>טי שרט בגזרת אובר סייז עם שרוול 3/4. מידת הבגד על הדוגמנית XS.</g:description>
       <g:link>https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq</g:link>
       <g:item_group_id>eeb4b4b3-d9be-49f0-93f7-d14e68620cb5</g:item_group_id>
