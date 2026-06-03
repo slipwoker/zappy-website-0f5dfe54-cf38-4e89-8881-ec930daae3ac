@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T13:07:28.300Z",
+  "generated_at": "2026-06-03T13:08:34.617Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 52,
+  "count": 53,
   "products": [
+    {
+      "id": "8e55a0a1-4acb-4d95-960b-9dec8b9ea28a",
+      "slug": "chtsayt-plysh-lbnh-suns9r",
+      "name": "חצאית פליסה לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780492048307-0iv45pj.webp",
+        "https://hodayaboutique.co.il/assets/product-1780492057912-vsainf.webp",
+        "https://hodayaboutique.co.il/assets/product-1780492071329-no5ku.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-lbnh-suns9r",
+      "categories": [],
+      "updated_at": "2026-06-03T13:08:11.785Z"
+    },
     {
       "id": "a5453fb7-2f96-4596-a9e2-13ffe7f5ab9c",
       "slug": "chtsayt-satn-pvdrh-4e5frh",
