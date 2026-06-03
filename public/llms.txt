@@ -75,10 +75,10 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 53**
 
 ### חצאית פליסה לבנה
-https://hodayaboutique.co.il/product/chtsayt-plysh-lbnh-suns9r
+https://hodayaboutique.co.il/product/chtsayt-plysh-lbnh-sa84d6
 - Price: 99.00 ILS
 - Availability: In stock
-- Image: https://hodayaboutique.co.il/assets/product-1780492048307-0iv45pj.webp
+- Image: https://hodayaboutique.co.il/assets/product-1780508991208-ao5e1d.webp
 
 ### חצאית סאטן פודרה
 https://hodayaboutique.co.il/product/chtsayt-satn-pvdrh-4e5frh
