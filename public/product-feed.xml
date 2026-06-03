@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Wed, 03 Jun 2026 10:23:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 10:24:59 GMT</lastBuildDate>
     <item>
       <g:id>2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c__d5a91e95-ee00-4fbd-8dde-674211c0ea90</g:id>
       <g:title>שמלת עדן צהוב - 1</g:title>
@@ -1670,8 +1670,8 @@
       <g:product_type>חולצות</g:product_type>
     </item>
     <item>
-      <g:id>22668127-8938-4603-b908-7d8d2345c157__ffd81119-3cec-4fdd-bebc-99fa9d0aa295</g:id>
-      <g:title>שמלת איידן כחול - L / לבן כחול</g:title>
+      <g:id>22668127-8938-4603-b908-7d8d2345c157__1457c747-cb80-494a-87b1-7a73fe0433aa</g:id>
+      <g:title>שמלת איידן כחול - S / לבן כחול</g:title>
       <g:description>שמלת מקסי סריג בגזרה צמודה ומחמיאה עם טקסטורת פסים לאורך כוללת שרוולים ארוכים מתרחבים קלות וצווארון עגול קלאסי. הדוגמנית לובשת מידה XS.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-ayydn-kchvl-3f1c1h</g:link>
       <g:item_group_id>22668127-8938-4603-b908-7d8d2345c157</g:item_group_id>
@@ -1702,8 +1702,8 @@
       <g:product_type>שמלות</g:product_type>
     </item>
     <item>
-      <g:id>22668127-8938-4603-b908-7d8d2345c157__1457c747-cb80-494a-87b1-7a73fe0433aa</g:id>
-      <g:title>שמלת איידן כחול - S / לבן כחול</g:title>
+      <g:id>22668127-8938-4603-b908-7d8d2345c157__ffd81119-3cec-4fdd-bebc-99fa9d0aa295</g:id>
+      <g:title>שמלת איידן כחול - L / לבן כחול</g:title>
       <g:description>שמלת מקסי סריג בגזרה צמודה ומחמיאה עם טקסטורת פסים לאורך כוללת שרוולים ארוכים מתרחבים קלות וצווארון עגול קלאסי. הדוגמנית לובשת מידה XS.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-ayydn-kchvl-3f1c1h</g:link>
       <g:item_group_id>22668127-8938-4603-b908-7d8d2345c157</g:item_group_id>
@@ -1758,7 +1758,7 @@
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234567874-f47clc.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234526291-6hq5mx.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778234605310-crht8.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
       <g:price>279.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
