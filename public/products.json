@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:11:40.179Z",
+  "generated_at": "2026-06-03T18:15:21.447Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 57,
+  "count": 58,
   "products": [
+    {
+      "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
+      "slug": "gblyh-nvr-bd430j",
+      "name": "ג׳בליה נור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "גלביית נור בשילוב שחור ולבן – פריט אלגנטי ומרשים המשלב קווים קלאסיים עם סטייל מודרני. הגזרה הנשפכת מעניקה נוחות מרבית ומראה מחמיא, בעוד שילוב הצבעים יוצר נוכחות יוקרתית וייחודית. מושלמת לאירועים, לשבת או לכל מי שאוהבת מראה צנוע ומוקפד. הדוגמנית לובשת מידה XS",
+      "sku": null,
+      "brand": null,
+      "price": 109,
+      "base_price": 109,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780510326313-zslk7.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510316089-lq1vn5.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510335694-u0tznl.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510344815-k4rjr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-bd430j",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-03T18:15:04.902Z"
+    },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
       "slug": "chlypt-tayr-bz-9w0ren",
