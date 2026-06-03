@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:58:59.200Z",
+  "generated_at": "2026-06-03T19:01:08.657Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
@@ -90,7 +90,7 @@
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
-      "slug": "chlypt-tayr-bz-9w0ren",
+      "slug": "chlypt-tayr-bz-egzome",
       "name": "חליפת תאיר בז",
       "name_translations": {},
       "description": "",
@@ -110,11 +110,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-9w0ren",
+      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-egzome",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-03T18:10:51.404Z"
+      "updated_at": "2026-06-03T19:00:48.952Z"
     },
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
