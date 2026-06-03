@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T13:05:41.965Z",
+  "generated_at": "2026-06-03T13:07:28.300Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 51,
+  "count": 52,
   "products": [
+    {
+      "id": "a5453fb7-2f96-4596-a9e2-13ffe7f5ab9c",
+      "slug": "chtsayt-satn-pvdrh-4e5frh",
+      "name": "חצאית סאטן פודרה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 89,
+      "base_price": 89,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780491949789-nxg1cj.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491983916-bgsyep.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491961039-urmob.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-satn-pvdrh-4e5frh",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-03T13:06:57.073Z"
+    },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
       "slug": "chtsayt-plysh-chvmh-7hf14w",
