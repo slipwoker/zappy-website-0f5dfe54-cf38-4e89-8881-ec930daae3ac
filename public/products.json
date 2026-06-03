@@ -1,10 +1,39 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T17:50:42.475Z",
+  "generated_at": "2026-06-03T17:54:42.827Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 53,
+  "count": 54,
   "products": [
+    {
+      "id": "321acf8c-3161-416f-920c-8af06cc94f64",
+      "slug": "shmlt-mylanv-5dxlou",
+      "name": "שמלת מילאנו",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי “מילאנו” בצבע שחור\n\nשמלת מקסי צנועה ואלגנטית בגזרה ישרה ונשפכת, המשלבת נוחות מקסימלית עם מראה יוקרתי ועדכני.\nהעיצוב הנקי והקלאסי מעניק מראה מחמיא לכל מבנה גוף, בעוד השרוולים הרחבים בשילוב חפתים שקופים ועדינים מוסיפים טאץ’ אופנתי וייחודי.\n\n גזרת אוברסייז נינוחה\n אורך מקסי מלא\n שרוולים רחבים עם שילוב בד שקוף בקצוות\n בד נעים ונוח ללבישה לאורך כל היום\n",
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509029775-o3qq7f.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509038134-8ohglk.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509046468-zwdtkd.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509054725-42l7ic.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509063182-8tkjrr.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509071678-p3qe6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mylanv-5dxlou",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-03T17:53:57.046Z"
+    },
     {
       "id": "8e55a0a1-4acb-4d95-960b-9dec8b9ea28a",
       "slug": "chtsayt-plysh-lbnh-sa84d6",

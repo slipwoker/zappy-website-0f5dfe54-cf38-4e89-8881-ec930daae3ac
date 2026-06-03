@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 53**
+**Total active products: 54**
+
+### שמלת מילאנו
+https://hodayaboutique.co.il/product/shmlt-mylanv-5dxlou
+- Price: 149.00 ILS
+- Availability: In stock
+- Category: שמלות
+- Description: שמלת מקסי “מילאנו” בצבע שחור שמלת מקסי צנועה ואלגנטית בגזרה ישרה ונשפכת, המשלבת נוחות מקסימלית עם מראה יוקרתי ועדכני. העיצוב הנקי והקלאסי מעניק מראה מחמיא לכל מבנה גוף, בעוד השרוולים הרחבים בשילוב חפתים שקופים ועדינים מוסיפים טאץ’ אופנתי וייחודי. גזרת אוברסייז נינוחה אורך מקסי מלא שרוולים רחבים עם שילוב בד שקוף בקצוות בד נעים ונוח ללבישה לאורך כל היום
+- Image: https://hodayaboutique.co.il/assets/product-1780509029775-o3qq7f.webp
 
 ### חצאית פליסה לבנה
 https://hodayaboutique.co.il/product/chtsayt-plysh-lbnh-sa84d6
