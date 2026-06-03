@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:35:53.766Z",
+  "generated_at": "2026-06-03T18:38:45.379Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
@@ -252,15 +252,15 @@
     },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
-      "slug": "chtsayt-plysh-chvmh-7hf14w",
+      "slug": "chtsayt-plysh-chvmh-oidcnl",
       "name": "חצאית פליסה חומה",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חצאית פליסה חומה בגזרת וואן סייז מחמיאה ונוחה במיוחד, עם קפלים עדינים היוצרים מראה אלגנטי ונשפך. עשויה מבד קליל ונעים למגע, שמתאים את עצמו למגוון מבני גוף. הצבע החום מעניק לוק קלאסי, חמים ואופנתי שניתן לשלב בקלות עם חולצות בסיס או פריטים אלגנטיים. מתאימה ליומיום, אירועים ושבתות",
       "sku": null,
       "brand": null,
-      "price": 89,
-      "base_price": 89,
+      "price": 49,
+      "base_price": 49,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -271,11 +271,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-7hf14w",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-oidcnl",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-03T13:05:10.689Z"
+      "updated_at": "2026-06-03T18:38:14.396Z"
     },
     {
       "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
