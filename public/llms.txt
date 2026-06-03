@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 59**
+**Total active products: 60**
+
+### שמלת נועה
+https://hodayaboutique.co.il/product/shmlt-nvah-xp8rg4
+- Price: 199.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Image: https://hodayaboutique.co.il/assets/product-1780510824491-t7x4u8.webp
 
 ### שמלת אלינור 
 https://hodayaboutique.co.il/product/shmlt-alynvr-ml5tpm
