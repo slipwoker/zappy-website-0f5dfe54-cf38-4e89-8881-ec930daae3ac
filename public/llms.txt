@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 55**
+**Total active products: 56**
+
+### שמלת אליה צהוב
+https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-af6522
+- Price: 159.00 ILS
+- Availability: In stock
+- Category: שמלות
+- Description: שמלת “אליה” בצבע צהוב שמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי. גזרת אוברסייז נוחה ומחמיאה קשירת צד מעוצבת המדגישה את קו המותן שרוולי 3/4 בגזרה רחבה ונינוחה שסע צד עדין לנוחות ותנועה חופשית בד איכותי, נעים ורך למגע
+- Image: https://hodayaboutique.co.il/assets/product-1780509757096-5yzh2.webp
 
 ### שמלת אליה בז׳
 https://hodayaboutique.co.il/product/shmlt-alyh-bz-k52zia

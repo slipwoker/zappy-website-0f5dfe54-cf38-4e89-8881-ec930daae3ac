@@ -1,10 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:02:37.545Z",
+  "generated_at": "2026-06-03T18:04:30.723Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 55,
+  "count": 56,
   "products": [
+    {
+      "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
+      "slug": "shmlt-alyh-tshvb-af6522",
+      "name": "שמלת אליה צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת “אליה” בצבע צהוב\n\nשמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509757096-5yzh2.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509767025-1uny79.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509776024-s8z56b.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509784164-9ie01.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509792617-xmiyh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-af6522",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-03T18:04:03.307Z"
+    },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
       "slug": "shmlt-alyh-bz-k52zia",
