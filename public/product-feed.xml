@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Wed, 03 Jun 2026 10:27:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 10:29:03 GMT</lastBuildDate>
     <item>
       <g:id>2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c__d5a91e95-ee00-4fbd-8dde-674211c0ea90</g:id>
       <g:title>שמלת עדן צהוב - 1</g:title>
@@ -1899,29 +1899,14 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__fcbd1e49-a09c-4a39-b547-ae6b6620e31d</g:id>
-      <g:title>שמלת קייטי שחור - L / Black</g:title>
+      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__abd8d028-6590-4acc-bbad-feefcad432c8</g:id>
+      <g:title>שמלת קייטי שחור - XS / Black</g:title>
       <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
       <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>349.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמלות ערב</g:product_type>
-    </item>
-    <item>
-      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__57e3c9be-6922-4b09-b834-5c03789d69fe</g:id>
-      <g:title>שמלת קייטי שחור - M / Black</g:title>
-      <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
-      <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
-      <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
       <g:price>349.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
@@ -1936,7 +1921,37 @@
       <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
+      <g:price>349.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__57e3c9be-6922-4b09-b834-5c03789d69fe</g:id>
+      <g:title>שמלת קייטי שחור - M / Black</g:title>
+      <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
+      <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
+      <g:availability>out_of_stock</g:availability>
+      <g:price>349.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__fcbd1e49-a09c-4a39-b547-ae6b6620e31d</g:id>
+      <g:title>שמלת קייטי שחור - L / Black</g:title>
+      <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
+      <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
+      <g:availability>out_of_stock</g:availability>
       <g:price>349.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
@@ -1946,21 +1961,6 @@
     <item>
       <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__449a34d4-859d-4f0c-975c-608a89cfadf6</g:id>
       <g:title>שמלת קייטי שחור - XL / Black</g:title>
-      <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
-      <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
-      <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>349.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמלות ערב</g:product_type>
-    </item>
-    <item>
-      <g:id>0358393e-f8f9-4c03-a108-de8c97c7cf86__abd8d028-6590-4acc-bbad-feefcad432c8</g:id>
-      <g:title>שמלת קייטי שחור - XS / Black</g:title>
       <g:description>שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q</g:link>
       <g:item_group_id>0358393e-f8f9-4c03-a108-de8c97c7cf86</g:item_group_id>
