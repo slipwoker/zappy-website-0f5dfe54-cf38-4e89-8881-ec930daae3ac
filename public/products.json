@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:29:24.784Z",
+  "generated_at": "2026-06-03T18:29:59.578Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
   "products": [
     {
       "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
-      "slug": "shmlt-nvah-ciyygi",
+      "slug": "shmlt-nvah-179lab",
       "name": "שמלת נועה",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "שמלת מקסי אלגנטית בגוון ניוד קלאסי, בגזרה מחמיאה ונשית עם שרוולי פעמון מיוחדים למראה יוקרתי ועדכני. מושלמת לאירועים, שבתות וחגים.",
       "sku": null,
       "brand": null,
       "price": 199,
@@ -27,12 +27,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-ciyygi",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-179lab",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-03T18:27:14.109Z"
+      "updated_at": "2026-06-03T18:29:35.210Z"
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
