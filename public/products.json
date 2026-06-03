@@ -1,10 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T17:54:42.827Z",
+  "generated_at": "2026-06-03T18:02:25.987Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 54,
+  "count": 55,
   "products": [
+    {
+      "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
+      "slug": "shmlt-alyh-bz-k52zia",
+      "name": "שמלת אליה בז׳",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת “אליה” בצבע בז’\n\nשמלת מקסי צנועה ואלגנטית בגוון בז’ קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509629252-vcu0xo.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509639519-f9aimo.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509647877-5iowcx.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509655780-u8v53.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509663990-4ayhoa.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-k52zia",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-03T18:02:05.895Z"
+    },
     {
       "id": "321acf8c-3161-416f-920c-8af06cc94f64",
       "slug": "shmlt-mylanv-5dxlou",
