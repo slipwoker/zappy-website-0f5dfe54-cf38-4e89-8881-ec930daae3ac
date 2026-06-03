@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-03T18:31:50.375Z",
+  "generated_at": "2026-06-03T18:34:37.230Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
@@ -279,11 +279,11 @@
     },
     {
       "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
-      "slug": "chtsayt-plysh-yrvkh-q9pbxg",
+      "slug": "chtsayt-plysh-yrvkh-o7752u",
       "name": "חצאית פליסה ירוקה",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -298,11 +298,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-q9pbxg",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-o7752u",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-03T13:03:21.688Z"
+      "updated_at": "2026-06-03T18:34:18.039Z"
     },
     {
       "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
