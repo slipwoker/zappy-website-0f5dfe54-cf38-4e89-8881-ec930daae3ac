@@ -22061,6 +22061,254 @@ main,
 }
 
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
+
+/* AI-generated section */
+/* ===== TikTok Follow Section ===== */
+.tt-follow-section {
+  background-color: #000000;
+  padding: 80px 20px;
+  text-align: center;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background circles */
+.tt-bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tt-bg-circle-1 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(105, 201, 208, 0.08) 0%, transparent 70%);
+  top: -80px;
+  left: -80px;
+}
+
+.tt-bg-circle-2 {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(238, 29, 82, 0.08) 0%, transparent 70%);
+  bottom: -60px;
+  right: -60px;
+}
+
+/* Container */
+.tt-follow-container {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* Icon Wrapper */
+.tt-icon-wrapper {
+  width: 88px;
+  height: 88px;
+  background: linear-gradient(135deg, #69C9D0 0%, #EE1D52 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  box-shadow:
+    0 0 0 6px rgba(105, 201, 208, 0.12),
+    0 0 0 12px rgba(238, 29, 82, 0.07),
+    0 8px 32px rgba(105, 201, 208, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tt-icon-wrapper:hover {
+  transform: scale(1.08) rotate(-3deg);
+  box-shadow:
+    0 0 0 8px rgba(105, 201, 208, 0.18),
+    0 0 0 16px rgba(238, 29, 82, 0.1),
+    0 12px 40px rgba(105, 201, 208, 0.35);
+}
+
+.tt-logo-svg {
+  width: 44px;
+  height: 44px;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+/* Heading */
+.tt-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 12px rgba(105, 201, 208, 0.2);
+}
+
+/* Subtext */
+.tt-subtext {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.75;
+  margin: 0 0 36px 0;
+  max-width: 500px;
+}
+
+.tt-br-desktop {
+  display: inline;
+}
+
+/* CTA Button */
+.tt-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #69C9D0 0%, #EE1D52 100%);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 16px 36px;
+  border-radius: 50px;
+  letter-spacing: 0.01em;
+  box-shadow:
+    0 4px 20px rgba(238, 29, 82, 0.35),
+    0 2px 8px rgba(0, 0, 0, 0.3);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    filter 0.25s ease;
+  cursor: pointer;
+  border: none;
+  outline-offset: 3px;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tt-cta-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%);
+  border-radius: 50px;
+  pointer-events: none;
+}
+
+.tt-cta-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 8px 32px rgba(238, 29, 82, 0.5),
+    0 4px 16px rgba(0, 0, 0, 0.35);
+  filter: brightness(1.08);
+}
+
+.tt-cta-btn:focus-visible {
+  outline: 3px solid #69C9D0;
+  outline-offset: 4px;
+}
+
+.tt-cta-btn:active {
+  transform: translateY(-1px) scale(1.01);
+}
+
+/* Button Icon */
+.tt-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tt-btn-svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* Trust Note */
+.tt-trust-note {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .tt-follow-section {
+    padding: 60px 20px;
+  }
+
+  .tt-heading {
+    font-size: 1.6rem;
+  }
+
+  .tt-subtext {
+    font-size: 0.97rem;
+  }
+
+  .tt-br-desktop {
+    display: none;
+  }
+
+  .tt-icon-wrapper {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 22px;
+  }
+
+  .tt-logo-svg {
+    width: 38px;
+    height: 38px;
+  }
+
+  .tt-cta-btn {
+    font-size: 0.98rem;
+    padding: 14px 28px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .tt-bg-circle-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tt-bg-circle-2 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tt-follow-section {
+    padding: 50px 16px;
+  }
+
+  .tt-heading {
+    font-size: 1.4rem;
+  }
+
+  .tt-subtext {
+    font-size: 0.93rem;
+  }
+
+  .tt-cta-btn {
+    font-size: 0.95rem;
+    padding: 13px 22px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
