@@ -10,7 +10,7 @@
 https://hodayaboutique.co.il
 הודיה בוטיק — אופנה צנועה לנשים עם סטייל אלגנטי. שמלות, חליפות וביגוד לנשים שאוהבות צניעות בסטייל ומשלוחים עד הבית
 
-### Products
+### הקולקציה
 https://hodayaboutique.co.il/products
 המוצרים שלנו - הודיה
 
@@ -38,7 +38,7 @@ https://hodayaboutique.co.il/order-success
 https://hodayaboutique.co.il/product/:slug
 פרטי המוצר - הודיה
 
-### Category
+### הקולקציה
 https://hodayaboutique.co.il/category/:slug
 מוצרים - הודיה
 
