@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-04T08:03:53.808Z",
+  "generated_at": "2026-06-04T08:06:13.506Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 60,
@@ -36,7 +36,7 @@
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
-      "slug": "shmlt-alynvr-cpytdq",
+      "slug": "shmlt-alynvr-0er69f",
       "name": "שמלת אלינור ",
       "name_translations": {},
       "description": "",
@@ -55,15 +55,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alynvr-cpytdq",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alynvr-0er69f",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-03T18:28:47.541Z"
+      "updated_at": "2026-06-04T08:05:42.439Z"
     },
     {
       "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
-      "slug": "gblyh-nvr-bd430j",
+      "slug": "gblyh-nvr-me3v2h",
       "name": "ג׳בליה נור",
       "name_translations": {},
       "description": "",
@@ -82,11 +82,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-bd430j",
+      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-me3v2h",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-03T18:16:51.975Z"
+      "updated_at": "2026-06-04T08:06:02.009Z"
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
