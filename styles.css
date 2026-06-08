@@ -22817,6 +22817,32 @@ main,
     width: 10px;
   }
 }
+
+#announcement-bar .announcement-carousel-track {
+  display: flex !important;
+  width: max-content !important;
+  animation: marqueeScroll 18s linear infinite !important;
+  transform: none !important;
+  transition: none !important;
+  gap: 80px !important;
+}
+
+#announcement-bar .announcement-slide {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
