@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-08T13:32:11.536Z",
+  "generated_at": "2026-06-08T13:52:29.480Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 60,
+  "count": 61,
   "products": [
+    {
+      "id": "e489289c-2f56-49d4-bacb-1cc3ba0f4638",
+      "slug": "shmlt-amyt-wksdrc",
+      "name": "שמלת עמית",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי אלגנטית בגוון ירוק מרווה, בעיצוב נשפך ומחמיא עם שרוולים ארוכים, כפתורים עדינים וחגורת מותן מעוצבת. הבחירה המושלמת לאירועים, שבתות וחגיגות עם מראה נשי, יוקרתי ומרשים",
+      "sku": null,
+      "brand": null,
+      "price": 849,
+      "base_price": 849,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1780926585054-5bqo1.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amyt-wksdrc",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-06-08T13:51:58.156Z"
+    },
     {
       "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
       "slug": "shmlt-nvah-tnbzoo",
