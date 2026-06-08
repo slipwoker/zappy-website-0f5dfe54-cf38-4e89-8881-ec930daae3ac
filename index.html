@@ -789,7 +789,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   
 <script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
-  <div id="announcement-bar" style="background:#111111;color:#ffffff;text-align:center;padding:8px 16px;font-size:13px;font-weight:500;letter-spacing:0.02em;width:100%;box-sizing:border-box;position:relative;z-index:1001;">משלוח חינם ומהיר בקנייה מעל 499 ₪</div>
+  <div id="announcement-bar" style="background:#111111;color:#ffffff;text-align:center;padding:8px 16px;font-size:13px;font-weight:500;letter-spacing:0.02em;width:100%;box-sizing:border-box;position:relative;z-index:1001;overflow:hidden;height:36px;display:flex;align-items:center;justify-content:center;">
+  <div class="announcement-carousel-track" style="display:flex;transition:transform 0.6s ease-in-out;width:300%;">
+    <span class="announcement-slide" style="flex:1;display:flex;align-items:center;justify-content:center;white-space:nowrap;">🚚 משלוח חינם ומהיר בקנייה מעל 499 ₪</span>
+    <span class="announcement-slide" style="flex:1;display:flex;align-items:center;justify-content:center;white-space:nowrap;">🎉 15% הנחה על כל האתר בקוד: HODAYA15</span>
+    <span class="announcement-slide" style="flex:1;display:flex;align-items:center;justify-content:center;white-space:nowrap;">📦 החזרות קלות עד 14 יום 📦</span>
+  </div>
+</div>
+<script>
+(function() {
+  var track = document.querySelector('.announcement-carousel-track');
+  if (!track) return;
+  var slides = track.children.length;
+  var current = 0;
+  var slideWidth = 100 / slides;
+  setInterval(function() {
+    current = (current + 1) % slides;
+    track.style.transform = 'translateX(-' + (current * slideWidth) + '%)';
+  }, 3500);
+})();
+</script>
 <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
