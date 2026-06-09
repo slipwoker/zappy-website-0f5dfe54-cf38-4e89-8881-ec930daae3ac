@@ -727,6 +727,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-ML2XB2V5');</script>
 <!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
+  
+    <style id="zppb-promo-banner-styles">
+    .zppb-overlay { display:none; position:fixed; inset:0; z-index:99999; background:rgba(0,0,0,0.45); align-items: center; justify-content: center; }
+    .zppb-overlay.zppb-visible { display:flex; }
+    .zppb-banner { position:relative; overflow:hidden; text-align:center; padding:48px 36px; background:#1a1a2e; color:#ffffff; border-radius:16px; max-width:500px; width:92%; min-height:500px; display:flex; flex-direction:column; box-shadow:0 20px 60px rgba(0,0,0,0.3); animation: zppbFadeIn 0.35s ease forwards; }
+    .zppb-bg-img { position:absolute; inset:0; background-size:cover; background-position:center; }
+    .zppb-content { position:relative; z-index:1; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+    .zppb-close { position:absolute; top:14px; right:14px; z-index:2; background:rgba(0,0,0,0.3); border:none; color:#fff; width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:18px; line-height:1; display:flex; align-items:center; justify-content:center; }
+    .zppb-close:hover { background:rgba(0,0,0,0.5); }
+    .zppb-h { font-size:28px; font-weight:700; margin:0 0 10px; color:#ffffff !important; }
+    .zppb-sub { font-size:16px; opacity:0.85; margin:0 0 24px; max-width:380px; color:#ffffff !important; white-space:pre-line; }
+    .zppb-cta { display:inline-block; padding:14px 36px; border-radius:50px; font-size:16px; font-weight:600; text-decoration:none; cursor:pointer; border:none; background:#e94560; color:#ffffff; margin-top:8px; }
+    .zppb-cta:hover { opacity:0.9; }
+    .zppb-coupon { display:inline-block; margin-bottom:20px; padding:10px 24px; border:2px dashed #e94560; border-radius:10px; font-family:monospace; font-weight:700; font-size:18px; color:#e94560; letter-spacing:2px; }
+    .zppb-countdown { display:flex; gap:8px; justify-content:center; margin-bottom:24px; font-size:32px; font-weight:700; font-family:monospace; direction:ltr; }
+    .zppb-countdown span { background:#e94560; color:#ffffff; padding:8px 16px; border-radius:8px; }
+    .zppb-fields { display:flex; flex-direction:column; gap:10px; max-width:340px; width:100%; margin:0 auto 20px; }
+    .zppb-input { width:100%; padding:12px 16px; border-radius:10px; border:1px solid rgba(255,255,255,0.3); background:rgba(255,255,255,0.15); color:#ffffff; font-size:15px; outline:none; box-sizing:border-box; }
+    .zppb-input::placeholder { color:#ffffff; opacity:0.5; }
+    .zppb-input:focus { border-color:#e94560; background:rgba(255,255,255,0.25); }
+    @keyframes zppbFadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes zppbSlideUp { from { opacity:0; transform:translateY(40px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes zppbScaleIn { from { opacity:0; transform:scale(0.85); } to { opacity:1; transform:scale(1); } }
+    @media (max-width:480px) { .zppb-banner { padding:32px 20px; min-height:400px; } .zppb-h { font-size:22px; } .zppb-sub { font-size:14px; } .zppb-countdown { font-size:24px; } .zppb-countdown span { padding:6px 12px; } }
+    body.zappy-edit-mode .zppb-overlay { display:none !important; }
+    </style>
+
+    <style id="zappy-announcement-bar-styles">
+    /* Announcement Bar Styles */
+    .zappy-announcement-bar {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      text-align: center !important;
+      padding: 10px 20px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      box-sizing: border-box !important;
+      z-index: 1001 !important;
+      min-height: 40px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message {
+      position: absolute !important;
+      opacity: 0 !important;
+      transition: opacity 0.5s ease-in-out !important;
+      width: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      padding: 0 20px !important;
+      box-sizing: border-box !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message.active {
+      opacity: 1 !important;
+    }
+    </style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-widget-visibility">
@@ -768,6 +831,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body>
 
+<div class="zappy-announcement-bar">
+      <span class="zappy-announcement-message active">בקנייה מעל 400 ש״ח 30 ש״ח בקוד קופון: HODAYA30</span>
+    </div>
     <!-- ZAPPY_INTEGRATION_START analytics:add_google_tag_manager -->
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML2XB2V5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -788,7 +854,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <div id="announcement-bar" style="background:#111111;color:#ffffff;text-align:center;padding:8px 16px;font-size:13px;font-weight:500;letter-spacing:0.02em;width:100%;box-sizing:border-box;position:relative;z-index:1001;height:36px;display:flex;align-items:center;justify-content:center;">
   <span style="display:flex;align-items:center;justify-content:center;white-space:nowrap;">קולקציה חדשה 🎀 סטייל ✨ משלוחים לכל הארץ 🚚</span>
 </div>
@@ -1295,13 +1361,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<section class="hodaya-hero" id="hodaya-hero" data-zappy-content-align="bottom-mid-left" style="position: relative; overflow: hidden; background-repeat: no-repeat; --zappy-bg-overlay: rgba(160, 128, 96, 0.11); background-size: cover !important; background-position: 55% 46% !important; cursor: url(&quot; data: image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 50 50' fill='none' xmlns='http; min-height: 581px !important" data-zappy-bg-type="video" data-zappy-bg-color="" data-zappy-bg-image="" data-zappy-bg-overlay-color="#A08060" data-zappy-bg-overlay-opacity="11" data-zappy-bg-video-type="upload" data-zappy-bg-video-url="assets/hero-video-------------------------------------------ai-1781011873734.mp4" data-hero-type="fullscreen-scrim" data-element-id="zappy-hero-bg-hodaya-hero" data-element-type="background-image" data-zappy-bg-position="55% 46%" data-zappy-bg-zoom="1"><div class="zappy-section-video-bg" style="position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;"><div class="zappy-section-video-overlay" style="position:absolute;inset:0;z-index:1;background:rgba(160, 128, 96, 0.11);pointer-events:none;"></div><video class="zappy-section-video" autoplay="" muted="" loop="" playsinline="" style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%, -50%);object-fit:cover;z-index:0;">
+<section class="hodaya-hero" id="hodaya-hero" data-zappy-content-align="bottom-center" style="position: relative; overflow: hidden; background-repeat: no-repeat; --zappy-bg-overlay: rgba(160, 128, 96, 0.51); background-size: cover !important; background-position: 55% 46% !important; cursor: url(&quot; data: image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 50 50' fill='none' xmlns='http; min-height: 581px !important" data-zappy-bg-type="video" data-zappy-bg-color="" data-zappy-bg-image="" data-zappy-bg-overlay-color="#A08060" data-zappy-bg-overlay-opacity="51" data-zappy-bg-video-type="upload" data-zappy-bg-video-url="assets/hero-video-------------------------------------------ai-1781011873734.mp4" data-hero-type="fullscreen-scrim" data-element-id="zappy-hero-bg-hodaya-hero" data-element-type="background-image" data-zappy-bg-position="55% 46%" data-zappy-bg-zoom="1"><div class="zappy-section-video-bg" style="position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;"><div class="zappy-section-video-overlay" style="position:absolute;inset:0;z-index:1;background:rgba(160, 128, 96, 0.51);pointer-events:none;"></div><video class="zappy-section-video" autoplay="" muted="" loop="" playsinline="" style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%, -50%);object-fit:cover;z-index:0;">
   <source src="/assets/hero-video-------------------------------------------ai-1781011873734.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video></div>
   <!-- Background Image -->
   <div class="hodaya-hero__bg-wrapper" style="display: none" data-zappy-original-bg="hidden">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777899212345-s2bfezjyc" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="390px" data-zappy-zoom-wrapper-height="719px" data-zappy-zoom-wrapper-align="center"><img class="hodaya-hero__bg-img" src="/assets/general-hero-upload-1780937423045-7gr1lk.webp?v=1780937425485" alt="אישה בלבוש צנוע ואלגנטי" data-placeholder="hero-modest-fashion" data-context="Elegant modest fashion woman wearing flowing long dress with long sleeves in neutral earth tones, standing gracefully in a bright airy studio, soft natural lighting, fashion editorial style, sophisticated and refined" data-element-type="image" data-element-id="img-1777899212345-s2bfezjyc" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50% !important; position: absolute !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important" data-zappy-zoom="1" data-zappy-original-width="390" data-zappy-original-height="719" data-zappy-object-position="50% 50%"></div>
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1777899212345-s2bfezjyc" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="390px" data-zappy-zoom-wrapper-height="719px" data-zappy-zoom-wrapper-align="center"><img class="hodaya-hero__bg-img" src="/assets/general-hero-upload-1780937423045-7gr1lk.webp?v=1780937425485" alt="אישה בלבוש צנוע ואלגנטי" data-placeholder="hero-modest-fashion" data-context="Elegant modest fashion woman wearing flowing long dress with long sleeves in neutral earth tones, standing gracefully in a bright airy studio, soft natural lighting, fashion editorial style, sophisticated and refined" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1777899212345-s2bfezjyc" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50% !important; position: absolute !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important" data-zappy-zoom="1" data-zappy-original-width="390" data-zappy-original-height="719" data-zappy-object-position="50% 50%"></div>
     <!-- Dark overlay -->
     <div class="hodaya-hero__overlay" aria-hidden="true" style="opacity: 1; display: none" data-zappy-original-bg="hidden"></div>
   </div>
@@ -1310,7 +1376,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="hodaya-hero__content" data-zappy-align-target="true" style="position: relative; z-index: 2">
     <!-- Decorative label -->
     <!-- Main Heading -->
-    <h1 class="hodaya-hero__title" style="text-align: right;"><p ></p></h1>
+    <h1 class="hodaya-hero__title" style="text-align: right;"><p style=""></p></h1>
 
     <!-- Subtitle -->
     
@@ -1377,8 +1443,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </video></div>
   <div class="hodaya-categories-container" style="position: relative; z-index: 2">
     <div class="hodaya-categories-header">
-      <h2 class="hodaya-categories-title" ></h2><h1 ><span style="color: #111111 !important"><span style="color: #c8a882 !important">NEW COLLECTION</span></span></h1>
-      <p class="hodaya-categories-subtitle" ><span style="color: #C8A882 !important"><span style="color: #a08060 !important">גלי את הקולקציה שלנו — אופנה צנועה ואלגנטית לכל אירוע</span></span></p>
+      <h2 class="hodaya-categories-title" style=""></h2><h1 style=""><span style="color: #111111 !important"><span style="color: #c8a882 !important">NEW COLLECTION</span></span></h1>
+      <p class="hodaya-categories-subtitle" style=""><span style="color: #C8A882 !important"><span style="color: #a08060 !important">גלי את הקולקציה שלנו — אופנה צנועה ואלגנטית לכל אירוע</span></span></p>
     </div>
     <div class="hodaya-categories-grid" style="display: grid; --zappy-grid-cols: repeat(4, minmax(0, 1fr)); grid-template-columns: repeat(4, minmax(0, 1fr));" data-zappy-explicit-columns="true">
 
@@ -1390,7 +1456,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         <div class="hodaya-cat-content">
           <h3 class="hodaya-cat-name">שמלות</h3>
-          <p class="hodaya-cat-desc" >שמלות אלגנטיות לכל אירוע</p>
+          <p class="hodaya-cat-desc" style="">שמלות אלגנטיות לכל אירוע</p>
           <p><a href="/category/dresses" class="hodaya-cat-btn" data-element-type="button" data-element-id="btn-1778523285363-vlzmzxzrw" data-native-element="true" style="border-color: var(--primary-color, var(--primary, #8B0000)) !important; color: rgb(255, 255, 255) !important; background-color: var(--primary-color, var(--primary, #8B0000)) !important; background-image: none !important; outline: currentcolor;">SHOP NOW</a>
         </p></div>
       </div>
@@ -1403,7 +1469,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         <div class="hodaya-cat-content">
           <h3 class="hodaya-cat-name">חצאיות</h3>
-          <p class="hodaya-cat-desc" >חצאיות צנועות ומלאות סטייל</p>
+          <p class="hodaya-cat-desc" style="">חצאיות צנועות ומלאות סטייל</p>
           <p><a href="/category/skirts" class="hodaya-cat-btn" data-element-type="button" data-element-id="btn-1778523285363-fy5nce1op" data-native-element="true" style="border-color: var(--primary-color, var(--primary, #8B0000)) !important; color: rgb(255, 255, 255) !important; background-color: var(--primary-color, var(--primary, #8B0000)) !important; background-image: none !important;">SHOP NOW</a>
         </p></div>
       </div>
@@ -1445,8 +1511,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="hodaya-cat-overlay"></div>
         </div>
         <div class="hodaya-cat-content">
-          <h3 class="hodaya-cat-name" >בגדי ים</h3>
-          <p class="hodaya-cat-desc" >חליפות מרשימות לאירועים מיוחדים</p>
+          <h3 class="hodaya-cat-name" style="">בגדי ים</h3>
+          <p class="hodaya-cat-desc" style="">חליפות מרשימות לאירועים מיוחדים</p>
           <p><a href="/category/swimwear" class="hodaya-cat-btn btn btn-primary" data-element-type="button" data-element-id="btn-1778523285363-j2ats5057" data-native-element="true" style="border-color: var(--primary-color, var(--primary, #8B0000)) !important; color: rgb(255, 255, 255) !important; outline: currentcolor; background-color: var(--primary-color, var(--primary, #8B0000)) !important; background-image: none !important;">SHOP NOW</a>
         </p></div>
       </div>
@@ -1813,7 +1879,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="/" class="footer-logo-link">
           <img src="/assets/logo.webp" alt="הודיה" class="logo" data-zappy-footer-image="true">
         </a>
-        <p class="footer-tagline" >אופנה צנועה ומעוצבת לאישה המודרנית.<br>סגנון שמדבר בשקט.</p>
+        <p class="footer-tagline" style="">אופנה צנועה ומעוצבת לאישה המודרנית.<br>סגנון שמדבר בשקט.</p>
         <div class="footer-social">
           <a href="https://facebook.com/share/17Gs2wPRK5/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" aria-label="Instagram" data-zappy-original-link="true" data-zappy-orig-href="https://instagram.com/hodayaboutique_?igsh=eXR1YjNqcmhjMWUy&amp;utm_source=qr" data-zappy-orig-target="" data-zappy-orig-rel="" data-zappy-click-action="link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1778220703400-twdiq7wuw" data-icon-type="fontawesome" style="font-size: 12px !important; color: rgb(255, 255, 255); cursor: pointer;" data-zappy-click-action="link"></i></a>
@@ -1823,7 +1889,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <!-- Column 2: Quick Links -->
       <div class="footer-col">
-        <h4 class="footer-heading" >ניווט מהיר</h4>
+        <h4 class="footer-heading" style="">ניווט מהיר</h4>
         <ul class="footer-nav">
           <li><a href="/style-guide">מדריך סגנון</a></li>
           <li><a href="/about">אודות</a></li>
@@ -1834,12 +1900,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <!-- Column 3: Contact -->
       <div class="footer-col">
         <h4 class="footer-heading">יצירת קשר</h4>
-        <ul class="footer-contact" ><li>
+        <ul class="footer-contact" style=""><li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1778002937144-som9o6z10" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
             <span class="contact-text"><a href="mailto:Hodayasuissa5@gmail.com">Hodayasuissa5@gmail.com</a></span>
           </li><li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1778002937144-pmtfgv27x" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text"><a href="tel:0557756758" >0557756758<br><br></a></span>
+            <span class="contact-text"><a href="tel:0557756758" style="">0557756758<br><br></a></span>
           </li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
             <span class="contact-text">גבע 53, נתניה, ישראל, 4237353, ישראל</span></a></li></ul>
       </div>
@@ -1858,7 +1924,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <p class="footer-copy">© 2026 הודיה. כל הזכויות שמורות.</p>
-      <div class="footer-legal" >
+      <div class="footer-legal" style="">
         <a href="/privacy">מדיניות פרטיות</a>
         <span class="footer-legal-sep"></span>
         <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
@@ -1871,7 +1937,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </footer>
-<a href="https://wa.me/972557756758" class="whatsapp-float" aria-label="WhatsApp" style="display:flex!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;position:fixed!important;bottom:24px!important;width:56px!important;height:56px!important;background-color:#25D366!important;border-radius:50%!important;align-items:center!important;justify-content:center!important;box-shadow:0 4px 16px rgba(37,211,102,0.4)!important;z-index:999999!important;text-decoration:none!important" target="_blank" rel="noopener noreferrer">
+<a href="https://wa.me/972557756758" class="whatsapp-float" aria-label="WhatsApp" style="display:flex!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;position:fixed!important;bottom:24px!important;left:24px!important;right:auto!important;width:56px!important;height:56px!important;background-color:#25D366!important;border-radius:50%!important;align-items:center!important;justify-content:center!important;box-shadow:0 4px 16px rgba(37,211,102,0.4)!important;z-index:999999!important;text-decoration:none!important;" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-whatsapp" style="color:#ffffff!important;font-size:28px!important;"></i>
   </a>
   
@@ -1889,6 +1955,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </button>
   <div class="zappy-qv-content" id="zappy-qv-content"></div>
 </div>
+
+    <div class="zppb-overlay" id="zppb-overlay">
+      <div class="zppb-banner">
+        <button class="zppb-close" id="zppb-close">&times;</button>
+        <div class="zppb-bg-img" style="background-image:url('assets/product-1781012561617-pxnt79.webp'); opacity:0.5;"></div>
+        <div class="zppb-content">
+          <h3 class="zppb-h">HODAYA BOUTIQUE </h3>
+          <p class="zppb-sub">קולקציית קיץ 2026 סטייל אין סופי בלי להתפשר על צניעותך משלוחים מהירים לכל הארץ לכל שאלה לחצו על כפתור הווצאפ</p>
+          
+          
+          <a href="/products" class="zppb-cta">לקולקציה </a>
+        </div>
+      </div>
+    </div>
+<script>
+    (function(){
+      var FREQ = 'once_per_day';
+      var DELAY = 2000;
+      var KEY = 'zppb_6a44a567-dfa1-4b1a-9714-4311d6d30b12';
+      // Only run on the first URL opened in this tab. Avoids showing the modal again
+      // on every internal navigation when the user leaves before the delay fired on the landing page.
+      if (FREQ !== 'every_visit') {
+        try {
+          var entKey = KEY + '_sess_entry';
+          var curPath = window.location.pathname + window.location.search;
+          var entryPath = sessionStorage.getItem(entKey);
+          if (!entryPath) {
+            sessionStorage.setItem(entKey, curPath);
+            entryPath = curPath;
+          }
+          if (curPath !== entryPath) {
+            return;
+          }
+        } catch (e) {}
+      }
+
+      function shouldShow() {
+        if (document.body && document.body.classList.contains('zappy-edit-mode')) return false;
+        if (FREQ === 'every_visit') return true;
+        if (FREQ === 'once') return !localStorage.getItem(KEY);
+        if (FREQ === 'once_per_session') return !sessionStorage.getItem(KEY);
+        if (FREQ === 'once_per_day') {
+          var last = localStorage.getItem(KEY);
+          if (!last) return true;
+          return (Date.now() - parseInt(last, 10)) > 86400000;
+        }
+        return false;
+      }
+
+      function markShown() {
+        try {
+          if (FREQ === 'once') localStorage.setItem(KEY, '1');
+          else if (FREQ === 'once_per_session') sessionStorage.setItem(KEY, '1');
+          else if (FREQ === 'once_per_day') localStorage.setItem(KEY, String(Date.now()));
+        } catch(e){}
+      }
+
+      function closeBanner() {
+        var ov = document.getElementById('zppb-overlay');
+        if (ov) { ov.classList.remove('zppb-visible'); }
+      }
+
+      function showBanner() {
+        if (!shouldShow()) return;
+        var ov = document.getElementById('zppb-overlay');
+        if (ov) { ov.classList.add('zppb-visible'); markShown(); }
+      }
+
+      
+
+      
+
+      var closeBtn = document.getElementById('zppb-close');
+      if (closeBtn) closeBtn.addEventListener('click', closeBanner);
+      var overlay = document.getElementById('zppb-overlay');
+      if (overlay) overlay.addEventListener('click', function(e) { if (e.target === overlay) closeBanner(); });
+
+      setTimeout(function() {
+        showBanner();
+        
+      }, DELAY);
+    })();</script>
 
     <script src="/script.js"></script>
 
