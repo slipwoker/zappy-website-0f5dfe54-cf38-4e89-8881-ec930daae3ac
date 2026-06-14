@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:32:29.110Z",
+  "generated_at": "2026-06-14T14:34:07.663Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -355,15 +355,15 @@
     },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
-      "slug": "shmlt-avdry-pvdrh-brutl3",
+      "slug": "shmlt-avdry-pvdrh-3kc0ws",
       "name": "שמלת - אודרי פודרה ",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת ערב צנועה ואלגנטית בגזרת מקסי נשפכת ומחמיאה במיוחד.\nמעוצבת עם שרוולי שיפון ארוכים, מחשוף מרובע עדין וכיווצים באזור המותן למראה נשי ומדויק.\nהבד הרך יושב בצורה מושלמת על הגוף ומעניק לוק יוקרתי וקלאסי שמתאים לכל אירוע.\nניתן להצניע בקלות עם בסיס תואם למראה מושלם ונוח",
       "sku": null,
       "brand": null,
-      "price": 699,
-      "base_price": 699,
+      "price": 729,
+      "base_price": 729,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -371,23 +371,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-brutl3",
+      "url": "https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-3kc0ws",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-31T11:19:05.099Z"
+      "updated_at": "2026-06-14T14:32:52.336Z"
     },
     {
       "id": "c86bbdb5-dfc9-4c45-898b-0d15a5838b36",
-      "slug": "shmlt-aryanh-shchvr-v9tjo9",
+      "slug": "shmlt-aryanh-shchvr-x9eobj",
       "name": "שמלת אריאנה שחור",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת אריאנה בצבע שחור – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף.\n\nשמלה מושלמת לאירועים, חתונות ושבתות יוקרתיות – שילוב של קלאסיות, סטייל ונוכחות מרשימה בכל צעד ✨\nניתן להצניע.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 749,
-      "base_price": 749,
+      "price": 799,
+      "base_price": 799,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -395,11 +395,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-shchvr-v9tjo9",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-shchvr-x9eobj",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-27T18:09:18.731Z"
+      "updated_at": "2026-06-14T14:33:09.112Z"
     },
     {
       "id": "41de5cae-0116-48f2-98d1-8f6acaa6a7cf",
@@ -499,15 +499,15 @@
     },
     {
       "id": "597f3bda-d371-4584-a8d3-82fd01e235ab",
-      "slug": "shmlt-aryanh-bz-6ptm7m",
+      "slug": "shmlt-aryanh-bz-3wetld",
       "name": "שמלת אריאנה בז׳",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת אריאנה בצבע בז׳ – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף.\n\nשמלה מושלמת לאירועים, חתונות ושבתות יוקרתיות – שילוב של קלאסיות, סטייל ונוכחות מרשימה בכל צעד ✨\nניתן להצניע.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 749,
-      "base_price": 749,
+      "price": 799,
+      "base_price": 799,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -516,11 +516,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-bz-6ptm7m",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-bz-3wetld",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-31T11:23:58.086Z"
+      "updated_at": "2026-06-14T14:33:36.508Z"
     },
     {
       "id": "7124803c-9507-4b1d-bdd6-d431e747f327",

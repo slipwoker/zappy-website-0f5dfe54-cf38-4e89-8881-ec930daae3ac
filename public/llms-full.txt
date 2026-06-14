@@ -6584,15 +6584,15 @@ Availability: In stock
 ---
 
 ### שמלת - אודרי פודרה 
-URL: https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-brutl3
-Price: 699.00 ILS
+URL: https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-3kc0ws
+Price: 729.00 ILS
 Availability: In stock
 
 ---
 
 ### שמלת אריאנה שחור
-URL: https://hodayaboutique.co.il/product/shmlt-aryanh-shchvr-v9tjo9
-Price: 749.00 ILS
+URL: https://hodayaboutique.co.il/product/shmlt-aryanh-shchvr-x9eobj
+Price: 799.00 ILS
 Availability: In stock
 
 ---
@@ -6626,8 +6626,8 @@ Availability: In stock
 ---
 
 ### שמלת אריאנה בז׳
-URL: https://hodayaboutique.co.il/product/shmlt-aryanh-bz-6ptm7m
-Price: 749.00 ILS
+URL: https://hodayaboutique.co.il/product/shmlt-aryanh-bz-3wetld
+Price: 799.00 ILS
 Availability: In stock
 
 ---
