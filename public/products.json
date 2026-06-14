@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:29:43.810Z",
+  "generated_at": "2026-06-14T14:31:08.219Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -277,15 +277,15 @@
     },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
-      "slug": "chtsayt-plysh-chvmh-oidcnl",
+      "slug": "chtsayt-plysh-chvmh-m92erk",
       "name": "חצאית פליסה חומה",
       "name_translations": {},
       "description": "",
       "short_description": "חצאית פליסה חומה בגזרת וואן סייז מחמיאה ונוחה במיוחד, עם קפלים עדינים היוצרים מראה אלגנטי ונשפך. עשויה מבד קליל ונעים למגע, שמתאים את עצמו למגוון מבני גוף. הצבע החום מעניק לוק קלאסי, חמים ואופנתי שניתן לשלב בקלות עם חולצות בסיס או פריטים אלגנטיים. מתאימה ליומיום, אירועים ושבתות",
       "sku": null,
       "brand": null,
-      "price": 49,
-      "base_price": 49,
+      "price": 59,
+      "base_price": 59,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -296,23 +296,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-oidcnl",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-m92erk",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-03T18:38:14.396Z"
+      "updated_at": "2026-06-14T14:30:37.167Z"
     },
     {
       "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
-      "slug": "chtsayt-plysh-yrvkh-456geg",
+      "slug": "chtsayt-plysh-yrvkh-84o6pp",
       "name": "חצאית פליסה ירוקה",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.",
       "sku": null,
       "brand": null,
-      "price": 49,
-      "base_price": 49,
+      "price": 59,
+      "base_price": 59,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -323,11 +323,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-456geg",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-84o6pp",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-03T18:35:22.646Z"
+      "updated_at": "2026-06-14T14:31:00.582Z"
     },
     {
       "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",

@@ -6563,15 +6563,15 @@ Availability: In stock
 ---
 
 ### חצאית פליסה חומה
-URL: https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-oidcnl
-Price: 49.00 ILS
+URL: https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-m92erk
+Price: 59.00 ILS
 Availability: In stock
 
 ---
 
 ### חצאית פליסה ירוקה
-URL: https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-456geg
-Price: 49.00 ILS
+URL: https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-84o6pp
+Price: 59.00 ILS
 Availability: In stock
 
 ---
