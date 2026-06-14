@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:35:26.526Z",
+  "generated_at": "2026-06-14T14:37:07.102Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -794,15 +794,15 @@
     },
     {
       "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
-      "slug": "chlyph-chtsayt-lvlavt-bz-rrrm0g",
+      "slug": "chlyph-chtsayt-lvlavt-bz-geucsw",
       "name": "חליפה חצאית לולאות ב׳ז",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה.\nמידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 219,
-      "base_price": 219,
+      "price": 249,
+      "base_price": 249,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -813,11 +813,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-rrrm0g",
+      "url": "https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-geucsw",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-06-14T14:36:35.875Z"
     },
     {
       "id": "d329f5a2-8d89-4ff4-aeff-4c33d9765b3f",
