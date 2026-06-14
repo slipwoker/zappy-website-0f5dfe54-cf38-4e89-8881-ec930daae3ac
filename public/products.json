@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:37:07.102Z",
+  "generated_at": "2026-06-14T14:37:38.299Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -821,15 +821,15 @@
     },
     {
       "id": "d329f5a2-8d89-4ff4-aeff-4c33d9765b3f",
-      "slug": "chlypt-chtsayt-lvlavt-shchvr-tgpdsd",
+      "slug": "chlypt-chtsayt-lvlavt-shchvr-vumcu3",
       "name": "חליפת חצאית לולאות שחור",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה.\nמידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 219,
-      "base_price": 219,
+      "price": 249,
+      "base_price": 249,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -840,11 +840,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-tgpdsd",
+      "url": "https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-vumcu3",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-08T14:08:50.053Z"
+      "updated_at": "2026-06-14T14:37:07.271Z"
     },
     {
       "id": "2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43",
