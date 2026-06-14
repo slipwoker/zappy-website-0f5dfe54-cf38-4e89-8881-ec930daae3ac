@@ -161,26 +161,31 @@
       // Track button clicks (counted as actions)
       if (target.tagName === 'BUTTON' || target.closest('button')) {
         var button = target.tagName === 'BUTTON' ? target : target.closest('button');
-        trackEvent('click', {
+        var clickMeta = {
           element: 'button',
           text: button.textContent.trim().substring(0, 100),
           id: button.id || null,
           class: button.className || null
-        });
+        };
+        
+        trackEvent('click', clickMeta);
       }
       
       // Track link clicks (navigation - not counted as actions)
       else if (target.tagName === 'A' || target.closest('a')) {
         var link = target.tagName === 'A' ? target : target.closest('a');
-        trackEvent('navigation', {
+        var navMeta = {
           element: 'link',
           text: link.textContent.trim().substring(0, 100),
           href: link.href,
           external: link.hostname !== window.location.hostname
-        });
+        };
+        
+        trackEvent('navigation', navMeta);
       }
     }, true);
   }
+  
   
   // Track form submissions
   if (config.trackFormSubmissions) {
@@ -832,7 +837,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 
 <div class="zappy-announcement-bar">
-      <span class="zappy-announcement-message active">בקנייה מעל 400 ש״ח 30 ש״ח בקוד קופון: HODAYA30</span>
+      <span class="zappy-announcement-message active">24 שעות של שיגעון ! 25% הנחה על כל האתר משלוחים לכל הארץ קוד קופון HODAYA25</span>
     </div>
   <script>
     window.ZAPPY_WEBSITE_ID = "0f5dfe54-cf38-4e89-8881-ec930daae3ac";
@@ -1145,7 +1150,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="zppb-bg-img" style="background-image:url('assets/product-1781012561617-pxnt79.webp'); opacity:0.5;"></div>
         <div class="zppb-content">
           <h3 class="zppb-h">HODAYA BOUTIQUE </h3>
-          <p class="zppb-sub">קולקציית קיץ 2026 סטייל אין סופי בלי להתפשר על צניעותך משלוחים מהירים לכל הארץ לכל שאלה לחצו על כפתור הווצאפ</p>
+          <p class="zppb-sub">🎉 השקה רשמית של Hodaya Boutique! 🎉
+
+
+25% הנחה על כל האתר
+
+
+✨ ל-24 שעות בלבד ✨
+
+🎁 קוד קופון: HODAYA25
+
+🚚 משלוחים לכל הארץ
+
+🛍️ אופנה צנועה, טרנדית וייחודית במחירי השקה מיוחדים
+
+⏰ המבצע מסתיים בעוד 24 שעות בלבד!
+
+💬 לכל שאלה או עזרה בהזמנה – לחצי על כפתור הווצאפ ונשמח לעזור לך.
+
+💕 Hodaya Boutique – אופנה שמרגישה בדיוק כמוך 💕
+</p>
           
           
           <a href="/products" class="zppb-cta">לקולקציה </a>
@@ -1154,8 +1178,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 <script>
     (function(){
-      var FREQ = 'once_per_day';
-      var DELAY = 2000;
+      var FREQ = 'every_visit';
+      var DELAY = 3000;
       var KEY = 'zppb_6a44a567-dfa1-4b1a-9714-4311d6d30b12';
       // Only run on the first URL opened in this tab. Avoids showing the modal again
       // on every internal navigation when the user leaves before the delay fired on the landing page.
