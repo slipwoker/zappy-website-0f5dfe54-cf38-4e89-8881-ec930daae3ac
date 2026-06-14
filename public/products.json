@@ -1,10 +1,30 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:33:22.990Z",
+  "generated_at": "2026-06-14T18:38:44.273Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 61,
+  "count": 62,
   "products": [
+    {
+      "id": "abd0b3dc-c1bf-495a-8004-9457397790ab",
+      "slug": "dvga-260tpb",
+      "name": "דוגא",
+      "name_translations": {},
+      "description": "",
+      "short_description": "ד",
+      "sku": null,
+      "brand": null,
+      "price": 648,
+      "base_price": 648,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/dvga-260tpb",
+      "categories": [],
+      "updated_at": "2026-06-14T18:38:19.675Z"
+    },
     {
       "id": "e489289c-2f56-49d4-bacb-1cc3ba0f4638",
       "slug": "shmlt-amyt-wksdrc",
