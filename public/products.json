@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:37:38.299Z",
+  "generated_at": "2026-06-14T14:39:45.922Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -951,15 +951,15 @@
     },
     {
       "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
-      "slug": "shmlt-klrys-shchvr-7t91x2",
+      "slug": "shmlt-klrys-shchvr-uq8e46",
       "name": "שמלת קלריס שחור",
       "name_translations": {},
       "description": "",
       "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 299,
-      "base_price": 299,
+      "price": 399,
+      "base_price": 399,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -969,12 +969,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-klrys-shchvr-7t91x2",
+      "url": "https://hodayaboutique.co.il/product/shmlt-klrys-shchvr-uq8e46",
       "categories": [
         "שמלות",
         "שמלות ערב"
       ],
-      "updated_at": "2026-05-26T19:51:24.894Z"
+      "updated_at": "2026-06-14T14:39:14.858Z"
     },
     {
       "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
