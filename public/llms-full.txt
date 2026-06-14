@@ -6490,13 +6490,6 @@ ALL COLLECTION
 
 ## Product Catalog
 
-### דוגא
-URL: https://hodayaboutique.co.il/product/dvga-260tpb
-Price: 648.00 ILS
-Availability: In stock
-
----
-
 ### שמלת עמית
 URL: https://hodayaboutique.co.il/product/shmlt-amyt-wksdrc
 Price: 849.00 ILS
