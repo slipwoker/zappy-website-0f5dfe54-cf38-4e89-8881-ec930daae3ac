@@ -1,8 +1,1565 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-13T17:53:28.727Z",
+  "generated_at": "2026-06-14T14:26:38.534Z",
   "base_url": "https://hodayaboutique.co.il",
-  "currency": "USD",
-  "count": 0,
-  "products": []
+  "currency": "ILS",
+  "count": 61,
+  "products": [
+    {
+      "id": "e489289c-2f56-49d4-bacb-1cc3ba0f4638",
+      "slug": "shmlt-amyt-wksdrc",
+      "name": "שמלת עמית",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי אלגנטית בגוון ירוק מרווה, בעיצוב נשפך ומחמיא עם שרוולים ארוכים, כפתורים עדינים וחגורת מותן מעוצבת. הבחירה המושלמת לאירועים, שבתות וחגיגות עם מראה נשי, יוקרתי ומרשים",
+      "sku": null,
+      "brand": null,
+      "price": 849,
+      "base_price": 849,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1780926585054-5bqo1.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amyt-wksdrc",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-06-08T13:51:58.156Z"
+    },
+    {
+      "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
+      "slug": "shmlt-nvah-iyp6po",
+      "name": "שמלת נועה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי אלגנטית בגוון ניוד קלאסי, בגזרה מחמיאה ונשית עם שרוולי פעמון מיוחדים למראה יוקרתי ועדכני. מושלמת לאירועים, שבתות וחגים.",
+      "sku": null,
+      "brand": null,
+      "price": 209,
+      "base_price": 209,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780510824491-t7x4u8.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510837874-cjzxji.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510846947-vqjub8.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510855866-nci51o.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510864931-lw74l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-iyp6po",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-06-14T14:26:07.133Z"
+    },
+    {
+      "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
+      "slug": "shmlt-alynvr-0er69f",
+      "name": "שמלת אלינור ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי נשפכת בהדפס זברה יוקרתי בגווני אפור ושחור, עם קשירת פפיון אלגנטית בצוואר וגזרה נשית מחמיאה. מושלמת לאירועים, שבתות וחגים – שילוב של סטייל ונוכחות מרשימה. ",
+      "sku": null,
+      "brand": null,
+      "price": 229,
+      "base_price": 229,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780510655303-ouos56.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510691150-5irj99.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510666696-2g0ell.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510677191-voycgo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alynvr-0er69f",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-04T08:05:42.439Z"
+    },
+    {
+      "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
+      "slug": "gblyh-nvr-me3v2h",
+      "name": "ג׳בליה נור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "גלביית נור בשילוב שחור ולבן – פריט אלגנטי ומרשים המשלב קווים קלאסיים עם סטייל מודרני. הגזרה הנשפכת מעניקה נוחות מרבית ומראה מחמיא, בעוד שילוב הצבעים יוצר נוכחות יוקרתית וייחודית. מושלמת לאירועים, לשבת או לכל מי שאוהבת מראה צנוע ומוקפד. הדוגמנית לובשת מידה XS",
+      "sku": null,
+      "brand": null,
+      "price": 109,
+      "base_price": 109,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780510326313-zslk7.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510316089-lq1vn5.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510335694-u0tznl.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510344815-k4rjr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-me3v2h",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-04T08:06:02.009Z"
+    },
+    {
+      "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
+      "slug": "chlypt-tayr-bz-nipwji",
+      "name": "חליפת תאיר בז",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת תאיר בצבע שמנת משלבת נוחות וסטייל במראה צנוע ואלגנטי. הסט כולל חולצה בגזרת אוברסייז וחצאית מקסי מחמיאה עם כיסים. הבד הרך והנעים מתאים ליום יום, לעבודה או ליציאה. הדוגמנית לובשת מידה XS",
+      "sku": null,
+      "brand": null,
+      "price": 249,
+      "base_price": 249,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780510040874-z9jjs.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510050368-264luf.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510059765-bc55d.webp",
+        "https://hodayaboutique.co.il/assets/product-1780510069665-cntoid.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-nipwji",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-04T08:06:22.383Z"
+    },
+    {
+      "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
+      "slug": "shmlt-alyh-tshvb-nok8on",
+      "name": "שמלת אליה צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת “אליה” בצבע צהוב\n\nשמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509784164-9ie01.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509767025-1uny79.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509776024-s8z56b.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509792617-xmiyh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-nok8on",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-04T08:06:40.224Z"
+    },
+    {
+      "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
+      "slug": "shmlt-alyh-bz-rohaay",
+      "name": "שמלת אליה בז׳",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת “אליה” בצבע בז’\n\nשמלת מקסי צנועה ואלגנטית בגוון בז’ קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509629252-vcu0xo.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509639519-f9aimo.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509647877-5iowcx.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509655780-u8v53.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509663990-4ayhoa.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-rohaay",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-04T08:06:57.803Z"
+    },
+    {
+      "id": "321acf8c-3161-416f-920c-8af06cc94f64",
+      "slug": "shmlt-mylanv-6agm66",
+      "name": "שמלת מילאנו",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי “מילאנו” בצבע שחור\n\nשמלת מקסי צנועה ואלגנטית בגזרה ישרה ונשפכת, המשלבת נוחות מקסימלית עם מראה יוקרתי ועדכני.\nהעיצוב הנקי והקלאסי מעניק מראה מחמיא לכל מבנה גוף, בעוד השרוולים הרחבים בשילוב חפתים שקופים ועדינים מוסיפים טאץ’ אופנתי וייחודי.\n\n גזרת אוברסייז נינוחה\n אורך מקסי מלא\n שרוולים רחבים עם שילוב בד שקוף בקצוות\n בד נעים ונוח ללבישה לאורך כל היום\n",
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780509029775-o3qq7f.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509038134-8ohglk.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509046468-zwdtkd.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509054725-42l7ic.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509063182-8tkjrr.webp",
+        "https://hodayaboutique.co.il/assets/product-1780509071678-p3qe6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mylanv-6agm66",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-06-04T08:07:22.350Z"
+    },
+    {
+      "id": "8e55a0a1-4acb-4d95-960b-9dec8b9ea28a",
+      "slug": "chtsayt-plysh-lbnh-j2vg3r",
+      "name": "חצאית פליסה לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית סאטן לבנה מבד יוקרתי בגזרה מחמיאה ונשפכת, עם ברק עדין שמעניק מראה אלגנטי ונקי. עשויה מבד איכותי ורך שנעים למגע ונופל בצורה מושלמת על הגוף. הצבע הלבן יוצר לוק קלאסי, רענן ומלא סטייל שמתאים לאירועים, שבתות ולוקים חגיגיים. שילוב מושלם של יוקרה, פשטות ונשיות במראה מוקפד ומרשים",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780508991208-ao5e1d.webp",
+        "https://hodayaboutique.co.il/assets/product-1780492057912-vsainf.webp",
+        "https://hodayaboutique.co.il/assets/product-1780492071329-no5ku.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-lbnh-j2vg3r",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-04T08:07:50.394Z"
+    },
+    {
+      "id": "a5453fb7-2f96-4596-a9e2-13ffe7f5ab9c",
+      "slug": "chtsayt-satn-pvdrh-xsn3r7",
+      "name": "חצאית סאטן פודרה",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">חצאית סאטן בצבע פודרה בגזרה מחמיאה ואלגנטית, עשויה מבד סאטן רך עם ברק עדין שנשפך יפה על הגוף. מעניקה מראה נשי, יוקרתי ורומנטי שמתאים לכל הופעה. נוחה ללבישה ומשתלבת מושלם עם חולצות בסיס או חולצות חגיגיות. מתאימה לאירועים, שבתות ויומיום בסטייל נקי ומוקפד</p>",
+      "short_description": "חצאית סאטן בצבע פודרה בגזרה מחמיאה ואלגנטית, עשויה מבד סאטן רך עם ברק עדין שנשפך יפה על הגוף. מעניקה מראה נשי, יוקרתי ורומנטי שמתאים לכל הופעה. נוחה ללבישה ומשתלבת מושלם עם חולצות בסיס או חולצות חגיגיות. מתאימה לאירועים, שבתות ויומיום בסטייל נקי ומוקפד",
+      "sku": null,
+      "brand": null,
+      "price": 89,
+      "base_price": 89,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780491949789-nxg1cj.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491983916-bgsyep.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491961039-urmob.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-satn-pvdrh-xsn3r7",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-04T08:08:14.740Z"
+    },
+    {
+      "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
+      "slug": "chtsayt-plysh-chvmh-oidcnl",
+      "name": "חצאית פליסה חומה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית פליסה חומה בגזרת וואן סייז מחמיאה ונוחה במיוחד, עם קפלים עדינים היוצרים מראה אלגנטי ונשפך. עשויה מבד קליל ונעים למגע, שמתאים את עצמו למגוון מבני גוף. הצבע החום מעניק לוק קלאסי, חמים ואופנתי שניתן לשלב בקלות עם חולצות בסיס או פריטים אלגנטיים. מתאימה ליומיום, אירועים ושבתות",
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780491854164-ku4scq.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491873192-t7nezn.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491883583-3zlv6s.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491897581-adxanf.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-oidcnl",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-03T18:38:14.396Z"
+    },
+    {
+      "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
+      "slug": "chtsayt-plysh-yrvkh-456geg",
+      "name": "חצאית פליסה ירוקה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.",
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1780491724169-066eo2.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1780491790091-imnkpj.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491743301-zyqhqpl.webp",
+        "https://hodayaboutique.co.il/assets/product-1780491752802-asuiwg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-456geg",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-03T18:35:22.646Z"
+    },
+    {
+      "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
+      "slug": "shmlt-adn-tshvb-tml19u",
+      "name": "שמלת עדן צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין.\nמעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי.\n\nהצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎\n",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tshvb-tml19u",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-31T11:17:47.415Z"
+    },
+    {
+      "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
+      "slug": "shmlt-avdry-pvdrh-brutl3",
+      "name": "שמלת - אודרי פודרה ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב צנועה ואלגנטית בגזרת מקסי נשפכת ומחמיאה במיוחד.\nמעוצבת עם שרוולי שיפון ארוכים, מחשוף מרובע עדין וכיווצים באזור המותן למראה נשי ומדויק.\nהבד הרך יושב בצורה מושלמת על הגוף ומעניק לוק יוקרתי וקלאסי שמתאים לכל אירוע.\nניתן להצניע בקלות עם בסיס תואם למראה מושלם ונוח",
+      "sku": null,
+      "brand": null,
+      "price": 699,
+      "base_price": 699,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779907692704-usdby3.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-brutl3",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-31T11:19:05.099Z"
+    },
+    {
+      "id": "c86bbdb5-dfc9-4c45-898b-0d15a5838b36",
+      "slug": "shmlt-aryanh-shchvr-v9tjo9",
+      "name": "שמלת אריאנה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת אריאנה בצבע שחור – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף.\n\nשמלה מושלמת לאירועים, חתונות ושבתות יוקרתיות – שילוב של קלאסיות, סטייל ונוכחות מרשימה בכל צעד ✨\nניתן להצניע.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779905133086-twiy.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-shchvr-v9tjo9",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-27T18:09:18.731Z"
+    },
+    {
+      "id": "41de5cae-0116-48f2-98d1-8f6acaa6a7cf",
+      "slug": "bgd-ym-avryan-chvm-ou8j4z",
+      "name": "בגד ים אוריאן חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים אוריאן בצבע חום – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 🤎\nמעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק.\n\nהבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️\n\nהדגם מגיע במידת One Size",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779822913547-1hjb2g.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-chvm-ou8j4z",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-03T09:52:47.627Z"
+    },
+    {
+      "id": "beb9610d-3f95-474d-9d6b-2cbba8f80cc8",
+      "slug": "bgd-ym-avryan-kchvl-lruy30",
+      "name": "בגד ים אוריאן כחול ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים אוריאן בצבע כחול – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💙\nמעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק.\n\nהבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️\n\nהדגם מגיע במידת One Size",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779822648695-oe6u9a.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-kchvl-lruy30",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-03T09:50:00.789Z"
+    },
+    {
+      "id": "e4c3cf9d-4e82-4181-a7b3-0ff669ff91ca",
+      "slug": "bgd-ym-avryan-yrvk-z6gu16",
+      "name": "בגד ים אוריאן ירוק",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים אוריאן בצבע ירוק – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💚\nמעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק.\n\nהבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️\n\nהדגם מגיע במידת One Size",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779822540880-ji4bs.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-z6gu16",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-03T09:50:58.751Z"
+    },
+    {
+      "id": "f202dc38-95b9-4e52-bbdf-bf46075d3619",
+      "slug": "bgd-ym-avryan-n71eeh",
+      "name": "בגד ים אוריאן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים אוריאן בצבע תכלת – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💎\nמעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק.\n\nהבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️\n\nהדגם מגיע במידת One Size",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779822296024-zpojhq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-n71eeh",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-03T09:51:50.513Z"
+    },
+    {
+      "id": "597f3bda-d371-4584-a8d3-82fd01e235ab",
+      "slug": "shmlt-aryanh-bz-6ptm7m",
+      "name": "שמלת אריאנה בז׳",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת אריאנה בצבע בז׳ – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף.\n\nשמלה מושלמת לאירועים, חתונות ושבתות יוקרתיות – שילוב של קלאסיות, סטייל ונוכחות מרשימה בכל צעד ✨\nניתן להצניע.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779821587587-i8jn.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779821623371-6ije5y5e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-bz-6ptm7m",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-31T11:23:58.086Z"
+    },
+    {
+      "id": "7124803c-9507-4b1d-bdd6-d431e747f327",
+      "slug": "shmlt-adn-tklt-9leowe",
+      "name": "שמלת עדן תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת עדן בצבע תכלת – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין.\nמעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי.\n\nהצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎\n\n",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779821107584-r0cp4.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tklt-9leowe",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-31T11:21:32.865Z"
+    },
+    {
+      "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
+      "slug": "shmlt-aryanh-chvm-ns9bk8",
+      "name": "שמלת אריאנה חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף\nהדוגמנית לובשת מידה 1\nניתן להצניע ",
+      "sku": null,
+      "brand": null,
+      "price": 749,
+      "base_price": 749,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820703883-6epo68.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-ns9bk8",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-31T11:22:55.430Z"
+    },
+    {
+      "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
+      "slug": "shmlt-mvnh-mvkh-kfjgl3",
+      "name": "שמלת מונה מוקה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0.\n",
+      "sku": null,
+      "brand": null,
+      "price": 439,
+      "base_price": 439,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505469455-1bu2ja.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505529178-2ibx7.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505499290-nc8ku9.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778505557991-uq68u.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-mvkh-kfjgl3",
+      "categories": [
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-18T05:15:57.868Z"
+    },
+    {
+      "id": "a70d68da-3daa-4134-b315-c7cddeeaef53",
+      "slug": "chtsayt-byysyk-vrvdh-6m3g5y",
+      "name": "חצאית בייסיק ורודה ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391634332-bk88gm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-vrvdh-6m3g5y",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-10T05:42:16.850Z"
+    },
+    {
+      "id": "1b24af28-f021-4daf-902c-21202890e6af",
+      "slug": "chtsayt-byysyk-chvm-6it5x1",
+      "name": "חצאית בייסיק חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391443200-i59mto.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-chvm-6it5x1",
+      "categories": [],
+      "updated_at": "2026-05-10T05:38:01.125Z"
+    },
+    {
+      "id": "ffae7b97-e048-4fdb-b9c8-8f6943c612a0",
+      "slug": "chtsayt-byysyk-apvrh-8gq3wx",
+      "name": "חצאית בייסיק אפורה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778391286971-bmnvid.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-apvrh-8gq3wx",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-10T05:36:05.669Z"
+    },
+    {
+      "id": "000cdadb-4c7f-4eec-91f9-244b250bcff3",
+      "slug": "chtsayt-byysyk-tshvbh-c53fkl",
+      "name": "חצאית בייסיק צהובה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית בייסיק מושלמת ללוק יומיומי נקי ומדויק ✨\nבגזרה מחמיאה ונוחה עם נפילה יפה על הגוף, מתאימה לשילוב עם חולצות מכופתרות, טי־שירטים וסריגים לסטייל אלגנטי וצנוע.\nבד נעים ואיכותי שמעניק נוחות לאורך כל היום ומתאים לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778390993531-b52bq9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-tshvbh-c53fkl",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-10T05:33:24.003Z"
+    },
+    {
+      "id": "d9baabe7-05b2-46d1-b000-33bd63b8f9d7",
+      "slug": "chtsayt-aysmtryt-xugk26",
+      "name": "חצאית איסמטרית",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית איסמטרית בעיצוב מודרני ומדויק, עם גזרה מחמיאה שיוצרת מראה אלגנטי וייחודי. מתאימה לשילוב לוק יומי או ערב בסטייל נקי ועדכני. הבד נעים ואיכותי עם נוכחות מרשימה בכל הופעה.\nהדוגמנית לובשת מידה XS",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778358932057-qrmozh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-aysmtryt-xugk26",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-09T20:49:48.404Z"
+    },
+    {
+      "id": "6e8e23c1-e358-4aa1-8101-e5cae34e59c5",
+      "slug": "bgd-gvp-skyl-shchvr-ar34vx",
+      "name": "בגד גוף סקיל שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 120,
+      "base_price": 120,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250544842-iceweh.webp",
+        "https://hodayaboutique.co.il/assets/product-1778250512822-90rnzr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-gvp-skyl-shchvr-ar34vx",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:30:08.636Z"
+    },
+    {
+      "id": "a80c88e3-8043-49fc-a449-8538793ffaed",
+      "slug": "bgd-gvp-skyl-lbn-3ogdxs",
+      "name": "בגד גוף סקיל לבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 120,
+      "base_price": 120,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250344389-z8fxxo.webp",
+        "https://hodayaboutique.co.il/assets/product-1778250317253-egpf0b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-gvp-skyl-lbn-3ogdxs",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:27:57.545Z"
+    },
+    {
+      "id": "d15105e0-6ca4-47df-b107-dd02c356741c",
+      "slug": "shmlt-kyvvtsym-lsjbw0",
+      "name": "שמלת כיווצים",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250041274-wg2k7.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778250118766-jl3pnj.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyvvtsym-lsjbw0",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:23:56.808Z"
+    },
+    {
+      "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
+      "slug": "chlyph-chtsayt-lvlavt-bz-rrrm0g",
+      "name": "חליפה חצאית לולאות ב׳ז",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 219,
+      "base_price": 219,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778247159719-0jssq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778247191681-4lotxo.webp",
+        "https://hodayaboutique.co.il/assets/product-1778246886580-8e8fzk.webp",
+        "https://hodayaboutique.co.il/assets/product-1778246892131-ql0xcgr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlyph-chtsayt-lvlavt-bz-rrrm0g",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "d329f5a2-8d89-4ff4-aeff-4c33d9765b3f",
+      "slug": "chlypt-chtsayt-lvlavt-shchvr-tgpdsd",
+      "name": "חליפת חצאית לולאות שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים בגזרת אובר סייז, חולצה עם שרוולים מתרחבים, כריות בכתפיים וקשירות בגב וחצאית מקסי עם גומי למעלה.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 219,
+      "base_price": 219,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778246554501-qr85wq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778246582698-hwlt6l.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778246637473-iyk9jai.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778246609090-tthvqp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-chtsayt-lvlavt-shchvr-tgpdsd",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43",
+      "slug": "chtsayt-arb-shchvr-ky3a84",
+      "name": "חצאית ערב שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 359,
+      "base_price": 359,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778249215753-zvolbp.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778249244013-rj8g8r.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-shchvr-ky3a84",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-26T19:51:43.030Z"
+    },
+    {
+      "id": "fefeead5-d696-4754-8ddd-58a9ac1c6565",
+      "slug": "chtsayt-arb-lbnh-b61ork",
+      "name": "חצאית ערב לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 359,
+      "base_price": 359,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245057328-d6he7h.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245138334-kw4bvu.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-arb-lbnh-b61ork",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-26T19:50:39.288Z"
+    },
+    {
+      "id": "f188c528-1331-4d17-9302-1fd30100d2e0",
+      "slug": "chlypt-lvrn-bz-6oew42",
+      "name": "חליפת לורן ב׳ז",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים חולצה עם שרוולי 3/4 וחצאית מקסי תואמת, עם חגורת קשירה במותן למראה אלגנטי.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 259,
+      "base_price": 259,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245888741-mbwpo.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245948485-vv0prc.webp",
+        "https://hodayaboutique.co.il/assets/product-1778245800285-rmgnmc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-bz-6oew42",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-26T19:47:00.375Z"
+    },
+    {
+      "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
+      "slug": "chlypt-lvrn-vrvd-xbtgm0",
+      "name": "חליפת לורן ורוד",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים חולצה עם שרוולי 3/4 וחצאית מקסי תואמת, עם חגורת קשירה במותן למראה אלגנטי.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 259,
+      "base_price": 259,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245544470-ihf75yr.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245662887-gmf0oe.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245632141-8808xa.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245602779-dx3lk5.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-vrvd-xbtgm0",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
+      "slug": "shmlt-klrys-shchvr-7t91x2",
+      "name": "שמלת קלריס שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית באורך מקסי מתרחבת מהמותן. מידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 299,
+      "base_price": 299,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244892803-ymau0l.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244923310-cjz6n7h.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778244866614-51dwsq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-klrys-shchvr-7t91x2",
+      "categories": [
+        "שמלות",
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-26T19:51:24.894Z"
+    },
+    {
+      "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
+      "slug": "chlypt-arykh-shchvr-08m0gs",
+      "name": "חליפת אריקה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת שני חלקים, בגד גוף מבד מחטב בגזרה צמודה עם גולף, שרוולים ארוכים וכפפה ביד וחצאית עם קיפול לבן באורך מקסי.\nמידת הבגד על הדוגמנית XS",
+      "sku": null,
+      "brand": null,
+      "price": 369,
+      "base_price": 369,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243948168-z5sel.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243914784-ctvseo.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778243975097-9tcf9n.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-08m0gs",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-09T20:50:01.946Z"
+    },
+    {
+      "id": "39fb161d-b450-4db4-891f-f7528de77090",
+      "slug": "shmlt-mvnh-g0x9m7",
+      "name": "שמלת מונה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0.\nצבע",
+      "sku": null,
+      "brand": null,
+      "price": 439,
+      "base_price": 439,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238608480-m9suh.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238639582-fjaoco.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238690327-37cq6b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-g0x9m7",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "7d6be071-9322-4fb8-86d6-d4d8f14a518b",
+      "slug": "shmchh-tchrh-shchvrh-in3bp8",
+      "name": "שמחה תחרה שחורה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי עם תחרה עשירה וגזרה מחטבת. החלק העליון כולל צווארון סגור ועיטורי מחוך עדין שמוסיף מבנה ואלגנטיות. מתאימה לערב ולאירועים, ומשלבת קלאסיות עם טוויסט מודרני. מידת הבגד על הדוגמנית 0.",
+      "sku": null,
+      "brand": null,
+      "price": 349,
+      "base_price": 349,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778237250713-buobfk.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778237289762-e4rtsl.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778237473997-65ez.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778237438342-xadyx.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmchh-tchrh-shchvrh-in3bp8",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-06-02T12:16:06.718Z"
+    },
+    {
+      "id": "51d2cc04-d683-4907-947a-6a99a100d7f0",
+      "slug": "ty-shrt-nvbh-chmah-eqt453",
+      "name": "טי שרט נובה חמאה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "טי שרט בגזרת אובר סייז עם שרוול 3/4.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778236118375-gmp577.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778236150922-n1xb6t.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778236240732-6245x.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778236191610-27befo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ty-shrt-nvbh-chmah-eqt453",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:15:01.691Z"
+    },
+    {
+      "id": "eeb4b4b3-d9be-49f0-93f7-d14e68620cb5",
+      "slug": "ty-shrt-nvbh-shchvr-c2lsbq",
+      "name": "טי שרט נובה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "טי שרט בגזרת אובר סייז עם שרוול 3/4.\nמידת הבגד על הדוגמנית XS.",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235689759-aglrrc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235837885-vzlshd.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235797062-112hyb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ty-shrt-nvbh-shchvr-c2lsbq",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "8536ab7c-f45d-49da-81ea-8a8214c7f948",
+      "slug": "tyshrt-nvbh-hplubo",
+      "name": "טישרט נובה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235103282-fpqxtu.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778235146474-r2ke5.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/tyshrt-nvbh-hplubo",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "22668127-8938-4603-b908-7d8d2345c157",
+      "slug": "shmlt-ayydn-kchvl-3f1c1h",
+      "name": "שמלת איידן כחול",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי סריג בגזרה צמודה ומחמיאה עם טקסטורת פסים לאורך כוללת שרוולים ארוכים מתרחבים קלות וצווארון עגול קלאסי.\nהדוגמנית לובשת מידה XS.",
+      "sku": null,
+      "brand": null,
+      "price": 279,
+      "base_price": 279,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234861038-juorh.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234831980-vi3ljo.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234943253-iqc2ik.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-kchvl-3f1c1h",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "8ade6408-710b-4a07-816a-cc99c112ea48",
+      "slug": "shmlt-ayydn-shchvr-jbr0uw",
+      "name": "שמלת איידן שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 279,
+      "base_price": 279,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234567874-f47clc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234526291-6hq5mx.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234605310-crht8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-jbr0uw",
+      "categories": [
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "042120b9-ca08-4587-9234-4ba90cd50f26",
+      "slug": "shmlt-kyyty-lbn-gfyiji",
+      "name": "שמלת קייטי לבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון\nהדוגמנית לובשת מידה XS",
+      "sku": null,
+      "brand": null,
+      "price": 349,
+      "base_price": 349,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234036152-hdayh.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234065138-ygfnoc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234181754-josb5h.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234208964-k3v7l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-gfyiji",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "0358393e-f8f9-4c03-a108-de8c97c7cf86",
+      "slug": "shmlt-kyyty-shchvr-3d838q",
+      "name": "שמלת קייטי שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון\nהדוגמנית לובשת מידה XS.",
+      "sku": null,
+      "brand": null,
+      "price": 349,
+      "base_price": 349,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778233836628-ewji0x.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-3d838q",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
+      "slug": "ann-kkav-ez3pfy",
+      "name": "ענן קקאו",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “ענן קקאו” היא סט פשתן מכופתר אלגנטי בגוון חום חמים וטבעי, שמעניק מראה יוקרתי אך רגוע ונוח ליום-יום.\n\nהחליפה עשויה בד פשתן איכותי, נושם וקליל, שמרגיש נעים על הגוף ומתאים במיוחד ללבישה יומיומית. הגוון החום העמוק יוצר מראה עשיר, טבעי ומלא סטייל, שמשדר אלגנטיות שקטה ותחכום מודרני.\n\nהחלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל גם חצאית תואמת בגזרה נשית ומחמיאה, שמשלימה את הלוק ויוצרת הופעה אחידה, נקייה ומדויקת.",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778070841150-j5bf8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ann-kkav-ez3pfy",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb",
+      "slug": "lbn-pshtn-algnt-psaj0s",
+      "name": "לבן פשתן אלגנט",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “ענן פשתן” לבנה היא סט מכופתר אלגנטי ונושם שמשלב בין מראה טבעי, נקי ויוקרתי לבין נוחות מקסימלית ליום-יום.\n\nהחליפה עשויה בד פשתן איכותי וקליל, שמעניק תחושת אווריריות ונעימות על הגוף ומתאים במיוחד לאקלים חם. הגוון הלבן הנקי יוצר מראה רענן, קלאסי ועל-זמני שמשדר אלגנטיות שקטה ולא מתאמצת.\n\nהחלק העליון בעיצוב מכופתר מעניק מראה מסודר ומוקפד, בעוד הגזרה המחמיאה שומרת על נוחות ותנועה חופשית. הסט כולל חצאית תואמת כחלק מהתחתית, בגזרה נשית ומחמיאה שמשלימה את הלוק ויוצרת מראה אחיד, אלגנטי ומדויק.\n",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184386065-pjoh5h.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/lbn-pshtn-algnt-psaj0s",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "446c35d0-6fa4-4b9b-80e1-5280d7ac88bf",
+      "slug": "krn-shmsh-icc466",
+      "name": "קרן שמש",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “קרן שמש” היא סט צווארון צהוב מלא סטייל שמכניס אור, רעננות ונוכחות לכל הופעה.\n\nהחליפה מגיעה בגוון צהוב חמים ומלא חיים, שמעניק מראה בולט אך אלגנטי, ומשדר ביטחון וסטייל טבעי. החלק העליון בעיצוב צווארון מוסיף טאץ’ קלאסי ומסודר, בעוד הגזרה המחמיאה יוצרת מראה נשי, נקי ומדויק",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778522951748-w7fnh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/krn-shmsh-icc466",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-11T18:09:22.005Z"
+    },
+    {
+      "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
+      "slug": "avr-lbn-8h2blu",
+      "name": "אור לבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת בייסיק לבנה בגזרת אוברסייז היא פריט חובה בכל מלתחה שמחפשת שילוב של נוחות, פשטות וסטייל נקי.\n\nהחולצה מגיעה בגזרה רחבה ומשוחררת שיושבת בצורה טבעית על הגוף ומעניקה תחושת נוחות לאורך כל היום. הצבע הלבן הקלאסי יוצר מראה רענן, נקי ועל-זמני, שמתאים לכל שילוב ולכל סגנון לבוש.",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184580192-cbezik.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/avr-lbn-8h2blu",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
+      "slug": "ppyvn-tklt-1r7m0h",
+      "name": "פפיון תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין.\n\nהחליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/ppyvn-tklt-1r7m0h",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-26T19:52:07.077Z"
+    },
+    {
+      "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
+      "slug": "pynk-shyk-zrl5kk",
+      "name": "פינק שיק",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת “פפיון ורוד” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם טאץ’ נשי ועדין.\n\nהחליפה מגיעה בגוון ורוד רך שמוסיף מראה רענן ומתוק לכל הופעה, יחד עם סרט קשירה (פפיון) שמעניק דיטייל מיוחד והופך את הלוק לפשוט אבל לא משעמם. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום בלי לוותר על מראה מסודר ואופנתי.",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184775690-vj6vgj.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/pynk-shyk-zrl5kk",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-26T19:51:08.523Z"
+    },
+    {
+      "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
+      "slug": "lvryan-tchrh-lbnh-ceuz2p",
+      "name": "לוריאן תחרה לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת תחרה לבנה הכוללת חצאית וחולצה היא סט אלגנטי ונשי שמשדר ניקיון, עדינות ויוקרה קלאסית.\n\nהחליפה עשויה תחרה איכותית עם דיטיילים עדינים שמוסיפים עומק ועניין למראה כולו. הגזרה של החצאית מחמיאה ומדגישה את המותן בצורה טבעית ונשית, בעוד החולצה משלימה את הלוק עם מראה רך, אלגנטי ומוקפד.",
+      "sku": null,
+      "brand": null,
+      "price": 189,
+      "base_price": 199,
+      "sale_price": 189,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1779009264637-48mrbm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-ceuz2p",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-17T09:14:33.238Z"
+    },
+    {
+      "id": "473c67e4-ca16-4d53-b721-474efeda7292",
+      "slug": "avr-lyly-hdyav5",
+      "name": "אור לילי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת סאטן לבנה “אור לילי” היא סט אלגנטי ונשי המשלב בין יוקרה רכה לסטייל נקי ומדויק.\n\nהחליפה כוללת חצאית בגזרה מחמיאה ועליונית תואמת, עשויות בד סאטן חלק ונשפך שמעניק מראה מבריק ועדין עם נוכחות יוקרתית. הצבע הלבן הקלאסי יוצר מראה נקי, אלגנטי ועל-זמני שמתאים לאירועים מיוחדים, חגיגות, או לוקים אלגנטיים במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 179,
+      "base_price": 179,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778184955654-yyp7j.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/avr-lyly-hdyav5",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "35e71576-d877-47a1-931d-aa445d279f92",
+      "slug": "chvltst-nvah-byysyk-mldsns",
+      "name": "חולצת נועה בייסיק",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת בייסיק ורודה בגזרת אוברסייז היא פריט חובה לכל מלתחה שמחפשת שילוב בין נוחות לסטייל נקי ומודרני.\n\nהחולצה מגיעה בגזרה רחבה ומשוחררת שיושבת בקלילות על הגוף, מעניקה תחושת נוחות מקסימלית ומראה טרנדי ולא מתאמץ. הצבע הורוד העדין מוסיף טאץ’ רך ונשי ללוק,",
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185028317-b5zptr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-nvah-byysyk-mldsns",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "ef43a3ae-3c00-4145-8303-d255f5a474b8",
+      "slug": "chtsayt-lvryyn-tchrh-shchvrh-5uhjbl",
+      "name": "חצאית לוריין תחרה שחורה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית תחרה שחורה היא פריט קלאסי ועל-זמני שמשלב בין אלגנטיות נשית לבין מראה יוקרתי ומדויק.\n\nהחצאית עשויה תחרה עדינה בגוון שחור עמוק, היוצרת מראה עשיר עם טקסטורה מיוחדת שמוסיפה עניין וסטייל לכל הופעה. הגזרה המחמיאה מדגישה את המותן ויוצרת סילואטה נשית ואלגנטית, שמתאימה גם ליציאות ערב וגם ללוק מוקפד ליום-יום",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185335404-cdvyg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-lvryyn-tchrh-shchvrh-5uhjbl",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-05-08T14:08:50.053Z"
+    },
+    {
+      "id": "de3c995f-41a9-4696-87a1-8198edf15292",
+      "slug": "shmlt-nvam-pl6bp6",
+      "name": "שמלת נועם",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת נועם היא הבחירה המושלמת למראה אלגנטי, נקי ומדויק שמדגיש את הגוף בצורה מחמיאה ועדינה.\n\nהשמלה מגיעה בגזרה צמודה שמלטפת את הקווים הטבעיים של הגוף ויוצרת מראה נשי ומוקפד, תוך שמירה על סטייל יוקרתי ולא מתאמץ. הצבע השחור הקלאסי מעניק לה מראה על-זמני שמתאים לכל אירוע – ערב, דייט או יציאה חגיגית.\n\nהדגש המיוחד בשמלה הוא האבזם הייחודי בעיצוב “אש”, שמוסיף טאץ’ עוצמתי וייחודי למראה כולו והופך את השמלה מפריט בסיסי לפריט עם אמירה. ניתן להסיר את האבזם לפי בחירה, כך שאפשר ליהנות ממראה נקי ומינימליסטי.",
+      "sku": null,
+      "brand": null,
+      "price": 299,
+      "base_price": 299,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185713440-uye92d.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185570409-si5d5.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185686500-id9k9n.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778185623231-dt7rb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvam-pl6bp6",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-05-28T18:57:36.796Z"
+    },
+    {
+      "id": "20f9e928-5478-4dd8-87c5-85330953d529",
+      "slug": "shmlt-amvr-rpp424",
+      "name": "שמלת אמור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "\n שמלת נואר אלגנט\n\n\nשמלת ערב קלאסית ונשית בעיצוב נקי ומדויק, שמדגישה את קווי הגוף בצורה מחמיאה ומעניקה מראה יוקרתי ואלגנטי.\n\nהגזרה הצמודה משתלבת עם שרוולים ארוכים ופתח עדין באזור החזה, ליצירת לוק מתוחכם עם טאץ’ מודרני – מושלם לאירועים, ערב או הופעה מרשימה.\n",
+      "sku": null,
+      "brand": null,
+      "price": 199,
+      "base_price": 199,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778186037939-raxyi.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778186067553-u93ft.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778186176010-jbmlyt.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1778186152643-vodm8q.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amvr-rpp424",
+      "categories": [
+        "שמלות",
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-05-26T19:48:43.440Z"
+    },
+    {
+      "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
+      "slug": "chlypt-yryn-ujoi32",
+      "name": "חליפת ירין",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפה ירוקה בגזרה מחויטת ועדינה, מושלמת ליום-יום עם מראה נקי, נוח ומלא סטייל.\n\nהחליפה מגיעה בגוון ירוק אלגנטי שמוסיף צבע רענן ללוק היומיומי בלי להיות מוגזם. הגזרה נוחה ומחמיאה, מאפשרת תנועה חופשית ונוחות לאורך כל היום, תוך שמירה על מראה מסודר ומוקפד",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-enhanced-1778072447091-jm59or.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-yryn-ujoi32",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-05-27T21:52:12.546Z"
+    }
+  ]
 }
