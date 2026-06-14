@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:26:38.534Z",
+  "generated_at": "2026-06-14T14:28:52.157Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 61,
@@ -114,15 +114,15 @@
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
-      "slug": "chlypt-tayr-bz-nipwji",
+      "slug": "chlypt-tayr-bz-dvnhsw",
       "name": "חליפת תאיר בז",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת תאיר בצבע שמנת משלבת נוחות וסטייל במראה צנוע ואלגנטי. הסט כולל חולצה בגזרת אוברסייז וחצאית מקסי מחמיאה עם כיסים. הבד הרך והנעים מתאים ליום יום, לעבודה או ליציאה. הדוגמנית לובשת מידה XS",
       "sku": null,
       "brand": null,
-      "price": 249,
-      "base_price": 249,
+      "price": 269,
+      "base_price": 269,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -133,23 +133,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-nipwji",
+      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-dvnhsw",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-04T08:06:22.383Z"
+      "updated_at": "2026-06-14T14:27:28.568Z"
     },
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
-      "slug": "shmlt-alyh-tshvb-nok8on",
+      "slug": "shmlt-alyh-tshvb-netneo",
       "name": "שמלת אליה צהוב",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת “אליה” בצבע צהוב\n\nשמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
       "sku": null,
       "brand": null,
-      "price": 159,
-      "base_price": 159,
+      "price": 169,
+      "base_price": 169,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -160,23 +160,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-nok8on",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-netneo",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-04T08:06:40.224Z"
+      "updated_at": "2026-06-14T14:27:57.339Z"
     },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
-      "slug": "shmlt-alyh-bz-rohaay",
+      "slug": "shmlt-alyh-bz-vuajf2",
       "name": "שמלת אליה בז׳",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת “אליה” בצבע בז’\n\nשמלת מקסי צנועה ואלגנטית בגוון בז’ קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
       "sku": null,
       "brand": null,
-      "price": 159,
-      "base_price": 159,
+      "price": 169,
+      "base_price": 169,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -188,11 +188,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-rohaay",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-vuajf2",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-04T08:06:57.803Z"
+      "updated_at": "2026-06-14T14:28:21.121Z"
     },
     {
       "id": "321acf8c-3161-416f-920c-8af06cc94f64",
