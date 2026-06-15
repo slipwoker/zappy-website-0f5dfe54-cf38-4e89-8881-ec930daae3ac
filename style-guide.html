@@ -1866,31 +1866,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="zppb-overlay" id="zppb-overlay">
       <div class="zppb-banner">
         <button class="zppb-close" id="zppb-close">&times;</button>
-        <div class="zppb-bg-img" style="background-image:url('assets/product-1781012561617-pxnt79.webp'); opacity:0.5;"></div>
+        <div class="zppb-bg-img" style="background-image:url('assets/product-1781556037431-4pnomw.webp'); opacity:0.5;"></div>
         <div class="zppb-content">
-          <h3 class="zppb-h">HODAYA BOUTIQUE </h3>
-          <p class="zppb-sub">🎊 השקה חגיגית!
-
-25% הנחה על כל האתר
-
-🎁 קוד קופון: HODAYA25
-
-⏰ ל-24 שעות בלבד
-🚚 משלוחים לכל הארץ
-
-💬 לשאלות – לחצי על הווצאפ
-</p>
+          <h3 class="zppb-h">שעות ספורות למבצע !</h3>
+          <p class="zppb-sub">השקה רשמית 🤍 
+25 אחוז הנחה על כל החנות !
+לכל שאלה ובעיה לחצו על כפתור הווצאפ</p>
+          <div class="zppb-countdown" id="zppb-countdown"><span id="zppb-cd-h">00</span>:<span id="zppb-cd-m">00</span>:<span id="zppb-cd-s">00</span></div>
           
-          
-          <a href="/products" class="zppb-cta">לקולקציה </a>
+          <a href="/products" class="zppb-cta">Shop Now</a>
         </div>
       </div>
     </div>
 <script>
     (function(){
       var FREQ = 'once_per_session';
-      var DELAY = 3000;
-      var KEY = 'zppb_6a44a567-dfa1-4b1a-9714-4311d6d30b12';
+      var DELAY = 2000;
+      var KEY = 'zppb_e5e233cf-2651-4df7-b89d-276973186d52';
       // Only run on the first URL opened in this tab. Avoids showing the modal again
       // on every internal navigation when the user leaves before the delay fired on the landing page.
       if (FREQ !== 'every_visit') {
@@ -1941,6 +1933,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
 
       
+      function startCountdown() {
+        var end = new Date('2026-06-16T17:00').getTime();
+        function tick() {
+          var diff = Math.max(0, end - Date.now());
+          var h = Math.floor(diff / 3600000);
+          var m = Math.floor((diff % 3600000) / 60000);
+          var s = Math.floor((diff % 60000) / 1000);
+          var eh = document.getElementById('zppb-cd-h');
+          var em = document.getElementById('zppb-cd-m');
+          var es = document.getElementById('zppb-cd-s');
+          if (eh) eh.textContent = String(h).padStart(2, '0');
+          if (em) em.textContent = String(m).padStart(2, '0');
+          if (es) es.textContent = String(s).padStart(2, '0');
+          if (diff > 0) setTimeout(tick, 1000);
+        }
+        tick();
+      }
+      
 
       
 
@@ -1951,7 +1961,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       setTimeout(function() {
         showBanner();
-        
+        startCountdown();
       }, DELAY);
     })();</script>
 
