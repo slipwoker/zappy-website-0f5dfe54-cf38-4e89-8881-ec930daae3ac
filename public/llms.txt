@@ -75,16 +75,18 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 63**
 
 ### חליפת פשתן כתום
-https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-8p09lp
+https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-wwra2d
 - Price: 189.00 ILS
 - Availability: In stock
+- Category: חליפות
 - Description: חליפת פשתן כתום מלא בסטייל מלא בנוכחות מתאימה ליום יום וערבים הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-1781531916827-4gjfjl.webp
 
 ### חליפת שכמיה
-https://hodayaboutique.co.il/product/chlypt-shkmyh-v1wvh6
+https://hodayaboutique.co.il/product/chlypt-shkmyh-32twie
 - Price: 199.00 ILS
 - Availability: In stock
+- Category: חליפות
 - Description: חליפת שכמיה צהובה מתאימה ליום יום מלאה בסטייל הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1781531825468-2v5oub.webp
 
