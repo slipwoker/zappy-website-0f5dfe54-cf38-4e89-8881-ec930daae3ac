@@ -4,14 +4,27 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Mon, 15 Jun 2026 13:57:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 13:57:50 GMT</lastBuildDate>
     <item>
-      <g:id>e5a35a91-759b-44b2-b544-9aa52a2a4ca2</g:id>
-      <g:title>חליפת שכמיה</g:title>
+      <g:id>e5a35a91-759b-44b2-b544-9aa52a2a4ca2__b6910d3b-654f-469a-bab0-85d720bbe920</g:id>
+      <g:title>חליפת שכמיה - 1</g:title>
       <g:description>חליפת שכמיה צהובה מתאימה ליום יום מלאה בסטייל הדוגמנית לובשת מידה 1</g:description>
-      <g:link>https://hodayaboutique.co.il/product/chlypt-shkmyh-ocyg81</g:link>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-1781531761918-eat19n.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1781531771298-zgpumg.webp</g:additional_image_link>
+      <g:link>https://hodayaboutique.co.il/product/chlypt-shkmyh-byh78a</g:link>
+      <g:item_group_id>e5a35a91-759b-44b2-b544-9aa52a2a4ca2</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1781531825468-2v5oub.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>199.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5a35a91-759b-44b2-b544-9aa52a2a4ca2__1566c4f7-4a73-4795-9e46-665c5ec6487d</g:id>
+      <g:title>חליפת שכמיה - 3</g:title>
+      <g:description>חליפת שכמיה צהובה מתאימה ליום יום מלאה בסטייל הדוגמנית לובשת מידה 1</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chlypt-shkmyh-byh78a</g:link>
+      <g:item_group_id>e5a35a91-759b-44b2-b544-9aa52a2a4ca2</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1781531825468-2v5oub.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>199.00 ILS</g:price>
       <g:condition>new</g:condition>

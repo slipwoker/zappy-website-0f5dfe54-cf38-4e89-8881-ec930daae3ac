@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T13:57:09.320Z",
+  "generated_at": "2026-06-15T13:57:50.887Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 62,
   "products": [
     {
       "id": "e5a35a91-759b-44b2-b544-9aa52a2a4ca2",
-      "slug": "chlypt-shkmyh-ocyg81",
+      "slug": "chlypt-shkmyh-byh78a",
       "name": "חליפת שכמיה",
       "name_translations": {},
       "description": "",
@@ -19,14 +19,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1781531761918-eat19n.webp",
-        "https://hodayaboutique.co.il/assets/product-1781531771298-zgpumg.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1781531825468-2v5oub.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-shkmyh-ocyg81",
+      "url": "https://hodayaboutique.co.il/product/chlypt-shkmyh-byh78a",
       "categories": [],
-      "updated_at": "2026-06-15T13:56:38.137Z"
+      "updated_at": "2026-06-15T13:57:37.517Z"
     },
     {
       "id": "e489289c-2f56-49d4-bacb-1cc3ba0f4638",
