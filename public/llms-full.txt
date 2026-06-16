@@ -6655,9 +6655,9 @@ Availability: In stock
 ---
 
 ### שמלת עדן צהוב
-URL: https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qg6n7f
+URL: https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b
 Price: 799.00 ILS
-Availability: In stock
+Availability: Out of stock
 
 ---
 
@@ -6900,7 +6900,7 @@ Availability: In stock
 ---
 
 ### שמלת קייטי שחור
-URL: https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-j27b2m
+URL: https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5
 Price: 349.00 ILS
 Availability: In stock
 
@@ -6942,7 +6942,7 @@ Availability: In stock
 ---
 
 ### פינק שיק
-URL: https://hodayaboutique.co.il/product/pynk-shyk-zrl5kk
+URL: https://hodayaboutique.co.il/product/pynk-shyk-h24jso
 Price: 169.00 ILS
 Availability: In stock
 

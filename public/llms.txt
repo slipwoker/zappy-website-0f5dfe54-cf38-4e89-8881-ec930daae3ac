@@ -187,9 +187,9 @@ https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-84o6pp
 - Image: https://hodayaboutique.co.il/assets/product-1780491724169-066eo2.webp
 
 ### שמלת עדן צהוב
-https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qg6n7f
+https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b
 - Price: 799.00 ILS
-- Availability: In stock
+- Availability: Out of stock
 - Category: שמלות ערב
 - Description: שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין. מעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי. הצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp
@@ -461,7 +461,7 @@ https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-epp1rx
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234036152-hdayh.webp
 
 ### שמלת קייטי שחור
-https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-j27b2m
+https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5
 - Price: 349.00 ILS
 - Availability: In stock
 - Category: שמלות ערב
@@ -509,7 +509,7 @@ https://hodayaboutique.co.il/product/ppyvn-tklt-1r7m0h
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
 
 ### פינק שיק
-https://hodayaboutique.co.il/product/pynk-shyk-zrl5kk
+https://hodayaboutique.co.il/product/pynk-shyk-h24jso
 - Price: 169.00 ILS
 - Availability: In stock
 - Category: חליפות

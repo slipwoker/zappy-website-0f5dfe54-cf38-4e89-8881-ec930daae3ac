@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:02:19.071Z",
+  "generated_at": "2026-06-16T12:11:05.294Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 63,
@@ -379,7 +379,7 @@
     },
     {
       "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
-      "slug": "shmlt-adn-tshvb-qg6n7f",
+      "slug": "shmlt-adn-tshvb-qy1v0b",
       "name": "שמלת עדן צהוב",
       "name_translations": {},
       "description": "",
@@ -393,13 +393,13 @@
       "images": [
         "https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qg6n7f",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-16T12:01:48.003Z"
+      "updated_at": "2026-06-16T12:11:03.319Z"
     },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
@@ -1265,7 +1265,7 @@
     },
     {
       "id": "0358393e-f8f9-4c03-a108-de8c97c7cf86",
-      "slug": "shmlt-kyyty-shchvr-j27b2m",
+      "slug": "shmlt-kyyty-shchvr-su3jp5",
       "name": "שמלת קייטי שחור",
       "name_translations": {},
       "description": "",
@@ -1282,12 +1282,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-j27b2m",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-16T11:45:34.755Z"
+      "updated_at": "2026-06-16T12:10:34.130Z"
     },
     {
       "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
@@ -1411,7 +1411,7 @@
     },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
-      "slug": "pynk-shyk-zrl5kk",
+      "slug": "pynk-shyk-h24jso",
       "name": "פינק שיק",
       "name_translations": {},
       "description": "",
@@ -1427,11 +1427,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/pynk-shyk-zrl5kk",
+      "url": "https://hodayaboutique.co.il/product/pynk-shyk-h24jso",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-05-26T19:51:08.523Z"
+      "updated_at": "2026-06-16T12:10:08.127Z"
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
