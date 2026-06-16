@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:11:34.581Z",
+  "generated_at": "2026-06-16T12:13:52.018Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 63,
@@ -499,7 +499,7 @@
     },
     {
       "id": "e4c3cf9d-4e82-4181-a7b3-0ff669ff91ca",
-      "slug": "bgd-ym-avryan-yrvk-z6gu16",
+      "slug": "bgd-ym-avryan-yrvk-vts5eh",
       "name": "בגד ים אוריאן ירוק",
       "name_translations": {},
       "description": "",
@@ -515,11 +515,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-z6gu16",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-vts5eh",
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-03T09:50:58.751Z"
+      "updated_at": "2026-06-16T12:13:20.921Z"
     },
     {
       "id": "f202dc38-95b9-4e52-bbdf-bf46075d3619",
