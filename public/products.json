@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:14:52.705Z",
+  "generated_at": "2026-06-16T12:15:32.460Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 63,
@@ -1291,7 +1291,7 @@
     },
     {
       "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
-      "slug": "ann-kkav-lcn6be",
+      "slug": "ann-kkav-1vsree",
       "name": "ענן קקאו",
       "name_translations": {},
       "description": "",
@@ -1307,11 +1307,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/ann-kkav-lcn6be",
+      "url": "https://hodayaboutique.co.il/product/ann-kkav-1vsree",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-16T12:14:21.587Z"
+      "updated_at": "2026-06-16T12:15:01.504Z"
     },
     {
       "id": "b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb",
