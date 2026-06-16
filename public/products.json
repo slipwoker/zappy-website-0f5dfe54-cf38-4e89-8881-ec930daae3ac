@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T20:59:47.479Z",
+  "generated_at": "2026-06-16T21:03:22.153Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 63,
@@ -1237,15 +1237,15 @@
     },
     {
       "id": "042120b9-ca08-4587-9234-4ba90cd50f26",
-      "slug": "shmlt-kyyty-lbn-epp1rx",
+      "slug": "shmlt-kyyty-lbn-xy54ii",
       "name": "שמלת קייטי לבן",
       "name_translations": {},
       "description": "",
       "short_description": "שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון\nהדוגמנית לובשת מידה XS",
       "sku": null,
       "brand": null,
-      "price": 349,
-      "base_price": 349,
+      "price": 389,
+      "base_price": 389,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -1256,12 +1256,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-epp1rx",
+      "url": "https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-xy54ii",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-16T11:45:51.716Z"
+      "updated_at": "2026-06-16T21:02:51.012Z"
     },
     {
       "id": "0358393e-f8f9-4c03-a108-de8c97c7cf86",
