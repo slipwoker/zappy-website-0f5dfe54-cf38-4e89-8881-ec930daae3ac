@@ -4,7 +4,19 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Tue, 16 Jun 2026 11:58:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 12:00:17 GMT</lastBuildDate>
+    <item>
+      <g:id>3579d201-b936-435a-9a39-d3d15509c4d0</g:id>
+      <g:title>טסט של זאפי</g:title>
+      <g:description>טסט של זאפי</g:description>
+      <g:link>https://hodayaboutique.co.il/product/tst-shl-zapy-g8pjll</g:link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:sale_price>1.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>5cafb0e2-7911-4afc-8506-b5d507c436c8__ee603bd5-1c87-45ac-8a0f-215982ae753f</g:id>
       <g:title>חליפת פשתן כתום - 4</g:title>
