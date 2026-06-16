@@ -6554,13 +6554,6 @@ Shop Now
 
 ## Product Catalog
 
-### טסט של זאפי
-URL: https://hodayaboutique.co.il/product/tst-shl-zapy-g8pjll
-Price: 1.00 ILS (sale, was 99.00 ILS)
-Availability: In stock
-
----
-
 ### חליפת פשתן כתום
 URL: https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-wwra2d
 Price: 189.00 ILS
