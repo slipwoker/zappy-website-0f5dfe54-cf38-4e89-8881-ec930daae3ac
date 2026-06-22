@@ -186,14 +186,6 @@ https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-84o6pp
 - Description: שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.
 - Image: https://hodayaboutique.co.il/assets/product-1780491724169-066eo2.webp
 
-### שמלת עדן צהוב
-https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b
-- Price: 799.00 ILS
-- Availability: Out of stock
-- Category: שמלות ערב
-- Description: שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין. מעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי. הצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp
-
 ### שמלת - אודרי פודרה 
 https://hodayaboutique.co.il/product/shmlt-avdry-pvdrh-3kc0ws
 - Price: 729.00 ILS
@@ -225,14 +217,6 @@ https://hodayaboutique.co.il/product/bgd-ym-avryan-kchvl-lruy30
 - Category: בגדי ים
 - Description: בגד ים אוריאן בצבע כחול – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💙 מעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק. הבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️ הדגם מגיע במידת One Size
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822648695-oe6u9a.webp
-
-### בגד ים אוריאן ירוק
-https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-vts5eh
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: בגדי ים
-- Description: בגד ים אוריאן בצבע ירוק – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💚 מעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק. הבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️ הדגם מגיע במידת One Size
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822540880-ji4bs.webp
 
 ### בגד ים אוריאן
 https://hodayaboutique.co.il/product/bgd-ym-avryan-n71eeh
@@ -460,14 +444,6 @@ https://hodayaboutique.co.il/product/shmlt-kyyty-lbn-xy54ii
 - Description: שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778234036152-hdayh.webp
 
-### שמלת קייטי שחור
-https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5
-- Price: 349.00 ILS
-- Availability: In stock
-- Category: שמלות ערב
-- Description: שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp
-
 ### ענן קקאו
 https://hodayaboutique.co.il/product/ann-kkav-1vsree
 - Price: 159.00 ILS
@@ -499,22 +475,6 @@ https://hodayaboutique.co.il/product/avr-lbn-8h2blu
 - Category: חולצות
 - Description: חולצת בייסיק לבנה בגזרת אוברסייז היא פריט חובה בכל מלתחה שמחפשת שילוב של נוחות, פשטות וסטייל נקי. החולצה מגיעה בגזרה רחבה ומשוחררת שיושבת בצורה טבעית על הגוף ומעניקה תחושת נוחות לאורך כל היום. הצבע הלבן הקלאסי יוצר מראה רענן, נקי ועל-זמני, שמתאים לכל שילוב ולכל סגנון לבוש.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184580192-cbezik.webp
-
-### פפיון תכלת
-https://hodayaboutique.co.il/product/ppyvn-tklt-l1j2hp
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: חליפות
-- Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
-
-### פינק שיק
-https://hodayaboutique.co.il/product/pynk-shyk-h24jso
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: חליפות
-- Description: חליפת “פפיון ורוד” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם טאץ’ נשי ועדין. החליפה מגיעה בגוון ורוד רך שמוסיף מראה רענן ומתוק לכל הופעה, יחד עם סרט קשירה (פפיון) שמעניק דיטייל מיוחד והופך את הלוק לפשוט אבל לא משעמם. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום בלי לוותר על מראה מסודר ואופנתי.
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184775690-vj6vgj.webp
 
 ### לוריאן תחרה לבנה
 https://hodayaboutique.co.il/product/lvryan-tchrh-lbnh-ceuz2p
@@ -563,6 +523,46 @@ https://hodayaboutique.co.il/product/shmlt-amvr-rpp424
 - Category: שמלות
 - Description: שמלת נואר אלגנט שמלת ערב קלאסית ונשית בעיצוב נקי ומדויק, שמדגישה את קווי הגוף בצורה מחמיאה ומעניקה מראה יוקרתי ואלגנטי. הגזרה הצמודה משתלבת עם שרוולים ארוכים ופתח עדין באזור החזה, ליצירת לוק מתוחכם עם טאץ’ מודרני – מושלם לאירועים, ערב או הופעה מרשימה.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778186037939-raxyi.webp
+
+### שמלת עדן צהוב
+https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b
+- Price: 799.00 ILS
+- Availability: Out of stock
+- Category: שמלות ערב
+- Description: שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין. מעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי. הצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp
+
+### שמלת קייטי שחור
+https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5
+- Price: 349.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת מקסי מחויטת בגזרה צמודה ומחמיאה עם שרוולים ארוכים וצווארון סירה אלגנטי. תיפורי קונטור מודגשים מדגישים את קווי הגוף, עם חצאית מתרחבת קלות בחלק התחתון הדוגמנית לובשת מידה XS.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778233802296-1m59a.webp
+
+### פינק שיק
+https://hodayaboutique.co.il/product/pynk-shyk-h24jso
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת “פפיון ורוד” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם טאץ’ נשי ועדין. החליפה מגיעה בגוון ורוד רך שמוסיף מראה רענן ומתוק לכל הופעה, יחד עם סרט קשירה (פפיון) שמעניק דיטייל מיוחד והופך את הלוק לפשוט אבל לא משעמם. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום בלי לוותר על מראה מסודר ואופנתי.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184775690-vj6vgj.webp
+
+### בגד ים אוריאן ירוק
+https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-vts5eh
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Description: בגד ים אוריאן בצבע ירוק – סט מושלם לקיץ במראה נשי, עדין וסטייליסטי 💚 מעוצב עם חצאית קשירה מחמיאה שיושבת בצורה מושלמת על הגוף, בשילוב בנדנה תואמת להשלמת הלוק. הבד נעים, קליל ונוח במיוחד לים ולבריכה, עם מראה אופנתי ומדויק לכל חופשה או יום קיץ ☀️ הדגם מגיע במידת One Size
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822540880-ji4bs.webp
+
+### פפיון תכלת
+https://hodayaboutique.co.il/product/ppyvn-tklt-l1j2hp
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
 
 ### חליפת ירין
 https://hodayaboutique.co.il/product/chlypt-yryn-ujoi32
