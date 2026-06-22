@@ -1,21 +1,21 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-22T14:31:19.349Z",
+  "generated_at": "2026-06-22T16:42:12.494Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 63,
   "products": [
     {
       "id": "5cafb0e2-7911-4afc-8506-b5d507c436c8",
-      "slug": "chlypt-pshtn-ktvm-wwra2d",
+      "slug": "chlypt-pshtn-ktvm-kwusv7",
       "name": "חליפת פשתן כתום",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת פשתן כתום מלא בסטייל מלא בנוכחות מתאימה ליום יום וערבים \nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 189,
-      "base_price": 189,
+      "price": 169,
+      "base_price": 169,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -23,11 +23,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-wwra2d",
+      "url": "https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-kwusv7",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-15T14:01:29.674Z"
+      "updated_at": "2026-06-22T16:41:17.229Z"
     },
     {
       "id": "e5a35a91-759b-44b2-b544-9aa52a2a4ca2",
