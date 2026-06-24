@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:57:44.322Z",
+  "generated_at": "2026-06-24T16:57:50.769Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 66,
+  "count": 67,
   "products": [
+    {
+      "id": "06bc4aa2-4a65-4edc-ab3b-b602d9f077c9",
+      "slug": "htamh-ayshyt-zrfyub",
+      "name": "התאמה אישית",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/htamh-ayshyt-zrfyub",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-24T16:57:48.543Z"
+    },
     {
       "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
       "slug": "chtsayt-psym-vrw951",
