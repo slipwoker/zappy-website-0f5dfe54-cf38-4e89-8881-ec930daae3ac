@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 65**
+**Total active products: 66**
+
+### חצאית פסים 
+https://hodayaboutique.co.il/product/chtsayt-psym-lk5clp
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782319958855-75tmm.webp
 
 ### חצאית ירדן תכלת
 https://hodayaboutique.co.il/product/chtsayt-yrdn-tklt-g678rt

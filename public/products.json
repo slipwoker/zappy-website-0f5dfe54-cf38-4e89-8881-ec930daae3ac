@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:45:51.448Z",
+  "generated_at": "2026-06-24T16:54:29.019Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 65,
+  "count": 66,
   "products": [
+    {
+      "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
+      "slug": "chtsayt-psym-lk5clp",
+      "name": "חצאית פסים ",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782319958855-75tmm.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782319986155-you2iq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782320016609-k93g0o.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-psym-lk5clp",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-24T16:53:57.601Z"
+    },
     {
       "id": "a51ba4cc-3fcd-41ae-b89f-084295f837ea",
       "slug": "chtsayt-yrdn-tklt-g678rt",
