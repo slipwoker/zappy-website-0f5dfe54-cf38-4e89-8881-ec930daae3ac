@@ -75,10 +75,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 64**
 
 ### חצאית ירדן בז׳
-https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-ysbjm7
+https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-a93jk4
 - Price: 99.00 ILS
 - Availability: In stock
 - Category: חצאיות
+- Description: חצאית מקסי צנועה ומחמיאה בגוון בז’ עם הדפס גיאומטרי עדין. בעלת גזרה רחבה ונשפכת, גומי במותן וחגורת קשירה להשלמת המראה. עשויה מבד קליל ונעים המעניק נוחות לאורך כל היום. מושלמת לשילוב עם חולצות בסיס, חולצות מכופתרות או סריגים ליצירת לוק אלגנטי ונשי לכל עונה. הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782319036402-ycil8.webp
 
 ### חליפת פשתן כתום

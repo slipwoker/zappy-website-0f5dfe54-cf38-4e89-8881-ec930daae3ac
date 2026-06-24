@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:38:04.588Z",
+  "generated_at": "2026-06-24T16:40:29.561Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 64,
   "products": [
     {
       "id": "918dbcf4-f459-4ad1-947e-a9441f58ddb9",
-      "slug": "chtsayt-yrdn-bz-ysbjm7",
+      "slug": "chtsayt-yrdn-bz-a93jk4",
       "name": "חצאית ירדן בז׳",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חצאית מקסי צנועה ומחמיאה בגוון בז’ עם הדפס גיאומטרי עדין. בעלת גזרה רחבה ונשפכת, גומי במותן וחגורת קשירה להשלמת המראה. עשויה מבד קליל ונעים המעניק נוחות לאורך כל היום. מושלמת לשילוב עם חולצות בסיס, חולצות מכופתרות או סריגים ליצירת לוק אלגנטי ונשי לכל עונה.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 99,
@@ -25,11 +25,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-ysbjm7",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-a93jk4",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T16:37:33.653Z"
+      "updated_at": "2026-06-24T16:39:42.874Z"
     },
     {
       "id": "5cafb0e2-7911-4afc-8506-b5d507c436c8",
