@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 63**
+**Total active products: 64**
+
+### חצאית ירדן בז׳
+https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-u68o81
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Image: https://hodayaboutique.co.il/assets/product-1782318564471-nebtpg.webp
 
 ### חליפת פשתן כתום
 https://hodayaboutique.co.il/product/chlypt-pshtn-ktvm-kwusv7
