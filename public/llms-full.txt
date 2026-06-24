@@ -6474,13 +6474,6 @@ Shop Now
 
 ## Product Catalog
 
-### התאמה אישית
-URL: https://hodayaboutique.co.il/product/htamh-ayshyt-zrfyub
-Price: 99.00 ILS
-Availability: In stock
-
----
-
 ### חצאית פסים 
 URL: https://hodayaboutique.co.il/product/chtsayt-psym-vrw951
 Price: 99.00 ILS

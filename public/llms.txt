@@ -72,13 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 67**
-
-### התאמה אישית
-https://hodayaboutique.co.il/product/htamh-ayshyt-zrfyub
-- Price: 99.00 ILS
-- Availability: In stock
-- Category: חצאיות
+**Total active products: 66**
 
 ### חצאית פסים 
 https://hodayaboutique.co.il/product/chtsayt-psym-vrw951
