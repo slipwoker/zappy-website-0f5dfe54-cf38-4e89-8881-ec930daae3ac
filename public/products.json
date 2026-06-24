@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:40:29.561Z",
+  "generated_at": "2026-06-24T16:44:30.598Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 64,
+  "count": 65,
   "products": [
+    {
+      "id": "a51ba4cc-3fcd-41ae-b89f-084295f837ea",
+      "slug": "chtsayt-yrdn-tklt-g678rt",
+      "name": "חצאית ירדן תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מקסי צנועה ומחמיאה בגוון תכלת עם הדפס גיאומטרי עדין. בעלת גזרה רחבה ונשפכת, גומי במותן וחגורת קשירה להשלמת המראה. עשויה מבד קליל ונעים המעניק נוחות לאורך כל היום. מושלמת לשילוב עם חולצות בסיס, חולצות מכופתרות או סריגים ליצירת לוק אלגנטי ונשי לכל עונה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782319281580-zt0ef.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782319312718-6rgvea.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-yrdn-tklt-g678rt",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-24T16:44:04.139Z"
+    },
     {
       "id": "918dbcf4-f459-4ad1-947e-a9441f58ddb9",
       "slug": "chtsayt-yrdn-bz-a93jk4",

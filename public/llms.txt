@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 64**
+**Total active products: 65**
+
+### חצאית ירדן תכלת
+https://hodayaboutique.co.il/product/chtsayt-yrdn-tklt-g678rt
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מקסי צנועה ומחמיאה בגוון תכלת עם הדפס גיאומטרי עדין. בעלת גזרה רחבה ונשפכת, גומי במותן וחגורת קשירה להשלמת המראה. עשויה מבד קליל ונעים המעניק נוחות לאורך כל היום. מושלמת לשילוב עם חולצות בסיס, חולצות מכופתרות או סריגים ליצירת לוק אלגנטי ונשי לכל עונה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782319281580-zt0ef.webp
 
 ### חצאית ירדן בז׳
 https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-a93jk4
