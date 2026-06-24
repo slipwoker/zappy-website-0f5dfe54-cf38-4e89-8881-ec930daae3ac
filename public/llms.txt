@@ -75,10 +75,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 66**
 
 ### חצאית פסים 
-https://hodayaboutique.co.il/product/chtsayt-psym-lk5clp
+https://hodayaboutique.co.il/product/chtsayt-psym-vrw951
 - Price: 99.00 ILS
 - Availability: In stock
 - Category: חצאיות
+- Description: חצאית מקסי פסים בגזרת עיפרון מחמיאה, בשילוב גווני שמנת, בז’ וחום למראה אלגנטי ונינוח. החצאית עשויה בד נעים ונשפך, עם גומי ושרוך קשירה במותן לנוחות והתאמה מושלמת. מתאימה ללוק יומיומי אופנתי או לשילוב עם פריטים אלגנטיים למראה מוקפד ועדכני. ✨ הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782319958855-75tmm.webp
 
 ### חצאית ירדן תכלת

@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:54:29.019Z",
+  "generated_at": "2026-06-24T16:55:47.895Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 66,
   "products": [
     {
       "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
-      "slug": "chtsayt-psym-lk5clp",
+      "slug": "chtsayt-psym-vrw951",
       "name": "חצאית פסים ",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חצאית מקסי פסים בגזרת עיפרון מחמיאה, בשילוב גווני שמנת, בז’ וחום למראה אלגנטי ונינוח. החצאית עשויה בד נעים ונשפך, עם גומי ושרוך קשירה במותן לנוחות והתאמה מושלמת. מתאימה ללוק יומיומי אופנתי או לשילוב עם פריטים אלגנטיים למראה מוקפד ועדכני. ✨\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 99,
@@ -25,11 +25,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-psym-lk5clp",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-psym-vrw951",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T16:53:57.601Z"
+      "updated_at": "2026-06-24T16:55:22.900Z"
     },
     {
       "id": "a51ba4cc-3fcd-41ae-b89f-084295f837ea",
