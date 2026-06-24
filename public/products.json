@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T16:30:22.709Z",
+  "generated_at": "2026-06-24T16:37:09.708Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 64,
   "products": [
     {
       "id": "918dbcf4-f459-4ad1-947e-a9441f58ddb9",
-      "slug": "chtsayt-yrdn-bz-u68o81",
+      "slug": "chtsayt-yrdn-bz-nbmi8j",
       "name": "חצאית ירדן בז׳",
       "name_translations": {},
       "description": "",
@@ -19,17 +19,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1782318564471-nebtpg.webp",
-        "https://hodayaboutique.co.il/assets/product-1782318572432-90rl1s.webp",
-        "https://hodayaboutique.co.il/assets/product-1782318580325-4f3dpj.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782318962381-wznjl.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782318989254-z3kdqp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-u68o81",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-yrdn-bz-nbmi8j",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T16:29:51.439Z"
+      "updated_at": "2026-06-24T16:36:38.372Z"
     },
     {
       "id": "5cafb0e2-7911-4afc-8506-b5d507c436c8",
