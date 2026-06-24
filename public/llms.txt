@@ -235,7 +235,7 @@ https://hodayaboutique.co.il/product/bgd-ym-avryan-chvm-ou8j4z
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779822913547-1hjb2g.webp
 
 ### בגד ים אוריאן ירוק
-https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-vts5eh
+https://hodayaboutique.co.il/product/bgd-ym-avryan-yrvk-nqjpwo
 - Price: 169.00 ILS
 - Availability: In stock
 - Category: בגדי ים
@@ -564,6 +564,14 @@ https://hodayaboutique.co.il/product/shmlt-adn-tshvb-qy1v0b
 - Description: שמלת עדן בצבע צהוב – שמלת ערב צנועה ואלגנטית בעיצוב נשי ועדין. מעוצבת בגזרה מחמיאה עם בד נשפך שיוצר מראה יוקרתי ורך, בשילוב תפירה מדויקת שמדגישה את הגוף בצורה אלגנטית. ניתן להצניע את השמלה בהתאם לנוחות ולסטייל האישי. הצבע התכלת מעניק לשמלה מראה נקי, קלאסי וזוהר שמתאים לאירועים, חתונות ושבתות מיוחדות 💎
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1779907894791-c0mkko.webp
 
+### פפיון תכלת
+https://hodayaboutique.co.il/product/ppyvn-tklt-l1j2hp
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
+
 ### שמלת קייטי שחור
 https://hodayaboutique.co.il/product/shmlt-kyyty-shchvr-su3jp5
 - Price: 349.00 ILS
@@ -579,14 +587,6 @@ https://hodayaboutique.co.il/product/pynk-shyk-h24jso
 - Category: חליפות
 - Description: חליפת “פפיון ורוד” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם טאץ’ נשי ועדין. החליפה מגיעה בגוון ורוד רך שמוסיף מראה רענן ומתוק לכל הופעה, יחד עם סרט קשירה (פפיון) שמעניק דיטייל מיוחד והופך את הלוק לפשוט אבל לא משעמם. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום בלי לוותר על מראה מסודר ואופנתי.
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184775690-vj6vgj.webp
-
-### פפיון תכלת
-https://hodayaboutique.co.il/product/ppyvn-tklt-l1j2hp
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: חליפות
-- Description: חליפת “פפיון תכלת” ליום־יום היא סט קליל, נוח ומלא סטייל שמתאים ללוקים יומיומיים עם מראה רענן, נקי ועדין. החליפה מגיעה בגוון תכלת רך שמעניק תחושת רוגע ואלגנטיות קז’ואלית, יחד עם סרט קשירה (פפיון) שמוסיף דיטייל מיוחד ונשי שהופך את הלוק לפשוט אבל עם נוכחות אופנתית. הגזרה נוחה ומשוחררת, כך שהיא מתאימה ללבישה לאורך כל היום תוך שמירה על מראה מסודר ומוקפד.
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778184677416-c99jdk.webp
 
 ### חליפת ירין
 https://hodayaboutique.co.il/product/chlypt-yryn-ujoi32
