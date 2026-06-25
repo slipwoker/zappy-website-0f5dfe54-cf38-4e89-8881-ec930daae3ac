@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:40:18.937Z",
+  "generated_at": "2026-06-25T14:42:01.427Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 81,
@@ -88,11 +88,11 @@
     },
     {
       "id": "ca3dd2c1-6727-4658-b960-7da2985cdf31",
-      "slug": "chvltst-hdr-chvm-uhbmkg",
+      "slug": "chvltst-hdr-chvm-8tpr6r",
       "name": "חולצת הדר חום",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז בגוון חום חמאה רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -107,19 +107,19 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-chvm-uhbmkg",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-chvm-8tpr6r",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:21:49.572Z"
+      "updated_at": "2026-06-25T14:42:01.065Z"
     },
     {
       "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
-      "slug": "chvltst-hdr-tshvb-1gnwtw",
+      "slug": "chvltst-hdr-tshvb-fb6qnl",
       "name": "חולצת הדר צהוב",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז בגוון צהוב חמאה רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -134,11 +134,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-1gnwtw",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-fb6qnl",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:23:41.115Z"
+      "updated_at": "2026-06-25T14:41:29.649Z"
     },
     {
       "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
