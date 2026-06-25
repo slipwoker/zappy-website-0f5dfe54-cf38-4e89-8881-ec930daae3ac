@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T15:03:53.378Z",
+  "generated_at": "2026-06-25T15:05:12.026Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 81,
@@ -382,15 +382,15 @@
     },
     {
       "id": "fbea58ea-8545-4b27-bbf7-ed11eff8ec71",
-      "slug": "chlypt-ysmyn-chvm-2ptq0z",
+      "slug": "chlypt-ysmyn-chvm-gyldf7",
       "name": "חליפת יסמין חום",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת מקסי בצבע חום עם מראה יומיומי-שיק ונוח במיוחד. החולצה בגזרה רחבה עם שרוול 3/4 והדפס קדמי אופנתי, בשילוב חצאית מקסי נשפכת עם גומי ושרוך במותן לישיבה מחמיאה ונוחה. הבד נעים על הגוף, קליל ומלא בסטייל – מושלם ללוק צנוע, אופנתי ומוקפד ליום יום או ליציאה.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 149,
-      "base_price": 149,
+      "price": 159,
+      "base_price": 159,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -402,11 +402,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-ysmyn-chvm-2ptq0z",
+      "url": "https://hodayaboutique.co.il/product/chlypt-ysmyn-chvm-gyldf7",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T13:09:49.350Z"
+      "updated_at": "2026-06-25T15:04:38.871Z"
     },
     {
       "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
