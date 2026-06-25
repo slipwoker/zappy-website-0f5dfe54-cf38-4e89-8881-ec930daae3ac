@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Thu, 25 Jun 2026 20:41:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 20:42:33 GMT</lastBuildDate>
     <item>
       <g:id>1c89c0fc-77d7-414a-b786-45872f1f7001__2beed58c-f717-46d0-9050-1dec3d748e8e</g:id>
       <g:title>בגד ים אגם בז׳ - 1</g:title>
@@ -185,10 +185,11 @@
       <g:mpn>2</g:mpn>
     </item>
     <item>
-      <g:id>a00a9a77-8824-4275-a1d1-52c59cccc292</g:id>
-      <g:title>חצאית הדס בז׳</g:title>
+      <g:id>a00a9a77-8824-4275-a1d1-52c59cccc292__ee2b5b04-b934-4d96-ab71-df68f476e261</g:id>
+      <g:title>חצאית הדס בז׳ - 1</g:title>
       <g:description>חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני בז’ עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1</g:description>
       <g:link>https://hodayaboutique.co.il/product/chtsayt-hds-bz-tvdny8</g:link>
+      <g:item_group_id>a00a9a77-8824-4275-a1d1-52c59cccc292</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-1782419179405-czhy5o.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419186443-cej5o.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419195230-xxpkkp.webp</g:additional_image_link>
@@ -197,14 +198,32 @@
       <g:price>99.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
+      <g:mpn>1</g:mpn>
       <g:product_type>חצאיות</g:product_type>
     </item>
     <item>
-      <g:id>0b436668-6503-4cf8-8d23-35e792848b9e</g:id>
-      <g:title>חצאית הדס כחול</g:title>
+      <g:id>a00a9a77-8824-4275-a1d1-52c59cccc292__4e0346e5-f907-4b92-b0aa-77033359cc1f</g:id>
+      <g:title>חצאית הדס בז׳ - 2</g:title>
+      <g:description>חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני בז’ עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-hds-bz-tvdny8</g:link>
+      <g:item_group_id>a00a9a77-8824-4275-a1d1-52c59cccc292</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1782419179405-czhy5o.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419186443-cej5o.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419195230-xxpkkp.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419202641-6eoaae.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:mpn>2</g:mpn>
+      <g:product_type>חצאיות</g:product_type>
+    </item>
+    <item>
+      <g:id>0b436668-6503-4cf8-8d23-35e792848b9e__f3960cc1-296c-4f61-b06f-fdcc59100971</g:id>
+      <g:title>חצאית הדס כחול - 1</g:title>
       <g:description>חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני כחול עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1</g:description>
       <g:link>https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-8fjd2o</g:link>
+      <g:item_group_id>0b436668-6503-4cf8-8d23-35e792848b9e</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-1782419091185-ma7217.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782419141156-bvuw7.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419111793-ieyarm.webp</g:additional_image_link>
@@ -212,7 +231,23 @@
       <g:price>99.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
+      <g:mpn>1</g:mpn>
+      <g:product_type>חצאיות</g:product_type>
+    </item>
+    <item>
+      <g:id>0b436668-6503-4cf8-8d23-35e792848b9e__00c1e747-b0aa-48c4-b3e4-988b719ae5e1</g:id>
+      <g:title>חצאית הדס כחול - 2</g:title>
+      <g:description>חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני כחול עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-8fjd2o</g:link>
+      <g:item_group_id>0b436668-6503-4cf8-8d23-35e792848b9e</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1782419091185-ma7217.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782419141156-bvuw7.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782419111793-ieyarm.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:mpn>2</g:mpn>
       <g:product_type>חצאיות</g:product_type>
     </item>
     <item>
