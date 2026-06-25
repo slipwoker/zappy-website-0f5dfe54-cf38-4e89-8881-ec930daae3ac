@@ -75,17 +75,19 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 93**
 
 ### חצאית הדס בז׳
-https://hodayaboutique.co.il/product/chtsayt-hds-bz-lvz28x
+https://hodayaboutique.co.il/product/chtsayt-hds-bz-tvdny8
 - Price: 99.00 ILS
 - Availability: In stock
 - Category: חצאיות
+- Description: חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני בז’ עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-1782419179405-czhy5o.webp
 
 ### חצאית הדס כחול
-https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-nsv0df
+https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-8fjd2o
 - Price: 99.00 ILS
 - Availability: In stock
 - Category: חצאיות
+- Description: חצאית מקסי בגזרה נשפכת ומרשימה, עם הדפס משבצות בגווני כחול עדינים למראה קלאסי, אלגנטי ומוקפד. החצאית מעוצבת עם קשירה במותן וקפלים עדינים שמוסיפים נפח ותנועה יפה בכל צעד, לצד גזרה מחמיאה שיושבת בצורה מושלמת על הגוף. פריט נשי ומיוחד שמתאים לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת – ללוק מוקפד ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-1782419091185-ma7217.webp
 
 ### חצאית מידי שחור
