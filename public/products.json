@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:18:07.401Z",
+  "generated_at": "2026-06-25T20:19:48.253Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 88,
+  "count": 89,
   "products": [
+    {
+      "id": "fb5a064c-473b-4e04-a26a-3848ca8d63a8",
+      "slug": "chtsayt-mydy-yrvk-k9xdoy",
+      "name": "חצאית מידי ירוק",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782418686304-x5n4v.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418693932-g9egrk.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418701594-5b9lzc.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418708879-y3l0qr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-yrvk-k9xdoy",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T20:19:16.157Z"
+    },
     {
       "id": "61d1588c-60aa-4492-8d13-0fde74fbfb2a",
       "slug": "chtsayt-mydy-tshvb-pjuvz3",

@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 88**
+**Total active products: 89**
+
+### חצאית מידי ירוק
+https://hodayaboutique.co.il/product/chtsayt-mydy-yrvk-k9xdoy
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Image: https://hodayaboutique.co.il/assets/product-1782418686304-x5n4v.webp
 
 ### חצאית מידי צהוב
 https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-pjuvz3
