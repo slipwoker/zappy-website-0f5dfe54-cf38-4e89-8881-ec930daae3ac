@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:10:51.215Z",
+  "generated_at": "2026-06-25T14:16:58.647Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 76,
+  "count": 77,
   "products": [
+    {
+      "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
+      "slug": "chvltst-hdr-tshvb-1gnwtw",
+      "name": "חולצת הדר צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782396861663-ouono.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782396892677-5b8o1q.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782396947989-gdqwok.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782396976232-vdsjr7.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-1gnwtw",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T14:16:26.781Z"
+    },
     {
       "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
       "slug": "chvltst-zyv-chvm-fcsg7s",

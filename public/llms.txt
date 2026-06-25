@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 76**
+**Total active products: 77**
+
+### חולצת הדר צהוב
+https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-1gnwtw
+- Price: 59.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782396861663-ouono.webp
 
 ### חולצת זיו חום
 https://hodayaboutique.co.il/product/chvltst-zyv-chvm-fcsg7s
