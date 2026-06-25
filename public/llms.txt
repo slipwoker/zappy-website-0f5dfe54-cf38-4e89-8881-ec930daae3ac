@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 96**
+**Total active products: 97**
+
+### בגד ים אגם בז׳
+https://hodayaboutique.co.il/product/bgd-ym-agm-bz-i3cs01
+- Price: 149.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Description: בגד ים צנוע ומוקפד בעיצוב אלגנטי ונשי, בגוון בז׳ למראה קלאסי ומחמיא. הסט כולל חולצה עם שרוולים ארוכים וחצאית מקסי תואמת, בשילוב כיווץ עדין במותן ואבזם לב דקורטיבי שמוסיף טאץ’ ייחודי ומעודן. הבד הנעים והגזרה המחמיאה יוצרים מראה מסודר, נוח ואלגנטי – מושלם לים, לבריכה או לחופשה בסטייל. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-1782419851800-2rci7j.webp
 
 ### בגד ים אגם שחור 
 https://hodayaboutique.co.il/product/bgd-ym-agm-shchvr-9u5bdo
