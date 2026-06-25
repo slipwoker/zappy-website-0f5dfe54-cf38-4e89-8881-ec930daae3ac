@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:52:48.870Z",
+  "generated_at": "2026-06-25T13:53:37.285Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 72,
@@ -34,7 +34,7 @@
     },
     {
       "id": "3ab1c12d-de4f-43dc-acad-3c4c0590b54e",
-      "slug": "chtsayt-chgvrh-bz-arg909",
+      "slug": "chtsayt-chgvrh-bz-ze9egv",
       "name": "חצאית חגורה בז׳",
       "name_translations": {},
       "description": "",
@@ -53,15 +53,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-arg909",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-ze9egv",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:43:14.416Z"
+      "updated_at": "2026-06-25T13:53:05.672Z"
     },
     {
       "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
-      "slug": "chtsayt-chgvrh-shmnt-c1h3eb",
+      "slug": "chtsayt-chgvrh-shmnt-aqjarg",
       "name": "חצאית חגורה שמנת",
       "name_translations": {},
       "description": "",
@@ -78,11 +78,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-c1h3eb",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-aqjarg",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:37:26.154Z"
+      "updated_at": "2026-06-25T13:52:56.347Z"
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
