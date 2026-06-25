@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 73**
+**Total active products: 74**
+
+### חולצת זיו לבן
+https://hodayaboutique.co.il/product/chvltst-zyv-lbn-vgeg9h
+- Price: 69.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Image: https://hodayaboutique.co.il/assets/product-1782395933765-vy772f.webp
 
 ### חצאית חגורה לבנה
 https://hodayaboutique.co.il/product/chtsayt-chgvrh-lbnh-tv8vav
