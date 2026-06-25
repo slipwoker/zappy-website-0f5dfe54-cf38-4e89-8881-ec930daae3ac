@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T19:52:36.835Z",
+  "generated_at": "2026-06-25T19:54:20.682Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 82,
+  "count": 83,
   "products": [
+    {
+      "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
+      "slug": "chvltst-zyvh-shchvr-6kzwbu",
+      "name": "חולצת זיוה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417193319-ldz7qj.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417200815-ve5xvo.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417208236-4m8zuo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-6kzwbu",
+      "categories": [],
+      "updated_at": "2026-06-25T19:53:48.906Z"
+    },
     {
       "id": "55607ee2-7093-49eb-9a9d-faaae651abb0",
       "slug": "chvltst-zyv-shchvr-qwpfjr",
