@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:48:54.249Z",
+  "generated_at": "2026-06-25T20:52:36.322Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -29,7 +29,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-25T20:38:59.972Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "c6878089-2195-48be-bc35-b8b164849d84",
@@ -55,7 +55,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-25T20:36:38.061Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8ae8bf95-e726-422d-a86d-5779084dc66e",
@@ -82,7 +82,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-25T20:33:24.408Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8f1cc0c6-5b86-4379-bf96-6401e262c09d",
@@ -107,7 +107,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/chtsayt-hds-shchvr-hug5wx",
       "categories": [],
-      "updated_at": "2026-06-25T20:40:23.250Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a00a9a77-8824-4275-a1d1-52c59cccc292",
@@ -134,7 +134,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:41:12.455Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "0b436668-6503-4cf8-8d23-35e792848b9e",
@@ -160,7 +160,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:41:50.317Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "e551f8dd-c695-445f-accc-d18930444ae5",
@@ -187,7 +187,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:24:23.357Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "11de55dd-45f2-4ef1-9920-3a4cf483474c",
@@ -214,7 +214,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:22:09.445Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "fb5a064c-473b-4e04-a26a-3848ca8d63a8",
@@ -241,7 +241,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:19:16.157Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "61d1588c-60aa-4492-8d13-0fde74fbfb2a",
@@ -266,7 +266,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-pjuvz3",
       "categories": [],
-      "updated_at": "2026-06-25T20:17:35.393Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "788fbcf2-bbd8-4d30-8607-719a473d2607",
@@ -292,7 +292,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:14:16.417Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "cbb26349-e4cd-4976-a67d-fbfd6dd6e954",
@@ -319,33 +319,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:09:47.179Z"
-    },
-    {
-      "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
-      "slug": "chlypt-avpl-chvm-x29cto",
-      "name": "חליפת אופל חום",
-      "name_translations": {},
-      "description": "",
-      "short_description": "חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
-      "sku": null,
-      "brand": null,
-      "price": 169,
-      "base_price": 169,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417733703-pi7i6a.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417760120-jialzq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto",
-      "categories": [
-        "חליפות"
-      ],
-      "updated_at": "2026-06-25T20:48:22.559Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "4e949fea-15c5-41b1-ac2c-edd9c50c52d5",
@@ -372,34 +346,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T19:59:19.497Z"
-    },
-    {
-      "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
-      "slug": "chvltst-zyvh-shchvr-q812je",
-      "name": "חולצת זיוה שחור",
-      "name_translations": {},
-      "description": "",
-      "short_description": "חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך.\nוואן סייז, מתאימה למידות 1–3",
-      "sku": null,
-      "brand": null,
-      "price": 49,
-      "base_price": 49,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp",
-        "https://hodayaboutique.co.il/assets/product-1782417193319-ldz7qj.webp",
-        "https://hodayaboutique.co.il/assets/product-1782417200815-ve5xvo.webp",
-        "https://hodayaboutique.co.il/assets/product-1782417208236-4m8zuo.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je",
-      "categories": [
-        "חולצות"
-      ],
-      "updated_at": "2026-06-25T19:55:11.712Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "55607ee2-7093-49eb-9a9d-faaae651abb0",
@@ -426,7 +373,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T19:52:05.250Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "deefd4d8-8b1e-4f73-a30a-9c89a10c9296",
@@ -453,7 +400,34 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:45:28.006Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
+    },
+    {
+      "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
+      "slug": "chvltst-zyvh-shchvr-q812je",
+      "name": "חולצת זיוה שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך.\nוואן סייז, מתאימה למידות 1–3",
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417193319-ldz7qj.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417200815-ve5xvo.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417208236-4m8zuo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "53e904ce-c057-4b17-b603-79b31f71f769",
@@ -480,7 +454,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:43:35.367Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "790aca3a-06af-4d21-9c2b-3564ceab97d9",
@@ -507,7 +481,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:43:16.863Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ca3dd2c1-6727-4658-b960-7da2985cdf31",
@@ -534,7 +508,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T19:59:45.786Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
@@ -561,7 +535,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:00:23.706Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
@@ -588,7 +562,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:39:03.419Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "37223afe-41ce-4dd1-9a35-8036df724e22",
@@ -614,7 +588,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:39:24.880Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "6749933d-974a-43d8-a0b5-459cc33fcb9c",
@@ -640,7 +614,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:39:46.876Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "29b4391b-3641-4733-88fb-7fd851a64eee",
@@ -667,7 +641,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:57:56.501Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "18d8fb06-b4e8-4a8d-ad1e-c0e6fcc93b7f",
@@ -694,7 +668,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:52:36.103Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "3ab1c12d-de4f-43dc-acad-3c4c0590b54e",
@@ -721,7 +695,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:53:05.672Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
@@ -746,7 +720,33 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:52:56.347Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
+    },
+    {
+      "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
+      "slug": "chlypt-avpl-chvm-x29cto",
+      "name": "חליפת אופל חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417733703-pi7i6a.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417760120-jialzq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
@@ -773,7 +773,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:05:42.149Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
@@ -801,7 +801,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T15:03:19.507Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "fbea58ea-8545-4b27-bbf7-ed11eff8ec71",
@@ -829,7 +829,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T15:04:38.871Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
@@ -855,7 +855,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a51ba4cc-3fcd-41ae-b89f-084295f837ea",
@@ -880,7 +880,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:44:24.398Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "918dbcf4-f459-4ad1-947e-a9441f58ddb9",
@@ -906,7 +906,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:44:45.270Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "5cafb0e2-7911-4afc-8506-b5d507c436c8",
@@ -930,7 +930,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "e5a35a91-759b-44b2-b544-9aa52a2a4ca2",
@@ -954,7 +954,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "e489289c-2f56-49d4-bacb-1cc3ba0f4638",
@@ -978,7 +978,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
@@ -1007,7 +1007,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
@@ -1034,7 +1034,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
@@ -1061,7 +1061,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
@@ -1088,7 +1088,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
@@ -1115,7 +1115,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
@@ -1143,7 +1143,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "321acf8c-3161-416f-920c-8af06cc94f64",
@@ -1172,7 +1172,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8e55a0a1-4acb-4d95-960b-9dec8b9ea28a",
@@ -1198,7 +1198,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a5453fb7-2f96-4596-a9e2-13ffe7f5ab9c",
@@ -1224,7 +1224,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
@@ -1251,7 +1251,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
@@ -1278,7 +1278,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
@@ -1302,7 +1302,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "c86bbdb5-dfc9-4c45-898b-0d15a5838b36",
@@ -1326,7 +1326,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "41de5cae-0116-48f2-98d1-8f6acaa6a7cf",
@@ -1350,7 +1350,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "e4c3cf9d-4e82-4181-a7b3-0ff669ff91ca",
@@ -1374,7 +1374,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "beb9610d-3f95-474d-9d6b-2cbba8f80cc8",
@@ -1398,7 +1398,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "f202dc38-95b9-4e52-bbdf-bf46075d3619",
@@ -1422,7 +1422,7 @@
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "597f3bda-d371-4584-a8d3-82fd01e235ab",
@@ -1447,7 +1447,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "7124803c-9507-4b1d-bdd6-d431e747f327",
@@ -1471,7 +1471,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
@@ -1496,7 +1496,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
@@ -1523,7 +1523,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a70d68da-3daa-4134-b315-c7cddeeaef53",
@@ -1547,7 +1547,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "1b24af28-f021-4daf-902c-21202890e6af",
@@ -1569,7 +1569,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/chtsayt-byysyk-chvm-6it5x1",
       "categories": [],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ffae7b97-e048-4fdb-b9c8-8f6943c612a0",
@@ -1593,7 +1593,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "000cdadb-4c7f-4eec-91f9-244b250bcff3",
@@ -1617,7 +1617,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "d9baabe7-05b2-46d1-b000-33bd63b8f9d7",
@@ -1641,7 +1641,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "6e8e23c1-e358-4aa1-8101-e5cae34e59c5",
@@ -1666,7 +1666,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a80c88e3-8043-49fc-a449-8538793ffaed",
@@ -1691,7 +1691,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "d15105e0-6ca4-47df-b107-dd02c356741c",
@@ -1717,7 +1717,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ef389f3e-2f16-43ad-9d6d-53512d23d77c",
@@ -1744,7 +1744,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "d329f5a2-8d89-4ff4-aeff-4c33d9765b3f",
@@ -1771,7 +1771,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "2e40cf8b-e9ff-46b0-b8cb-d7071b9bba43",
@@ -1796,7 +1796,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "fefeead5-d696-4754-8ddd-58a9ac1c6565",
@@ -1821,7 +1821,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "f188c528-1331-4d17-9302-1fd30100d2e0",
@@ -1847,7 +1847,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T15:05:21.179Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
@@ -1874,7 +1874,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
@@ -1901,7 +1901,7 @@
         "שמלות",
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "7fdaa0f4-08db-4f4c-adb5-80d754343b26",
@@ -1927,7 +1927,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "39fb161d-b450-4db4-891f-f7528de77090",
@@ -1954,7 +1954,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "7d6be071-9322-4fb8-86d6-d4d8f14a518b",
@@ -1982,7 +1982,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "51d2cc04-d683-4907-947a-6a99a100d7f0",
@@ -2009,7 +2009,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "eeb4b4b3-d9be-49f0-93f7-d14e68620cb5",
@@ -2035,7 +2035,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8536ab7c-f45d-49da-81ea-8a8214c7f948",
@@ -2060,7 +2060,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "22668127-8938-4603-b908-7d8d2345c157",
@@ -2086,7 +2086,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8ade6408-710b-4a07-816a-cc99c112ea48",
@@ -2112,7 +2112,7 @@
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "042120b9-ca08-4587-9234-4ba90cd50f26",
@@ -2140,7 +2140,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "03606ca9-4f69-4e0a-85ab-ba5cb6949791",
@@ -2164,7 +2164,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "b91b62ce-20e2-4eb4-8f2f-60fab75ec1cb",
@@ -2188,7 +2188,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "446c35d0-6fa4-4b9b-80e1-5280d7ac88bf",
@@ -2212,7 +2212,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T15:06:35.233Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ad9e635f-1342-4f86-9a57-f9e43caac1ea",
@@ -2236,7 +2236,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "f347771c-03e5-49d4-92e4-a845aecb0558",
@@ -2260,7 +2260,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "473c67e4-ca16-4d53-b721-474efeda7292",
@@ -2284,7 +2284,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "35e71576-d877-47a1-931d-aa445d279f92",
@@ -2308,7 +2308,7 @@
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "ef43a3ae-3c00-4145-8303-d255f5a474b8",
@@ -2332,7 +2332,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "de3c995f-41a9-4696-87a1-8198edf15292",
@@ -2360,7 +2360,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "20f9e928-5478-4dd8-87c5-85330953d529",
@@ -2388,7 +2388,7 @@
         "שמלות",
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "a0b66286-59cd-4b14-a6d0-1f170899f08a",
@@ -2412,7 +2412,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "2476dbb7-971a-4f9f-94e7-1bf3cfbb3a9c",
@@ -2436,7 +2436,7 @@
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "0358393e-f8f9-4c03-a108-de8c97c7cf86",
@@ -2462,7 +2462,7 @@
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "8e1ce9f7-f029-4a31-947f-36351bee7092",
@@ -2486,7 +2486,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     },
     {
       "id": "66f75300-a171-46f5-b380-fcaa8fc524dc",
@@ -2510,7 +2510,7 @@
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T20:49:38.520Z"
     }
   ]
 }

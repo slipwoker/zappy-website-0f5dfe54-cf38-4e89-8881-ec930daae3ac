@@ -167,14 +167,6 @@ https://hodayaboutique.co.il/product/chvltst-tchrh-tklt-sy105v
 - Description: חולצת טי בגזרה נינוחה ובמראה נקי ועדכני, בצבע תכלת עדין שמשתלב בקלות עם כל לוק. החולצה מעוצבת עם שרוולים ארוכים בצבע תכלת עדין בשילוב תחרה, שמוסיפים טאץ’ נשי ומיוחד בלי לוותר על נוחות. בד נעים וגזרה מחמיאה הופכים אותה לפריט מושלם ליום־יום, לשבת או ליציאה, עם חצאית או מכנס בגזרה אלגנטית. הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-1782418044158-emthei.webp
 
-### חליפת אופל חום
-https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto
-- Price: 169.00 ILS
-- Availability: In stock
-- Category: חליפות
-- Description: חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה. הדוגמנית לובשת מידה 1
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp
-
 ### חולצת הדר שחור
 https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-xaagp6
 - Price: 59.00 ILS
@@ -182,14 +174,6 @@ https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-xaagp6
 - Category: חולצות
 - Description: חולצת אוברסייז בצבע שחור רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני. מגיעה בוואן סייז מתאים למידה 1-3
 - Image: https://hodayaboutique.co.il/assets/product-1782417391065-98bp29.webp
-
-### חולצת זיוה שחור
-https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je
-- Price: 49.00 ILS
-- Availability: In stock
-- Category: חולצות
-- Description: חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך. וואן סייז, מתאימה למידות 1–3
-- Image: https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp
 
 ### חולצת זיו שחור
 https://hodayaboutique.co.il/product/chvltst-zyv-shchvr-qwpfjr
@@ -206,6 +190,14 @@ https://hodayaboutique.co.il/product/chvltst-tchrh-bz-f9jtsr
 - Category: חולצות
 - Description: חולצת אוברסייז בגוון בז’ עדין, עם גזרה נקייה ומשוחררת שמעניקה מראה אלגנטי ונינוח בו זמנית. השרוולים הרחבים באורך 3/4 מעוטרים בסיומת תחרה עדינה שמוסיפה טאץ’ נשי ומיוחד, והבד הנעים הופך אותה לפריט מושלם ליום-יום או ללוק מוקפד ומחמיא. חולצה קלילה, נוחה ושיקית שמשתלבת נהדר עם מגוון שילובים בארון. הדוגמנית לובשת מידה 1
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782398024004-k4v4i8.webp
+
+### חולצת זיוה שחור
+https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je
+- Price: 49.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך. וואן סייז, מתאימה למידות 1–3
+- Image: https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp
 
 ### חולצת זיוה לבן
 https://hodayaboutique.co.il/product/chvltst-zyvh-lbn-hiwpqs
@@ -294,6 +286,14 @@ https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-aqjarg
 - Category: חצאיות
 - Description: חצאית מידי בגוון שמנת עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש. הדוגמנית לובשת מידה S
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782394447436-6kn3pp.webp
+
+### חליפת אופל חום
+https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto
+- Price: 169.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp
 
 ### חליפת אופל בז׳
 https://hodayaboutique.co.il/product/chlypt-avpl-bz-l1a2yj

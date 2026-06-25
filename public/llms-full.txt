@@ -6558,23 +6558,9 @@ Availability: In stock
 
 ---
 
-### חליפת אופל חום
-URL: https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto
-Price: 169.00 ILS
-Availability: In stock
-
----
-
 ### חולצת הדר שחור
 URL: https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-xaagp6
 Price: 59.00 ILS
-Availability: In stock
-
----
-
-### חולצת זיוה שחור
-URL: https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je
-Price: 49.00 ILS
 Availability: In stock
 
 ---
@@ -6589,6 +6575,13 @@ Availability: In stock
 ### חולצת תחרה בז׳
 URL: https://hodayaboutique.co.il/product/chvltst-tchrh-bz-f9jtsr
 Price: 69.00 ILS
+Availability: In stock
+
+---
+
+### חולצת זיוה שחור
+URL: https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je
+Price: 49.00 ILS
 Availability: In stock
 
 ---
@@ -6666,6 +6659,13 @@ Availability: In stock
 ### חצאית חגורה שמנת
 URL: https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-aqjarg
 Price: 79.00 ILS
+Availability: In stock
+
+---
+
+### חליפת אופל חום
+URL: https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto
+Price: 169.00 ILS
 Availability: In stock
 
 ---
