@@ -1,21 +1,21 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:21:37.267Z",
+  "generated_at": "2026-06-25T20:22:41.189Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 90,
   "products": [
     {
       "id": "11de55dd-45f2-4ef1-9920-3a4cf483474c",
-      "slug": "chtsayt-mydy-ktvm-ayw4ud",
+      "slug": "chtsayt-mydy-ktvm-9hwb6m",
       "name": "חצאית מידי כתום",
       "name_translations": {},
       "description": "",
-      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני כתום , בז’ ושחור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
+      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני כתום למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "price": 99,
+      "base_price": 99,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -26,9 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-ktvm-ayw4ud",
-      "categories": [],
-      "updated_at": "2026-06-25T20:21:05.007Z"
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-ktvm-9hwb6m",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T20:22:09.445Z"
     },
     {
       "id": "fb5a064c-473b-4e04-a26a-3848ca8d63a8",
