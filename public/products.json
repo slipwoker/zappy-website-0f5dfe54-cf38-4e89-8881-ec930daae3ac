@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T15:05:12.026Z",
+  "generated_at": "2026-06-25T15:06:02.294Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 81,
@@ -1402,15 +1402,15 @@
     },
     {
       "id": "f188c528-1331-4d17-9302-1fd30100d2e0",
-      "slug": "chlypt-lvrn-bz-6oew42",
+      "slug": "chlypt-lvrn-bz-obdvm8",
       "name": "חליפת לורן ב׳ז",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת שני חלקים חולצה עם שרוולי 3/4 וחצאית מקסי תואמת, עם חגורת קשירה במותן למראה אלגנטי.\nמידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 259,
-      "base_price": 259,
+      "price": 229,
+      "base_price": 229,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -1420,11 +1420,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-bz-6oew42",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-bz-obdvm8",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-24T20:19:33.007Z"
+      "updated_at": "2026-06-25T15:05:21.179Z"
     },
     {
       "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
