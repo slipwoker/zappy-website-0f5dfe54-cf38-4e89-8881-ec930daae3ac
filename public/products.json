@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:26:23.369Z",
+  "generated_at": "2026-06-25T20:27:31.506Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 92,
+  "count": 93,
   "products": [
+    {
+      "id": "a00a9a77-8824-4275-a1d1-52c59cccc292",
+      "slug": "chtsayt-hds-bz-lvz28x",
+      "name": "חצאית הדס בז׳",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782419179405-czhy5o.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419186443-cej5o.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419195230-xxpkkp.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419202641-6eoaae.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-bz-lvz28x",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T20:26:59.516Z"
+    },
     {
       "id": "0b436668-6503-4cf8-8d23-35e792848b9e",
       "slug": "chtsayt-hds-kchvl-nsv0df",
