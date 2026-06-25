@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:40:04.070Z",
+  "generated_at": "2026-06-25T20:41:01.047Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -107,7 +107,7 @@
       "stock_status": "in_stock",
       "url": "https://hodayaboutique.co.il/product/chtsayt-hds-shchvr-hug5wx",
       "categories": [],
-      "updated_at": "2026-06-25T20:29:55.059Z"
+      "updated_at": "2026-06-25T20:40:23.250Z"
     },
     {
       "id": "a00a9a77-8824-4275-a1d1-52c59cccc292",
@@ -134,7 +134,7 @@
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:27:52.945Z"
+      "updated_at": "2026-06-25T20:40:59.371Z"
     },
     {
       "id": "0b436668-6503-4cf8-8d23-35e792848b9e",
