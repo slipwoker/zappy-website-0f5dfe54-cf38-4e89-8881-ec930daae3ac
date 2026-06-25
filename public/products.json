@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:29:17.370Z",
+  "generated_at": "2026-06-25T14:31:10.212Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 79,
+  "count": 80,
   "products": [
+    {
+      "id": "53e904ce-c057-4b17-b603-79b31f71f769",
+      "slug": "chvltst-zyvh-lbn-5oev1n",
+      "name": "חולצת זיוה לבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782397742840-wkuinp.webp",
+        "https://hodayaboutique.co.il/assets/product-1782397751757-ia1zra.webp",
+        "https://hodayaboutique.co.il/assets/product-1782397758951-qi4ypb.webp",
+        "https://hodayaboutique.co.il/assets/product-1782397765748-l2cf3g.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-lbn-5oev1n",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T14:30:52.134Z"
+    },
     {
       "id": "790aca3a-06af-4d21-9c2b-3564ceab97d9",
       "slug": "chvltst-zyvh-chvm-lfy7xf",
