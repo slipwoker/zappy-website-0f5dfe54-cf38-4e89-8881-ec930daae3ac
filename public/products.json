@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:44:07.111Z",
+  "generated_at": "2026-06-25T14:45:59.364Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 81,
   "products": [
     {
       "id": "deefd4d8-8b1e-4f73-a30a-9c89a10c9296",
-      "slug": "chvltst-tchrh-bz-eo4slh",
+      "slug": "chvltst-tchrh-bz-f9jtsr",
       "name": "חולצת תחרה בז׳",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז בגוון בז’ עדין, עם גזרה נקייה ומשוחררת שמעניקה מראה אלגנטי ונינוח בו זמנית. השרוולים הרחבים באורך 3/4 מעוטרים בסיומת תחרה עדינה שמוסיפה טאץ’ נשי ומיוחד, והבד הנעים הופך אותה לפריט מושלם ליום-יום או ללוק מוקפד ומחמיא. חולצה קלילה, נוחה ושיקית שמשתלבת נהדר עם מגוון שילובים בארון.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 69,
@@ -26,11 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-bz-eo4slh",
+      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-bz-f9jtsr",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:34:21.002Z"
+      "updated_at": "2026-06-25T14:45:28.006Z"
     },
     {
       "id": "53e904ce-c057-4b17-b603-79b31f71f769",
