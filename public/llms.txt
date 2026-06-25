@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 81**
+**Total active products: 82**
+
+### חולצת זיו שחור
+https://hodayaboutique.co.il/product/chvltst-zyv-shchvr-l5713x
+- Price: 69.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Image: https://hodayaboutique.co.il/assets/product-1782417035432-wq94ci.webp
 
 ### חולצת תחרה בז׳
 https://hodayaboutique.co.il/product/chvltst-tchrh-bz-f9jtsr
