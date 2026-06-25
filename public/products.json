@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:55:09.545Z",
+  "generated_at": "2026-06-25T20:57:16.460Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -164,11 +164,11 @@
     },
     {
       "id": "e551f8dd-c695-445f-accc-d18930444ae5",
-      "slug": "chtsayt-mydy-shchvr-3ql5qx",
+      "slug": "chtsayt-mydy-shchvr-pgcqzg",
       "name": "חצאית מידי שחור",
       "name_translations": {},
       "description": "",
-      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני שחור, אפור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
+      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני כחול, אפור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 99,
@@ -183,11 +183,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-shchvr-3ql5qx",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-shchvr-pgcqzg",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:53:23.994Z"
+      "updated_at": "2026-06-25T20:56:48.775Z"
     },
     {
       "id": "11de55dd-45f2-4ef1-9920-3a4cf483474c",
