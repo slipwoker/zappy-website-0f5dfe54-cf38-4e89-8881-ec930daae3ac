@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:32:27.529Z",
+  "generated_at": "2026-06-25T20:34:01.966Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 95,
   "products": [
     {
       "id": "8ae8bf95-e726-422d-a86d-5779084dc66e",
-      "slug": "bgd-ym-agm-chvm-mumcam",
+      "slug": "bgd-ym-agm-chvm-6jul7w",
       "name": "בגד ים אגם חום",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "בגד ים צנוע ומוקפד בעיצוב אלגנטי ונשי, בגוון חום שוקולד עשיר למראה קלאסי ומחמיא. הסט כולל חולצה עם שרוולים ארוכים וחצאית מקסי תואמת, בשילוב כיווץ עדין במותן ואבזם לב דקורטיבי שמוסיף טאץ’ ייחודי ומעודן. הבד הנעים והגזרה המחמיאה יוצרים מראה מסודר, נוח ואלגנטי – מושלם לים, לבריכה או לחופשה בסטייל.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 149,
@@ -26,11 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/bgd-ym-agm-chvm-mumcam",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-agm-chvm-6jul7w",
       "categories": [
         "בגדי ים"
       ],
-      "updated_at": "2026-06-25T20:31:55.436Z"
+      "updated_at": "2026-06-25T20:33:24.408Z"
     },
     {
       "id": "8f1cc0c6-5b86-4379-bf96-6401e262c09d",
