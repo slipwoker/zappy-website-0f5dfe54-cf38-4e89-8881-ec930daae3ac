@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:18:32.783Z",
+  "generated_at": "2026-06-25T13:27:11.513Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 68,
+  "count": 69,
   "products": [
+    {
+      "id": "5d385ee5-8955-47a7-aea9-208e60915747",
+      "slug": "chlypt-avpl-tnh54m",
+      "name": "חליפת אופל",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת מקסי בגוון שמנת עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 159,
+      "base_price": 159,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393717216-gg8mgk.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393743794-d2o38k.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393823007-9t8mc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393911977-sljou.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-tnh54m",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-25T13:26:25.180Z"
+    },
     {
       "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
       "slug": "chlypt-ysmyn-apvr-hh6p4k",

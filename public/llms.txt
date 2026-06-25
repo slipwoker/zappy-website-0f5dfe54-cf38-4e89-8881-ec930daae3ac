@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 68**
+**Total active products: 69**
+
+### חליפת אופל
+https://hodayaboutique.co.il/product/chlypt-avpl-tnh54m
+- Price: 159.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת מקסי בגוון שמנת עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782393717216-gg8mgk.webp
 
 ### חליפת יסמין אפור
 https://hodayaboutique.co.il/product/chlypt-ysmyn-apvr-hh6p4k
