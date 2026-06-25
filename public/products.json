@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:07:20.517Z",
+  "generated_at": "2026-06-25T20:10:18.884Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 85,
+  "count": 86,
   "products": [
+    {
+      "id": "cbb26349-e4cd-4976-a67d-fbfd6dd6e954",
+      "slug": "chvltst-tchrh-tklt-sy105v",
+      "name": "חולצת תחרה תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת טי בגזרה נינוחה ובמראה נקי ועדכני, בצבע תכלת עדין שמשתלב בקלות עם כל לוק. החולצה מעוצבת עם שרוולים ארוכים בצבע תכלת עדין בשילוב תחרה, שמוסיפים טאץ’ נשי ומיוחד בלי לוותר על נוחות. בד נעים וגזרה מחמיאה הופכים אותה לפריט מושלם ליום־יום, לשבת או ליציאה, עם חצאית או מכנס בגזרה אלגנטית.\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 79,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782418044158-emthei.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418052171-0ebzf.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418060343-lxxhbm.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418067958-dt4ftd.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-tklt-sy105v",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T20:09:47.179Z"
+    },
     {
       "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
       "slug": "chlypt-avpl-chvm-vkjm2d",

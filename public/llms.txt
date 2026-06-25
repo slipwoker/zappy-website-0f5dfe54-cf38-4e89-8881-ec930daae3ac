@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 85**
+**Total active products: 86**
+
+### חולצת תחרה תכלת
+https://hodayaboutique.co.il/product/chvltst-tchrh-tklt-sy105v
+- Price: 79.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: חולצת טי בגזרה נינוחה ובמראה נקי ועדכני, בצבע תכלת עדין שמשתלב בקלות עם כל לוק. החולצה מעוצבת עם שרוולים ארוכים בצבע תכלת עדין בשילוב תחרה, שמוסיפים טאץ’ נשי ומיוחד בלי לוותר על נוחות. בד נעים וגזרה מחמיאה הופכים אותה לפריט מושלם ליום־יום, לשבת או ליציאה, עם חצאית או מכנס בגזרה אלגנטית. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-1782418044158-emthei.webp
 
 ### חליפת אופל חום
 https://hodayaboutique.co.il/product/chlypt-avpl-chvm-vkjm2d
