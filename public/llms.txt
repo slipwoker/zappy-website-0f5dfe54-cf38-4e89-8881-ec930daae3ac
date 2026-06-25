@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 95**
+**Total active products: 96**
+
+### בגד ים אגם שחור 
+https://hodayaboutique.co.il/product/bgd-ym-agm-shchvr-9u5bdo
+- Price: 149.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Description: בגד ים צנוע ומוקפד בעיצוב אלגנטי ונשי, בגוון שחור למראה קלאסי ומחמיא. הסט כולל חולצה עם שרוולים ארוכים וחצאית מקסי תואמת, בשילוב כיווץ עדין במותן ואבזם לב דקורטיבי שמוסיף טאץ’ ייחודי ומעודן. הבד הנעים והגזרה המחמיאה יוצרים מראה מסודר, נוח ואלגנטי – מושלם לים, לבריכה או לחופשה בסטייל. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-1782419714183-wt5jg8.webp
 
 ### בגד ים אגם חום
 https://hodayaboutique.co.il/product/bgd-ym-agm-chvm-6jul7w

@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:35:12.427Z",
+  "generated_at": "2026-06-25T20:37:34.214Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 95,
+  "count": 96,
   "products": [
+    {
+      "id": "c6878089-2195-48be-bc35-b8b164849d84",
+      "slug": "bgd-ym-agm-shchvr-9u5bdo",
+      "name": "בגד ים אגם שחור ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "בגד ים צנוע ומוקפד בעיצוב אלגנטי ונשי, בגוון שחור למראה קלאסי ומחמיא. הסט כולל חולצה עם שרוולים ארוכים וחצאית מקסי תואמת, בשילוב כיווץ עדין במותן ואבזם לב דקורטיבי שמוסיף טאץ’ ייחודי ומעודן. הבד הנעים והגזרה המחמיאה יוצרים מראה מסודר, נוח ואלגנטי – מושלם לים, לבריכה או לחופשה בסטייל.\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782419714183-wt5jg8.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419721527-zcy7wm.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419729417-cop1ab.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-agm-shchvr-9u5bdo",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-25T20:36:38.061Z"
+    },
     {
       "id": "8ae8bf95-e726-422d-a86d-5779084dc66e",
       "slug": "bgd-ym-agm-chvm-6jul7w",
