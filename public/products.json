@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:14:48.131Z",
+  "generated_at": "2026-06-25T20:18:07.401Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 87,
+  "count": 88,
   "products": [
+    {
+      "id": "61d1588c-60aa-4492-8d13-0fde74fbfb2a",
+      "slug": "chtsayt-mydy-tshvb-pjuvz3",
+      "name": "חצאית מידי צהוב",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני צהוב, בז’ ושחור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782418483970-m20rii.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418491734-wppail.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418498952-l6k7t.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418506910-6r6ho.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-pjuvz3",
+      "categories": [],
+      "updated_at": "2026-06-25T20:17:35.393Z"
+    },
     {
       "id": "788fbcf2-bbd8-4d30-8607-719a473d2607",
       "slug": "chvltst-tchrh-tshvbh-im19bc",
