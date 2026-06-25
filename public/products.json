@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:35:55.666Z",
+  "generated_at": "2026-06-25T13:37:51.252Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 70,
   "products": [
     {
       "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
-      "slug": "chtsayt-chgvrh-shmnt-c0bmvt",
+      "slug": "chtsayt-chgvrh-shmnt-c1h3eb",
       "name": "חצאית חגורה שמנת",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חצאית מידי בגוון שמנת עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש.\n\nהדוגמנית לובשת מידה S",
       "sku": null,
       "brand": null,
       "price": 79,
@@ -24,11 +24,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-c0bmvt",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-c1h3eb",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T13:35:30.727Z"
+      "updated_at": "2026-06-25T13:37:26.154Z"
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
