@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:10:18.884Z",
+  "generated_at": "2026-06-25T20:14:48.131Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 86,
+  "count": 87,
   "products": [
+    {
+      "id": "788fbcf2-bbd8-4d30-8607-719a473d2607",
+      "slug": "chvltst-tchrh-tshvbh-im19bc",
+      "name": "חולצת תחרה צהובה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת טי בגזרה נינוחה ובמראה נקי ועדכני, בצבע צהוב עדין שמשתלב בקלות עם כל לוק. החולצה מעוצבת עם שרוולים ארוכים בצבע צהוב עדין בשילוב תחרה, שמוסיפים טאץ’ נשי ומיוחד בלי לוותר על נוחות. בד נעים וגזרה מחמיאה הופכים אותה לפריט מושלם ליום־יום, לשבת או ליציאה, עם חצאית או מכנס בגזרה אלגנטית.\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 79,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782418271483-805.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418216344-7bd7c.webp",
+        "https://hodayaboutique.co.il/assets/product-1782418223322-2gv7ma.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-tshvbh-im19bc",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T20:14:16.417Z"
+    },
     {
       "id": "cbb26349-e4cd-4976-a67d-fbfd6dd6e954",
       "slug": "chvltst-tchrh-tklt-sy105v",
