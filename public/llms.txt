@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 67**
+**Total active products: 68**
+
+### חליפת יסמין אפור
+https://hodayaboutique.co.il/product/chlypt-ysmyn-apvr-hh6p4k
+- Price: 149.00 ILS
+- Availability: In stock
+- Category: חליפות
+- Description: חליפת מקסי בצבע אפור עם מראה יומיומי-שיק ונוח במיוחד. החולצה בגזרה רחבה עם שרוול 3/4 והדפס קדמי אופנתי, בשילוב חצאית מקסי נשפכת עם גומי ושרוך במותן לישיבה מחמיאה ונוחה. הבד נעים על הגוף, קליל ומלא בסטייל – מושלם ללוק צנוע, אופנתי ומוקפד ליום יום או ליציאה. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782393091599-z5vtz.webp
 
 ### חליפת יסמין חום
 https://hodayaboutique.co.il/product/chlypt-ysmyn-chvm-2ptq0z

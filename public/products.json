@@ -1,10 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:10:16.654Z",
+  "generated_at": "2026-06-25T13:17:17.793Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 67,
+  "count": 68,
   "products": [
+    {
+      "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
+      "slug": "chlypt-ysmyn-apvr-hh6p4k",
+      "name": "חליפת יסמין אפור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפת מקסי בצבע אפור עם מראה יומיומי-שיק ונוח במיוחד. החולצה בגזרה רחבה עם שרוול 3/4 והדפס קדמי אופנתי, בשילוב חצאית מקסי נשפכת עם גומי ושרוך במותן לישיבה מחמיאה ונוחה. הבד נעים על הגוף, קליל ומלא בסטייל – מושלם ללוק צנוע, אופנתי ומוקפד ליום יום או ליציאה.\n\nהדוגמנית לובשת מידה 1",
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393091599-z5vtz.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393145397-1zz0d.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393216602-pags65.webp",
+        "https://hodayaboutique.co.il/assets/product-1782393049806-okva5d.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782393287324-yjgzpr.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-ysmyn-apvr-hh6p4k",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-25T13:16:39.462Z"
+    },
     {
       "id": "fbea58ea-8545-4b27-bbf7-ed11eff8ec71",
       "slug": "chlypt-ysmyn-chvm-2ptq0z",
