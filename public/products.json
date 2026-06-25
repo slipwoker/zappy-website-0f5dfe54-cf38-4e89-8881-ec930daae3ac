@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:00:17.769Z",
+  "generated_at": "2026-06-25T20:01:09.362Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 84,
@@ -196,11 +196,11 @@
     },
     {
       "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
-      "slug": "chvltst-hdr-tshvb-fb6qnl",
+      "slug": "chvltst-hdr-tshvb-3gk8m6",
       "name": "חולצת הדר צהוב",
       "name_translations": {},
       "description": "",
-      "short_description": "חולצת אוברסייז בגוון צהוב חמאה רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני.\nהדוגמנית לובשת מידה 1",
+      "short_description": "חולצת אוברסייז בגוון צהוב חמאה רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני.\nמגיעה בוואן סייז מתאים למידה 1-3",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -215,11 +215,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-fb6qnl",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-3gk8m6",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:41:29.649Z"
+      "updated_at": "2026-06-25T20:00:23.706Z"
     },
     {
       "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
