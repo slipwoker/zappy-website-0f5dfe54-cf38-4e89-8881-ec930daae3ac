@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:24:55.689Z",
+  "generated_at": "2026-06-25T20:26:23.369Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 91,
+  "count": 92,
   "products": [
+    {
+      "id": "0b436668-6503-4cf8-8d23-35e792848b9e",
+      "slug": "chtsayt-hds-kchvl-nsv0df",
+      "name": "חצאית הדס כחול",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782419091185-ma7217.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782419141156-bvuw7.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419111793-ieyarm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-nsv0df",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T20:25:56.584Z"
+    },
     {
       "id": "e551f8dd-c695-445f-accc-d18930444ae5",
       "slug": "chtsayt-mydy-shchvr-3ql5qx",

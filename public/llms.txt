@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 91**
+**Total active products: 92**
+
+### חצאית הדס כחול
+https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-nsv0df
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Image: https://hodayaboutique.co.il/assets/product-1782419091185-ma7217.webp
 
 ### חצאית מידי שחור
 https://hodayaboutique.co.il/product/chtsayt-mydy-shchvr-3ql5qx
