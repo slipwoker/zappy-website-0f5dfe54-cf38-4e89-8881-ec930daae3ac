@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:01:09.362Z",
+  "generated_at": "2026-06-25T20:05:30.459Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 84,
+  "count": 85,
   "products": [
+    {
+      "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
+      "slug": "chlypt-avpl-chvm-2y65vv",
+      "name": "חליפת אופל חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 169,
+      "base_price": 169,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417733703-pi7i6a.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782417760120-jialzq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-2y65vv",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-25T20:04:58.429Z"
+    },
     {
       "id": "4e949fea-15c5-41b1-ac2c-edd9c50c52d5",
       "slug": "chvltst-hdr-shchvr-xaagp6",
