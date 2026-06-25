@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:16:58.647Z",
+  "generated_at": "2026-06-25T14:20:38.981Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 77,
+  "count": 78,
   "products": [
+    {
+      "id": "ca3dd2c1-6727-4658-b960-7da2985cdf31",
+      "slug": "chvltst-hdr-chvm-uhbmkg",
+      "name": "חולצת הדר חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782397084460-k3dg6g.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782397111863-heniep.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782397169166-4kvh66.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782397139652-04f3eg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-chvm-uhbmkg",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T14:20:06.937Z"
+    },
     {
       "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
       "slug": "chvltst-hdr-tshvb-1gnwtw",
