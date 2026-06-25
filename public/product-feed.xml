@@ -4,7 +4,41 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Thu, 25 Jun 2026 14:06:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 14:10:24 GMT</lastBuildDate>
+    <item>
+      <g:id>ba17f997-5528-4d36-a2e4-adf94b5d696c__afc2397b-6516-4a0c-8c1b-459e9fa5d88c</g:id>
+      <g:title>חולצת זיו חום - 1</g:title>
+      <g:description>חולצת זיו חום</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chvltst-zyv-chvm-fcsg7s</g:link>
+      <g:item_group_id>ba17f997-5528-4d36-a2e4-adf94b5d696c</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1782396510947-jd13rg.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396518218-2n9zdo.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396525754-tsx00l.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396533767-qyva5c.webp</g:additional_image_link>
+      <g:availability>out_of_stock</g:availability>
+      <g:price>69.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חולצות</g:product_type>
+    </item>
+    <item>
+      <g:id>ba17f997-5528-4d36-a2e4-adf94b5d696c__190c4006-4a50-4b21-948a-051ad96d10d3</g:id>
+      <g:title>חולצת זיו חום - 2</g:title>
+      <g:description>חולצת זיו חום</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chvltst-zyv-chvm-fcsg7s</g:link>
+      <g:item_group_id>ba17f997-5528-4d36-a2e4-adf94b5d696c</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1782396510947-jd13rg.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396518218-2n9zdo.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396525754-tsx00l.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782396533767-qyva5c.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>69.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חולצות</g:product_type>
+    </item>
     <item>
       <g:id>37223afe-41ce-4dd1-9a35-8036df724e22__5982ac55-d3d7-4ce8-addc-77026aa2fb45</g:id>
       <g:title>חולצת זיו צהוב בהיר - 1</g:title>
@@ -46,7 +80,7 @@
       <g:image_link>https://hodayaboutique.co.il/assets/product-1782395933765-vy772f.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395940698-6c11k.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395947675-bolskg.webp</g:additional_image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
       <g:price>69.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
@@ -62,7 +96,7 @@
       <g:image_link>https://hodayaboutique.co.il/assets/product-1782395933765-vy772f.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395940698-6c11k.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395947675-bolskg.webp</g:additional_image_link>
-      <g:availability>out_of_stock</g:availability>
+      <g:availability>in_stock</g:availability>
       <g:price>69.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>

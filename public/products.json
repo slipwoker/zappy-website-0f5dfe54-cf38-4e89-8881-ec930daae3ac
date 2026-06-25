@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:06:30.085Z",
+  "generated_at": "2026-06-25T14:10:24.770Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 75,
+  "count": 76,
   "products": [
+    {
+      "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
+      "slug": "chvltst-zyv-chvm-fcsg7s",
+      "name": "חולצת זיו חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782396510947-jd13rg.webp",
+        "https://hodayaboutique.co.il/assets/product-1782396518218-2n9zdo.webp",
+        "https://hodayaboutique.co.il/assets/product-1782396525754-tsx00l.webp",
+        "https://hodayaboutique.co.il/assets/product-1782396533767-qyva5c.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-chvm-fcsg7s",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T14:09:46.894Z"
+    },
     {
       "id": "37223afe-41ce-4dd1-9a35-8036df724e22",
       "slug": "chvltst-zyv-tshvb-bhyr-celmsy",
