@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:03:51.294Z",
+  "generated_at": "2026-06-25T14:06:30.085Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 74,
+  "count": 75,
   "products": [
+    {
+      "id": "37223afe-41ce-4dd1-9a35-8036df724e22",
+      "slug": "chvltst-zyv-tshvb-bhyr-celmsy",
+      "name": "חולצת זיו צהוב בהיר",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 69,
+      "base_price": 69,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782396236880-gm4mh.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782396303728-1tkmya.webp",
+        "https://hodayaboutique.co.il/assets/product-1782396226457-9brf9w.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-tshvb-bhyr-celmsy",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T14:05:51.072Z"
+    },
     {
       "id": "6749933d-974a-43d8-a0b5-459cc33fcb9c",
       "slug": "chvltst-zyv-lbn-j0ej0s",
