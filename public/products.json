@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:53:37.285Z",
+  "generated_at": "2026-06-25T13:57:51.815Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 72,
+  "count": 73,
   "products": [
+    {
+      "id": "29b4391b-3641-4733-88fb-7fd851a64eee",
+      "slug": "chtsayt-chgvrh-lbnh-sjct1p",
+      "name": "חצאית חגורה לבנה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בצבע שחור עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש.\n\nהדוגמנית לובשת מידה S",
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 79,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782395661463-kunav.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782395716857-9zs9kq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782395744937-gkia38.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782395811026-oj87rl.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-lbnh-sjct1p",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T13:57:44.094Z"
+    },
     {
       "id": "18d8fb06-b4e8-4a8d-ad1e-c0e6fcc93b7f",
       "slug": "chtsayt-chgvrh-shchvrh-we0d3x",

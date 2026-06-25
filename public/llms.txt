@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 72**
+**Total active products: 73**
+
+### חצאית חגורה לבנה
+https://hodayaboutique.co.il/product/chtsayt-chgvrh-lbnh-sjct1p
+- Price: 79.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מידי בצבע שחור עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש. הדוגמנית לובשת מידה S
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782395661463-kunav.webp
 
 ### חצאית חגורה שחורה 
 https://hodayaboutique.co.il/product/chtsayt-chgvrh-shchvrh-we0d3x
