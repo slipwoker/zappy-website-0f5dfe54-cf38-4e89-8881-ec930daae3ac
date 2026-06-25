@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 78**
+**Total active products: 79**
+
+### חולצת זיוה חום
+https://hodayaboutique.co.il/product/chvltst-zyvh-chvm-lfy7xf
+- Price: 49.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782397554083-d71h6r.webp
 
 ### חולצת הדר חום
 https://hodayaboutique.co.il/product/chvltst-hdr-chvm-uhbmkg
