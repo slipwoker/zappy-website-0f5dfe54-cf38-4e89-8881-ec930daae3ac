@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T19:56:02.778Z",
+  "generated_at": "2026-06-25T19:57:44.781Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 83,
+  "count": 84,
   "products": [
+    {
+      "id": "4e949fea-15c5-41b1-ac2c-edd9c50c52d5",
+      "slug": "chvltst-hdr-shchvr-sfr20k",
+      "name": "חולצת הדר שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782417391065-98bp29.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417383977-vpz3rl.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417398106-widpap.webp",
+        "https://hodayaboutique.co.il/assets/product-1782417405169-n85n7.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-sfr20k",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T19:57:12.714Z"
+    },
     {
       "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
       "slug": "chvltst-zyvh-shchvr-q812je",
