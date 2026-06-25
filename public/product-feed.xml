@@ -4,16 +4,33 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Thu, 25 Jun 2026 14:02:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 14:03:41 GMT</lastBuildDate>
     <item>
-      <g:id>6749933d-974a-43d8-a0b5-459cc33fcb9c</g:id>
-      <g:title>חולצת זיו לבן</g:title>
+      <g:id>6749933d-974a-43d8-a0b5-459cc33fcb9c__148f6654-5fed-433f-8611-2f47a1e01d28</g:id>
+      <g:title>חולצת זיו לבן - 1</g:title>
       <g:description>חולצת זיו לבן</g:description>
-      <g:link>https://hodayaboutique.co.il/product/chvltst-zyv-lbn-vgeg9h</g:link>
+      <g:link>https://hodayaboutique.co.il/product/chvltst-zyv-lbn-j0ej0s</g:link>
+      <g:item_group_id>6749933d-974a-43d8-a0b5-459cc33fcb9c</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-1782395933765-vy772f.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395940698-6c11k.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395947675-bolskg.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
+      <g:price>69.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חולצות</g:product_type>
+    </item>
+    <item>
+      <g:id>6749933d-974a-43d8-a0b5-459cc33fcb9c__261d772c-7ced-4f98-a252-340f5a4883ae</g:id>
+      <g:title>חולצת זיו לבן - 2</g:title>
+      <g:description>חולצת זיו לבן</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chvltst-zyv-lbn-j0ej0s</g:link>
+      <g:item_group_id>6749933d-974a-43d8-a0b5-459cc33fcb9c</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1782395933765-vy772f.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395940698-6c11k.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782395947675-bolskg.webp</g:additional_image_link>
+      <g:availability>out_of_stock</g:availability>
       <g:price>69.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
