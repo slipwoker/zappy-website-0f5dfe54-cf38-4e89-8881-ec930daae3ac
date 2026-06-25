@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T21:33:00.236Z",
+  "generated_at": "2026-06-25T21:34:53.568Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -86,7 +86,7 @@
     },
     {
       "id": "8f1cc0c6-5b86-4379-bf96-6401e262c09d",
-      "slug": "chtsayt-hds-shchvr-hug5wx",
+      "slug": "chtsayt-hds-shchvr-n7lfyj",
       "name": "חצאית הדס שחור",
       "name_translations": {},
       "description": "",
@@ -105,9 +105,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-shchvr-hug5wx",
-      "categories": [],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-shchvr-n7lfyj",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T21:34:21.587Z"
     },
     {
       "id": "a00a9a77-8824-4275-a1d1-52c59cccc292",
