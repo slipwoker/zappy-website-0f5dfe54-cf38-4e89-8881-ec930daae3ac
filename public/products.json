@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T19:51:45.422Z",
+  "generated_at": "2026-06-25T19:52:36.835Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 82,
   "products": [
     {
       "id": "55607ee2-7093-49eb-9a9d-faaae651abb0",
-      "slug": "chvltst-zyv-shchvr-l5713x",
+      "slug": "chvltst-zyv-shchvr-qwpfjr",
       "name": "חולצת זיו שחור",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז שחורה בגזרה נקייה ומחמיאה, עם שרוולים רחבים באורך מרפק וצווארון גבוה עדין למראה אלגנטי ומודרני. החולצה מגיעה עם קשירה ייחודית במותן שיוצרת טוויסט שיקי ומדגישה את הקו הנשי בצורה מחמיאה. בד נעים ונשפך, מושלם לשילוב עם חצאית ללוק יומיומי מוקפד עם נוכחות.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 69,
@@ -26,11 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-shchvr-l5713x",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-shchvr-qwpfjr",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T19:51:13.554Z"
+      "updated_at": "2026-06-25T19:52:05.250Z"
     },
     {
       "id": "deefd4d8-8b1e-4f73-a30a-9c89a10c9296",
