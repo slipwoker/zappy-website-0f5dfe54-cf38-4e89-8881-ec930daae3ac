@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Thu, 25 Jun 2026 20:45:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 20:48:28 GMT</lastBuildDate>
     <item>
       <g:id>1c89c0fc-77d7-414a-b786-45872f1f7001__2beed58c-f717-46d0-9050-1dec3d748e8e</g:id>
       <g:title>בגד ים אגם בז׳ - 1</g:title>
@@ -345,10 +345,11 @@
       <g:product_type>חולצות</g:product_type>
     </item>
     <item>
-      <g:id>f21a3b68-327e-46d2-9d50-4201c0a19c81</g:id>
-      <g:title>חליפת אופל חום</g:title>
+      <g:id>f21a3b68-327e-46d2-9d50-4201c0a19c81__d4a13f69-55e8-419c-b1bc-5bcdd6a8f6e1</g:id>
+      <g:title>חליפת אופל חום - 1</g:title>
       <g:description>חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה. הדוגמנית לובשת מידה 1</g:description>
-      <g:link>https://hodayaboutique.co.il/product/chlypt-avpl-chvm-vkjm2d</g:link>
+      <g:link>https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto</g:link>
+      <g:item_group_id>f21a3b68-327e-46d2-9d50-4201c0a19c81</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417733703-pi7i6a.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417760120-jialzq.webp</g:additional_image_link>
@@ -356,7 +357,23 @@
       <g:price>169.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
+      <g:mpn>1</g:mpn>
+      <g:product_type>חליפות</g:product_type>
+    </item>
+    <item>
+      <g:id>f21a3b68-327e-46d2-9d50-4201c0a19c81__49f43108-4c5c-4187-8d9c-82edd45cbfc5</g:id>
+      <g:title>חליפת אופל חום - 2</g:title>
+      <g:description>חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה. הדוגמנית לובשת מידה 1</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto</g:link>
+      <g:item_group_id>f21a3b68-327e-46d2-9d50-4201c0a19c81</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417706719-habjjq.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417733703-pi7i6a.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782417760120-jialzq.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>169.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:mpn>2</g:mpn>
       <g:product_type>חליפות</g:product_type>
     </item>
     <item>

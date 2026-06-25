@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:45:16.927Z",
+  "generated_at": "2026-06-25T20:48:28.985Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -323,7 +323,7 @@
     },
     {
       "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
-      "slug": "chlypt-avpl-chvm-vkjm2d",
+      "slug": "chlypt-avpl-chvm-x29cto",
       "name": "חליפת אופל חום",
       "name_translations": {},
       "description": "",
@@ -341,11 +341,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-vkjm2d",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:06:48.559Z"
+      "updated_at": "2026-06-25T20:48:22.559Z"
     },
     {
       "id": "4e949fea-15c5-41b1-ac2c-edd9c50c52d5",
