@@ -1,10 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T06:44:33.183Z",
+  "generated_at": "2026-06-25T13:07:26.878Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 66,
+  "count": 67,
   "products": [
+    {
+      "id": "fbea58ea-8545-4b27-bbf7-ed11eff8ec71",
+      "slug": "chlypt-ysmyn-chvm-nde5zl",
+      "name": "חליפת יסמין חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782392422691-fxus5f.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782392601535-xtylkl.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782392520691-fo6gas.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782392562246-qikzw6.webp",
+        "https://hodayaboutique.co.il/assets/product-1782392797445-rydwpv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chlypt-ysmyn-chvm-nde5zl",
+      "categories": [
+        "חליפות"
+      ],
+      "updated_at": "2026-06-25T13:06:54.992Z"
+    },
     {
       "id": "41b0e4b3-32a3-4731-9089-5c03639bc1da",
       "slug": "chtsayt-psym-vrw951",
