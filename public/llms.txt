@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 90**
+**Total active products: 91**
+
+### חצאית מידי שחור
+https://hodayaboutique.co.il/product/chtsayt-mydy-shchvr-3ql5qx
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני שחור, אפור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע. הדוגמנית לובשת מידה 1
+- Image: https://hodayaboutique.co.il/assets/product-1782418964055-c2d385.webp
 
 ### חצאית מידי כתום
 https://hodayaboutique.co.il/product/chtsayt-mydy-ktvm-9hwb6m
