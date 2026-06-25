@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:59:30.570Z",
+  "generated_at": "2026-06-25T21:01:04.107Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -245,7 +245,7 @@
     },
     {
       "id": "61d1588c-60aa-4492-8d13-0fde74fbfb2a",
-      "slug": "chtsayt-mydy-tshvb-pjuvz3",
+      "slug": "chtsayt-mydy-tshvb-huwxsy",
       "name": "חצאית מידי צהוב",
       "name_translations": {},
       "description": "",
@@ -264,9 +264,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-pjuvz3",
-      "categories": [],
-      "updated_at": "2026-06-25T20:58:51.395Z"
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-huwxsy",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T21:00:32.540Z"
     },
     {
       "id": "788fbcf2-bbd8-4d30-8607-719a473d2607",
