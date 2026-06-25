@@ -75,9 +75,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 83**
 
 ### חולצת זיוה שחור
-https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-6kzwbu
+https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je
 - Price: 49.00 ILS
 - Availability: In stock
+- Category: חולצות
+- Description: חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך. וואן סייז, מתאימה למידות 1–3
 - Image: https://hodayaboutique.co.il/assets/product-1782417186044-q79bdu.webp
 
 ### חולצת זיו שחור

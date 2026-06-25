@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T19:54:20.682Z",
+  "generated_at": "2026-06-25T19:55:32.318Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 83,
   "products": [
     {
       "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
-      "slug": "chvltst-zyvh-shchvr-6kzwbu",
+      "slug": "chvltst-zyvh-shchvr-q812je",
       "name": "חולצת זיוה שחור",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת בסיס בגוון מוקה קלאסי, עם שרוולים ארוכים וגזרת גוף מחמיאה שיושבת יפה על הגוף. צווארון וי עדין מוסיף לה מראה נשי ונקי, והיא מושלמת לשילוב יומיומי עם חצאיות, ג׳ינסים או שכבות בעונות מעבר. בד נעים, רך ונוח ללבישה לאורך כל היום – פריט בסיסי מדויק שכל ארון צריך.\nוואן סייז, מתאימה למידות 1–3",
       "sku": null,
       "brand": null,
       "price": 49,
@@ -26,9 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-6kzwbu",
-      "categories": [],
-      "updated_at": "2026-06-25T19:53:48.906Z"
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyvh-shchvr-q812je",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-06-25T19:55:11.712Z"
     },
     {
       "id": "55607ee2-7093-49eb-9a9d-faaae651abb0",
