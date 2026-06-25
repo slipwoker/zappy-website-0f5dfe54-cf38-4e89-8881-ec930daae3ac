@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T19:57:44.781Z",
+  "generated_at": "2026-06-25T19:58:46.815Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 84,
   "products": [
     {
       "id": "4e949fea-15c5-41b1-ac2c-edd9c50c52d5",
-      "slug": "chvltst-hdr-shchvr-sfr20k",
+      "slug": "chvltst-hdr-shchvr-p2cmvg",
       "name": "חולצת הדר שחור",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז בצבע שחור רך, עם גזרה משוחררת ונינוחה למראה יומיומי מלא סטייל. השרוולים הרחבים באורך מרפק מעניקים לה קו נקי ומחמיא, ובצד החולצה משולבת קשירה עדינה שמוסיפה טוויסט אופנתי ושיקי. בד נעים וקליל שהופך אותה לפריט מושלם לשילוב עם חצאיות או מכנסיים ללוק קז׳ואל מוקפד, נשי ועדכני.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -26,11 +26,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-sfr20k",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-shchvr-p2cmvg",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T19:57:12.714Z"
+      "updated_at": "2026-06-25T19:58:14.895Z"
     },
     {
       "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
