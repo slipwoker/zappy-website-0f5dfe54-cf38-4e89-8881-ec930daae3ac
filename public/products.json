@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:05:30.459Z",
+  "generated_at": "2026-06-25T20:06:13.777Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 85,
@@ -434,11 +434,11 @@
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
-      "slug": "chlypt-avpl-tnh54m",
-      "name": "חליפת אופל",
+      "slug": "chlypt-avpl-bz-l1a2yj",
+      "name": "חליפת אופל בז׳",
       "name_translations": {},
       "description": "",
-      "short_description": "חליפת מקסי בגוון שמנת עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
+      "short_description": "חליפת מקסי בגוון בז׳ עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 159,
@@ -453,11 +453,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-tnh54m",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-bz-l1a2yj",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T13:26:25.180Z"
+      "updated_at": "2026-06-25T20:05:42.149Z"
     },
     {
       "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
