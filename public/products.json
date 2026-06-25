@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T14:35:24.034Z",
+  "generated_at": "2026-06-25T14:37:59.474Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 81,
@@ -195,11 +195,11 @@
     },
     {
       "id": "6749933d-974a-43d8-a0b5-459cc33fcb9c",
-      "slug": "chvltst-zyv-lbn-j0ej0s",
+      "slug": "chvltst-zyv-lbn-bmyqlb",
       "name": "חולצת זיו לבן",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז לבנה בגזרה נקייה ומחמיאה, עם שרוולים רחבים באורך מרפק וצווארון גבוה עדין למראה אלגנטי ומודרני. החולצה מגיעה עם קשירה ייחודית במותן שיוצרת טוויסט שיקי ומדגישה את הקו הנשי בצורה מחמיאה. בד נעים ונשפך, מושלם לשילוב עם חצאיות ללוק יומיומי מוקפד עם נוכחות.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 69,
@@ -213,11 +213,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-lbn-j0ej0s",
+      "url": "https://hodayaboutique.co.il/product/chvltst-zyv-lbn-bmyqlb",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T14:03:05.173Z"
+      "updated_at": "2026-06-25T14:37:31.040Z"
     },
     {
       "id": "29b4391b-3641-4733-88fb-7fd851a64eee",
