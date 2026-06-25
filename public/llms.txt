@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 94**
+**Total active products: 95**
+
+### בגד ים אגם חום
+https://hodayaboutique.co.il/product/bgd-ym-agm-chvm-mumcam
+- Price: 149.00 ILS
+- Availability: In stock
+- Category: בגדי ים
+- Image: https://hodayaboutique.co.il/assets/product-1782419431532-mq3o5o.webp
 
 ### חצאית הדס שחור
 https://hodayaboutique.co.il/product/chtsayt-hds-shchvr-hug5wx

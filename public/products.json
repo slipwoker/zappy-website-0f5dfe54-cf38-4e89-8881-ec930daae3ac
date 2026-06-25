@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T20:30:27.031Z",
+  "generated_at": "2026-06-25T20:32:27.529Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 94,
+  "count": 95,
   "products": [
+    {
+      "id": "8ae8bf95-e726-422d-a86d-5779084dc66e",
+      "slug": "bgd-ym-agm-chvm-mumcam",
+      "name": "בגד ים אגם חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 149,
+      "base_price": 149,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1782419431532-mq3o5o.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419438333-r1m705.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419444936-w5fvg2.webp",
+        "https://hodayaboutique.co.il/assets/product-1782419452048-41hiyq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/bgd-ym-agm-chvm-mumcam",
+      "categories": [
+        "בגדי ים"
+      ],
+      "updated_at": "2026-06-25T20:31:55.436Z"
+    },
     {
       "id": "8f1cc0c6-5b86-4379-bf96-6401e262c09d",
       "slug": "chtsayt-hds-shchvr-hug5wx",
