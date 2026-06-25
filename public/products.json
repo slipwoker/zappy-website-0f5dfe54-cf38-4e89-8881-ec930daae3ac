@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:27:11.513Z",
+  "generated_at": "2026-06-25T13:35:55.666Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 69,
+  "count": 70,
   "products": [
+    {
+      "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
+      "slug": "chtsayt-chgvrh-shmnt-c0bmvt",
+      "name": "חצאית חגורה שמנת",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 79,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782394447436-6kn3pp.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782394506578-efzhod.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-c0bmvt",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T13:35:30.727Z"
+    },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
       "slug": "chlypt-avpl-tnh54m",

@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 69**
+**Total active products: 70**
+
+### חצאית חגורה שמנת
+https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-c0bmvt
+- Price: 79.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1782394447436-6kn3pp.webp
 
 ### חליפת אופל
 https://hodayaboutique.co.il/product/chlypt-avpl-tnh54m
