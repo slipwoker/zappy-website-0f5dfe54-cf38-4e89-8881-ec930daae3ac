@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T13:37:57.758Z",
+  "generated_at": "2026-06-25T13:43:44.078Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 70,
+  "count": 71,
   "products": [
+    {
+      "id": "3ab1c12d-de4f-43dc-acad-3c4c0590b54e",
+      "slug": "chtsayt-chgvrh-bz-arg909",
+      "name": "חצאית חגורה בז׳",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בצבע בז׳ עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש.\n\nהדוגמנית לובשת מידה S",
+      "sku": null,
+      "brand": null,
+      "price": 79,
+      "base_price": 79,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782394761196-rlets.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782394792089-1dwlq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782394846912-ttds72.webp",
+        "https://hodayaboutique.co.il/assets/product-1782394963453-k8czoq.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-arg909",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-06-25T13:43:14.416Z"
+    },
     {
       "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
       "slug": "chtsayt-chgvrh-shmnt-c1h3eb",
