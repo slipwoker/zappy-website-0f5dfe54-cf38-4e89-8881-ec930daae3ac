@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T21:01:04.107Z",
+  "generated_at": "2026-06-25T21:01:49.437Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -245,11 +245,11 @@
     },
     {
       "id": "61d1588c-60aa-4492-8d13-0fde74fbfb2a",
-      "slug": "chtsayt-mydy-tshvb-huwxsy",
+      "slug": "chtsayt-mydy-tshvb-jfwnyl",
       "name": "חצאית מידי צהוב",
       "name_translations": {},
       "description": "",
-      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני צהוב, בז’ ושחור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nהדוגמנית לובשת מידה 1",
+      "short_description": "חצאית מידי בגזרה נשפכת ומלאת נוכחות, בעיצוב משבצות בגווני צהוב, בז’ ושחור למראה ייחודי, אלגנטי ועדכני. הגזרה הא-סימטרית בשילוב קשירה במותן יוצרת מראה מחמיא ונשי עם תנועה יפה וקלילה. חצאית מושלמת לשילוב עם חולצה צמודה, סריג או חולצה מכופתרת, ללוק מוקפד שמתאים ליום־יום, לשבת או לאירוע.\nוואן סייז מתאים למידה 0-3",
       "sku": null,
       "brand": null,
       "price": 99,
@@ -264,11 +264,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-huwxsy",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-mydy-tshvb-jfwnyl",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T21:00:32.540Z"
+      "updated_at": "2026-06-25T21:01:17.803Z"
     },
     {
       "id": "788fbcf2-bbd8-4d30-8607-719a473d2607",
