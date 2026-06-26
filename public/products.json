@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T09:48:45.139Z",
+  "generated_at": "2026-06-26T13:55:34.759Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -728,15 +728,15 @@
     },
     {
       "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
-      "slug": "chlypt-avpl-chvm-x29cto",
+      "slug": "chlypt-avpl-chvm-0tts1e",
       "name": "חליפת אופל חום",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת מקסי בגוון חום עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 169,
-      "base_price": 169,
+      "price": 189,
+      "base_price": 189,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -746,23 +746,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-x29cto",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-0tts1e",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T13:55:20.334Z"
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
-      "slug": "chlypt-avpl-bz-l1a2yj",
+      "slug": "chlypt-avpl-bz-e7o542",
       "name": "חליפת אופל בז׳",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת מקסי בגוון בז׳ עם מראה נקי, רך ואלגנטי. החולצה בגזרה רחבה ונינוחה עם שרוול 3/4, בשילוב חצאית מקסי נשפכת בגזרה מחמיאה שמעניקה תנועה עדינה ונוכחות שיקית. הסט כולו עשוי מבד נעים, קליל ומחמיא על הגוף – מושלם ללוק צנוע, מוקפד ואופנתי ליום יום, לשבת או ליציאה.\n\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
-      "price": 159,
-      "base_price": 159,
+      "price": 189,
+      "base_price": 189,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -773,11 +773,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-bz-l1a2yj",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-bz-e7o542",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T13:55:03.214Z"
     },
     {
       "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
