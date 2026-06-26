@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:45:48.653Z",
+  "generated_at": "2026-06-26T00:48:12.001Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1067,16 +1067,16 @@
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
-      "slug": "chlypt-tayr-bz-dvnhsw",
+      "slug": "chlypt-tayr-bz-cqpyvw",
       "name": "חליפת תאיר בז",
       "name_translations": {},
       "description": "",
-      "short_description": "חליפת תאיר בצבע שמנת משלבת נוחות וסטייל במראה צנוע ואלגנטי. הסט כולל חולצה בגזרת אוברסייז וחצאית מקסי מחמיאה עם כיסים. הבד הרך והנעים מתאים ליום יום, לעבודה או ליציאה. הדוגמנית לובשת מידה XS",
+      "short_description": "חליפת תאיר בצבע שמנת משלבת נוחות וסטייל במראה צנוע ואלגנטי. הסט כולל חולצה בגזרת אוברסייז וחצאית מקסי מחמיאה עם כיסים. הבד הרך והנעים מתאים ליום יום, לעבודה או ליציאה. הדוגמנית לובשת מידה S",
       "sku": null,
       "brand": null,
-      "price": 269,
+      "price": 199,
       "base_price": 269,
-      "sale_price": null,
+      "sale_price": 199,
       "currency": "ILS",
       "images": [
         "https://hodayaboutique.co.il/assets/product-1780510040874-z9jjs.webp",
@@ -1086,11 +1086,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-dvnhsw",
+      "url": "https://hodayaboutique.co.il/product/chlypt-tayr-bz-cqpyvw",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:47:40.180Z"
     },
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
