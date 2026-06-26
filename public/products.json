@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:39:52.255Z",
+  "generated_at": "2026-06-26T00:45:48.653Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1121,11 +1121,11 @@
     },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
-      "slug": "shmlt-alyh-bz-vuajf2",
+      "slug": "shmlt-alyh-bz-ya6lzg",
       "name": "שמלת אליה בז׳",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת “אליה” בצבע בז’\n\nשמלת מקסי צנועה ואלגנטית בגוון בז’ קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "short_description": "שמלת “אליה” בצבע בז’\n\nשמלת מקסי צנועה ואלגנטית בגוון בז’ קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 169,
@@ -1133,19 +1133,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780509629252-vcu0xo.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509639519-f9aimo.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509647877-5iowcx.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509655780-u8v53.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509663990-4ayhoa.webp"
+        "https://hodayaboutique.co.il/assets/product-1782434682092-0qdsps.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434688875-m5qjdb.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434695903-9nrfw8.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434702258-pdei5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-vuajf2",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-bz-ya6lzg",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:45:16.851Z"
     },
     {
       "id": "321acf8c-3161-416f-920c-8af06cc94f64",
