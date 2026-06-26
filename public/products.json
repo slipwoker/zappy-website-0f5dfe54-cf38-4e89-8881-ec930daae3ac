@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T23:14:06.603Z",
+  "generated_at": "2026-06-26T00:10:54.931Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -986,11 +986,11 @@
     },
     {
       "id": "2b450ce5-4ba4-47c6-b27d-e6a837b533b5",
-      "slug": "shmlt-nvah-iyp6po",
+      "slug": "shmlt-nvah-1kcgzz",
       "name": "שמלת נועה",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת מקסי אלגנטית בגוון ניוד קלאסי, בגזרה מחמיאה ונשית עם שרוולי פעמון מיוחדים למראה יוקרתי ועדכני. מושלמת לאירועים, שבתות וחגים.",
+      "short_description": "שמלת מקסי אלגנטית בגוון ניוד קלאסי, בגזרה מחמיאה ונשית עם שרוולי פעמון מיוחדים למראה יוקרתי ועדכני. מושלמת לאירועים, שבתות וחגים.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 209,
@@ -998,20 +998,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780510824491-t7x4u8.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510837874-cjzxji.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510846947-vqjub8.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510855866-nci51o.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510864931-lw74l.webp"
+        "https://hodayaboutique.co.il/assets/product-1782432581979-ga2g1j.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432589137-hm9zrm.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432596260-81svmc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-iyp6po",
+      "url": "https://hodayaboutique.co.il/product/shmlt-nvah-1kcgzz",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:10:23.147Z"
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
