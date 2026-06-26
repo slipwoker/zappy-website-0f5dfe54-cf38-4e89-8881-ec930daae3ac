@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:12:12.573Z",
+  "generated_at": "2026-06-26T00:13:27.332Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1040,11 +1040,11 @@
     },
     {
       "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
-      "slug": "gblyh-nvr-me3v2h",
+      "slug": "gblyh-nvr-89qmkd",
       "name": "ג׳בליה נור",
       "name_translations": {},
       "description": "",
-      "short_description": "גלביית נור בשילוב שחור ולבן – פריט אלגנטי ומרשים המשלב קווים קלאסיים עם סטייל מודרני. הגזרה הנשפכת מעניקה נוחות מרבית ומראה מחמיא, בעוד שילוב הצבעים יוצר נוכחות יוקרתית וייחודית. מושלמת לאירועים, לשבת או לכל מי שאוהבת מראה צנוע ומוקפד. הדוגמנית לובשת מידה XS",
+      "short_description": "גלביית נור בשילוב שחור ולבן – פריט אלגנטי ומרשים המשלב קווים קלאסיים עם סטייל מודרני. הגזרה הנשפכת מעניקה נוחות מרבית ומראה מחמיא, בעוד שילוב הצבעים יוצר נוכחות יוקרתית וייחודית. מושלמת לאירועים, לשבת או לכל מי שאוהבת מראה צנוע ומוקפד. הדוגמנית לובשת מידה S",
       "sku": null,
       "brand": null,
       "price": 109,
@@ -1052,18 +1052,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780510326313-zslk7.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510316089-lq1vn5.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510335694-u0tznl.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510344815-k4rjr.webp"
+        "https://hodayaboutique.co.il/assets/product-1782432737637-0bkm7.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432744675-9lfpt4.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432751402-f9wjr6.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432757757-9j38ll.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-me3v2h",
+      "url": "https://hodayaboutique.co.il/product/gblyh-nvr-89qmkd",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:12:55.539Z"
     },
     {
       "id": "bc0110e7-a813-4a7f-9f10-1fde8e817e14",
