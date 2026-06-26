@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:21:53.483Z",
+  "generated_at": "2026-06-26T00:23:32.007Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "a5453fb7-2f96-4596-a9e2-13ffe7f5ab9c",
-      "slug": "chtsayt-satn-pvdrh-xsn3r7",
+      "slug": "chtsayt-satn-pvdrh-dh4vrk",
       "name": "חצאית סאטן פודרה",
       "name_translations": {},
       "description": "<p class=\"ql-align-right\">חצאית סאטן בצבע פודרה בגזרה מחמיאה ואלגנטית, עשויה מבד סאטן רך עם ברק עדין שנשפך יפה על הגוף. מעניקה מראה נשי, יוקרתי ורומנטי שמתאים לכל הופעה. נוחה ללבישה ומשתלבת מושלם עם חולצות בסיס או חולצות חגיגיות. מתאימה לאירועים, שבתות ויומיום בסטייל נקי ומוקפד</p>",
@@ -1216,17 +1216,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780491949789-nxg1cj.webp",
-        "https://hodayaboutique.co.il/assets/product-1780491983916-bgsyep.webp",
-        "https://hodayaboutique.co.il/assets/product-1780491961039-urmob.webp"
+        "https://hodayaboutique.co.il/assets/product-1782433338790-tnmse0h.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433345530-nyfcsu.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433352552-gu7vho.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433359431-y5omba.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-satn-pvdrh-xsn3r7",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-satn-pvdrh-dh4vrk",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:23:00.621Z"
     },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
