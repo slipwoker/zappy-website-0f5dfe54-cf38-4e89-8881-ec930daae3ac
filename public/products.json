@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:13:27.332Z",
+  "generated_at": "2026-06-26T00:17:30.710Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1094,11 +1094,11 @@
     },
     {
       "id": "d18b680b-aa08-4bdc-b17b-691f74f53658",
-      "slug": "shmlt-alyh-tshvb-netneo",
+      "slug": "shmlt-alyh-tshvb-wng4ee",
       "name": "שמלת אליה צהוב",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת “אליה” בצבע צהוב\n\nשמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\n",
+      "short_description": "שמלת “אליה” בצבע צהוב\n\nשמלת מקסי צנועה ואלגנטית בגוון צהוב קלאסי, המשלבת נוחות מרבית עם מראה יוקרתי ועדכני. עיצוב נקי ומחמיא עם קשירת צד מיוחדת היוצרת מראה נשפך ומחוטב, תוך שמירה על קו אלגנטי ונשי.\n\nגזרת אוברסייז נוחה ומחמיאה\nקשירת צד מעוצבת המדגישה את קו המותן\nשרוולי 3/4 בגזרה רחבה ונינוחה\nשסע צד עדין לנוחות ותנועה חופשית\nבד איכותי, נעים ורך למגע\nהדוגמנית לובשת מידה 1\n",
       "sku": null,
       "brand": null,
       "price": 169,
@@ -1106,18 +1106,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780509784164-9ie01.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509767025-1uny79.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509776024-s8z56b.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509792617-xmiyh.webp"
+        "https://hodayaboutique.co.il/assets/product-1782432973122-cwkjrr.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432980202-005k4r.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432986339-1fxn8m.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432991879-9uo2so.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-netneo",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alyh-tshvb-wng4ee",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:16:58.863Z"
     },
     {
       "id": "079bdbd8-7346-472f-951c-bce9aafad82c",
