@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:24:41.417Z",
+  "generated_at": "2026-06-26T00:39:52.255Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "321acf8c-3161-416f-920c-8af06cc94f64",
-      "slug": "shmlt-mylanv-vhumcl",
+      "slug": "shmlt-mylanv-2no8xe",
       "name": "שמלת מילאנו",
       "name_translations": {},
       "description": "",
@@ -1161,20 +1161,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780509029775-o3qq7f.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509038134-8ohglk.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509046468-zwdtkd.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509054725-42l7ic.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509063182-8tkjrr.webp",
-        "https://hodayaboutique.co.il/assets/product-1780509071678-p3qe6.webp"
+        "https://hodayaboutique.co.il/assets/product-1782434329148-zh5xos.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434335258-pt54n.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434341194-btpzb6.webp",
+        "https://hodayaboutique.co.il/assets/product-1782434347848-d6otrm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-mylanv-vhumcl",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mylanv-2no8xe",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:39:19.946Z"
     },
     {
       "id": "8e55a0a1-4acb-4d95-960b-9dec8b9ea28a",
