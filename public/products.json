@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T13:56:59.087Z",
+  "generated_at": "2026-06-26T13:57:56.000Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1853,15 +1853,15 @@
     },
     {
       "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
-      "slug": "chlypt-lvrn-vrvd-xbtgm0",
+      "slug": "chlypt-lvrn-vrvd-i4z33n",
       "name": "חליפת לורן ורוד",
       "name_translations": {},
       "description": "",
       "short_description": "חליפת שני חלקים חולצה עם שרוולי 3/4 וחצאית מקסי תואמת, עם חגורת קשירה במותן למראה אלגנטי.\nמידת הבגד על הדוגמנית XS.",
       "sku": null,
       "brand": null,
-      "price": 259,
-      "base_price": 259,
+      "price": 229,
+      "base_price": 229,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -1872,11 +1872,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-vrvd-xbtgm0",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-vrvd-i4z33n",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T13:57:24.559Z"
     },
     {
       "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
