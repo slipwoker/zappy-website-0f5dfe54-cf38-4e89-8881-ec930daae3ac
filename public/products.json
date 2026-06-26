@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:10:54.931Z",
+  "generated_at": "2026-06-26T00:12:12.573Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "2e04e31c-708f-449c-8680-42b5d17a5fc9",
-      "slug": "shmlt-alynvr-0er69f",
+      "slug": "shmlt-alynvr-ogt06s",
       "name": "שמלת אלינור ",
       "name_translations": {},
       "description": "",
@@ -1025,18 +1025,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780510655303-ouos56.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510691150-5irj99.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510666696-2g0ell.webp",
-        "https://hodayaboutique.co.il/assets/product-1780510677191-voycgo.webp"
+        "https://hodayaboutique.co.il/assets/product-1782432660863-60fh0e.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432667954-if9v9j.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432675348-7ygyb.webp",
+        "https://hodayaboutique.co.il/assets/product-1782432682863-yj5y2.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-alynvr-0er69f",
+      "url": "https://hodayaboutique.co.il/product/shmlt-alynvr-ogt06s",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:11:40.718Z"
     },
     {
       "id": "bb968dc2-0335-4e37-b412-58ef9db8d5a9",
