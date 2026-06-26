@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T00:19:50.026Z",
+  "generated_at": "2026-06-26T00:21:22.287Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1230,11 +1230,11 @@
     },
     {
       "id": "87ad57c7-cda0-4185-a4a1-c848fbd8e2b0",
-      "slug": "chtsayt-plysh-chvmh-m92erk",
+      "slug": "chtsayt-plysh-chvmh-2cb9sm",
       "name": "חצאית פליסה חומה",
       "name_translations": {},
       "description": "",
-      "short_description": "חצאית פליסה חומה בגזרת וואן סייז מחמיאה ונוחה במיוחד, עם קפלים עדינים היוצרים מראה אלגנטי ונשפך. עשויה מבד קליל ונעים למגע, שמתאים את עצמו למגוון מבני גוף. הצבע החום מעניק לוק קלאסי, חמים ואופנתי שניתן לשלב בקלות עם חולצות בסיס או פריטים אלגנטיים. מתאימה ליומיום, אירועים ושבתות",
+      "short_description": "חצאית פליסה חומה בגזרת וואן סייז מחמיאה ונוחה במיוחד, עם קפלים עדינים היוצרים מראה אלגנטי ונשפך. עשויה מבד קליל ונעים למגע, שמתאים את עצמו למגוון מבני גוף. הצבע החום מעניק לוק קלאסי, חמים ואופנתי שניתן לשלב בקלות עם חולצות בסיס או פריטים אלגנטיים. מתאימה ליומיום, אירועים ושבתות.\nמתאימה ממידה 0-3",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -1242,26 +1242,26 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-1780491854164-ku4scq.webp",
-        "https://hodayaboutique.co.il/assets/product-1780491873192-t7nezn.webp",
-        "https://hodayaboutique.co.il/assets/product-1780491883583-3zlv6s.webp",
-        "https://hodayaboutique.co.il/assets/product-1780491897581-adxanf.webp"
+        "https://hodayaboutique.co.il/assets/product-1782433208400-t9xbko.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433216105-j0xr07.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433222769-uxdtol.webp",
+        "https://hodayaboutique.co.il/assets/product-1782433229395-xpcdzc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-m92erk",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-chvmh-2cb9sm",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-26T00:20:50.455Z"
     },
     {
       "id": "32a5810f-46ed-42aa-973b-e167b1e9dc81",
-      "slug": "chtsayt-plysh-yrvkh-k5hbjt",
+      "slug": "chtsayt-plysh-yrvkh-15efih",
       "name": "חצאית פליסה ירוקה",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.",
+      "short_description": "שמלת פליסה ירוקה בגזרת וואן סייז מחמיאה ונוחה במיוחד. מעוצבת עם קפלים עדינים היוצרים מראה אלגנטי וזורם, מבד קליל ונעים למגע. הצבע הירוק מוסיף רעננות וסטייל לכל הופעה. מתאימה לאירועים, שבתות, חגים ויומיום במראה נשי ומוקפד.\nמתאימה ממידה 0-3",
       "sku": null,
       "brand": null,
       "price": 59,
@@ -1276,11 +1276,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-k5hbjt",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-plysh-yrvkh-15efih",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-26T00:19:18.181Z"
+      "updated_at": "2026-06-26T00:21:21.694Z"
     },
     {
       "id": "0a02df6d-7e11-4d3e-af5d-8ba4e39f376d",
