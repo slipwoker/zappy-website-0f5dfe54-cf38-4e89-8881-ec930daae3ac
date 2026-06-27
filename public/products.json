@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-27T22:16:20.800Z",
+  "generated_at": "2026-06-27T22:22:54.002Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1827,7 +1827,7 @@
     },
     {
       "id": "f188c528-1331-4d17-9302-1fd30100d2e0",
-      "slug": "chlypt-lvrn-bz-obdvm8",
+      "slug": "chlypt-lvrn-bz-mw2btm",
       "name": "חליפת לורן ב׳ז",
       "name_translations": {},
       "description": "",
@@ -1839,17 +1839,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245888741-mbwpo.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778245948485-vv0prc.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782598826011-vg8qj8.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782598850739-ni0uo3.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782598877058-iavkvq.webp",
         "https://hodayaboutique.co.il/assets/product-1778245800285-rmgnmc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-bz-obdvm8",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-bz-mw2btm",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-27T22:22:22.487Z"
     },
     {
       "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
