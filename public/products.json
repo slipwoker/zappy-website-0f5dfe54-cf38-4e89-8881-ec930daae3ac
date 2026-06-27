@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T13:59:42.534Z",
+  "generated_at": "2026-06-27T18:29:17.785Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1933,11 +1933,11 @@
     },
     {
       "id": "39fb161d-b450-4db4-891f-f7528de77090",
-      "slug": "shmlt-mvnh-g0x9m7",
-      "name": "שמלת מונה",
+      "slug": "shmlt-mvnh-lbn-rznzx3",
+      "name": "שמלת מונה לבן",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0.\nצבע",
+      "short_description": "שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 1.\nצבע לבן",
       "sku": null,
       "brand": null,
       "price": 439,
@@ -1945,18 +1945,19 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238608480-m9suh.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238639582-fjaoco.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778238690327-37cq6b.webp"
+        "https://hodayaboutique.co.il/assets/product-1782584886501-xdf6m.webp",
+        "https://hodayaboutique.co.il/assets/product-1782584893114-vqn09k.webp",
+        "https://hodayaboutique.co.il/assets/product-1782584899435-8i8zvi.webp",
+        "https://hodayaboutique.co.il/assets/product-1782584905672-kn3iv.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-g0x9m7",
+      "url": "https://hodayaboutique.co.il/product/shmlt-mvnh-lbn-rznzx3",
       "categories": [
         "שמלות ערב",
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-27T18:28:45.959Z"
     },
     {
       "id": "7d6be071-9322-4fb8-86d6-d4d8f14a518b",

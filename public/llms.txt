@@ -662,13 +662,13 @@ https://hodayaboutique.co.il/product/chlypt-arykh-shchvr-18mfbz
 - Description: חליפת שני חלקים, בגד גוף מבד מחטב בגזרה צמודה עם גולף, שרוולים ארוכים וכפפה ביד וחצאית עם קיפול לבן באורך מקסי. מידת הבגד על הדוגמנית XS
 - Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778243948168-z5sel.webp
 
-### שמלת מונה
-https://hodayaboutique.co.il/product/shmlt-mvnh-g0x9m7
+### שמלת מונה לבן
+https://hodayaboutique.co.il/product/shmlt-mvnh-lbn-rznzx3
 - Price: 439.00 ILS
 - Availability: In stock
 - Category: שמלות ערב
-- Description: שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 0. צבע
-- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1778238608480-m9suh.webp
+- Description: שמלת ערב ארוכה, בעלת גזרה צמודה ושרוולים ארוכים, עם כיווצים מחמיאים במותן למראה אלגנטי ומעודן. מידת הבגד עם הדוגמנית 1. צבע לבן
+- Image: https://hodayaboutique.co.il/assets/product-1782584886501-xdf6m.webp
 
 ### שמחה תחרה שחורה
 https://hodayaboutique.co.il/product/shmchh-tchrh-shchvrh-in3bp8
