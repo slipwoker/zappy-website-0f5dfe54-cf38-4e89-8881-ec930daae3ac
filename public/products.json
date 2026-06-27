@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-27T22:11:51.640Z",
+  "generated_at": "2026-06-27T22:13:46.659Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1477,11 +1477,11 @@
     },
     {
       "id": "c52f1419-ed13-4ec7-9f7c-a9d9f0a99d12",
-      "slug": "shmlt-aryanh-chvm-lw8fgx",
+      "slug": "shmlt-aryanh-chvm-jejh3g",
       "name": "שמלת אריאנה חום",
       "name_translations": {},
       "description": "",
-      "short_description": "שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף\nהדוגמנית לובשת מידה 1\nניתן להצניע ",
+      "short_description": "שמלת אריאנה בצבע חום – שמלת ערב צנועה ואלגנטית בגזרה נשפכת ומחמיאה במיוחד.\nמעוצבת עם כיווצים עדינים באזור החזה והמותן ליצירת מראה נשי ומדויק, בשילוב שרוולים ארוכים עם סיומת עדינה ובד שיפון קליל שנופל בצורה מושלמת על הגוף\nהדוגמנית לובשת מידה 1\nניתן להצניע בידיים ",
       "sku": null,
       "brand": null,
       "price": 799,
@@ -1489,16 +1489,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820660643-4x9j2q.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1779820703883-6epo68.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782598357799-d8efqa.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782598383303-h1ixt.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-lw8fgx",
+      "url": "https://hodayaboutique.co.il/product/shmlt-aryanh-chvm-jejh3g",
       "categories": [
         "שמלות ערב"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-27T22:13:15.199Z"
     },
     {
       "id": "8c668305-56d8-425e-9c9b-3cd580a430c4",
