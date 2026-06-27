@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-27T22:09:18.848Z",
+  "generated_at": "2026-06-27T22:11:51.640Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -2094,11 +2094,11 @@
     },
     {
       "id": "8ade6408-710b-4a07-816a-cc99c112ea48",
-      "slug": "shmlt-ayydn-shchvr-jbr0uw",
+      "slug": "shmlt-ayydn-shchvr-q47ym6",
       "name": "שמלת איידן שחור",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "שמלה אלגנטית בגזרת מקסי צמודה ומחמיאה, עם שרוולים ארוכים ומראה נקי ויוקרתי. הבד בגוון לבן עם פסים שחורים לאורך, היוצרים אפקט מחטב ומראה אופנתי במיוחד. השמלה נשפכת בעדינות עד הרצפה ומתאימה לאירועים, שבתות וללוק ערב צנוע ומרשים.\n\nהדוגמנית לובשת מידה S",
       "sku": null,
       "brand": null,
       "price": 279,
@@ -2106,17 +2106,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234567874-f47clc.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234526291-6hq5mx.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1778234605310-crht8.webp"
+        "https://hodayaboutique.co.il/assets/product-1782598192490-u76re.webp",
+        "https://hodayaboutique.co.il/assets/product-1782598199432-hbymij.webp",
+        "https://hodayaboutique.co.il/assets/product-1782598207153-rxbdna.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-jbr0uw",
+      "url": "https://hodayaboutique.co.il/product/shmlt-ayydn-shchvr-q47ym6",
       "categories": [
         "שמלות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-06-27T22:11:23.078Z"
     },
     {
       "id": "042120b9-ca08-4587-9234-4ba90cd50f26",
