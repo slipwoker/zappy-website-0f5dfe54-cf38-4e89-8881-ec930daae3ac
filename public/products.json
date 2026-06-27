@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-27T22:25:29.100Z",
+  "generated_at": "2026-06-27T22:26:02.998Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 97,
@@ -1854,7 +1854,7 @@
     },
     {
       "id": "1d0fe923-661a-430f-acf1-1aca84685e48",
-      "slug": "chlypt-lvrn-vrvd-aupw4e",
+      "slug": "chlypt-lvrn-vrvd-ljb1tm",
       "name": "חליפת לורן ורוד",
       "name_translations": {},
       "description": "",
@@ -1866,17 +1866,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1782599045415-fuqazm.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782599019199-k2e1ao.webp",
         "https://hodayaboutique.co.il/assets/product-ai-fit-1782599069375-uqvpz.webp",
-        "https://hodayaboutique.co.il/assets/product-ai-fit-1782599019199-k2e1ao.webp"
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1782599045415-fuqazm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-vrvd-aupw4e",
+      "url": "https://hodayaboutique.co.il/product/chlypt-lvrn-vrvd-ljb1tm",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-27T22:24:57.605Z"
+      "updated_at": "2026-06-27T22:25:34.679Z"
     },
     {
       "id": "9ae5d29f-188f-4731-891e-212c1d6b445a",
