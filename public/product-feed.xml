@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 28 Jun 2026 05:45:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 12:21:19 GMT</lastBuildDate>
     <item>
       <g:id>1c89c0fc-77d7-414a-b786-45872f1f7001__2beed58c-f717-46d0-9050-1dec3d748e8e</g:id>
       <g:title>בגד ים אגם בז׳ - 1</g:title>
@@ -669,23 +669,6 @@
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782395210720-447lk.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782395318641-cwqy8n.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782395519657-4s7zw8.webp</g:additional_image_link>
-      <g:availability>out_of_stock</g:availability>
-      <g:price>79.00 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>הודיה</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>חצאיות</g:product_type>
-    </item>
-    <item>
-      <g:id>3ab1c12d-de4f-43dc-acad-3c4c0590b54e__c60d8069-55ba-42b9-a1f8-a7f757a37ed7</g:id>
-      <g:title>חצאית חגורה בז׳ - S</g:title>
-      <g:description>חצאית מידי בצבע בז׳ עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש. הדוגמנית לובשת מידה S</g:description>
-      <g:link>https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-ze9egv</g:link>
-      <g:item_group_id>3ab1c12d-de4f-43dc-acad-3c4c0590b54e</g:item_group_id>
-      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394761196-rlets.webp</g:image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394792089-1dwlq.webp</g:additional_image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394846912-ttds72.webp</g:additional_image_link>
-      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782394963453-k8czoq.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>79.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -704,6 +687,23 @@
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394846912-ttds72.webp</g:additional_image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782394963453-k8czoq.webp</g:additional_image_link>
       <g:availability>out_of_stock</g:availability>
+      <g:price>79.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>חצאיות</g:product_type>
+    </item>
+    <item>
+      <g:id>3ab1c12d-de4f-43dc-acad-3c4c0590b54e__c60d8069-55ba-42b9-a1f8-a7f757a37ed7</g:id>
+      <g:title>חצאית חגורה בז׳ - S</g:title>
+      <g:description>חצאית מידי בצבע בז׳ עם גזרה מתרחבת ונפח עדין ללוק נשי, נקי ומוקפד. העיצוב המחמיא יוצר תנועה יפה על הגוף ומשתלב מושלם עם חולצות צמודות או רחבות למראה אלגנטי ושיקי. חצאית קלאסית עם טאץ’ אופנתי, שמתאימה ליום יום, לשבת וליציאות – פריט בסיס מיוחד שתמיד כיף ללבוש. הדוגמנית לובשת מידה S</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-ze9egv</g:link>
+      <g:item_group_id>3ab1c12d-de4f-43dc-acad-3c4c0590b54e</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394761196-rlets.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394792089-1dwlq.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1782394846912-ttds72.webp</g:additional_image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1782394963453-k8czoq.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
       <g:price>79.00 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>הודיה</g:brand>
