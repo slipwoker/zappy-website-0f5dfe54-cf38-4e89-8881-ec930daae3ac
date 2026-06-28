@@ -6353,8 +6353,8 @@ Availability: In stock
 ---
 
 ### שמלת מונה מוקה
-URL: https://hodayaboutique.co.il/product/shmlt-mvnh-mvkh-kfjgl3
-Price: 439.00 ILS
+URL: https://hodayaboutique.co.il/product/shmlt-mvnh-mvkh-d0t6rg
+Price: 399.00 ILS
 Availability: In stock
 
 ---
@@ -6472,8 +6472,8 @@ Availability: In stock
 ---
 
 ### שמלת מונה לבן
-URL: https://hodayaboutique.co.il/product/shmlt-mvnh-lbn-rznzx3
-Price: 439.00 ILS
+URL: https://hodayaboutique.co.il/product/shmlt-mvnh-lbn-n4f5h4
+Price: 399.00 ILS
 Availability: In stock
 
 ---
