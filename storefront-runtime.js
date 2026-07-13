@@ -1536,6 +1536,10 @@ window.onload = function() {
 ;
 
 ;
+
+;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -2035,6 +2039,7 @@ function stripHtmlToText(html) {
   let sidebarFiltersConfig = {};
   let sortingConfig = {};
   let viewToggleEnabled = true;
+  let sortOutOfStockLast = false;
   let currentSortKey = 'popularity';
   let currentViewMode = localStorage.getItem('zappy_view_mode_' + websiteId) || 'grid';
   let activeSidebarFilters = { categories: [], brands: [], tags: [], priceMin: null, priceMax: null, sale: false };
@@ -2086,6 +2091,9 @@ function stripHtmlToText(html) {
         }
         if (data.data.viewToggleEnabled != null) {
           viewToggleEnabled = data.data.viewToggleEnabled;
+        }
+        if (data.data.sortOutOfStockLast != null) {
+          sortOutOfStockLast = !!data.data.sortOutOfStockLast;
         }
         if (data.data.country) {
           storeCountry = data.data.country;
@@ -2719,20 +2727,24 @@ function stripHtmlToText(html) {
       }
     }
     
-    // Step 3: Apply sorting
-    if (currentSortKey && currentSortKey !== 'default') {
-      productsToShow = productsToShow.slice().sort(function(a, b) {
-        switch (currentSortKey) {
-          case 'popularity': return (parseInt(b.purchase_count) || 0) - (parseInt(a.purchase_count) || 0);
-          case 'price_asc': return parseFloat(a.price) - parseFloat(b.price);
-          case 'price_desc': return parseFloat(b.price) - parseFloat(a.price);
-          case 'name_asc': return (a.name || '').localeCompare(b.name || '');
-          case 'name_desc': return (b.name || '').localeCompare(a.name || '');
-          case 'newest': return new Date(b.created_at) - new Date(a.created_at);
-          default: return 0;
-        }
-      });
-    }
+    // Step 3: Apply sorting (optional OOS-last primary key, then shopper sort)
+    productsToShow = productsToShow.slice().sort(function(a, b) {
+      if (sortOutOfStockLast && typeof window.isProductOutOfStockForListing === 'function') {
+        var aOos = window.isProductOutOfStockForListing(a) ? 1 : 0;
+        var bOos = window.isProductOutOfStockForListing(b) ? 1 : 0;
+        if (aOos !== bOos) return aOos - bOos;
+      }
+      if (!currentSortKey || currentSortKey === 'default') return 0;
+      switch (currentSortKey) {
+        case 'popularity': return (parseInt(b.purchase_count) || 0) - (parseInt(a.purchase_count) || 0);
+        case 'price_asc': return parseFloat(a.price) - parseFloat(b.price);
+        case 'price_desc': return parseFloat(b.price) - parseFloat(a.price);
+        case 'name_asc': return (a.name || '').localeCompare(b.name || '');
+        case 'name_desc': return (b.name || '').localeCompare(a.name || '');
+        case 'newest': return new Date(b.created_at) - new Date(a.created_at);
+        default: return 0;
+      }
+    });
     
     // Update count
     var countEl = document.getElementById('products-count');
@@ -3125,24 +3137,15 @@ function stripHtmlToText(html) {
       // Get first image with correct URL in preview/live
       var imageUrl = p.images && p.images[0] ? resolveProductImageUrl(p.images[0]) : '';
       
-      // Build tag badges (manual only - all tags come from product.tags array)
-      var tagBadges = [];
-      if (p.tags && p.tags.length) {
-        p.tags.forEach(function(tag) {
-          var tagLower = tag.toLowerCase();
-          // Apply special styling for known tag types
-          if (tagLower === 'sale' || tagLower === 'מבצע') {
-            tagBadges.push('<span class="product-tag tag-sale">' + tag + '</span>');
-          } else if (tagLower === 'new' || tagLower === 'חדש') {
-            tagBadges.push('<span class="product-tag tag-new">' + tag + '</span>');
-          } else if (tagLower === 'featured' || tagLower === 'מומלץ') {
-            tagBadges.push('<span class="product-tag tag-featured">' + tag + '</span>');
-          } else {
-            tagBadges.push('<span class="product-tag">' + tag + '</span>');
-          }
-        });
-      }
-      var tagsHtml = tagBadges.length > 0 ? '<div class="product-tags">' + tagBadges.join('') + '</div>' : '';
+      // Build tag badges (OOS pill + merchant tags). Always shows Out of Stock
+      // when the whole product is unavailable — not gated on store toggles.
+      var tagsHtml = (typeof window.zappyBuildCardTagsHtml === 'function')
+        ? window.zappyBuildCardTagsHtml(p, t)
+        : '';
+      var cardOosClass = (typeof window.isProductOutOfStockForListing === 'function'
+        && window.isProductOutOfStockForListing(p))
+        ? ' is-out-of-stock'
+        : '';
       
       // Build card content based on layout
       var cardContent = '';
@@ -3173,7 +3176,7 @@ function stripHtmlToText(html) {
         localizedViewDetails: localizedViewDetails
       });
 
-      return '<div class="product-card ' + cardLayout + '" data-product-id="' + p.id + '">' + cardContent + '</div>';
+      return '<div class="product-card ' + cardLayout + cardOosClass + '" data-product-id="' + p.id + '">' + cardContent + '</div>';
     }).join('');
 
     window.zappyAfterCardsRendered(grid);
@@ -3373,6 +3376,83 @@ function stripHtmlToText(html) {
       if (matched && !matched.available) return 'selection';
     }
     return null;
+  };
+
+  // Listing + product-card badges: is the whole product fully out of stock?
+  // Used by "sort out-of-stock last" and the always-on Out of Stock card tag.
+  // Mirrors server/utils/ecommerceProductStorefrontAvailability.js —
+  // variant products are OOS only when EVERY card_variants matrix row is
+  // unavailable (or every raw variants[] row when card_variants is absent).
+  window.isProductOutOfStockForListing = function(p) {
+    if (!p) return true;
+    if (p.is_active === false) return true;
+    var cv = p.card_variants;
+    if (cv && Array.isArray(cv.matrix) && cv.matrix.length > 0) {
+      return cv.matrix.every(function(m) { return !m || m.available === false; });
+    }
+    var variants = p.variants;
+    if (Array.isArray(variants) && variants.length > 0) {
+      return variants.every(function(v) {
+        return window.zappyVariantMatrix
+          ? window.zappyVariantMatrix.isUnavailable(v)
+          : (v && v.stock_status === 'out_of_stock');
+      });
+    }
+    if (window.zappyVariantMatrix) return window.zappyVariantMatrix.isUnavailable(p);
+    if (p.stock_status === 'out_of_stock') return true;
+    var iq = p.inventory_quantity != null ? p.inventory_quantity : p.inventoryQuantity;
+    if (iq !== null && iq !== undefined && iq !== '') {
+      var n = parseFloat(iq);
+      if (!isNaN(n) && isFinite(n)) return n <= 0;
+    }
+    return false;
+  };
+
+  // Stable partition: fully OOS products after in-stock. Preserves relative
+  // order within each group (modern Array.sort is stable).
+  window.sortProductsOutOfStockLast = function(products) {
+    if (!Array.isArray(products) || products.length < 2) return products || [];
+    return products.slice().sort(function(a, b) {
+      var aOos = window.isProductOutOfStockForListing(a) ? 1 : 0;
+      var bOos = window.isProductOutOfStockForListing(b) ? 1 : 0;
+      return aOos - bOos;
+    });
+  };
+
+  /**
+   * Product-card corner badges. Merchant tags (sale/new/featured/…) plus an
+   * always-on Out of Stock pill when the whole product is unavailable —
+   * independent of showStockStatus / sortOutOfStockLast store settings.
+   */
+  window.zappyBuildCardTagsHtml = function(p, t) {
+    var tagBadges = [];
+    var fullyOos = typeof window.isProductOutOfStockForListing === 'function'
+      && window.isProductOutOfStockForListing(p);
+    if (fullyOos) {
+      var oosLbl = (typeof getEcomText === 'function')
+        ? getEcomText('outOfStock', (t && t.outOfStock) || 'Out of Stock')
+        : ((t && t.outOfStock) || 'Out of Stock');
+      tagBadges.push(
+        '<span class="product-tag tag-out-of-stock">' + oosLbl + '</span>'
+      );
+    }
+    if (p && p.tags && p.tags.length) {
+      p.tags.forEach(function(tag) {
+        var tagLower = String(tag || '').toLowerCase();
+        if (tagLower === 'sale' || tagLower === 'מבצע') {
+          tagBadges.push('<span class="product-tag tag-sale">' + tag + '</span>');
+        } else if (tagLower === 'new' || tagLower === 'חדש') {
+          tagBadges.push('<span class="product-tag tag-new">' + tag + '</span>');
+        } else if (tagLower === 'featured' || tagLower === 'מומלץ') {
+          tagBadges.push('<span class="product-tag tag-featured">' + tag + '</span>');
+        } else {
+          tagBadges.push('<span class="product-tag">' + tag + '</span>');
+        }
+      });
+    }
+    return tagBadges.length > 0
+      ? '<div class="product-tags">' + tagBadges.join('') + '</div>'
+      : '';
   };
 
   // Reflect the blocked state onto a rendered card's cart button. Uses
@@ -9728,6 +9808,7 @@ var additionalJsAllProductsLabel = null;
 var additionalJsProductsMenuLabel = null;
 let additionalJsShowAllProductsSubmenu = true;
 let additionalJsShowStockStatus = true;
+let additionalJsSortOutOfStockLast = false;
 let additionalJsSidebarFiltersConfig = {};
 let additionalJsSortingConfig = {};
 let additionalJsViewToggleEnabled = true;
@@ -9934,6 +10015,9 @@ async function fetchAdditionalJsSettings(force) {
         var stockEl = document.getElementById('product-stock-display');
         if (stockEl) stockEl.style.display = 'none';
       }
+      if (data.data.sortOutOfStockLast != null) {
+        additionalJsSortOutOfStockLast = !!data.data.sortOutOfStockLast;
+      }
       if (data.data.sidebarFiltersConfig) {
         additionalJsSidebarFiltersConfig = data.data.sidebarFiltersConfig;
       }
@@ -10007,10 +10091,33 @@ function scheduleStorefrontIdleWork(fn) {
   }
 }
 
+function zappyClearBakedPreviewEmptyStoreCta() {
+  // Baked editor CTA must never linger as first paint — replace with loading
+  // so loadFeaturedProducts (or the preview empty-store path) can re-render.
+  var nodes = document.querySelectorAll('.zappy-preview-empty-store-cta');
+  if (!nodes.length) return;
+  for (var i = 0; i < nodes.length; i++) {
+    var el = nodes[i];
+    var grid = el.closest(
+      '#zappy-featured-products, #zappy-product-grid, #zappy-category-products, .featured-grid, .product-grid'
+    );
+    if (grid) {
+      grid.innerHTML = '<div class="loading-products"></div>';
+    } else if (el.parentNode) {
+      el.parentNode.removeChild(el);
+    }
+  }
+}
+
 function scheduleHomeDynamicSectionLoad(elementId, loader) {
   if (typeof loader !== 'function') return;
   var target = document.getElementById(elementId);
   if (!target) return;
+  // Clear any persisted preview-only empty CTA immediately — do not wait for
+  // IntersectionObserver / product fetch (live sites must never paint it).
+  if (elementId === 'zappy-featured-products' || elementId === 'zappy-product-grid') {
+    zappyClearBakedPreviewEmptyStoreCta();
+  }
   var loaded = false;
   function run() {
     if (loaded) return;
@@ -10243,8 +10350,11 @@ async function loadFeaturedProducts() {
   if (!grid) return;
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
-  
-  // Ensure store settings are loaded first (for productLayout)
+  if (typeof zappyClearBakedPreviewEmptyStoreCta === 'function') {
+    zappyClearBakedPreviewEmptyStoreCta();
+  }
+
+  // Ensure store settings are loaded first (for productLayout + OOS-last flag)
   await fetchAdditionalJsSettings();
   
   const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"0557756758","businessEmail":"Hodayasuissa5@gmail.com"};
@@ -10262,7 +10372,11 @@ async function loadFeaturedProducts() {
       }
       return;
     }
-    renderProductGrid(grid, data.data, t, true);
+    var featuredList = data.data;
+    if (additionalJsSortOutOfStockLast && typeof window.sortProductsOutOfStockLast === 'function') {
+      featuredList = window.sortProductsOutOfStockLast(featuredList);
+    }
+    renderProductGrid(grid, featuredList, t, true);
   } catch (e) {
     console.error('Failed to load featured products', e);
     grid.innerHTML = '<div class="empty-cart">' + t.errorLoading + '</div>';
@@ -10565,24 +10679,15 @@ function renderProductGrid(grid, products, t, isFeaturedSection, viewMode) {
       ? (window.resolveProductImageUrl ? window.resolveProductImageUrl(p.images[0]) : p.images[0])
       : '';
     
-    // Build tag badges (manual only - all tags come from product.tags array)
-    var tagBadges = [];
-    if (p.tags && p.tags.length) {
-      p.tags.forEach(function(tag) {
-        var tagLower = tag.toLowerCase();
-        // Apply special styling for known tag types
-        if (tagLower === 'sale' || tagLower === 'מבצע') {
-          tagBadges.push('<span class="product-tag tag-sale">' + tag + '</span>');
-        } else if (tagLower === 'new' || tagLower === 'חדש') {
-          tagBadges.push('<span class="product-tag tag-new">' + tag + '</span>');
-        } else if (tagLower === 'featured' || tagLower === 'מומלץ') {
-          tagBadges.push('<span class="product-tag tag-featured">' + tag + '</span>');
-        } else {
-          tagBadges.push('<span class="product-tag">' + tag + '</span>');
-        }
-      });
-    }
-    var tagsHtml = tagBadges.length > 0 ? '<div class="product-tags">' + tagBadges.join('') + '</div>' : '';
+    // Build tag badges (OOS pill + merchant tags). Always shows Out of Stock
+    // when the whole product is unavailable — not gated on store toggles.
+    var tagsHtml = (typeof window.zappyBuildCardTagsHtml === 'function')
+      ? window.zappyBuildCardTagsHtml(p, t)
+      : '';
+    var cardOosClass = (typeof window.isProductOutOfStockForListing === 'function'
+      && window.isProductOutOfStockForListing(p))
+      ? ' is-out-of-stock'
+      : '';
     
     // Build card content
     var imageHtml = imageUrl ? '<img src="' + imageUrl + '" alt="' + p.name + '">' : '<div class="no-image-placeholder">📦</div>';
@@ -10607,7 +10712,7 @@ function renderProductGrid(grid, products, t, isFeaturedSection, viewMode) {
       localizedViewDetails: localizedViewDetails
     });
 
-    return '<div class="product-card ' + layout + '" data-product-id="' + p.id + '">' + cardContent + '</div>';
+    return '<div class="product-card ' + layout + cardOosClass + '" data-product-id="' + p.id + '">' + cardContent + '</div>';
   }).join('');
 
   window.zappyAfterCardsRendered(grid);
@@ -11131,7 +11236,13 @@ function initTransparentNavbarScrollEffect() {
 // Initialize featured products, categories, and product/category page details on load
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile menu is handled by the main navbar script - no separate e-commerce handler needed
-  
+
+  // Hide any accidentally-persisted preview-only empty-store CTA before
+  // intersection observers / API fetches run (live must never paint it).
+  if (typeof zappyClearBakedPreviewEmptyStoreCta === 'function') {
+    zappyClearBakedPreviewEmptyStoreCta();
+  }
+
   // Hide sub-navbars on product/checkout/order pages
   handleSubNavbarVisibility();
 
@@ -11407,8 +11518,8 @@ async function loadProductDetailPage() {
     // Update page title and meta
     document.title = product.name + ' - ' + (document.title.split(' - ').pop() || '');
     
-    // Load related products
-    loadRelatedProducts(product, t);
+    // Load related products (awaits settings inside for OOS-last)
+    await loadRelatedProducts(product, t);
     
   } catch (e) {
     console.error('Failed to load product', e);
@@ -11423,6 +11534,10 @@ async function loadCategoryPage() {
   
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
+
+  // Must resolve settings BEFORE first grid paint — OOS-last (and toolbar
+  // sorting/filters) live on additionalJs* flags that start as defaults.
+  await fetchAdditionalJsSettings();
   
   const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"0557756758","businessEmail":"Hodayasuissa5@gmail.com"};
   
@@ -11606,20 +11721,24 @@ function applyCategoryFiltersAndRender(productGrid, t) {
     }
   }
   
-  // Apply sorting
-  if (catCurrentSortKey && catCurrentSortKey !== 'default') {
-    productsToShow = productsToShow.slice().sort(function(a, b) {
-      switch (catCurrentSortKey) {
-        case 'popularity': return (parseInt(b.purchase_count) || 0) - (parseInt(a.purchase_count) || 0);
-        case 'price_asc': return parseFloat(a.price) - parseFloat(b.price);
-        case 'price_desc': return parseFloat(b.price) - parseFloat(a.price);
-        case 'name_asc': return (a.name || '').localeCompare(b.name || '');
-        case 'name_desc': return (b.name || '').localeCompare(a.name || '');
-        case 'newest': return new Date(b.created_at) - new Date(a.created_at);
-        default: return 0;
-      }
-    });
-  }
+  // Apply sorting (optional OOS-last primary key, then shopper sort)
+  productsToShow = productsToShow.slice().sort(function(a, b) {
+    if (additionalJsSortOutOfStockLast && typeof window.isProductOutOfStockForListing === 'function') {
+      var aOos = window.isProductOutOfStockForListing(a) ? 1 : 0;
+      var bOos = window.isProductOutOfStockForListing(b) ? 1 : 0;
+      if (aOos !== bOos) return aOos - bOos;
+    }
+    if (!catCurrentSortKey || catCurrentSortKey === 'default') return 0;
+    switch (catCurrentSortKey) {
+      case 'popularity': return (parseInt(b.purchase_count) || 0) - (parseInt(a.purchase_count) || 0);
+      case 'price_asc': return parseFloat(a.price) - parseFloat(b.price);
+      case 'price_desc': return parseFloat(b.price) - parseFloat(a.price);
+      case 'name_asc': return (a.name || '').localeCompare(b.name || '');
+      case 'name_desc': return (b.name || '').localeCompare(a.name || '');
+      case 'newest': return new Date(b.created_at) - new Date(a.created_at);
+      default: return 0;
+    }
+  });
   
   // Update count
   var countEl = document.getElementById('category-products-count');
@@ -13854,11 +13973,16 @@ async function loadRelatedProducts(currentProduct, t) {
   if (!websiteId) return;
   if (_zappyRelatedProductsInflight) return _zappyRelatedProductsInflight;
 
+  const categoryId = resolveProductCategoryId(currentProduct);
+
   _zappyRelatedProductsInflight = (async function() {
     try {
+      // Settings must resolve before OOS-last — otherwise the first paint keeps
+      // the unsorted API order while additionalJsSortOutOfStockLast is still false.
+      await fetchAdditionalJsSettings();
+
       // Fetch products from same category or random products, with language support
       let url = buildApiUrlWithLang('/api/ecommerce/storefront/products?websiteId=' + websiteId + '&limit=4');
-      const categoryId = resolveProductCategoryId(currentProduct);
       if (categoryId) {
         url += '&categoryId=' + encodeURIComponent(categoryId);
       }
@@ -13870,7 +13994,11 @@ async function loadRelatedProducts(currentProduct, t) {
       if (!data.success || !data.data?.length) return;
 
       // Filter out current product and limit to 4
-      const related = data.data.filter(p => p.id !== currentProduct.id).slice(0, 4);
+      var related = data.data.filter(p => p.id !== currentProduct.id);
+      if (additionalJsSortOutOfStockLast && typeof window.sortProductsOutOfStockLast === 'function') {
+        related = window.sortProductsOutOfStockLast(related);
+      }
+      related = related.slice(0, 4);
       if (related.length === 0) return;
 
       renderProductGrid(grid, related, t);
