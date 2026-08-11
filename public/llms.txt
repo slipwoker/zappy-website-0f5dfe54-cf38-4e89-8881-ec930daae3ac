@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 99**
+**Total active products: 100**
+
+### שמלת אנאל חום
+https://hodayaboutique.co.il/product/shmlt-anal-chvm-flbj6m
+- Price: 299.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת ערב חומה בגזרת בת־ים 🤍 שמלה אלגנטית ומחמיאה בעיצוב נקי ויוקרתי, עם מחשוף מרובע ושרוולים באורך המרפק. גזרה צמודה ומחטבת בחלק העליון, בשילוב כיווצים עדינים באזור המותן והירכיים, ונפתחת לחצאית נשפכת בגזרת בת־ים
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786470762428-42y63.webp
 
 ### שמלת ערב אנאל שחור
 https://hodayaboutique.co.il/product/shmlt-arb-anal-shchvr-3aqypo
