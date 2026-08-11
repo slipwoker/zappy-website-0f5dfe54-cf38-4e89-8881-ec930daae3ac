@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-11T17:53:32.878Z",
+  "generated_at": "2026-08-11T17:55:07.756Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 100,
+  "count": 101,
   "products": [
+    {
+      "id": "71016bb9-54be-471a-8267-2fb2e4ae6edb",
+      "slug": "shmlt-arb-anal-abn-6st03x",
+      "name": "שמלת ערב אנאל אבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב אבן בגזרת בת־ים 🤍\nשמלה אלגנטית ומחמיאה בעיצוב נקי ויוקרתי, עם מחשוף מרובע ושרוולים באורך המרפק. גזרה צמודה ומחטבת בחלק העליון, בשילוב כיווצים עדינים באזור המותן והירכיים, ונפתחת לחצאית נשפכת בגזרת בת־ים",
+      "sku": null,
+      "brand": null,
+      "price": 299,
+      "base_price": 299,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786470854173-jtamvc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-arb-anal-abn-6st03x",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-08-11T17:54:32.750Z"
+    },
     {
       "id": "c49be370-5931-483d-a6dd-d88a9a0ef92d",
       "slug": "shmlt-anal-chvm-flbj6m",
