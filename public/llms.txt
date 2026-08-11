@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 97**
+**Total active products: 98**
+
+### שמלת ערב אנאל לבן
+https://hodayaboutique.co.il/product/shmlt-arb-anal-lbn-abx09l
+- Price: 299.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת ערב לבנה בגזרת בת־ים 🤍 שמלה אלגנטית ומחמיאה בעיצוב נקי ויוקרתי, עם מחשוף מרובע ושרוולים באורך המרפק. גזרה צמודה ומחטבת בחלק העליון, בשילוב כיווצים עדינים באזור המותן והירכיים, ונפתחת לחצאית נשפכת בגזרת בת־ים
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786470356700-57pghh.webp
 
 ### בגד ים אגם בז׳
 https://hodayaboutique.co.il/product/bgd-ym-agm-bz-i3cs01
