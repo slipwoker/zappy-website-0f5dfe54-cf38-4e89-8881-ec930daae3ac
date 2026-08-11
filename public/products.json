@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-11T18:08:32.944Z",
+  "generated_at": "2026-08-11T18:10:28.295Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 103,
+  "count": 104,
   "products": [
+    {
+      "id": "326993fe-adf2-4584-926d-a18e4b968c6f",
+      "slug": "shmlt-amyly-abn-tict18",
+      "name": "שמלת אמילי אבן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב אבן בגזרה קלאסית \nשמלה אלגנטית ומדויקת בגוון אבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת.\n\nהעיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי.\n\nשמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים. ",
+      "sku": null,
+      "brand": null,
+      "price": 339,
+      "base_price": 339,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786471777213-qo24rt.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-amyly-abn-tict18",
+      "categories": [
+        "שמלות",
+        "שמלות ערב"
+      ],
+      "updated_at": "2026-08-11T18:09:53.709Z"
+    },
     {
       "id": "2e046e77-2aab-4133-af17-cf3e66849822",
       "slug": "shmlt-amyly-tshvb-madzm7",
