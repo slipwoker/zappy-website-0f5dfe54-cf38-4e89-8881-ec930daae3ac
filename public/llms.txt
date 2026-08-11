@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 104**
+**Total active products: 105**
+
+### שמלת אמילי לבן
+https://hodayaboutique.co.il/product/shmlt-amyly-lbn-eqeoqh
+- Price: 339.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת ערב לבנה בגזרה קלאסית שמלה אלגנטית ומדויקת בצבע לבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786471861311-7yk14k.webp
 
 ### שמלת אמילי אבן
 https://hodayaboutique.co.il/product/shmlt-amyly-abn-tict18
