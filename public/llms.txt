@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 102**
+**Total active products: 103**
+
+### שמלת אמילי צהוב
+https://hodayaboutique.co.il/product/shmlt-amyly-tshvb-madzm7
+- Price: 339.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת ערב צהובה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון צהוב עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786471648494-amqlyd.webp
 
 ### שמלת אמילי ורוד
 https://hodayaboutique.co.il/product/shmlt-amyly-vrvd-6zu2fz
