@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 110**
+**Total active products: 111**
+
+### שמלת ליז שחור
+https://hodayaboutique.co.il/product/shmlt-lyz-shchvr-t8xifb
+- Price: 329.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: חליפה שחורה אלגנטית ומרשימה בגזרה נשית ומחמיאה. החלק העליון בעיצוב נקי עם מפתח צוואר מרובע, שרוולים קצרים וחגורת מותן עם אבזם שמדגישה את הגזרה. החצאית הארוכה בגזרת בת־ים צמודה באזור המותניים והירכיים ומתרחבת בעדינות כלפי מטה. לוק חגיגי, קלאסי ומדויק שמתאים לאירועים, שבתות וחגים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786569459625-uhabmf.webp
 
 ### שמלת ליז ורוד
 https://hodayaboutique.co.il/product/shmlt-lyz-vrvd-8htz5g
