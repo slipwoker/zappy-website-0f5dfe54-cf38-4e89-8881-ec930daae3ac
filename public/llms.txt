@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 128**
+**Total active products: 129**
+
+### חולצת אלין שמנת
+https://hodayaboutique.co.il/product/chvltst-alyn-shmnt-lhme3c
+- Price: 49.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: חולצה בצבע שמנת אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד
+- Image: https://hodayaboutique.co.il/assets/product-1786571933399-fzxm4d.webp
 
 ### חולצת אלין לבן
 https://hodayaboutique.co.il/product/chvltst-alyn-lbn-x34w10

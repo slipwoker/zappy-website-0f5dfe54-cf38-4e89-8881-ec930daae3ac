@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:58:58.606Z",
+  "generated_at": "2026-08-12T22:00:13.252Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 128,
+  "count": 129,
   "products": [
+    {
+      "id": "ea673eca-a5cf-4f8a-ab83-cad9c5672eca",
+      "slug": "chvltst-alyn-shmnt-lhme3c",
+      "name": "חולצת אלין שמנת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצה בצבע שמנת אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד",
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786571933399-fzxm4d.webp",
+        "https://hodayaboutique.co.il/assets/product-1786571939738-bogelm.webp",
+        "https://hodayaboutique.co.il/assets/product-1786571945953-yjfrgl.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-shmnt-lhme3c",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-08-12T21:59:47.602Z"
+    },
     {
       "id": "68b8d542-56f3-41ba-9929-f9e8b9c9e976",
       "slug": "chvltst-alyn-lbn-x34w10",
