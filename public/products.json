@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:13:51.667Z",
+  "generated_at": "2026-08-12T21:16:57.285Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 109,
+  "count": 110,
   "products": [
+    {
+      "id": "5ca9eee2-31c1-4870-a82d-c048a5112dcd",
+      "slug": "shmlt-lyz-vrvd-8htz5g",
+      "name": "שמלת ליז ורוד",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפה ורודה אלגנטית ומרשימה בגזרה נשית ומחמיאה. החלק העליון בעיצוב נקי עם מפתח צוואר מרובע, שרוולים קצרים וחגורת מותן עם אבזם שמדגישה את הגזרה. החצאית הארוכה בגזרת בת־ים צמודה באזור המותניים והירכיים ומתרחבת בעדינות כלפי מטה. לוק חגיגי, קלאסי ומדויק שמתאים לאירועים, שבתות וחגים.",
+      "sku": null,
+      "brand": null,
+      "price": 329,
+      "base_price": 329,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569337400-u64f3e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-lyz-vrvd-8htz5g",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-08-12T21:16:24.119Z"
+    },
     {
       "id": "0a25ce7e-2ff4-4cb0-92cc-8a038d25e3ae",
       "slug": "shmlt-lyavr-shchvr-r4kypb",
