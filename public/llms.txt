@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 114**
+**Total active products: 115**
+
+### חצאית miu בהיר
+https://hodayaboutique.co.il/product/chtsayt-miu-bhyr-hwmsqm
+- Price: 85.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית ג׳ינס מקסי בגזרה ישרה וקלאסית, בגוון כחול בהיר עם שטיפה עדינה למראה אופנתי ונקי. החצאית בגזרה גבוהה ומחמיאה, עם כיסים קדמיים ואחוריים, תפר מרכזי לאורך החצאית ופרט רקום ייחודי בכיס האחורי. פריט על־זמני ונוח שמתאים בצורה מושלמת ללוקים יומיומיים וקז׳ואליים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786569972696-9j0t3k.webp
 
 ### חצאית ג׳ינס כיסים בהיר 
 https://hodayaboutique.co.il/product/chtsayt-gyns-kysym-bhyr-kqsssy

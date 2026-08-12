@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:25:12.498Z",
+  "generated_at": "2026-08-12T21:29:42.444Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 114,
+  "count": 115,
   "products": [
+    {
+      "id": "87189fc0-2676-4d0b-ac64-71d57ccbf12e",
+      "slug": "chtsayt-miu-bhyr-hwmsqm",
+      "name": "חצאית miu בהיר",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית ג׳ינס מקסי בגזרה ישרה וקלאסית, בגוון כחול בהיר עם שטיפה עדינה למראה אופנתי ונקי. החצאית בגזרה גבוהה ומחמיאה, עם כיסים קדמיים ואחוריים, תפר מרכזי לאורך החצאית ופרט רקום ייחודי בכיס האחורי. פריט על־זמני ונוח שמתאים בצורה מושלמת ללוקים יומיומיים וקז׳ואליים.",
+      "sku": null,
+      "brand": null,
+      "price": 85,
+      "base_price": 85,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569972696-9j0t3k.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569997279-4babc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-miu-bhyr-hwmsqm",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:29:18.242Z"
+    },
     {
       "id": "444a643b-03e9-4d51-aed7-cdfead431109",
       "slug": "chtsayt-gyns-kysym-bhyr-kqsssy",
