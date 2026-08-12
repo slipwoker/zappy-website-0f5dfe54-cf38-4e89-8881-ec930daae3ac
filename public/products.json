@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T22:05:18.769Z",
+  "generated_at": "2026-08-12T22:09:03.755Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 131,
+  "count": 132,
   "products": [
+    {
+      "id": "9c4b590d-08f2-460f-881b-ea9b4ec12146",
+      "slug": "gkt-gyns-bhyr-6ppcdn",
+      "name": "ג׳קט ג׳ינס בהיר ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "ג׳קט ג׳ינס קצר בגוון כחול בהיר, בעיצוב קלאסי ועל־זמני. בעל גזרה מחמיאה ונוחה, סגירת כפתורים קדמית, צווארון קלאסי וכיסים בחזית. פריט מושלם להשלמת הלוק ולהוספת טאץ׳ אופנתי, משתלב בקלות עם חצאיות, שמלות ולוקים יומיומיים.",
+      "sku": null,
+      "brand": null,
+      "price": 99,
+      "base_price": 99,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786572370345-qu10ot.webp",
+        "https://hodayaboutique.co.il/assets/product-1786572340518-kj5la.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/gkt-gyns-bhyr-6ppcdn",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-08-12T22:08:29.851Z"
+    },
     {
       "id": "d496c97c-226e-4a18-b4de-3b1245b960f4",
       "slug": "chvltst-alyn-chvm-iub0m1",
