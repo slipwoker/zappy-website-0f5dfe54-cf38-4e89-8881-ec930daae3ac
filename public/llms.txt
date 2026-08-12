@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 126**
+**Total active products: 127**
+
+### חולצת אלין שחור
+https://hodayaboutique.co.il/product/chvltst-alyn-shchvr-qec2u5
+- Price: 49.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: חולצה שחורה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד
+- Image: https://hodayaboutique.co.il/assets/product-1786571722119-s56m3.webp
 
 ### חצאית חצי ג׳ינס 
 https://hodayaboutique.co.il/product/chtsayt-chtsy-gyns-scea88
