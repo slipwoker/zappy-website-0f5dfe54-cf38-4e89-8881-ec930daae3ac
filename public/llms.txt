@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 130**
+**Total active products: 131**
+
+### חולצת אלין חום
+https://hodayaboutique.co.il/product/chvltst-alyn-chvm-iub0m1
+- Price: 49.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: חולצה חומה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד
+- Image: https://hodayaboutique.co.il/assets/product-1786572238598-pg5y3j.webp
 
 ### חולצת אלין תכלת
 https://hodayaboutique.co.il/product/chvltst-alyn-tklt-jje4nc

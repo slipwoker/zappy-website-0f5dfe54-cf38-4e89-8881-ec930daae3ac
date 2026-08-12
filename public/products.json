@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T22:04:08.484Z",
+  "generated_at": "2026-08-12T22:05:18.769Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 130,
+  "count": 131,
   "products": [
+    {
+      "id": "d496c97c-226e-4a18-b4de-3b1245b960f4",
+      "slug": "chvltst-alyn-chvm-iub0m1",
+      "name": "חולצת אלין חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצה חומה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד",
+      "sku": null,
+      "brand": null,
+      "price": 49,
+      "base_price": 49,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786572238598-pg5y3j.webp",
+        "https://hodayaboutique.co.il/assets/product-1786572252016-cc9cnb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-chvm-iub0m1",
+      "categories": [
+        "חולצות"
+      ],
+      "updated_at": "2026-08-12T22:04:41.187Z"
+    },
     {
       "id": "93ac635d-dd7d-4668-be3f-fae575bcd364",
       "slug": "chvltst-alyn-tklt-jje4nc",
