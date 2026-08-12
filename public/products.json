@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:52:13.270Z",
+  "generated_at": "2026-08-12T21:55:03.271Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 125,
+  "count": 126,
   "products": [
+    {
+      "id": "04ff5915-e53d-406f-bde5-4aba707fa3df",
+      "slug": "chtsayt-chtsy-gyns-scea88",
+      "name": "חצאית חצי ג׳ינס ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מקסי ייחודית המשלבת ג׳ינס בהיר בחלק העליון עם בד פליסה נשפך בגוון שמנת. שילוב הטקסטורות מעניק לה מראה אופנתי ומיוחד, עם מותן גבוהה, כיסים קדמיים ואחוריים וגימור פרום שמוסיף טאץ׳ צעיר ועדכני. חצאית עם נוכחות שמתאימה ללוקים יומיומיים וגם ליצירת הופעה חגיגית ומיוחדת יותר",
+      "sku": null,
+      "brand": null,
+      "price": 89,
+      "base_price": 89,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786571574049-uqk5jd.webp",
+        "https://hodayaboutique.co.il/assets/product-1786571580736-qaz5hm.webp",
+        "https://hodayaboutique.co.il/assets/product-1786571586473-p5igks.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chtsy-gyns-scea88",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:54:26.435Z"
+    },
     {
       "id": "4352fc15-b87d-4f84-9063-afdeed45c0b8",
       "slug": "chvltst-kshyrvt-vrvd-luck1w",

@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 125**
+**Total active products: 126**
+
+### חצאית חצי ג׳ינס 
+https://hodayaboutique.co.il/product/chtsayt-chtsy-gyns-scea88
+- Price: 89.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מקסי ייחודית המשלבת ג׳ינס בהיר בחלק העליון עם בד פליסה נשפך בגוון שמנת. שילוב הטקסטורות מעניק לה מראה אופנתי ומיוחד, עם מותן גבוהה, כיסים קדמיים ואחוריים וגימור פרום שמוסיף טאץ׳ צעיר ועדכני. חצאית עם נוכחות שמתאימה ללוקים יומיומיים וגם ליצירת הופעה חגיגית ומיוחדת יותר
+- Image: https://hodayaboutique.co.il/assets/product-1786571574049-uqk5jd.webp
 
 ### חולצת קשירות ורוד
 https://hodayaboutique.co.il/product/chvltst-kshyrvt-vrvd-luck1w
