@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:18:32.239Z",
+  "generated_at": "2026-08-12T21:19:42.075Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 111,
+  "count": 112,
   "products": [
+    {
+      "id": "cdb22908-cd87-4bac-a941-7e18aa63f114",
+      "slug": "shmlt-lyz-chvm-4spn1m",
+      "name": "שמלת ליז חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חליפה חומה אלגנטית ומרשימה בגזרה נשית ומחמיאה. החלק העליון בעיצוב נקי עם מפתח צוואר מרובע, שרוולים קצרים וחגורת מותן עם אבזם שמדגישה את הגזרה. החצאית הארוכה בגזרת בת־ים צמודה באזור המותניים והירכיים ומתרחבת בעדינות כלפי מטה. לוק חגיגי, קלאסי ומדויק שמתאים לאירועים, שבתות וחגים.",
+      "sku": null,
+      "brand": null,
+      "price": 329,
+      "base_price": 329,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569531800-uhq3bg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-lyz-chvm-4spn1m",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-08-12T21:19:05.073Z"
+    },
     {
       "id": "823eacc6-21c3-4424-9f64-de7eee9cfbb6",
       "slug": "shmlt-lyz-shchvr-t8xifb",
