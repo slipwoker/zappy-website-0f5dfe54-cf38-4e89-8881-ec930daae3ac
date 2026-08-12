@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 132**
+**Total active products: 133**
+
+### ג׳קט ג׳ינס כהה
+https://hodayaboutique.co.il/product/gkt-gyns-khh-hkw5c7
+- Price: 99.00 ILS
+- Availability: In stock
+- Category: חולצות
+- Description: ג׳קט ג׳ינס קצר בגוון כחול כהה, בעיצוב קלאסי ועל־זמני. בעל גזרה מחמיאה ונוחה, סגירת כפתורים קדמית, צווארון קלאסי וכיסים בחזית. פריט מושלם להשלמת הלוק ולהוספת טאץ׳ אופנתי, משתלב בקלות עם חצאיות, שמלות ולוקים יומיומיים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786572571298-xpt0er.webp
 
 ### ג׳קט ג׳ינס בהיר 
 https://hodayaboutique.co.il/product/gkt-gyns-bhyr-6ppcdn
