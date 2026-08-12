@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:31:47.625Z",
+  "generated_at": "2026-08-12T21:34:02.684Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 116,
+  "count": 117,
   "products": [
+    {
+      "id": "5aaf29e8-1e0b-4aa0-b21e-dca1bed4ff03",
+      "slug": "chtsayt-kptvrym-tklt-okamf4",
+      "name": "חצאית כפתורים תכלת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בגוון תכלת עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.",
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786570314677-lrmrce.webp",
+        "https://hodayaboutique.co.il/assets/product-1786570320717-8aeba.webp",
+        "https://hodayaboutique.co.il/assets/product-1786570329056-hn0pgg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-kptvrym-tklt-okamf4",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:33:27.015Z"
+    },
     {
       "id": "f5237c7f-fbb6-453a-b967-6427451000da",
       "slug": "chtsayt-miu-khh-ipvizo",
