@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 123**
+**Total active products: 124**
+
+### חצאית לונה
+https://hodayaboutique.co.il/product/chtsayt-lvnh-ei5a83
+- Price: 39.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מקסי אלגנטית בגוון שמפניה עם הדפס נקודות שחורות קלאסי. גזרה גבוהה ונשפכת שמחמיאה לגוף ומתרחבת בעדינות כלפי מטה, ליצירת מראה נשי ומתוחכם. שילוב מושלם בין קלאסיקה לסטייל, שמתאים לשבת, לחג, לאירועים וגם ללוק יומיומי מוקפד
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786571238892-ycwar.webp
 
 ### חצאית מילה תכלת
 https://hodayaboutique.co.il/product/chtsayt-mylh-tklt-3bzl84
