@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:11:10.105Z",
+  "generated_at": "2026-08-12T21:13:16.884Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 108,
+  "count": 109,
   "products": [
+    {
+      "id": "0a25ce7e-2ff4-4cb0-92cc-8a038d25e3ae",
+      "slug": "shmlt-lyavr-shchvr-r4kypb",
+      "name": "שמלת ליאור שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שמלת ערב לבנה – אלגנטיות במיטבה\n\nשמלת מקסי מרשימה בגזרה נשית ומחמיאה, עם שרוולים ארוכים ומראה נקי ויוקרתי. עיצוב השמלה משלב תיפורים מחטבים בחלק העליון וכיווצים עדינים באזור המותן והירכיים, היוצרים מראה מחמיא ומיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 299,
+      "base_price": 299,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569140697-9diyi8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/shmlt-lyavr-shchvr-r4kypb",
+      "categories": [
+        "שמלות ערב",
+        "שמלות"
+      ],
+      "updated_at": "2026-08-12T21:13:14.466Z"
+    },
     {
       "id": "85234074-3fb2-4d91-9d99-52f9554ab6a3",
       "slug": "shmlt-lyavr-chvm-qjladq",

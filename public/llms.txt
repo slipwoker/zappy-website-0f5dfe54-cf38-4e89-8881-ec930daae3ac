@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 108**
+**Total active products: 109**
+
+### שמלת ליאור שחור
+https://hodayaboutique.co.il/product/shmlt-lyavr-shchvr-r4kypb
+- Price: 299.00 ILS
+- Availability: In stock
+- Category: שמלות ערב
+- Description: שמלת ערב לבנה – אלגנטיות במיטבה שמלת מקסי מרשימה בגזרה נשית ומחמיאה, עם שרוולים ארוכים ומראה נקי ויוקרתי. עיצוב השמלה משלב תיפורים מחטבים בחלק העליון וכיווצים עדינים באזור המותן והירכיים, היוצרים מראה מחמיא ומיוחד.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786569140697-9diyi8.webp
 
 ### שמלת ליאור חום
 https://hodayaboutique.co.il/product/shmlt-lyavr-chvm-qjladq
