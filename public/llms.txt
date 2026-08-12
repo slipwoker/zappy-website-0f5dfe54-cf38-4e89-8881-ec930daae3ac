@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 118**
+**Total active products: 119**
+
+### חצאית כפתורים כתום
+https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd
+- Price: 59.00 ILS
+- Availability: In stock
+- Description: חצאית מידי בגוון כתום עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.
+- Image: https://hodayaboutique.co.il/assets/product-1786570575620-zm2l68.webp
 
 ### חצאית כפתורים ירוק
 https://hodayaboutique.co.il/product/chtsayt-kptvrym-yrvk-g6oec3

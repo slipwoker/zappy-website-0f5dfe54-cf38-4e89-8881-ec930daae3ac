@@ -1,10 +1,33 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:35:52.560Z",
+  "generated_at": "2026-08-12T21:38:07.521Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 118,
+  "count": 119,
   "products": [
+    {
+      "id": "d16c3495-8aab-47c1-bb6b-9ec24e4937a7",
+      "slug": "chtsayt-kptvrym-ktvm-v3odpd",
+      "name": "חצאית כפתורים כתום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בגוון כתום עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.",
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786570575620-zm2l68.webp",
+        "https://hodayaboutique.co.il/assets/product-1786570581891-180o3f.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd",
+      "categories": [],
+      "updated_at": "2026-08-12T21:37:39.140Z"
+    },
     {
       "id": "36a68ce4-9a65-47f9-9910-34c6aa2c5325",
       "slug": "chtsayt-kptvrym-yrvk-g6oec3",
