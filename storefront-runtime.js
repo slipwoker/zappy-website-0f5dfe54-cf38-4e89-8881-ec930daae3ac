@@ -289,922 +289,37 @@ document.addEventListener('DOMContentLoaded', function () {
 ;
 
 
-/* Cookie Consent */
-
-// Helper function to check cookie consent
-function hasConsentFor(category) {
-  if (typeof window.CookieConsent === 'undefined') {
-    return false; // Default to no consent if cookie consent not loaded
-  }
-  
-  return window.CookieConsent.validConsent(category);
-}
-
-// Helper function to execute code only with consent
-function withConsent(category, callback) {
-  if (hasConsentFor(category)) {
-    callback();
-  } else {
-    console.log(`[WARNING] Skipping ${category} code - no user consent`);
-  }
-}
-
-// Cookie Consent Initialization (multi-language) /* __ccConfigCustomBannerV1 */
-
-(function() {
-  'use strict';
-  
-  var initAttempts = 0;
-  var maxAttempts = 50;
-  
-  function initCookieConsent() {
-    initAttempts++;
-    
-    if (typeof window.CookieConsent === 'undefined') {
-      if (initAttempts < maxAttempts) {
-        setTimeout(initCookieConsent, 100);
-      }
-      return;
-    }
-
-    if (window.__zappyCookieConsentInitialized) {
-      return;
-    }
-    window.__zappyCookieConsentInitialized = true;
-
-    var cc = window.CookieConsent;
-    
-    try {
-      var __ccConfig = {
-  "autoShow": false,
-  "mode": "opt-in",
-  "revision": 0,
-  "categories": {
-    "necessary": {
-      "enabled": true,
-      "readOnly": true
-    },
-    "analytics": {
-      "enabled": false,
-      "readOnly": false,
-      "autoClear": {
-        "cookies": [
-          {
-            "name": "_ga"
-          },
-          {
-            "name": "_ga_*"
-          },
-          {
-            "name": "_gid"
-          },
-          {
-            "name": "_gat"
-          }
-        ]
-      }
-    },
-    "marketing": {
-      "enabled": false,
-      "readOnly": false,
-      "autoClear": {
-        "cookies": [
-          {
-            "name": "_fbp"
-          },
-          {
-            "name": "_fbc"
-          },
-          {
-            "name": "fr"
-          }
-        ]
-      }
-    }
-  },
-  "language": {
-    "default": "he",
-    "translations": {
-      "en": {
-        "consentModal": {
-          "description": "We use cookies to improve your experience and analyze site usage.",
-          "acceptAllBtn": "Accept",
-          "showPreferencesBtn": "Customize"
-        },
-        "preferencesModal": {
-          "title": "Cookie Preferences",
-          "acceptAllBtn": "Accept",
-          "acceptNecessaryBtn": "Accept Necessary",
-          "savePreferencesBtn": "Save Preferences",
-          "closeIconLabel": "Close",
-          "sections": [
-            {
-              "title": "Essential Cookies",
-              "description": "These cookies are necessary for the website to function and cannot be disabled.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Analytics Cookies",
-              "description": "These cookies help us understand how visitors interact with our website.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Marketing Cookies",
-              "description": "These cookies are used to deliver personalized advertisements.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "es": {
-        "consentModal": {
-          "description": "Usamos cookies para mejorar tu experiencia y analizar el uso del sitio.",
-          "acceptAllBtn": "Aceptar",
-          "showPreferencesBtn": "Personalizar"
-        },
-        "preferencesModal": {
-          "title": "Preferencias de Cookies",
-          "acceptAllBtn": "Aceptar",
-          "acceptNecessaryBtn": "Solo Necesarias",
-          "savePreferencesBtn": "Guardar Preferencias",
-          "closeIconLabel": "Cerrar",
-          "sections": [
-            {
-              "title": "Cookies Esenciales",
-              "description": "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Cookies de Análisis",
-              "description": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Cookies de Marketing",
-              "description": "Estas cookies se utilizan para entregar anuncios personalizados.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "fr": {
-        "consentModal": {
-          "description": "Nous utilisons des cookies pour améliorer votre expérience et analyser l'utilisation du site.",
-          "acceptAllBtn": "Accepter",
-          "showPreferencesBtn": "Personnaliser"
-        },
-        "preferencesModal": {
-          "title": "Préférences des Cookies",
-          "acceptAllBtn": "Accepter",
-          "acceptNecessaryBtn": "Accepter les Nécessaires",
-          "savePreferencesBtn": "Enregistrer les Préférences",
-          "closeIconLabel": "Fermer",
-          "sections": [
-            {
-              "title": "Cookies Essentiels",
-              "description": "Ces cookies sont nécessaires au fonctionnement du site web et ne peuvent pas être désactivés.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Cookies Analytiques",
-              "description": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site web.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Cookies Marketing",
-              "description": "Ces cookies sont utilisés pour diffuser des publicités personnalisées.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "de": {
-        "consentModal": {
-          "description": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern und die Nutzung der Website zu analysieren.",
-          "acceptAllBtn": "Akzeptieren",
-          "showPreferencesBtn": "Anpassen"
-        },
-        "preferencesModal": {
-          "title": "Cookie-Einstellungen",
-          "acceptAllBtn": "Akzeptieren",
-          "acceptNecessaryBtn": "Nur Notwendige",
-          "savePreferencesBtn": "Einstellungen speichern",
-          "closeIconLabel": "Schließen",
-          "sections": [
-            {
-              "title": "Notwendige Cookies",
-              "description": "Diese Cookies sind für die Funktion der Website erforderlich und können nicht deaktiviert werden.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Analyse-Cookies",
-              "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Marketing-Cookies",
-              "description": "Diese Cookies werden verwendet, um personalisierte Werbung zu liefern.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "it": {
-        "consentModal": {
-          "description": "Utilizziamo i cookie per migliorare la tua esperienza e analizzare l'utilizzo del sito.",
-          "acceptAllBtn": "Accetta",
-          "showPreferencesBtn": "Personalizza"
-        },
-        "preferencesModal": {
-          "title": "Preferenze Cookie",
-          "acceptAllBtn": "Accetta",
-          "acceptNecessaryBtn": "Solo Necessari",
-          "savePreferencesBtn": "Salva Preferenze",
-          "closeIconLabel": "Chiudi",
-          "sections": [
-            {
-              "title": "Cookie Essenziali",
-              "description": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Cookie Analitici",
-              "description": "Questi cookie ci aiutano a capire come i visitatori interagiscono con il nostro sito web.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Cookie di Marketing",
-              "description": "Questi cookie vengono utilizzati per fornire pubblicità personalizzate.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "pt": {
-        "consentModal": {
-          "description": "Usamos cookies para melhorar sua experiência e analisar o uso do site.",
-          "acceptAllBtn": "Aceitar",
-          "showPreferencesBtn": "Personalizar"
-        },
-        "preferencesModal": {
-          "title": "Preferências de Cookies",
-          "acceptAllBtn": "Aceitar",
-          "acceptNecessaryBtn": "Apenas Necessários",
-          "savePreferencesBtn": "Salvar Preferências",
-          "closeIconLabel": "Fechar",
-          "sections": [
-            {
-              "title": "Cookies Essenciais",
-              "description": "Estes cookies são necessários para o funcionamento do site e não podem ser desativados.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Cookies Analíticos",
-              "description": "Estes cookies nos ajudam a entender como os visitantes interagem com nosso site.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Cookies de Marketing",
-              "description": "Estes cookies são usados para exibir anúncios personalizados.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "nl": {
-        "consentModal": {
-          "description": "Wij gebruiken cookies om uw ervaring te verbeteren en het sitegebruik te analyseren.",
-          "acceptAllBtn": "Accepteren",
-          "showPreferencesBtn": "Aanpassen"
-        },
-        "preferencesModal": {
-          "title": "Cookie-voorkeuren",
-          "acceptAllBtn": "Accepteren",
-          "acceptNecessaryBtn": "Alleen noodzakelijke",
-          "savePreferencesBtn": "Voorkeuren opslaan",
-          "closeIconLabel": "Sluiten",
-          "sections": [
-            {
-              "title": "Noodzakelijke Cookies",
-              "description": "Deze cookies zijn nodig voor het functioneren van de website en kunnen niet worden uitgeschakeld.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Analytische Cookies",
-              "description": "Deze cookies helpen ons te begrijpen hoe bezoekers onze website gebruiken.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Marketing Cookies",
-              "description": "Deze cookies worden gebruikt om gepersonaliseerde advertenties te tonen.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "he": {
-        "consentModal": {
-          "description": "אנחנו משתמשים בעוגיות כדי לשפר את החוויה שלך ולנתח שימוש באתר.",
-          "acceptAllBtn": "אישור",
-          "showPreferencesBtn": "התאמה אישית"
-        },
-        "preferencesModal": {
-          "title": "העדפות עוגיות",
-          "acceptAllBtn": "אישור",
-          "acceptNecessaryBtn": "רק הכרחי",
-          "savePreferencesBtn": "שמור העדפות",
-          "closeIconLabel": "סגור",
-          "sections": [
-            {
-              "title": "עוגיות חיוניות",
-              "description": "עוגיות אלה הכרחיות לתפקוד האתר ולא ניתן להשבית אותן.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "עוגיות ניתוח",
-              "description": "עוגיות אלה עוזרות לנו להבין איך המבקרים מתקשרים עם האתר שלנו.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "עוגיות שיווקיות",
-              "description": "עוגיות אלה משמשות להצגת פרסומות מותאמות אישית.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "ar": {
-        "consentModal": {
-          "description": "نستخدم ملفات تعريف الارتباط لتحسين تجربتك وتحليل استخدام الموقع.",
-          "acceptAllBtn": "قبول",
-          "showPreferencesBtn": "تخصيص"
-        },
-        "preferencesModal": {
-          "title": "تفضيلات ملفات تعريف الارتباط",
-          "acceptAllBtn": "قبول",
-          "acceptNecessaryBtn": "الضرورية فقط",
-          "savePreferencesBtn": "حفظ التفضيلات",
-          "closeIconLabel": "إغلاق",
-          "sections": [
-            {
-              "title": "ملفات تعريف الارتباط الأساسية",
-              "description": "هذه الملفات ضرورية لعمل الموقع ولا يمكن تعطيلها.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "ملفات تعريف الارتباط التحليلية",
-              "description": "تساعدنا هذه الملفات في فهم كيفية تفاعل الزوار مع موقعنا.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "ملفات تعريف الارتباط التسويقية",
-              "description": "تُستخدم هذه الملفات لعرض إعلانات مخصصة.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "tr": {
-        "consentModal": {
-          "description": "Deneyiminizi geliştirmek ve site kullanımını analiz etmek için çerezler kullanırız.",
-          "acceptAllBtn": "Kabul Et",
-          "showPreferencesBtn": "Özelleştir"
-        },
-        "preferencesModal": {
-          "title": "Çerez Tercihleri",
-          "acceptAllBtn": "Kabul Et",
-          "acceptNecessaryBtn": "Sadece Gerekli",
-          "savePreferencesBtn": "Tercihleri Kaydet",
-          "closeIconLabel": "Kapat",
-          "sections": [
-            {
-              "title": "Zorunlu Çerezler",
-              "description": "Bu çerezler web sitesinin çalışması için gereklidir ve devre dışı bırakılamaz.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Analiz Çerezleri",
-              "description": "Bu çerezler, ziyaretçilerin web sitemizle nasıl etkileşime girdiğini anlamamıza yardımcı olur.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Pazarlama Çerezleri",
-              "description": "Bu çerezler kişiselleştirilmiş reklamlar sunmak için kullanılır.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "ru": {
-        "consentModal": {
-          "description": "Мы используем файлы cookie для улучшения вашего опыта и анализа использования сайта.",
-          "acceptAllBtn": "Принять",
-          "showPreferencesBtn": "Настроить"
-        },
-        "preferencesModal": {
-          "title": "Настройки cookie",
-          "acceptAllBtn": "Принять",
-          "acceptNecessaryBtn": "Только необходимые",
-          "savePreferencesBtn": "Сохранить настройки",
-          "closeIconLabel": "Закрыть",
-          "sections": [
-            {
-              "title": "Необходимые cookie",
-              "description": "Эти файлы cookie необходимы для работы сайта и не могут быть отключены.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Аналитические cookie",
-              "description": "Эти файлы cookie помогают нам понять, как посетители взаимодействуют с нашим сайтом.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Маркетинговые cookie",
-              "description": "Эти файлы cookie используются для показа персонализированной рекламы.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "zh": {
-        "consentModal": {
-          "description": "我们使用 Cookie 来改善您的体验并分析网站使用情况。",
-          "acceptAllBtn": "接受",
-          "showPreferencesBtn": "自定义"
-        },
-        "preferencesModal": {
-          "title": "Cookie 偏好设置",
-          "acceptAllBtn": "接受",
-          "acceptNecessaryBtn": "仅接受必要",
-          "savePreferencesBtn": "保存偏好",
-          "closeIconLabel": "关闭",
-          "sections": [
-            {
-              "title": "必要 Cookie",
-              "description": "这些 Cookie 是网站正常运行所必需的，无法禁用。",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "分析 Cookie",
-              "description": "这些 Cookie 帮助我们了解访问者如何与我们的网站互动。",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "营销 Cookie",
-              "description": "这些 Cookie 用于投放个性化广告。",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "ja": {
-        "consentModal": {
-          "description": "お客様の体験向上とサイト利用状況の分析のためにCookieを使用しています。",
-          "acceptAllBtn": "許可する",
-          "showPreferencesBtn": "カスタマイズ"
-        },
-        "preferencesModal": {
-          "title": "Cookie設定",
-          "acceptAllBtn": "許可する",
-          "acceptNecessaryBtn": "必要なもののみ",
-          "savePreferencesBtn": "設定を保存",
-          "closeIconLabel": "閉じる",
-          "sections": [
-            {
-              "title": "必要なCookie",
-              "description": "これらのCookieはウェブサイトの機能に必要であり、無効にすることはできません。",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "分析Cookie",
-              "description": "これらのCookieは、訪問者がウェブサイトとどのように対話するかを理解するのに役立ちます。",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "マーケティングCookie",
-              "description": "これらのCookieはパーソナライズされた広告を配信するために使用されます。",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "ko": {
-        "consentModal": {
-          "description": "경험 향상과 사이트 사용 분석을 위해 쿠키를 사용합니다.",
-          "acceptAllBtn": "수락",
-          "showPreferencesBtn": "사용자 지정"
-        },
-        "preferencesModal": {
-          "title": "쿠키 설정",
-          "acceptAllBtn": "수락",
-          "acceptNecessaryBtn": "필수만 수락",
-          "savePreferencesBtn": "설정 저장",
-          "closeIconLabel": "닫기",
-          "sections": [
-            {
-              "title": "필수 쿠키",
-              "description": "이 쿠키는 웹사이트 작동에 필요하며 비활성화할 수 없습니다.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "분석 쿠키",
-              "description": "이 쿠키는 방문자가 웹사이트와 어떻게 상호작용하는지 이해하는 데 도움이 됩니다.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "마케팅 쿠키",
-              "description": "이 쿠키는 맞춤형 광고를 제공하는 데 사용됩니다.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "pl": {
-        "consentModal": {
-          "description": "Używamy plików cookie, aby poprawić Twoje wrażenia i analizować korzystanie z witryny.",
-          "acceptAllBtn": "Akceptuję",
-          "showPreferencesBtn": "Dostosuj"
-        },
-        "preferencesModal": {
-          "title": "Preferencje cookie",
-          "acceptAllBtn": "Akceptuję",
-          "acceptNecessaryBtn": "Tylko niezbędne",
-          "savePreferencesBtn": "Zapisz preferencje",
-          "closeIconLabel": "Zamknij",
-          "sections": [
-            {
-              "title": "Niezbędne pliki cookie",
-              "description": "Te pliki cookie są niezbędne do działania strony i nie można ich wyłączyć.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Analityczne pliki cookie",
-              "description": "Te pliki cookie pomagają nam zrozumieć, w jaki sposób odwiedzający korzystają z naszej strony.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Marketingowe pliki cookie",
-              "description": "Te pliki cookie służą do wyświetlania spersonalizowanych reklam.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "uk": {
-        "consentModal": {
-          "description": "Ми використовуємо файли cookie для покращення вашого досвіду та аналізу використання сайту.",
-          "acceptAllBtn": "Прийняти",
-          "showPreferencesBtn": "Налаштувати"
-        },
-        "preferencesModal": {
-          "title": "Налаштування cookie",
-          "acceptAllBtn": "Прийняти",
-          "acceptNecessaryBtn": "Лише необхідні",
-          "savePreferencesBtn": "Зберегти налаштування",
-          "closeIconLabel": "Закрити",
-          "sections": [
-            {
-              "title": "Необхідні cookie",
-              "description": "Ці файли cookie необхідні для роботи сайту і не можуть бути вимкнені.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Аналітичні cookie",
-              "description": "Ці файли cookie допомагають нам зрозуміти, як відвідувачі взаємодіють з нашим сайтом.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Маркетингові cookie",
-              "description": "Ці файли cookie використовуються для показу персоналізованої реклами.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "ro": {
-        "consentModal": {
-          "description": "Folosim cookie-uri pentru a vă îmbunătăți experiența și a analiza utilizarea site-ului.",
-          "acceptAllBtn": "Acceptă",
-          "showPreferencesBtn": "Personalizează"
-        },
-        "preferencesModal": {
-          "title": "Preferințe cookie",
-          "acceptAllBtn": "Acceptă",
-          "acceptNecessaryBtn": "Doar necesare",
-          "savePreferencesBtn": "Salvează preferințele",
-          "closeIconLabel": "Închide",
-          "sections": [
-            {
-              "title": "Cookie-uri esențiale",
-              "description": "Aceste cookie-uri sunt necesare pentru funcționarea site-ului și nu pot fi dezactivate.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Cookie-uri analitice",
-              "description": "Aceste cookie-uri ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Cookie-uri de marketing",
-              "description": "Aceste cookie-uri sunt folosite pentru a afișa reclame personalizate.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      },
-      "bg": {
-        "consentModal": {
-          "description": "Използваме бисквитки, за да подобрим изживяването ви и да анализираме използването на сайта.",
-          "acceptAllBtn": "Приемам",
-          "showPreferencesBtn": "Персонализиране"
-        },
-        "preferencesModal": {
-          "title": "Настройки за бисквитки",
-          "acceptAllBtn": "Приемам",
-          "acceptNecessaryBtn": "Само необходимите",
-          "savePreferencesBtn": "Запазване на предпочитанията",
-          "closeIconLabel": "Затвори",
-          "sections": [
-            {
-              "title": "Необходими бисквитки",
-              "description": "Тези бисквитки са необходими за функционирането на уебсайта и не могат да бъдат деактивирани.",
-              "linkedCategory": "necessary"
-            },
-            {
-              "title": "Аналитични бисквитки",
-              "description": "Тези бисквитки ни помагат да разберем как посетителите взаимодействат с нашия уебсайт.",
-              "linkedCategory": "analytics"
-            },
-            {
-              "title": "Маркетингови бисквитки",
-              "description": "Тези бисквитки се използват за показване на персонализирани реклами.",
-              "linkedCategory": "marketing"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "guiOptions": {
-    "consentModal": {
-      "layout": "bar inline",
-      "position": "bottom",
-      "equalWeightButtons": false,
-      "flipButtons": false
-    },
-    "preferencesModal": {
-      "layout": "box",
-      "equalWeightButtons": false,
-      "flipButtons": false
-    }
-  }
-};
-      var __ccCloseLabels = {"en":"Close","es":"Cerrar","fr":"Fermer","de":"Schließen","it":"Chiudi","pt":"Fechar","nl":"Sluiten","he":"סגור","ar":"إغلاق","tr":"Kapat","ru":"Закрыть","zh":"关闭","ja":"閉じる","ko":"닫기","pl":"Zamknij","uk":"Закрити","ro":"Închide","bg":"Затвори"};
-
-      // Detect the current page language and override the build-time default.
-      // Published multi-language sites set <html lang="…"> per URL prefix;
-      // preview pages may store the active language on zappyI18n.
-      var pageLang = (document.documentElement.getAttribute('lang') || '').split('-')[0].toLowerCase();
-      if (!pageLang && typeof zappyI18n !== 'undefined' && zappyI18n.language) {
-        pageLang = String(zappyI18n.language).split('-')[0].toLowerCase();
-      }
-      if (pageLang && __ccConfig.language.translations[pageLang]) {
-        __ccConfig.language.default = pageLang;
-      }
-
-      function getActiveLanguage() {
-        var lang = (document.documentElement.getAttribute('lang') || '').split('-')[0].toLowerCase();
-        if (!lang && typeof zappyI18n !== 'undefined' && zappyI18n.language) {
-          lang = String(zappyI18n.language).split('-')[0].toLowerCase();
-        }
-        if (!lang || !__ccConfig.language.translations[lang]) {
-          lang = __ccConfig.language.default || 'en';
-        }
-        return __ccConfig.language.translations[lang] ? lang : 'en';
-      }
-
-      function getConsentText() {
-        var lang = getActiveLanguage();
-        var translations = __ccConfig.language.translations || {};
-        var current = translations[lang] || translations.en || {};
-        var consent = current.consentModal || {};
-        var labels = __ccCloseLabels || {};
-        return {
-          description: consent.description || '',
-          accept: consent.acceptAllBtn || 'Accept',
-          customize: consent.showPreferencesBtn || 'Customize',
-          close: labels[lang] || labels.en || 'Close'
-        };
-      }
-
-      function removeCustomBanner() {
-        var banner = document.getElementById('zappy-cookie-banner');
-        if (banner && banner.parentNode) {
-          banner.parentNode.removeChild(banner);
-        }
-        document.documentElement.classList.remove('zappy-cookie-banner-visible');
-      }
-
-      function updateCustomBannerText() {
-        var banner = document.getElementById('zappy-cookie-banner');
-        if (!banner) return;
-        var text = getConsentText();
-        var desc = banner.querySelector('[data-zappy-cookie-description]');
-        var accept = banner.querySelector('[data-zappy-cookie-accept]');
-        var customize = banner.querySelector('[data-zappy-cookie-customize]');
-        var close = banner.querySelector('[data-zappy-cookie-close]');
-        banner.setAttribute('aria-label', text.description || text.close);
-        if (desc) desc.textContent = text.description;
-        if (accept) accept.textContent = text.accept;
-        if (customize) customize.textContent = text.customize;
-        if (close) close.setAttribute('aria-label', text.close);
-      }
-
-      // Google Consent Mode v2 integration
-      function updateGoogleConsentMode() {
-        if (typeof gtag !== 'function') {
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function(){dataLayer.push(arguments);};
-        }
-        
-        var analyticsAccepted = cc.acceptedCategory('analytics');
-        var marketingAccepted = cc.acceptedCategory('marketing');
-        
-        gtag('consent', 'update', {
-          'analytics_storage': analyticsAccepted ? 'granted' : 'denied',
-          'ad_storage': marketingAccepted ? 'granted' : 'denied',
-          'ad_user_data': marketingAccepted ? 'granted' : 'denied',
-          'ad_personalization': marketingAccepted ? 'granted' : 'denied'
-        });
-      }
-
-      function acceptAndClose(categories) {
-        try { cc.acceptCategory(categories); } catch (_) {}
-        removeCustomBanner();
-        updateGoogleConsentMode();
-      }
-
-      function renderCustomBanner() {
-        try {
-          if (typeof cc.validConsent === 'function' && cc.validConsent()) {
-            removeCustomBanner();
-            return;
-          }
-          if (!document.body) {
-            setTimeout(renderCustomBanner, 50);
-            return;
-          }
-          var existing = document.getElementById('zappy-cookie-banner');
-          if (existing) {
-            updateCustomBannerText();
-            return;
-          }
-
-          var text = getConsentText();
-          var banner = document.createElement('div');
-          banner.id = 'zappy-cookie-banner';
-          banner.className = 'zappy-cookie-banner';
-          banner.setAttribute('role', 'region');
-          banner.setAttribute('aria-label', text.description || text.close);
-
-          var inner = document.createElement('div');
-          inner.className = 'zappy-cookie-banner__inner';
-
-          var description = document.createElement('p');
-          description.className = 'zappy-cookie-banner__text';
-          description.setAttribute('data-zappy-cookie-description', 'true');
-          description.textContent = text.description;
-
-          var actions = document.createElement('div');
-          actions.className = 'zappy-cookie-banner__actions';
-
-          var customizeBtn = document.createElement('button');
-          customizeBtn.type = 'button';
-          customizeBtn.className = 'zappy-cookie-banner__button zappy-cookie-banner__button--customize';
-          customizeBtn.setAttribute('data-zappy-cookie-customize', 'true');
-          customizeBtn.textContent = text.customize;
-          customizeBtn.addEventListener('click', function(ev) {
-            ev.preventDefault();
-            ev.stopPropagation();
-            try { cc.showPreferences(); } catch (_) {}
-          });
-
-          var acceptBtn = document.createElement('button');
-          acceptBtn.type = 'button';
-          acceptBtn.className = 'zappy-cookie-banner__button zappy-cookie-banner__button--accept';
-          acceptBtn.setAttribute('data-zappy-cookie-accept', 'true');
-          acceptBtn.textContent = text.accept;
-          acceptBtn.addEventListener('click', function(ev) {
-            ev.preventDefault();
-            ev.stopPropagation();
-            acceptAndClose('all');
-          });
-
-          var closeBtn = document.createElement('button');
-          closeBtn.type = 'button';
-          closeBtn.className = 'zappy-cookie-banner__close';
-          closeBtn.setAttribute('data-zappy-cookie-close', 'true');
-          closeBtn.setAttribute('aria-label', text.close);
-          closeBtn.textContent = '\u00D7';
-          closeBtn.addEventListener('click', function(ev) {
-            ev.preventDefault();
-            ev.stopPropagation();
-            acceptAndClose([]);
-          });
-
-          actions.appendChild(customizeBtn);
-          actions.appendChild(acceptBtn);
-          inner.appendChild(description);
-          inner.appendChild(actions);
-          inner.appendChild(closeBtn);
-          banner.appendChild(inner);
-          document.body.appendChild(banner);
-          document.documentElement.classList.add('zappy-cookie-banner-visible');
-        } catch (_) {
-          // Defensive — never let the custom banner break the page.
-        }
-      }
-
-      function handleConsentResolved() {
-        removeCustomBanner();
-        updateGoogleConsentMode();
-      }
-
-      __ccConfig.onFirstConsent = handleConsentResolved;
-      __ccConfig.onConsent = handleConsentResolved;
-      __ccConfig.onChange = handleConsentResolved;
-
-      var runResult = cc.run(__ccConfig);
-      var afterRun = function() {
-        updateGoogleConsentMode();
-        if (!cc.validConsent || !cc.validConsent()) {
-          renderCustomBanner();
-        }
-      };
-      if (runResult && typeof runResult.then === 'function') {
-        runResult.then(afterRun).catch(afterRun);
-      } else {
-        setTimeout(afterRun, 0);
-      }
-
-      // Keep cookie consent in sync when the user switches language without
-      // a full navigation (preview / embedded-resources path).
-      if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.onLanguageChange === 'function') {
-        zappyI18n.onLanguageChange(function(newLang) {
-          try {
-            if (__ccConfig.language.translations[newLang]) {
-              __ccConfig.language.default = newLang;
-              cc.setLanguage(newLang, true);
-              updateCustomBannerText();
-            }
-          } catch (_) {}
-        });
-      }
-    } catch (error) {
-      window.__zappyCookieConsentInitialized = false;
-    }
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initCookieConsent);
-    setTimeout(initCookieConsent, 1000);
-  } else if (document.readyState === 'interactive' || document.readyState === 'complete') {
-    initCookieConsent();
-  } else {
-    setTimeout(initCookieConsent, 500);
-  }
-  
-  if (typeof window !== 'undefined') {
-    if (window.addEventListener) {
-      window.addEventListener('load', initCookieConsent, { once: true });
-    }
-  }
-})();
-
 /* Accessibility Features */
 
 /* Mickidum Accessibility Toolbar Initialization - Zappy Style */
 
 window.onload = function() {
     
-    try { /* ZAPPY_A11Y_DYNAMIC_LANG */
-        var htmlEl = document.documentElement;
-        var pageLang = (htmlEl.getAttribute('lang') || 'en').toLowerCase().split('-')[0];
-        var pageDir = (htmlEl.getAttribute('dir') || '').toLowerCase();
-        var rtlLangs = ['he', 'ar', 'fa', 'ur', 'yi', 'iw'];
-        var isPageRTL = pageDir === 'rtl' || rtlLangs.indexOf(pageLang) !== -1;
-        var buttonSide = isPageRTL ? 'left' : 'right';
-        var langMap = { en: 'en-US', es: 'es-ES', fr: 'fr-FR', de: 'de-DE', it: 'it-IT', pt: 'pt-PT', nl: 'nl-NL', he: 'he-IL', ar: 'ar-SA' };
-        var forceLang = langMap[pageLang] || 'en-US';
-        var iconPos = { bottom: { size: 50, units: 'px' }, type: 'fixed' };
-        iconPos[buttonSide] = { size: 20, units: 'px' };
+    try {
         window.micAccessTool = new MicAccessTool({
-            buttonPosition: buttonSide,
-            forceLang: forceLang,
-            icon: { position: iconPos, backgroundColor: 'transparent', color: 'transparent', img: 'accessible', circular: false },
-            menu: { dimensions: { width: { size: 300, units: 'px' }, height: { size: 'auto', units: 'px' } } }
+            buttonPosition: 'left', // Position on left side
+            forceLang: 'he-IL', // Force language
+            icon: {
+                position: {
+                    bottom: { size: 50, units: 'px' },
+                    left: { size: 20, units: 'px' },
+                    type: 'fixed'
+                },
+                backgroundColor: 'transparent', // Transparent to allow CSS styling
+                color: 'transparent', // Let CSS handle coloring
+                img: 'accessible',
+                circular: false // Square button for consistent styling
+            },
+            menu: {
+                dimensions: {
+                    width: { size: 300, units: 'px' },
+                    height: { size: 'auto', units: 'px' }
+                }
+            }
         });
-    } catch (error) {}
+        
+    } catch (error) {
+    }
     
     // Keyboard shortcut handler: ALT+A (Option+A on Mac) to toggle accessibility widget visibility (desktop only)
     document.addEventListener('keydown', function(event) {
@@ -5239,7 +4354,7 @@ function stripHtmlToText(html) {
         const freeAboveNote = method.conditions?.freeAbove && !hasFreeAbove ? '<div class="shipping-free-note">' + getEcomText('freeAbove', t.freeAbove || 'Free above') + ' ' + formatMoney(method.conditions.freeAbove) + '</div>' : '';
         
         return '<div class="shipping-method-block" data-method-id="' + method.id + '">' +
-          '<label class="shipping-option' + (idx === 0 ? ' selected' : '') + '" data-method-id="' + method.id + '">' +
+          '<label class="shipping-option' + (idx === 0 ? ' selected' : '') + '" data-method-id="' + method.id + '" data-is-pickup="' + ((typeof isPickup !== 'undefined' && isPickup) ? 'true' : 'false') + '">' +
             '<input type="radio" name="shipping" value="' + method.id + '"' + (idx === 0 ? ' checked' : '') + ' onchange="window.zappySelectShipping(this.value)">' +
             '<div class="shipping-info">' +
               '<div class="shipping-name-row">' +
@@ -5309,7 +4424,7 @@ function stripHtmlToText(html) {
         var iconKey = (method.icon || '').toLowerCase().replace(/[\s_]+/g, '-');
         var icon = paymentIcons[iconKey] || '';
         
-        return '<label class="payment-option' + (idx === 0 ? ' selected' : '') + '" data-method-id="' + method.id + '">' +
+        return '<label class="payment-option' + (idx === 0 ? ' selected' : '') + '" data-method-id="' + method.id + '" data-is-pickup="' + ((typeof isPickup !== 'undefined' && isPickup) ? 'true' : 'false') + '">' +
           '<input type="radio" name="payment" value="' + method.id + '"' + (idx === 0 ? ' checked' : '') + ' onchange="window.zappySelectPayment(this.value)">' +
           '<div class="payment-name">' + name + '</div>' +
           (icon ? '<div class="payment-icon">' + icon + '</div>' : '') +
@@ -5794,6 +4909,11 @@ function stripHtmlToText(html) {
             };
 
             var showGrowError = function(msg) {
+              window.__growPendingAuthCode = null;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
               sdkContainer.querySelector('.grow-sdk-wrapper').innerHTML = '<p style="color:#ef4444; text-align:center; padding:20px;">' + msg + '</p>';
               placeOrderBtn.disabled = false;
               placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
@@ -5807,19 +4927,70 @@ function stripHtmlToText(html) {
             // which showed a fatal error on the FIRST click on cold caches
             // (incognito / first visit) while the second click succeeded.
             // So: never call renderPaymentOptions until window.growRuntime exists.
+            var isGrowTransientNotReady = function(r) {
+              var msg = '';
+              if (typeof r === 'string') msg = r;
+              else if (r && r.message) msg = String(r.message);
+              return msg.indexOf('SDK was not loaded') !== -1 ||
+                msg.indexOf('Wallet not initialized') !== -1;
+            };
+
+            var ensureGrowWalletTarget = function() {
+              var wrapper = sdkContainer.querySelector('.grow-sdk-wrapper');
+              if (!wrapper) return;
+              if (!wrapper.querySelector('.grow-sdk-loading') && !document.getElementById('grow-wallet-target')) {
+                wrapper.innerHTML = '<div class="grow-sdk-loading"><div class="grow-sdk-loading-spinner"></div><span>' + (isRTL ? 'טוען אמצעי תשלום...' : 'Loading payment options...') + '</span></div><div id="grow-wallet-target"></div>';
+                return;
+              }
+              if (!document.getElementById('grow-wallet-target')) {
+                var target = document.createElement('div');
+                target.id = 'grow-wallet-target';
+                wrapper.appendChild(target);
+              }
+            };
+
             var renderWhenGrowRuntimeReady = function(authCode) {
-              if (window.growRuntime) { renderGrowWallet(authCode); return; }
-              var attempts = 0;
-              var pollReady = setInterval(function() {
-                attempts++;
-                if (window.growRuntime) {
-                  clearInterval(pollReady);
-                  renderGrowWallet(authCode);
-                } else if (attempts >= 80) { // 20 seconds
-                  clearInterval(pollReady);
+              window.__growPendingAuthCode = authCode;
+              window.__growReadyAttempts = 0;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
+
+              var attempt = function() {
+                if (window.__growPendingAuthCode !== authCode) return;
+                window.__growReadyAttempts = (window.__growReadyAttempts || 0) + 1;
+                if (window.__growReadyAttempts > 80) {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
+                  return;
                 }
-              }, 250);
+                if (typeof growPayment === 'undefined' || !window.growRuntime) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                ensureGrowWalletTarget();
+                window.__growLastRenderTransient = false;
+                try {
+                  growPayment.renderPaymentOptions(authCode);
+                } catch (err) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                if (window.__growLastRenderTransient) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                window.__growReadyTimer = setTimeout(function() {
+                  if (window.__growPendingAuthCode === authCode) attempt();
+                }, 2000);
+              };
+
+              attempt();
             };
 
             var growSdkEvents = {
@@ -5830,18 +5001,34 @@ function stripHtmlToText(html) {
               },
               onFailure: function(r) { showGrowError(r && r.message ? r.message : (isRTL ? 'התשלום נכשל. נסו שוב.' : 'Payment failed. Please try again.')); },
               onError: function(r) {
-                // Ignore the loader shim's "not ready yet" pseudo-error — it is
-                // emitted when renderPaymentOptions runs before mp.min.js has
-                // loaded, and the growRuntime readiness poll will retry anyway.
-                if (typeof r === 'string' && r.indexOf('SDK was not loaded') !== -1) return;
-                showGrowError(r && r.message ? r.message : (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
+                if (isGrowTransientNotReady(r)) {
+                  window.__growLastRenderTransient = true;
+                  return;
+                }
+                window.__growPendingAuthCode = null;
+                if (window.__growReadyTimer) {
+                  clearTimeout(window.__growReadyTimer);
+                  window.__growReadyTimer = null;
+                }
+                var errMsg = (r && r.message) ? r.message : (typeof r === 'string' ? r : '');
+                showGrowError(errMsg || (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
               },
               onTimeout: function() { showGrowError(isRTL ? 'פג תוקף התשלום. נסו שוב.' : 'Payment session expired. Please try again.'); },
               onWalletChange: function(state) {
                 if (state === 'open') {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   var loader = sdkContainer.querySelector('.grow-sdk-loading');
                   if (loader) loader.style.display = 'none';
                 }
+              },
+              onPaymentStart: function() {},
+              onPaymentCancel: function() {
+                placeOrderBtn.disabled = false;
+                placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
               }
             };
 
@@ -7089,7 +6276,7 @@ function stripHtmlToText(html) {
     var checkoutLabels = {
       subtotal: getEcomText('subtotal', t.subtotal || 'Subtotal'),
       vatIncluded: getEcomText('vatIncluded', t.vatIncluded || 'Including VAT'),
-      shipping: getEcomText('shipping', t.shipping || 'Shipping'),
+      shipping: (window.__zappySelectedShippingIsPickup || (selectedShipping && selectedShipping.is_pickup)) ? getEcomText('pickup', (t && t.pickup) || 'Pickup') : getEcomText('shipping', t.shipping || 'Shipping'),
       discount: getEcomText('discount', t.discount || 'Discount'),
       totalToPay: getEcomText('totalToPay', t.totalToPay || 'Total')
     };
@@ -9476,24 +8663,30 @@ function buildApiUrl(path) {
 
   // Get current language for API calls (uses the generated zappyI18n runtime, falls back to stored/html language)
 function getCurrentLanguage() {
+  /* ZAPPY_LANG_DETECTION_FIX */
+  /* ZAPPY_ADDITIONALJS_LANG_DETECTION_FIX */
   try {
     var queryLang = new URLSearchParams(window.location.search).get('lang');
-    if (queryLang) return queryLang;
+    if (queryLang) return String(queryLang).split('-')[0].toLowerCase();
   } catch (e) {}
+  try {
+    var pathMatch = (window.location.pathname || '').match(/^\/([a-z]{2})(?=\/|$)/i);
+    if (pathMatch) return pathMatch[1].toLowerCase();
+  } catch (e2) {}
   if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.getCurrentLanguage === 'function') {
-    return zappyI18n.getCurrentLanguage();
+    var i18nLang = zappyI18n.getCurrentLanguage();
+    if (i18nLang) return String(i18nLang).split('-')[0].toLowerCase();
   }
   if (typeof zappyI18n !== 'undefined' && zappyI18n.language) {
-    return zappyI18n.language;
+    return String(zappyI18n.language).split('-')[0].toLowerCase();
+  }
+  var htmlLang = document.documentElement.getAttribute('lang');
+  if (htmlLang) {
+    return String(htmlLang).split('-')[0].toLowerCase();
   }
   var stored = localStorage.getItem('zappy_lang') || localStorage.getItem('zappy-language') || localStorage.getItem('selectedLanguage') || localStorage.getItem('language');
   if (stored) {
-    return stored;
-  }
-  // Fall back to HTML lang attribute
-  var htmlLang = document.documentElement.getAttribute('lang');
-  if (htmlLang) {
-    return htmlLang;
+    return String(stored).split('-')[0].toLowerCase();
   }
   return null;
 }
@@ -11428,7 +10621,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var orderLabels = [
       ['subtotal', 'subtotal', 'Subtotal'],
       ['vatIncluded', 'vatIncluded', 'Including VAT'],
-      ['shipping', 'shipping', 'Shipping'],
+      ['shipping', (typeof selectedShipping !== 'undefined' && selectedShipping && selectedShipping.is_pickup) ? 'pickup' : 'shipping', (typeof selectedShipping !== 'undefined' && selectedShipping && selectedShipping.is_pickup) ? 'Pickup' : 'Shipping'],
       ['discount', 'discount', 'Discount'],
       ['totalToPay', 'totalToPay', 'Total to Pay']
     ];
@@ -14201,11 +13394,12 @@ async function loadRelatedProducts(currentProduct, t) {
 /* END ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 
 
-/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V3 */
+/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V4 */
 (function(){
   try {
-    if (window.__zappyPublishedZoomInitV3) return;
-    window.__zappyPublishedZoomInitV3 = true;
+    if (window.__zappyPublishedZoomInitV4) return;
+    window.__zappyPublishedZoomInitV4 = true;
+    window.__zappyPublishedZoomInitV3 = true; // legacy guard — keep stale V3 copies inert
 
     function isHeroBgWrapper(wrapper) {
       var img = wrapper.querySelector('img');
@@ -14219,14 +13413,25 @@ async function loadRelatedProducts(currentProduct, t) {
 
     // SYNC: These helpers must match sharedZoomCropMath.js
     function parseObjPos(op) {
-      var x = 50, y = 50;
+      var x = null, y = null;
       try {
-        if (typeof op === 'string') {
-          var m = op.match(/(-?\d+(?:\.\d+)?)%\s+(-?\d+(?:\.\d+)?)%/);
-          if (m) { x = parseFloat(m[1]); y = parseFloat(m[2]); }
+        if (typeof op === 'string' && op.trim()) {
+          var tokens = op.trim().toLowerCase().split(/\s+/).slice(0, 2);
+          for (var i = 0; i < tokens.length; i++) {
+            var tok = tokens[i];
+            var val;
+            if (tok === 'left') { x = 0; continue; }
+            if (tok === 'right') { x = 100; continue; }
+            if (tok === 'top') { y = 0; continue; }
+            if (tok === 'bottom') { y = 100; continue; }
+            if (tok === 'center') val = 50;
+            else if (/^-?\d*\.?\d+%$/.test(tok)) val = parseFloat(tok);
+            else val = 50;
+            if (x === null) x = val; else if (y === null) y = val;
+          }
         }
       } catch (e) {}
-      if (!isFinite(x)) x = 50; if (!isFinite(y)) y = 50;
+      if (x === null || !isFinite(x)) x = 50; if (y === null || !isFinite(y)) y = 50;
       return { x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) };
     }
 
@@ -14235,6 +13440,12 @@ async function loadRelatedProducts(currentProduct, t) {
         return { w: 100, h: 100 };
       if (imgA >= contA) return { w: (imgA / contA) * 100, h: 100 };
       return { w: 100, h: (contA / imgA) * 100 };
+    }
+    function containPercents(imgA, contA) {
+      if (!isFinite(imgA) || imgA <= 0 || !isFinite(contA) || contA <= 0)
+        return { w: 100, h: 100 };
+      if (imgA >= contA) return { w: 100, h: (contA / imgA) * 100 };
+      return { w: (imgA / contA) * 100, h: 100 };
     }
 
     var IMAGE_SLOT_CLASS_TOKENS = ['image-wrap', 'image-tile', 'image-slot', 'card-image', 'card-media', 'media-wrap', 'portrait-wrap'];
@@ -14510,9 +13721,17 @@ async function loadRelatedProducts(currentProduct, t) {
         var shStr = wrapper.getAttribute('data-zappy-zoom-wrapper-height');
         var swNum = parseFloat(swStr) || 0;
         var shNum = parseFloat(shStr) || 0;
+        // If the slot's height is only as tall as the wrapper, that height is
+        // content-driven by THIS wrapper (common for .home-feature-image-wrap
+        // with no CSS height). Switching to height:100% then collapses on the
+        // next layout pass because the absolute <img> no longer contributes
+        // intrinsic height — the Artistic Epoxy / nwooda middle-card bug.
+        var slotSizedByWrapper = Math.abs(slotRect.height - wrapRect.height) <= 2;
+        var canFillSlotHeight = slotRect.height > 0 && !slotSizedByWrapper &&
+          (forceCardSlotFill || (slotHeightGap > 4 && slotCS.overflow !== 'visible'));
         wrapper.style.setProperty('width', '100%', 'important');
         wrapper.style.setProperty('max-width', '100%', 'important');
-        if (slotRect.height > 0 && (forceCardSlotFill || (slotHeightGap > 4 && slotCS.overflow !== 'visible'))) {
+        if (canFillSlotHeight) {
           wrapper.style.setProperty('height', '100%', 'important');
           wrapper.style.setProperty('aspect-ratio', 'auto', 'important');
           wrapper.style.setProperty('padding-bottom', '0', 'important');
@@ -14554,8 +13773,12 @@ async function loadRelatedProducts(currentProduct, t) {
             }
           }
         } else if (swNum > 0 && shNum > 0) {
+          // Heightless / content-sized slots (and already-collapsed wrappers):
+          // keep width:100% and size via the saved aspect ratio so absolute
+          // images remain visible after refresh.
           wrapper.style.setProperty('aspect-ratio', swNum + '/' + shNum, 'important');
           wrapper.style.setProperty('height', 'auto', 'important');
+          wrapper.style.setProperty('padding-bottom', '0', 'important');
         }
         wrapper.setAttribute('data-zappy-card-slot-fill', '1');
         // Also stretch any intermediate .zappy-inserted-element ancestors up
@@ -14737,11 +13960,15 @@ async function loadRelatedProducts(currentProduct, t) {
       var imgA = nW / nH;
       var contA = rect.width / rect.height;
       var cover = coverPercents(imgA, contA);
+      var contain = containPercents(imgA, contA);
 
       var wPct = 100, hPct = 100;
       if (zoom >= 1) {
         wPct = cover.w * zoom;
         hPct = cover.h * zoom;
+      } else if (zoom <= 0.5) {
+        wPct = contain.w;
+        hPct = contain.h;
       } else {
         var t = (zoom - 0.5) / 0.5;
         if (!isFinite(t)) t = 0;
@@ -14775,6 +14002,9 @@ async function loadRelatedProducts(currentProduct, t) {
       for (var j = 0; j < zoomImgs.length; j++) {
         var img = zoomImgs[j];
         if (img.closest && img.closest('[data-zappy-zoom-wrapper="true"]')) continue;
+        // Carousel slide imgs are absolute cover-fill inside their slide —
+        // forcing position:relative + max-height here would collapse the slide.
+        if (img.closest && img.closest('.zappy-carousel-slide')) continue;
         img.style.setProperty('position', 'relative', 'important');
         img.style.setProperty('width', '100%', 'important');
         img.style.setProperty('height', 'auto', 'important');
@@ -14855,8 +14085,32 @@ async function loadRelatedProducts(currentProduct, t) {
           if (mSrc) img.src = mSrc;
           if (mPos) img.style.setProperty('object-position', mPos, 'important');
           if (mZoom > 1) {
-            img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
-            img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+            // Match the editor's wrapper-crop geometry (percentage pan window)
+            // instead of transform:scale — the scale path zooms around the
+            // focal point of the already-cropped view, which visibly diverges
+            // from what the user framed in the editor's Mobile Only tab.
+            var applyHeroMobileCrop = function() {
+              var rect = wrapper.getBoundingClientRect();
+              var nW = img.naturalWidth || 0, nH = img.naturalHeight || 0;
+              if (!rect || !rect.width || !rect.height || !(nW > 0 && nH > 0)) {
+                img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+                img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+                return;
+              }
+              var cover = coverPercents(nW / nH, rect.width / rect.height);
+              var wP = cover.w * mZoom, hP = cover.h * mZoom;
+              var p = parseObjPos(mPos || img.getAttribute('data-zappy-object-position') || '50% 50%');
+              img.style.setProperty('position', 'absolute', 'important');
+              img.style.setProperty('left', ((100 - wP) * (p.x / 100)) + '%', 'important');
+              img.style.setProperty('top', ((100 - hP) * (p.y / 100)) + '%', 'important');
+              img.style.setProperty('width', wP + '%', 'important');
+              img.style.setProperty('height', hP + '%', 'important');
+              img.style.setProperty('object-fit', 'cover', 'important');
+              img.style.removeProperty('transform');
+              img.style.removeProperty('transform-origin');
+            };
+            if (img.complete && img.naturalWidth > 0) applyHeroMobileCrop();
+            else img.addEventListener('load', applyHeroMobileCrop, { once: true });
           }
         }
       }
@@ -14894,14 +14148,85 @@ async function loadRelatedProducts(currentProduct, t) {
 /* END ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME */
 
 
-/* ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V2 */
+/* ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V3 */
 (function(){
   try {
-    if (window.__zappyMobileImageSwapInitV2) return;
-    window.__zappyMobileImageSwapInitV2 = true;
+    if (window.__zappyMobileImageSwapInitV3) return;
+    window.__zappyMobileImageSwapInitV3 = true;
+    window.__zappyMobileImageSwapInitV2 = true; // keep stale V2 copies inert
     var SEL = 'img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]';
     var applied = false;
     function standalone(img){ return img && !img.closest('[data-zappy-zoom-wrapper="true"]'); }
+    // SYNC: must match sharedZoomCropMath.js
+    function parseOp(op){
+      var x=null,y=null;
+      try{
+        if(typeof op==='string'&&op.trim()){
+          var toks=op.trim().toLowerCase().split(/\s+/).slice(0,2);
+          for(var i=0;i<toks.length;i++){
+            var tk=toks[i],v;
+            if(tk==='left'){x=0;continue;} if(tk==='right'){x=100;continue;}
+            if(tk==='top'){y=0;continue;} if(tk==='bottom'){y=100;continue;}
+            if(tk==='center')v=50; else if(/^-?\d*\.?\d+%$/.test(tk))v=parseFloat(tk); else v=50;
+            if(x===null)x=v; else if(y===null)y=v;
+          }
+        }
+      }catch(e){}
+      if(x===null||!isFinite(x))x=50; if(y===null||!isFinite(y))y=50;
+      return {x:Math.max(0,Math.min(100,x)),y:Math.max(0,Math.min(100,y))};
+    }
+    // Editor-parity mobile zoom: reproduce the zoom-wrapper crop geometry
+    // using the img's PARENT as the crop box (the editor builds a transient
+    // wrapper in preview, but cleanSectionHtmlForSave removes it when desktop
+    // needs no zoom — so a mobile-only zoom ships as a standalone img).
+    // Falls back to the legacy transform:scale approximation whenever the
+    // geometry can't be measured, so something always applies.
+    function applyStandaloneMobileZoom(img, mZoom, mPos){
+      try {
+        var p = img.parentElement;
+        if (!p) return;
+        if (!p._zappyDesktop) p._zappyDesktop = { style: p.getAttribute('style') };
+        p.style.setProperty('overflow', 'hidden', 'important');
+        function legacyScale(){
+          img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+          img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+        }
+        function run(){
+          try {
+            var rect = p.getBoundingClientRect ? p.getBoundingClientRect() : null;
+            var nW = img.naturalWidth || 0, nH = img.naturalHeight || 0;
+            if (!rect || !(rect.width > 0) || !(rect.height > 0) || !(nW > 0 && nH > 0)) { legacyScale(); return; }
+            // Lock the parent's current box BEFORE pulling the img out of flow,
+            // otherwise the parent collapses when the img was its height source.
+            try {
+              var pcs = window.getComputedStyle(p);
+              if (pcs && pcs.position === 'static') p.style.setProperty('position', 'relative', 'important');
+              p.style.setProperty('aspect-ratio', String(Math.round((rect.width / rect.height) * 10000) / 10000), 'important');
+            } catch(e0) {}
+            var imgA = nW / nH, contA = rect.width / rect.height;
+            var cw = 100, ch = 100;
+            if (imgA >= contA) { cw = (imgA / contA) * 100; } else { ch = (contA / imgA) * 100; }
+            var wP = cw * mZoom, hP = ch * mZoom;
+            var pos = parseOp(mPos || img.getAttribute('data-zappy-object-position') || '50% 50%');
+            img.style.setProperty('position', 'absolute', 'important');
+            img.style.setProperty('left', ((100 - wP) * (pos.x / 100)) + '%', 'important');
+            img.style.setProperty('top', ((100 - hP) * (pos.y / 100)) + '%', 'important');
+            img.style.setProperty('width', wP + '%', 'important');
+            img.style.setProperty('height', hP + '%', 'important');
+            img.style.setProperty('max-width', 'none', 'important');
+            img.style.setProperty('max-height', 'none', 'important');
+            img.style.setProperty('object-fit', 'cover', 'important');
+            img.style.setProperty('margin', '0', 'important');
+            if (img.style.removeProperty) { img.style.removeProperty('transform'); img.style.removeProperty('transform-origin'); }
+          } catch(e1) { try { legacyScale(); } catch(e2) {} }
+        }
+        if (img.complete && img.naturalWidth > 0) run();
+        else if (typeof img.addEventListener === 'function') {
+          legacyScale(); // immediate approximation, refined once dimensions load
+          img.addEventListener('load', run, { once: true });
+        } else legacyScale();
+      } catch(eZ) {}
+    }
     function applyMobile(){
       if (applied) return; applied = true;
       document.querySelectorAll(SEL).forEach(function(img){
@@ -14913,13 +14238,7 @@ async function loadRelatedProducts(currentProduct, t) {
         if (mSrc) img.src = mSrc;
         if (mPos) img.style.setProperty('object-position', mPos, 'important');
         if (isFinite(mZoom) && mZoom > 1) {
-          img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
-          img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
-          var p = img.parentElement;
-          if (p) {
-            if (!p._zappyDesktop) p._zappyDesktop = { style: p.getAttribute('style') };
-            p.style.setProperty('overflow', 'hidden', 'important');
-          }
+          applyStandaloneMobileZoom(img, mZoom, mPos);
         }
       });
     }
@@ -14952,7 +14271,7 @@ async function loadRelatedProducts(currentProduct, t) {
     else init();
   } catch (eOuter) {}
 })();
-/* END ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V2 */
+/* END ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V3 */
 
 
 /* ZAPPY_MOBILE_MENU_TOGGLE_V3 */
@@ -15856,7 +15175,7 @@ function fixContrast(){
 /* END ZAPPY_CONTACT_FORM_PREVENT_DEFAULT */
 
 
-/* ZAPPY_PUBLISHED_GRID_CENTERING */
+/* ZAPPY_PUBLISHED_GRID_CENTERING_V2 */
 (function(){
   try {
     if (window.__zappyGridCenteringInit) return;
@@ -15920,6 +15239,21 @@ function fixContrast(){
           var colWidth = parseFloat(colWidths[0]) || 0;
           var gap = parseFloat(cs.columnGap);
           if (isNaN(gap)) gap = parseFloat(cs.gap) || 0;
+
+          // Skip non-uniform column widths (mirrors preview autoCenterAllGrids).
+          // Centering assumes equal columns; mixed tracks produce wrong offsets.
+          var parsedWidths = colWidths.map(function(w) { return parseFloat(w) || 0; });
+          if (Math.max.apply(null, parsedWidths) > Math.min.apply(null, parsedWidths) * 1.5) continue;
+
+          // Skip multi-span items (e.g. grid-column: 1 / -1 full-bleed cards, or
+          // bento tiles with span 2+). totalItems % colCount cannot account for
+          // spanned tracks, so a lone full-span card in a 4-col auto-fit grid was
+          // mis-classified as a 1-of-4 orphan and shifted by translateX(~459px).
+          var singleColThreshold = colWidth * 1.5 + gap;
+          var anyMultiSpan = items.some(function(it) {
+            return it.getBoundingClientRect().width > singleColThreshold;
+          });
+          if (anyMultiSpan) continue;
 
           var missingCols = colCount - itemsInLastRow;
           var offset = missingCols * (colWidth + gap) / 2;
@@ -16094,17 +15428,18 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_VARIANT_SELECTION_FIX_V10 */
+/* ZAPPY_VARIANT_SELECTION_FIX_V14 */
 (function(){
   try {
     if (window.__zappyVariantFixInit) return;
     window.__zappyVariantFixInit = true;
+    function _isMultiQty(p){return !!(p&&p.card_variants&&p.card_variants.multiQuantity)||!!(typeof window.isProductMultiQuantity==='function'&&window.isProductMultiQuantity(p))||!!document.querySelector('[data-multi-quantity="true"]');}
 
     // Inject CSS for disabled/OOS variant styling
     if (!document.getElementById('zappy-variant-fix-css')) {
       var s = document.createElement('style');
       s.id = 'zappy-variant-fix-css';
-      s.textContent = '.variant-option.disabled{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.disabled::after,.variant-option.disabled::before{content:none!important}.variant-option.color-swatch.disabled{text-decoration:none!important}.variant-option.out-of-stock{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.out-of-stock::after,.variant-option.out-of-stock::before{content:none!important}.variant-option.color-swatch.out-of-stock{text-decoration:none!important}';
+      s.textContent = '.variant-option.disabled{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.disabled::after,.variant-option.disabled::before{content:none!important}.variant-option.color-swatch.disabled{text-decoration:none!important}.variant-option.out-of-stock{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.out-of-stock::after,.variant-option.out-of-stock::before{content:none!important}.variant-option.color-swatch.out-of-stock{text-decoration:none!important}.product-info .product-stock.select-required{color:#d97706!important}';
       document.head.appendChild(s);
     }
 
@@ -16127,7 +15462,8 @@ function fixContrast(){
     // _autoSelectSingles. Re-trigger fixVariantSelection from inside the wrapper
     // so the runtime fix runs once data finally arrives. Deferred via setTimeout
     // so the page's own renderProductDetail finishes mutating the DOM first.
-    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
+    function _hasMatrix(p){return !!(p&&p.card_variants&&Array.isArray(p.card_variants.matrix)&&p.card_variants.matrix.length>0)}
+    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection!=='function')return;_initOvr=true;var _origInit=window.initVariantSelection;window.initVariantSelection=function(p,t){if(_isMultiQty(p)){return _origInit.call(this,p,t);}if(p&&((p.variants&&p.variants.length>0)||_hasMatrix(p))){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
     _oivs();
 
     function _augmentProductFromCardVariants(p){
@@ -16150,7 +15486,15 @@ function fixContrast(){
     function _trVal(p,k,v,f){if(typeof window.zappyTranslateVariantValue==='function')return window.zappyTranslateVariantValue(p,k,v,f);var lang='';try{lang=String((typeof getCurrentEcomLanguage==='function'?getCurrentEcomLanguage():(document.documentElement.lang||''))||'').split('-')[0].toLowerCase()}catch(e){}function kc(x){if(lang!=='he')return'';if(String(k||'').toLowerCase().indexOf('color')===-1&&String(k||'').toLowerCase()!=='colour')return'';var raw=String(x==null?'':x).trim();if(!raw||/[\u0590-\u05FF]/.test(raw))return'';var map={black:'שחור',white:'לבן',gray:'אפור',grey:'אפור',red:'אדום',green:'ירוק',blue:'כחול',navy:'כחול כהה',pink:'ורוד',purple:'סגול',yellow:'צהוב',orange:'כתום',brown:'חום',beige:'בז׳',gold:'זהב',silver:'כסף',teal:'טורקיז',mint:'מנטה',cream:'קרם',ivory:'שנהב'},direct=map[raw.toLowerCase().replace(/\s+/g,' ')];if(direct)return direct;var parts=raw.split(/\s*-\s*/).filter(Boolean),tr=parts.map(function(part){return map[String(part).toLowerCase().replace(/\s+/g,' ')]});return parts.length>1&&tr.every(Boolean)?tr.join('-'):''}var vs=p&&Array.isArray(p.variants)?p.variants:[],w=String(v);for(var i=0;i<vs.length;i++){var x=vs[i]||{},a=x.attributes_source||x.attributes||{};if(!a||String(a[k])!==w)continue;var tr=x.attributes_translations&&lang&&x.attributes_translations[lang];if(tr&&tr[k])return kc(tr[k])||String(tr[k]);var d=x.attributes_display||{};if(d&&d[k])return kc(d[k])||String(d[k])}var m=p&&p.card_variants&&Array.isArray(p.card_variants.matrix)?p.card_variants.matrix:[];for(var j=0;j<m.length;j++){var r=m[j]||{},ra=r.attributes||{};if(ra&&String(ra[k])===w&&r.attributes_display&&r.attributes_display[k])return kc(r.attributes_display[k])||String(r.attributes_display[k])}return kc(f)||f}
     function _ensureCvBtns(){var p=_vProduct||window.currentProduct,cv=p&&p.card_variants;if(!cv||!Array.isArray(cv.options))return;cv.options.forEach(function(o){if(!o||!o.key||!Array.isArray(o.values))return;var g=null;document.querySelectorAll('.variant-group').forEach(function(c){if(c.getAttribute('data-group')===o.key)g=c});var ct=g&&g.querySelector('.variant-options');if(!ct)return;var isC=o.type==='color'||String(o.key).toLowerCase().indexOf('color')!==-1;o.values.forEach(function(e){if(!e||e.value==null)return;var dl=_trVal(p,o.key,e.value,String(e.label||e.value));var eb=null;ct.querySelectorAll('.variant-option').forEach(function(b){if(b.getAttribute('data-value')===String(e.value))eb=b});if(eb){eb.setAttribute('data-display-value',dl);eb.title=dl;if(isC)eb.style.cssText=_cvStyle(e);else eb.textContent=dl;return}var b=document.createElement('button');b.type='button';b.className='variant-option'+(isC?' color-swatch':'');b.setAttribute('data-attr',o.key);b.setAttribute('data-value',String(e.value));b.setAttribute('data-display-value',dl);b.title=dl;if(isC)b.style.cssText=_cvStyle(e);else b.textContent=dl;ct.appendChild(b)})})}
 
-    function _gv() { if(!_vProduct)return []; return (_vProduct.variants||[]).filter(function(v){return v.is_active!==false}); }
+    function _gv() {
+      if(!_vProduct)return [];
+      var rows=(_vProduct.variants||[]).filter(function(v){return v&&v.is_active!==false});
+      if(rows.length)return rows;
+      // Matrix-only / incomplete variants payload: treat card_variants.matrix as
+      // the purchasable row set (same as updateVariantUI / renderProductDetail).
+      var m=_vProduct.card_variants&&Array.isArray(_vProduct.card_variants.matrix)?_vProduct.card_variants.matrix:[];
+      return m.filter(function(r){return r&&r.is_active!==false});
+    }
     function _gak() { var k=[],s={}; document.querySelectorAll('.variant-option').forEach(function(b){var a=b.getAttribute('data-attr');if(a&&!s[a]){s[a]=true;k.push(a)}}); return k; }
     // Wildcard match: a variant that doesn't define an attribute matches any value.
     // Prefers the shared window.zappyVariantMatrix (same script.js) so the PDP,
@@ -16161,6 +15505,10 @@ function fixContrast(){
     function _oos(v) {
       if(window.zappyVariantMatrix)return window.zappyVariantMatrix.isUnavailable(v);
       if(!v)return true;
+      // Mirror zappyVariantMatrix.isUnavailable — matrix rows often only set
+      // available (no stock_status / inventory fields).
+      if(typeof v.available==='boolean')return !v.available;
+      if(v.is_active===false)return true;
       if(v.stock_status==='out_of_stock')return true;
       var i=v.inventory_quantity!=null?v.inventory_quantity:v.inventoryQuantity;
       if(i!=null&&i!==''){var n=parseFloat(i);if(isFinite(n))return n<=0}
@@ -16190,9 +15538,24 @@ function fixContrast(){
       else if(window._originalMainImageSrc){mi.src=window._originalMainImageSrc}
     }
 
+    // Mirror updateVariantUI's incomplete-selection availability: prefer active
+    // variant rows, then fall back to card_variants.matrix when variants are
+    // empty/incomplete/all-OOS. V11 only consulted _gv()→variants and flashed
+    // "Out of Stock" on matrix-heavy products that initially showed "Select option".
+    function _anyAvail(){
+      var rows=_gv();
+      if(rows.some(function(v){return !_oos(v)}))return true;
+      var p=_vProduct||window.currentProduct;
+      var m=p&&p.card_variants&&Array.isArray(p.card_variants.matrix)?p.card_variants.matrix:[];
+      if(m.length)return m.some(function(r){return r&&r.available!==false&&r.is_active!==false});
+      return false;
+    }
+    function _selMsg(){var t=_vT||{};if(typeof getEcomText==='function')return getEcomText('selectVariant',t.selectVariant||'Select option');var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';return t.selectVariant||(rtl?'\u05D1\u05D7\u05E8 \u05D0\u05E4\u05E9\u05E8\u05D5\u05EA':'Select option')}
     function _upd() {
       var t=_vT,product=_vProduct;if(!product)return;
-      var keys=_gak(),allSel=keys.every(function(k){return selectedAttributes.hasOwnProperty(k)});
+      // keys.length===0 must NOT vacuous-true allSel — that used to resolve the
+      // first (often OOS) variant and flash "Out of Stock" before a pick.
+      var keys=_gak(),allSel=keys.length>0&&keys.every(function(k){return selectedAttributes.hasOwnProperty(k)});
       var sd=document.getElementById('product-stock-display'),ab=document.getElementById('add-to-cart-btn');
       keys.forEach(function(k){var sp=document.querySelector('.variant-group[data-group="'+k+'"] .variant-selected-value');if(sp){var sb=document.querySelector('.variant-option[data-attr="'+k+'"].selected');sp.textContent=(sb&&sb.getAttribute('data-display-value'))||selectedAttributes[k]||''}});
       if(allSel){
@@ -16205,8 +15568,15 @@ function fixContrast(){
         }
       } else {
         window.selectedVariant=null;
-        if(sd){sd.className='product-stock in-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>'+(t.inStock||'In Stock')}
-        if(ab){ab.disabled=false;ab.style.opacity='';ab.style.cursor=''}
+        // Incomplete selection: prompt to pick an option when any variant is still
+        // purchasable. Never echo parent stock_status as "Out of Stock" here —
+        // that was the limousine-type PDP bug (אזל מהמלאי before choosing).
+        var avail=_anyAvail();
+        if(sd){
+          if(avail){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+_selMsg()}
+          else{sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.outOfStock||'Out of Stock')}
+        }
+        if(ab){if(avail){ab.disabled=false;ab.style.opacity='';ab.style.cursor=''}else{ab.disabled=true;ab.style.opacity='0.5';ab.style.cursor='not-allowed'}}
         var skd2=document.getElementById('product-sku-display');if(skd2&&product.sku){var skL2=(typeof getEcomText==='function')?getEcomText('sku',t.sku||'SKU'):(t.sku||'SKU');skd2.textContent=skL2+': '+product.sku}
         var pd=document.getElementById('product-price-display');if(pd){var c=product.currency||t.currency||String.fromCharCode(8362),bP=window.productBasePrice||parseFloat(product.price)||0,oP=window.productOriginalPrice||parseFloat(product.compare_at_price||product.original_price||0),hS=window.productHasSalePrice,hR=window.productHasVariantPriceRange,mP=window.productVariantMinPrice;var _cdFn=(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id)?window.__zappyApplyCustomerPercentToPrice:null;if(hR&&mP!=null&&isFinite(mP)){var sL=(typeof getEcomText==='function')?getEcomText('startingAt',t.startingAt||'Starting at'):(t.startingAt||'Starting at');if(_cdFn){var _r=_cdFn(mP,product.id);if(_r&&_r.applied){pd.innerHTML=sL+' '+c+_r.price.toFixed(2)+' <span class="original-price">'+c+mP.toFixed(2)+'</span>'}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else if(_cdFn){var _r2=_cdFn(bP,product.id);if(_r2&&_r2.applied){pd.innerHTML=c+_r2.price.toFixed(2)+' <span class="original-price">'+c+bP.toFixed(2)+'</span>'}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}
         if(typeof updatePricePerUnitDisplay==='function'){var hR2=window.productHasVariantPriceRange,mP2=window.productVariantMinPrice,bP2=window.productBasePrice||parseFloat(product.price)||0,rP=(hR2&&mP2!=null&&isFinite(mP2))?mP2:bP2;if(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id){var _cdRp=window.__zappyApplyCustomerPercentToPrice(rP,product.id);if(_cdRp&&_cdRp.applied)rP=_cdRp.price}updatePricePerUnitDisplay(rP,product,t)}
@@ -16216,6 +15586,7 @@ function fixContrast(){
 
     // Document-level capture handler
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var btn=e.target.closest?e.target.closest('.variant-option'):null;if(!btn)return;
       if(!_vProduct||_gv().length===0)return;
       e.preventDefault();e.stopImmediatePropagation();
@@ -16229,13 +15600,14 @@ function fixContrast(){
 
     // Document-level add-to-cart interceptor (capture phase) to prevent original alert()
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var ab=e.target.closest?e.target.closest('.add-to-cart-btn,.add-to-cart,#add-to-cart-btn,[onclick*="addProductToCart"]'):null;if(!ab)return;
       if(!_vProduct||_gv().length===0)return;
       var t=_vT||{},keys=_gak();
       for(var i=0;i<keys.length;i++){if(!selectedAttributes.hasOwnProperty(keys[i])){
         e.preventDefault();e.stopImmediatePropagation();
         var grp=document.querySelector('.variant-group[data-group="'+keys[i]+'"]'),lbl=grp?grp.querySelector('.variant-group-label'):null,name=lbl?lbl.textContent.replace(/[:\s]+$/,'').trim():keys[i];
-        var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
+        var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
         if(grp){grp.style.transition='background 0.3s';grp.style.background='rgba(255,0,0,0.05)';grp.style.borderRadius='8px';setTimeout(function(){grp.style.background=''},2000)}return}}
       var m=_fm(selectedAttributes);if(m.length>0&&m.every(function(v){return _oos(v)})){e.preventDefault();e.stopImmediatePropagation();return}
     },true);
@@ -16292,7 +15664,9 @@ function fixContrast(){
     function fixVariantSelection() {
       _oivs();
       var product=_vProduct||window.currentProduct,t=_vT||window.productTranslations||{};
-      if(!product||!product.variants||product.variants.length===0)return;
+      if(!product)return;
+      if(_isMultiQty(product))return;
+      if((!product.variants||product.variants.length===0)&&!_hasMatrix(product))return;
       if(document.querySelectorAll('.variant-option').length===0)return;
       if(window._zappyVariantFixed)return;window._zappyVariantFixed=true;
       _vProduct=_augmentProductFromCardVariants(product);if(!t.pleaseSelect){var isRTL=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';t.pleaseSelect=isRTL?'נא לבחור':'Please select'}_vT=t;
@@ -16304,9 +15678,10 @@ function fixContrast(){
       document.querySelectorAll('.variant-options').forEach(function(c){var b=Array.from(c.querySelectorAll('.variant-option'));if(b.length<2)return;b.sort(function(a,b){var va=a.getAttribute('data-value')||'',vb=b.getAttribute('data-value')||'';var sa=_so[va.toLowerCase()],sb=_so[vb.toLowerCase()];var na=sa===undefined?parseFloat(va):NaN,nb=sb===undefined?parseFloat(vb):NaN;if(!isNaN(na)&&!isNaN(nb))return na-nb;if(sa!==undefined&&sb!==undefined)return sa-sb;var ca=!isNaN(na)?0:sa!==undefined?1:2,cb=!isNaN(nb)?0:sb!==undefined?1:2;if(ca!==cb)return ca-cb;return va.localeCompare(vb)});b.forEach(function(x){c.appendChild(x)})});
       var origATC=window.addProductToCart;
       window.addProductToCart=function(){
+        var pNow=window.currentProduct;if(_isMultiQty(pNow)){if(origATC)return origATC.apply(this,arguments);return;}
         var keys=_gak();for(var i=0;i<keys.length;i++){if(!selectedAttributes.hasOwnProperty(keys[i])){
           var grp=document.querySelector('.variant-group[data-group="'+keys[i]+'"]'),lbl=grp?grp.querySelector('.variant-group-label'):null,name=lbl?lbl.textContent.replace(/[:\s]+$/,'').trim():keys[i];
-          var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
+          var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
           if(grp){grp.style.transition='background 0.3s';grp.style.background='rgba(255,0,0,0.05)';grp.style.borderRadius='8px';setTimeout(function(){grp.style.background=''},2000)}return}}
         var m=_fm(selectedAttributes);if(m.length>0&&m.every(function(v){return _oos(v)}))return;
         if(origATC)origATC.apply(this,arguments);
@@ -16401,23 +15776,692 @@ function fixContrast(){
   else document.addEventListener('DOMContentLoaded', function() { bodyObs.observe(document.body, { childList: true, subtree: true }); });
 })();
 
+/* ZAPPY_INVENTORY_QTY_UX_V3 */
+;(function(){
+  try {
+    if (window.__zappyInventoryQtyUxInitV3) return;
+    window.__zappyInventoryQtyUxInitV3 = true;
 
-/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD */
+    var INV_LABELS = {"ar": {"onlyOneLeft": "تبقى قطعة واحدة فقط", "onlyXLeft": "تبقى {count} قطع فقط"}, "bg": {"onlyOneLeft": "Остава само 1", "onlyXLeft": "Остават само {count}"}, "de": {"onlyOneLeft": "Nur noch 1 auf Lager", "onlyXLeft": "Nur noch {count} auf Lager"}, "el": {"onlyOneLeft": "Απομένει μόνο 1", "onlyXLeft": "Απομένουν μόνο {count}"}, "en": {"onlyOneLeft": "Only 1 left in stock", "onlyXLeft": "Only {count} left in stock"}, "es": {"onlyOneLeft": "Solo queda 1 en stock", "onlyXLeft": "Solo quedan {count} en stock"}, "fr": {"onlyOneLeft": "Plus qu'1 en stock", "onlyXLeft": "Plus que {count} en stock"}, "he": {"onlyOneLeft": "נותר פריט אחד בלבד", "onlyXLeft": "נותרו רק {count} במלאי"}, "it": {"onlyOneLeft": "Ne resta solo 1", "onlyXLeft": "Ne restano solo {count}"}, "ja": {"onlyOneLeft": "残り1点のみ", "onlyXLeft": "残り{count}点のみ"}, "lt": {"onlyOneLeft": "Liko tik 1", "onlyXLeft": "Liko tik {count}"}, "pt": {"onlyOneLeft": "Só resta 1 em estoque", "onlyXLeft": "Só restam {count} em estoque"}, "ru": {"onlyOneLeft": "Остался только 1", "onlyXLeft": "Осталось только {count}"}, "th": {"onlyOneLeft": "เหลือเพียง 1 ชิ้น", "onlyXLeft": "เหลือเพียง {count} ชิ้น"}, "tr": {"onlyOneLeft": "Sadece 1 adet kaldı", "onlyXLeft": "Sadece {count} adet kaldı"}, "zh": {"onlyOneLeft": "仅剩 1 件", "onlyXLeft": "仅剩 {count} 件"}};
+
+    function resolveLang() {
+      try {
+        if (typeof window.getCurrentEcomLanguage === 'function') {
+          var l1 = window.getCurrentEcomLanguage();
+          if (l1) return String(l1).toLowerCase().split('-')[0];
+        }
+      } catch (e0) {}
+      try {
+        if (typeof window.getCurrentLanguage === 'function') {
+          var l = window.getCurrentLanguage();
+          if (l) return String(l).toLowerCase().split('-')[0];
+        }
+      } catch (e) {}
+      try {
+        if (window.zappyI18n && typeof window.zappyI18n.getCurrentLanguage === 'function') {
+          var l2 = window.zappyI18n.getCurrentLanguage();
+          if (l2) return String(l2).toLowerCase().split('-')[0];
+        }
+      } catch (e1) {}
+      try {
+        var dl = document.documentElement && (document.documentElement.lang || document.documentElement.getAttribute('lang'));
+        if (dl) return String(dl).toLowerCase().split('-')[0];
+      } catch (e2) {}
+      return 'en';
+    }
+
+    function patchEcomRuntimeText() {
+      try {
+        if (typeof window.ECOM_RUNTIME_TEXT !== 'object' || !window.ECOM_RUNTIME_TEXT) {
+          window.ECOM_RUNTIME_TEXT = {};
+        }
+        Object.keys(INV_LABELS).forEach(function(lang) {
+          var pack = INV_LABELS[lang] || {};
+          if (!window.ECOM_RUNTIME_TEXT[lang] || typeof window.ECOM_RUNTIME_TEXT[lang] !== 'object') {
+            window.ECOM_RUNTIME_TEXT[lang] = {};
+          }
+          window.ECOM_RUNTIME_TEXT[lang].onlyOneLeft = pack.onlyOneLeft;
+          window.ECOM_RUNTIME_TEXT[lang].onlyXLeft = pack.onlyXLeft;
+        });
+      } catch (e) {}
+    }
+    patchEcomRuntimeText();
+
+    function ecomText(key, fallback, vars) {
+      var lang = resolveLang();
+      var pack = INV_LABELS[lang] || INV_LABELS.en || {};
+      var packKey = (key === 'ecom_onlyOneLeft' || key === 'onlyOneLeft') ? 'onlyOneLeft'
+        : ((key === 'ecom_onlyXLeft' || key === 'onlyXLeft') ? 'onlyXLeft' : null);
+      var text = null;
+      if (packKey && pack[packKey]) text = pack[packKey];
+      if (!text) {
+        try {
+          if (window.ECOM_RUNTIME_TEXT && window.ECOM_RUNTIME_TEXT[lang] && window.ECOM_RUNTIME_TEXT[lang][packKey || key]) {
+            text = window.ECOM_RUNTIME_TEXT[lang][packKey || key];
+          }
+        } catch (e2) {}
+      }
+      if (!text) text = fallback || '';
+      if (vars && typeof vars === 'object') {
+        Object.keys(vars).forEach(function(k) {
+          text = String(text).split('{' + k + '}').join(String(vars[k]));
+        });
+      }
+      return text;
+    }
+
+    function productHasVariants(product) {
+      if (!product) return false;
+      if (Array.isArray(product.variants) && product.variants.length > 0) return true;
+      var cv = product.card_variants || product.cardVariants;
+      if (cv && Array.isArray(cv.matrix) && cv.matrix.length > 0) return true;
+      if (cv && Array.isArray(cv.options) && cv.options.length > 0) return true;
+      if (parseInt(product.variant_count || 0, 10) > 0) return true;
+      return false;
+    }
+
+    function resolveMax(product, variant) {
+      // Multi-variant products must not fall back to parent inventory_quantity
+      // until a concrete variant row is selected (matches baked syncPdpInventoryQtyUI).
+      // Pure fallback math only — do NOT call window.zappyInventoryQty.resolveMax
+      // (that is patchedResolveMax and would recurse).
+      if (productHasVariants(product) && !variant) return null;
+      if (!product) return null;
+      if (product.inventory_track === false) return null;
+      try {
+        var settings = window.__zappyStoreSettingsData;
+        if (settings && settings.inventory_tracking_enabled === false) return null;
+      } catch (e4) {}
+      var q = null;
+      if (variant && typeof variant === 'object') {
+        if (typeof variant.available === 'boolean' && variant.available === false) return 0;
+        if (variant.inventory_quantity != null) q = variant.inventory_quantity;
+        else if (variant.inventoryQuantity != null) q = variant.inventoryQuantity;
+      } else {
+        if (product.inventory_quantity != null) q = product.inventory_quantity;
+        else if (product.inventoryQuantity != null) q = product.inventoryQuantity;
+      }
+      if (q == null || q === '' || !isFinite(Number(q))) return null;
+      return Math.max(0, Math.floor(Number(q)));
+    }
+
+    function formatMsg(max) {
+      if (!(max > 0)) return '';
+      if (max === 1) return ecomText('onlyOneLeft', 'Only 1 left in stock');
+      return ecomText('onlyXLeft', 'Only {count} left in stock', { count: max });
+    }
+
+    function shouldShow(max, qty) {
+      if (max == null || !(max >= 0)) return false;
+      if (max <= 0) return false;
+      if (Number(qty) > max) return true;
+      return max <= 3;
+    }
+
+    function messageFor(max, qty) {
+      if (!shouldShow(max, qty)) return '';
+      if (max === 1) return ecomText('onlyOneLeft', 'Only 1 left in stock');
+      return ecomText('onlyXLeft', 'Only {count} left in stock', { count: max });
+    }
+
+    function setHint(el, text, show, isOver) {
+      if (!el) return;
+      if (show && text) {
+        el.textContent = text;
+        el.hidden = false;
+        el.style.display = 'block';
+        if (isOver) el.classList.add('is-over');
+        else el.classList.remove('is-over');
+      } else {
+        el.textContent = '';
+        el.hidden = true;
+        el.style.display = 'none';
+        el.classList.remove('is-over');
+      }
+    }
+
+    function ensurePdpHint() {
+      var row = document.querySelector('.product-add-row');
+      if (!row || !row.parentNode) return document.getElementById('product-qty-stock-hint');
+      var existing = document.getElementById('product-qty-stock-hint');
+      if (existing) {
+        if (existing.parentNode !== row.parentNode || existing.nextElementSibling !== row) {
+          row.parentNode.insertBefore(existing, row);
+        }
+        return existing;
+      }
+      var hint = document.createElement('div');
+      hint.id = 'product-qty-stock-hint';
+      hint.className = 'product-qty-stock-hint';
+      hint.setAttribute('role', 'status');
+      hint.setAttribute('aria-live', 'polite');
+      hint.hidden = true;
+      hint.style.cssText = 'display:none;width:100%;margin:0 0 0.5rem;font-size:0.875rem;font-weight:600;color:#b45309;line-height:1.3;';
+      row.parentNode.insertBefore(hint, row);
+      return hint;
+    }
+
+    function ensureQvHint(root) {
+      if (!root) return null;
+      var actions = root.querySelector('.zappy-qv-actions');
+      var existing = root.querySelector('.zappy-qv-stock-hint');
+      if (existing && actions && actions.parentNode) {
+        if (existing.parentNode !== actions.parentNode || existing.nextElementSibling !== actions) {
+          actions.parentNode.insertBefore(existing, actions);
+        }
+        return existing;
+      }
+      if (existing) return existing;
+      if (!actions || !actions.parentNode) return null;
+      var hint = document.createElement('div');
+      hint.className = 'zappy-qv-stock-hint product-qty-stock-hint';
+      hint.setAttribute('role', 'status');
+      hint.setAttribute('aria-live', 'polite');
+      hint.hidden = true;
+      hint.style.cssText = 'display:none;width:100%;margin:0 0 0.5rem;font-size:0.875rem;font-weight:600;color:#b45309;line-height:1.3;';
+      actions.parentNode.insertBefore(hint, actions);
+      return hint;
+    }
+
+    function readQty(input) {
+      if (!input) return 1;
+      var n = parseFloat(input.value);
+      return isFinite(n) && n > 0 ? n : 1;
+    }
+
+    function findPdpAtc() {
+      return document.getElementById('add-to-cart-btn')
+        || document.querySelector('.product-add-row .add-to-cart')
+        || document.querySelector('.product-info .add-to-cart');
+    }
+
+    function resolveQvVariant(product) {
+      if (!product) return null;
+      try {
+        var modal = document.getElementById('zappy-qv-modal') || document.querySelector('.zappy-qv-modal');
+        if (!modal) return null;
+        var selected = modal.querySelectorAll('[data-qv-opt].selected');
+        var cv = product.card_variants || product.cardVariants || null;
+        var matrix = (cv && cv.matrix) || product.variants || [];
+        if (!Array.isArray(matrix)) matrix = [];
+        var optionKeys = (cv && Array.isArray(cv.options))
+          ? cv.options.map(function(o) { return o && o.key; }).filter(Boolean)
+          : [];
+        // Incomplete selection on a multi-option product → no variant yet.
+        if (optionKeys.length > 0) {
+          if (!selected || selected.length < optionKeys.length) return null;
+        } else if (productHasVariants(product) && (!selected || !selected.length) && matrix.length > 1) {
+          return null;
+        }
+        if (selected && selected.length && matrix.length) {
+          var opts = {};
+          for (var i = 0; i < selected.length; i++) {
+            var btn = selected[i];
+            var name = btn.getAttribute('data-qv-opt');
+            var val = btn.getAttribute('data-qv-val') || btn.getAttribute('data-value') || (btn.textContent || '').trim();
+            if (name) opts[name] = val;
+          }
+          for (var r = 0; r < matrix.length; r++) {
+            var row = matrix[r];
+            var attrs = row.attributes || row.options || row.option_values || {};
+            var ok = true;
+            Object.keys(opts).forEach(function(k) {
+              if (String(attrs[k]) !== String(opts[k])) ok = false;
+            });
+            if (ok) return row;
+          }
+          return null;
+        }
+        if (matrix.length === 1) return matrix[0];
+      } catch (e) {}
+      return null;
+    }
+
+    function lookupCardProduct(slugOrId) {
+      try {
+        if (typeof window.zappyGetCardProduct === 'function') {
+          var p = window.zappyGetCardProduct(slugOrId);
+          if (p) return p;
+        }
+      } catch (e) {}
+      try {
+        var reg = window.__zappyCardProducts || {};
+        if (reg[slugOrId]) return reg[slugOrId];
+        for (var key in reg) {
+          if (reg[key] && (reg[key].slug === slugOrId || String(reg[key].id) === String(slugOrId))) return reg[key];
+        }
+      } catch (e2) {}
+      return null;
+    }
+
+    // Capture prior syncs BEFORE we install wrappers. Never replace a full baked
+    // qv/pdp sync with our slim fallback — that dropped variant/booking ATC logic.
+    var priorPdpSync = null;
+    var priorQvSync = null;
+    try {
+      if (typeof window.syncPdpInventoryQtyUI === 'function' && !window.syncPdpInventoryQtyUI.__zappyInvQtyUx) {
+        priorPdpSync = window.syncPdpInventoryQtyUI;
+      }
+    } catch (e) {}
+    try {
+      if (typeof window.qvSyncInventoryQtyUI === 'function' && !window.qvSyncInventoryQtyUI.__zappyInvQtyUx) {
+        priorQvSync = window.qvSyncInventoryQtyUI;
+      }
+    } catch (e) {}
+
+    /** Fallback PDP sync for old bundles that never baked syncPdpInventoryQtyUI. */
+    function fallbackSyncPdp() {
+      try {
+        patchEcomRuntimeText();
+        var product = window.currentProduct || window.__zappyCurrentProduct || null;
+        if (!product) return;
+        var variant = window.selectedVariant || null;
+        var max = resolveMax(product, variant);
+        var input = document.getElementById('product-quantity');
+        var qty = readQty(input);
+        var hint = ensurePdpHint();
+        var show = shouldShow(max, qty);
+        setHint(hint, show ? messageFor(max, qty) : '', show, max != null && qty > max);
+        if (input) {
+          if (max != null && max >= 0) {
+            input.setAttribute('max', String(Math.max(max, 1)));
+            input.dataset.inventoryMax = String(max);
+          } else {
+            input.setAttribute('max', '9999');
+            delete input.dataset.inventoryMax;
+          }
+        }
+        var atc = findPdpAtc();
+        if (atc && max != null && qty > max) {
+          atc.disabled = true;
+          atc.style.opacity = '0.5';
+          atc.style.cursor = 'not-allowed';
+          atc.classList.add('is-qty-over-stock');
+        } else if (atc && atc.classList.contains('is-qty-over-stock')) {
+          // Only clear OUR over-stock flag — do not re-enable when variants are incomplete.
+          atc.classList.remove('is-qty-over-stock');
+          if (!productHasVariants(product) || variant) {
+            if (!(variant && (variant.available === false || variant.stock_status === 'out_of_stock'))) {
+              atc.disabled = false;
+              atc.style.opacity = '1';
+              atc.style.cursor = 'pointer';
+            }
+          }
+        }
+      } catch (err) {}
+    }
+
+    /** Fallback QV sync — inventory only; never owns variant/booking button labels. */
+    function fallbackSyncQv() {
+      try {
+        patchEcomRuntimeText();
+        var product = window.__zappyQvProduct || null;
+        if (!product) return;
+        var variant = resolveQvVariant(product);
+        var max = resolveMax(product, variant);
+        var modal = document.getElementById('zappy-qv-modal');
+        if (!modal || modal.hidden) return;
+        var input = modal.querySelector('#zappy-qv-qty-input') || modal.querySelector('.zappy-qv-qty-input');
+        var qty = readQty(input);
+        var hint = ensureQvHint(modal);
+        var show = shouldShow(max, qty);
+        setHint(hint, show ? messageFor(max, qty) : '', show, max != null && qty > max);
+        if (input) {
+          if (max != null && max >= 0) {
+            input.setAttribute('max', String(Math.max(max, 1)));
+            input.setAttribute('data-inventory-max', String(max));
+          } else {
+            input.removeAttribute('data-inventory-max');
+          }
+        }
+        var plus = modal.querySelector('[data-qv-qty="1"]');
+        if (plus && max != null) {
+          var atCap = qty >= max;
+          plus.disabled = atCap;
+          plus.setAttribute('aria-disabled', atCap ? 'true' : 'false');
+        }
+        var atc = modal.querySelector('button.zappy-qv-addcart');
+        if (!atc) return;
+        // Only DISABLE when over stock. Never re-enable here — incomplete
+        // options / booking / OOS are owned by the baked qvSync when present.
+        if (max != null && qty > max) {
+          atc.disabled = true;
+          atc.classList.add('is-disabled', 'is-qty-over-stock');
+        } else if (atc.classList.contains('is-qty-over-stock')) {
+          atc.classList.remove('is-qty-over-stock');
+          // Re-enable only when a variant is resolved (or product has none).
+          if (!productHasVariants(product) || variant) {
+            if (!(variant && variant.available === false)) {
+              atc.disabled = false;
+              atc.classList.remove('is-disabled');
+            }
+          }
+        }
+      } catch (err) {}
+    }
+
+    function syncPdp() {
+      patchEcomRuntimeText();
+      ensurePdpHint();
+      if (priorPdpSync) {
+        try { priorPdpSync(); } catch (e) {}
+        ensurePdpHint();
+        return;
+      }
+      fallbackSyncPdp();
+    }
+
+    function syncQv() {
+      patchEcomRuntimeText();
+      try {
+        if (window.qvState && window.qvState.product) window.__zappyQvProduct = window.qvState.product;
+      } catch (e0) {}
+      var modal = document.getElementById('zappy-qv-modal');
+      ensureQvHint(modal);
+      if (priorQvSync) {
+        try { priorQvSync(); } catch (e) {}
+        ensureQvHint(modal);
+        return;
+      }
+      fallbackSyncQv();
+    }
+
+    var baseUtil = (window.zappyInventoryQty && typeof window.zappyInventoryQty === 'object')
+      ? window.zappyInventoryQty
+      : {};
+    var origResolveMax = (typeof baseUtil.resolveMax === 'function') ? baseUtil.resolveMax : null;
+    function patchedResolveMax(product, variant) {
+      if (productHasVariants(product) && !variant) return null;
+      if (origResolveMax) {
+        try { return origResolveMax(product, variant); } catch (e) {}
+      }
+      return resolveMax(product, variant);
+    }
+    function patchedApplyHint(el, available, requestedQty) {
+      try {
+        if (el && el.id === 'product-qty-stock-hint') {
+          el = ensurePdpHint() || el;
+        } else if (el && el.classList && el.classList.contains('zappy-qv-stock-hint')) {
+          el = ensureQvHint(document.getElementById('zappy-qv-modal')) || el;
+        }
+        var qty = requestedQty;
+        var show = shouldShow(available, qty);
+        setHint(el, show ? messageFor(available, qty) : '', show, available != null && Number(qty) > available);
+      } catch (e) {
+        try {
+          if (typeof baseUtil.applyHint === 'function' && baseUtil.applyHint !== patchedApplyHint) {
+            baseUtil.applyHint(el, available, requestedQty);
+          }
+        } catch (e2) {}
+      }
+    }
+    window.zappyInventoryQty = Object.assign({}, baseUtil, {
+      LOW_STOCK_HINT_MAX: 3,
+      formatMessage: function(available) { return formatMsg(available); },
+      applyHint: patchedApplyHint,
+      resolveMax: patchedResolveMax,
+      resolveMaxAvailableQty: function(p, v) { return patchedResolveMax(p, v); },
+      qtyExceedsAvailable: function(q, max) { return max != null && max >= 0 && Number(q) > max; },
+      shouldShowLowStockHint: function(max, q) { return shouldShow(max, q); }
+    });
+    if (typeof window.zappyInventoryQty.qtyExceeds !== 'function') {
+      window.zappyInventoryQty.qtyExceeds = function(available, requestedQty) {
+        return available != null && Number(requestedQty) > available;
+      };
+    }
+
+    window.syncPdpInventoryQtyUI = syncPdp;
+    window.syncPdpInventoryQtyUI.__zappyInvQtyUx = true;
+    window.qvSyncInventoryQtyUI = syncQv;
+    window.qvSyncInventoryQtyUI.__zappyInvQtyUx = true;
+
+    function wrapAdjust() {
+      try {
+        if (typeof window.adjustQuantity === 'function' && !window.adjustQuantity.__zappyInvV3) {
+          var orig = window.adjustQuantity;
+          window.adjustQuantity = function(delta) {
+            var ret = orig.apply(this, arguments);
+            try {
+              var product = window.currentProduct || window.__zappyCurrentProduct;
+              var max = patchedResolveMax(product, window.selectedVariant || null);
+              var input = document.getElementById('product-quantity');
+              if (input && max != null && delta > 0) {
+                var q = readQty(input);
+                if (q > max) input.value = String(max);
+              }
+            } catch (e) {}
+            syncPdp();
+            return ret;
+          };
+          window.adjustQuantity.__zappyInvV3 = true;
+        }
+      } catch (e) {}
+    }
+
+    function wrapQvOpen() {
+      try {
+        if (typeof window.zappyOpenQuickView !== 'function' || window.zappyOpenQuickView.__zappyInvV3) return;
+        var orig = window.zappyOpenQuickView;
+        window.zappyOpenQuickView = function(slugOrId, preselected) {
+          try {
+            var card = lookupCardProduct(slugOrId);
+            if (card) window.__zappyQvProduct = card;
+          } catch (e) {}
+          var ret = orig.apply(this, arguments);
+          // Defer so baked qvRender/qvRefresh (local) runs first; then our
+          // wrapper calls priorQvSync if exported, else inventory-only fallback.
+          setTimeout(syncQv, 80);
+          setTimeout(syncQv, 400);
+          setTimeout(syncQv, 1000);
+          return ret;
+        };
+        window.zappyOpenQuickView.__zappyInvV3 = true;
+      } catch (e) {}
+    }
+
+    function wrapFetch() {
+      try {
+        if (!window.fetch || window.fetch.__zappyInvV3) return;
+        var origFetch = window.fetch;
+        window.fetch = function(input, init) {
+          var url = '';
+          try { url = typeof input === 'string' ? input : (input && input.url) || ''; } catch (e) {}
+          var p = origFetch.apply(this, arguments);
+          if (url && url.indexOf('/api/ecommerce/storefront/products/') !== -1) {
+            p.then(function(res) {
+              try {
+                res.clone().json().then(function(data) {
+                  if (data && data.success && data.data) {
+                    var full = data.data;
+                    var prev = window.__zappyQvProduct || {};
+                    window.__zappyQvProduct = Object.assign({}, full, {
+                      card_variants: full.card_variants || prev.card_variants || null
+                    });
+                    setTimeout(syncQv, 60);
+                    setTimeout(syncQv, 250);
+                  }
+                }).catch(function(){});
+              } catch (e2) {}
+              return res;
+            }).catch(function(){});
+          }
+          return p;
+        };
+        window.fetch.__zappyInvV3 = true;
+      } catch (e) {}
+    }
+
+    function bindDom() {
+      try {
+        document.addEventListener('input', function(ev) {
+          var t = ev.target;
+          if (!t) return;
+          if (t.id === 'product-quantity' || (t.closest && t.closest('.product-quantity'))) syncPdp();
+          if (t.id === 'zappy-qv-qty-input' || (t.closest && t.closest('.zappy-qv-qty'))) syncQv();
+        }, true);
+        document.addEventListener('click', function(ev) {
+          var t = ev.target;
+          if (!t || !t.closest) return;
+          if (t.closest('.product-quantity, .quantity-selector, .variant-option, [data-variant], .swatch, .product-options, [data-option]')) {
+            setTimeout(syncPdp, 0);
+            setTimeout(syncPdp, 60);
+          }
+          if (t.closest('[data-qv-opt], [data-qv-qty], .zappy-qv-qty, #zappy-qv-modal')) {
+            setTimeout(syncQv, 0);
+            setTimeout(syncQv, 80);
+          }
+        }, true);
+      } catch (e) {}
+    }
+
+    // Late capture: baked QV may assign window.qvSyncInventoryQtyUI after us.
+    function recapturePriors() {
+      try {
+        if (!priorQvSync && typeof window.qvSyncInventoryQtyUI === 'function'
+            && !window.qvSyncInventoryQtyUI.__zappyInvQtyUx) {
+          priorQvSync = window.qvSyncInventoryQtyUI;
+          window.qvSyncInventoryQtyUI = syncQv;
+          window.qvSyncInventoryQtyUI.__zappyInvQtyUx = true;
+        }
+      } catch (e) {}
+      try {
+        if (!priorPdpSync && typeof window.syncPdpInventoryQtyUI === 'function'
+            && !window.syncPdpInventoryQtyUI.__zappyInvQtyUx) {
+          priorPdpSync = window.syncPdpInventoryQtyUI;
+          window.syncPdpInventoryQtyUI = syncPdp;
+          window.syncPdpInventoryQtyUI.__zappyInvQtyUx = true;
+        }
+      } catch (e2) {}
+    }
+
+    wrapAdjust();
+    wrapQvOpen();
+    wrapFetch();
+    bindDom();
+    setTimeout(wrapAdjust, 500);
+    setTimeout(wrapQvOpen, 500);
+    setTimeout(wrapQvOpen, 1500);
+    setTimeout(recapturePriors, 0);
+    setTimeout(recapturePriors, 500);
+    setTimeout(recapturePriors, 1500);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        syncPdp();
+        setTimeout(syncPdp, 400);
+      });
+    } else {
+      syncPdp();
+      setTimeout(syncPdp, 400);
+    }
+    setTimeout(syncPdp, 1200);
+  } catch (e) {}
+})();
+
+
+/* ZAPPY_SERVICE_BOOKING_WIDGET_CSS_V3 */
+;(function(){
+  try {
+    function ensure() {
+      if (!document.getElementById('zappy-booking-widget-css-v3')) {
+        var style = document.createElement('style');
+        style.id = 'zappy-booking-widget-css-v3';
+        style.textContent =
+          '.zappy-qv-booking{display:flex!important;flex-direction:column!important;gap:10px!important;width:min(100%,320px)!important;max-width:320px!important;margin:8px 0 18px!important;align-self:flex-start!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;box-sizing:border-box!important}' +
+        '.zappy-qv-book-row{display:flex!important;flex-direction:column!important;gap:5px!important}' +
+        '.zappy-qv-book-row.is-check{flex-direction:row!important;align-items:center!important;gap:8px!important}' +
+        '.zappy-qv-book-label{font-size:12px!important;font-weight:600!important;color:var(--text-color,#374151)!important}' +
+        '.zappy-qv-book-req{color:#dc2626!important}' +
+        '.zappy-qv-book-select,.zappy-qv-book-input{width:100%!important;min-height:42px!important;padding:8px 12px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:8px!important;background:#fff!important;color:var(--text-color,#111827)!important;font-size:14px!important;font-family:inherit!important;box-sizing:border-box!important}' +
+        '.zappy-qv-book-input:focus,.zappy-qv-book-select:focus{outline:none!important;border-color:var(--primary-color,#ff0083)!important}' +
+        '.zappy-qv-book-calendar{width:100%!important;max-width:320px!important;margin:0!important;padding:10px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 8px 22px rgba(15,23,42,.06)!important;box-sizing:border-box!important}' +
+        '.zappy-qv-book-cal-head{display:grid!important;grid-template-columns:32px 1fr 32px!important;align-items:center!important;gap:8px!important;margin-bottom:8px!important}' +
+        '.zappy-qv-book-cal-title{text-align:center!important;font-size:13px!important;font-weight:700!important;color:var(--text-color,#111827)!important}' +
+        '.zappy-qv-book-cal-nav{width:32px!important;height:32px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:999px!important;background:#fff!important;color:var(--text-color,#111827)!important;cursor:pointer!important;font:inherit!important;line-height:1!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0!important}' +
+        '.zappy-qv-book-cal-nav:disabled{opacity:.35!important;cursor:not-allowed!important}' +
+        '#zappy-qv-modal .zappy-qv-book-cal-weekdays,#zappy-qv-modal .zappy-qv-book-cal-grid,#zappy-pdp-booking .zappy-qv-book-cal-weekdays,#zappy-pdp-booking .zappy-qv-book-cal-grid,.zappy-qv-booking .zappy-qv-book-cal-weekdays,.zappy-qv-booking .zappy-qv-book-cal-grid{display:grid!important;grid-template-columns:repeat(7,1fr)!important;grid-auto-columns:minmax(0,1fr)!important;gap:4px!important}' +
+        '.zappy-qv-book-cal-weekdays{margin-bottom:4px!important}' +
+        '.zappy-qv-book-cal-weekday{text-align:center!important;font-size:11px!important;font-weight:700!important;color:var(--text-muted,#6b7280)!important}' +
+        '.zappy-qv-book-calendar .zappy-qv-book-cal-day{display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important;width:auto!important;max-width:none!important;height:34px!important;border:1px solid transparent!important;border-radius:9px!important;background:transparent!important;color:var(--text-muted,#9ca3af)!important;font:inherit!important;font-size:13px!important;cursor:default!important;padding:0!important;box-sizing:border-box!important}' +
+        '.zappy-qv-book-cal-day.is-available{border-color:var(--border-color,#d1d5db)!important;background:rgba(255,255,255,.72)!important;color:var(--text-color,#111827)!important;cursor:pointer!important}' +
+        '.zappy-qv-book-cal-day.is-available:hover{border-color:var(--primary-color,#ff0083)!important}' +
+        '.zappy-qv-book-cal-day.is-selected{border-color:var(--primary-color,#ff0083)!important;background:var(--primary-color,#ff0083)!important;color:var(--text-light,#fff)!important;font-weight:700!important}' +
+        'textarea.zappy-qv-book-input{min-height:60px!important;resize:vertical!important}' +
+        '.zappy-qv-book-check{width:18px!important;height:18px!important;accent-color:var(--primary-color,#ff0083)!important}' +
+          '.zappy-qv-book-row.is-check .zappy-qv-book-label{font-weight:500!important;order:2!important}' +
+          '.zappy-qv-book-loading,.zappy-qv-book-empty{font-size:13px!important;color:var(--text-muted,#6b7280)!important;padding:4px 0!important}' +
+          '.product-add-row.zappy-service-booking-actions{position:static!important;bottom:auto!important;z-index:auto!important}';
+        document.head.appendChild(style);
+      }
+      var pdpBooking = document.getElementById('zappy-pdp-booking');
+      var actionRow = document.querySelector('.product-add-row');
+      if (pdpBooking && actionRow) actionRow.classList.add('zappy-service-booking-actions');
+    }
+    if (!window.zappyEnsureBookingWidgetStyles) window.zappyEnsureBookingWidgetStyles = ensure;
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ensure);
+    else ensure();
+    setTimeout(ensure, 500);
+    setTimeout(ensure, 1500);
+    setTimeout(ensure, 3000);
+    if (window.MutationObserver && !window.__zappyServiceBookingWidgetCssObserver) {
+      window.__zappyServiceBookingWidgetCssObserver = new MutationObserver(ensure);
+      window.__zappyServiceBookingWidgetCssObserver.observe(document.documentElement, { childList: true, subtree: true });
+    }
+  } catch (e) {}
+})();
+
+
+/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD_V2 */
 (function(){
   var RTL_RE = /[\u0590-\u05FF\u0600-\u06FF]/;
   function isRTLPage() {
     if (document.documentElement.getAttribute('dir') === 'rtl') return true;
     var lang = (typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : null) || document.documentElement.lang || '';
-    return ['he','iw','ar','fa','ur'].indexOf(lang.split('-')[0].toLowerCase()) !== -1;
+    return ['he','iw','ar','fa','ur'].indexOf(String(lang).split('-')[0].toLowerCase()) !== -1;
   }
-
+  function scriptMatchesPage(text, wantRtl) {
+    if (!text) return false;
+    var hasRtl = RTL_RE.test(text);
+    return wantRtl ? hasRtl : !hasRtl;
+  }
+  function pickFallback(wantRtl) {
+    var li = document.querySelector('.zappy-products-dropdown');
+    if (!li) return '';
+    var link = li.querySelector(':scope > a');
+    var fallback = '';
+    var i18nKey = (link && link.getAttribute('data-i18n')) || '';
+    if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var t = window.zappyI18n.t(i18nKey);
+      if (t && t !== i18nKey && scriptMatchesPage(t, wantRtl)) fallback = t;
+    }
+    if (!fallback && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var keys = wantRtl
+        ? ['ecom_products', 'nav_products', 'products', 'catalog']
+        : ['nav_products', 'products', 'catalog', 'ecom_products'];
+      for (var ki = 0; ki < keys.length; ki++) {
+        var kv = window.zappyI18n.t(keys[ki]);
+        if (kv && kv !== keys[ki] && scriptMatchesPage(kv, wantRtl)) { fallback = kv; break; }
+      }
+    }
+    if (!fallback) {
+      var subLink = li.querySelector('.sub-menu a[data-i18n]');
+      if (subLink) {
+        var st = subLink.textContent.trim();
+        if (scriptMatchesPage(st, wantRtl)) fallback = st;
+      }
+    }
+    if (!fallback) fallback = wantRtl ? 'מוצרים' : 'Products';
+    return fallback;
+  }
+  function applyLabel(link, label) {
+    if (!link || !label) return;
+    var svg = link.querySelector('svg');
+    link.textContent = '';
+    link.appendChild(document.createTextNode(label + ' '));
+    if (svg) link.appendChild(svg);
+  }
   function fix() {
     try {
-      if (isRTLPage()) {
-        var rtlLi = document.querySelector('.zappy-products-dropdown');
-        if (rtlLi) rtlLi.style.removeProperty('display');
-        return;
-      }
       var li = document.querySelector('.zappy-products-dropdown');
       if (!li) return;
       var link = li.querySelector(':scope > a');
@@ -16425,38 +16469,24 @@ function fixContrast(){
       var textNode = link.firstChild;
       if (!textNode || textNode.nodeType !== 3) return;
       var label = textNode.textContent.trim();
-      if (!label || !RTL_RE.test(label)) { li.style.removeProperty('display'); return; }
-      var fallback = '';
-      var i18nKey = link.getAttribute('data-i18n') || '';
-      if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
-        var t = window.zappyI18n.t(i18nKey);
-        if (t && t !== i18nKey && !RTL_RE.test(t)) fallback = t;
-      }
-      if (!fallback) {
-        var subLink = li.querySelector('.sub-menu a[data-i18n]');
-        if (subLink) { var st = subLink.textContent.trim(); if (st && !RTL_RE.test(st)) fallback = st; }
-      }
-      if (fallback) {
-        var svg = link.querySelector('svg');
-        link.textContent = '';
-        link.appendChild(document.createTextNode(fallback + ' '));
-        if (svg) link.appendChild(svg);
+      var wantRtl = isRTLPage();
+      // Wrong-script label for the page direction → replace with a matching fallback.
+      // Covers Hebrew-on-English (legacy) AND English-on-Hebrew (re-add English bug).
+      if (!label || scriptMatchesPage(label, wantRtl)) {
         li.style.removeProperty('display');
-      } else {
+        return;
+      }
+      var fallback = pickFallback(wantRtl);
+      if (fallback) {
+        applyLabel(link, fallback);
+        li.style.removeProperty('display');
+      } else if (!wantRtl) {
         li.style.setProperty('display', 'none', 'important');
+      } else {
+        li.style.removeProperty('display');
       }
     } catch(e) {}
   }
-  try {
-    var li = document.querySelector('.zappy-products-dropdown');
-    if (li) {
-      var link = li.querySelector(':scope > a');
-      var tn = link && link.firstChild;
-      if (tn && tn.nodeType === 3 && RTL_RE.test(tn.textContent) && !isRTLPage()) {
-        li.style.setProperty('display', 'none', 'important');
-      }
-    }
-  } catch(e) {}
   fix();
   setTimeout(fix, 2000);
   setTimeout(fix, 5000);
@@ -16978,7 +17008,7 @@ function fixContrast(){
       var s = document.createElement('style');
       s.id = 'zappy-variant-visual-css';
       s.textContent =
-        /* Text variant options: gray + text strikethrough */
+        /* False variant options: gray + text strikethrough */
         '.variant-option.disabled { opacity: 0.4 !important; cursor: pointer !important; text-decoration: line-through !important; }' +
         '.variant-option.disabled::after, .variant-option.disabled::before { content: none !important; }' +
         /* Color swatches: only opacity, no strikethrough */
@@ -16986,22 +17016,39 @@ function fixContrast(){
         /* Out-of-stock: same treatment */
         '.variant-option.out-of-stock { opacity: 0.4 !important; cursor: pointer !important; text-decoration: line-through !important; }' +
         '.variant-option.out-of-stock::after, .variant-option.out-of-stock::before { content: none !important; }' +
-        '.variant-option.color-swatch.out-of-stock { text-decoration: none !important; }';
+        '.variant-option.color-swatch.out-of-stock { text-decoration: none !important; }' +
+        /* Incomplete selection prompt (must not look like hard OOS) */
+        '.product-info .product-stock.select-required { color: #d97706 !important; }';
       document.head.appendChild(s);
     }
 
     // 2) Override initVariantSelection early to prevent the page's default selection behavior.
     // The page's initVariantSelection calls .click() on first options, auto-selecting defaults.
     // We replace it with a version that only does setup (CSS, sorting, handlers) but skips auto-select.
+    // Ticket-style multi-qty products keep the baked initMultiQuantitySelection path.
     var _initOverridden = false;
+    var _origInitVariantSelection = null;
+    function _isMultiQtyProduct(p) {
+      return !!(p && p.card_variants && p.card_variants.multiQuantity)
+        || !!(typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(p))
+        || !!document.querySelector('[data-multi-quantity="true"]');
+    }
     function _overrideInitVariantSelection() {
       if (_initOverridden) return;
-      if (typeof window.initVariantSelection === 'function') {
-        _initOverridden = true;
-      }
+      // Wait until the page defines initVariantSelection so we can keep a real
+      // original for multi-qty products (ticket-style per-value steppers).
+      if (typeof window.initVariantSelection !== 'function') return;
+      _initOverridden = true;
+      _origInitVariantSelection = window.initVariantSelection;
       window.initVariantSelection = function(product, t) {
-        // Store product data for our fix
-        if (product && product.variants && product.variants.length > 0) {
+        if (_isMultiQtyProduct(product)) {
+          if (typeof _origInitVariantSelection === 'function') {
+            return _origInitVariantSelection.call(this, product, t);
+          }
+          return;
+        }
+        // Store product data for our fix (variants[] OR card_variants.matrix)
+        if (product && ((product.variants && product.variants.length > 0) || _hasMatrix(product))) {
           _variantProduct = _augmentProductFromCardVariants(product);
           var trans = t || {};
           // Ensure pleaseSelect is available (for sites generated before this key was added)
@@ -17034,7 +17081,33 @@ function fixContrast(){
     
     function _getVariants() {
       if (!_variantProduct) return [];
-      return (_variantProduct.variants || []).filter(function(v) { return v.is_active !== false; });
+      var rows = (_variantProduct.variants || []).filter(function(v) { return v && v.is_active !== false; });
+      if (rows.length) return rows;
+      // Matrix-only / incomplete variants[] — same fallback as updateVariantUI / V12 overlay.
+      var m = _variantProduct.card_variants && Array.isArray(_variantProduct.card_variants.matrix)
+        ? _variantProduct.card_variants.matrix : [];
+      return m.filter(function(r) { return r && r.is_active !== false; });
+    }
+
+    function _hasMatrix(p) {
+      return !!(p && p.card_variants && Array.isArray(p.card_variants.matrix) && p.card_variants.matrix.length > 0);
+    }
+
+    /** True when any purchasable variant/matrix row remains (incomplete-selection gate). */
+    function _anyVariantAvailable() {
+      var rows = _getVariants();
+      if (rows.some(function(v) { return !_isOOS(v); })) return true;
+      var p = _variantProduct || window.currentProduct;
+      var m = p && p.card_variants && Array.isArray(p.card_variants.matrix) ? p.card_variants.matrix : [];
+      if (m.length) return m.some(function(r) { return r && r.available !== false && r.is_active !== false; });
+      return false;
+    }
+
+    function _selectVariantMessage() {
+      var t = _variantTranslations || {};
+      if (typeof getEcomText === 'function') return getEcomText('selectVariant', t.selectVariant || 'Select option');
+      var rtl = document.documentElement.getAttribute('dir') === 'rtl' || document.body.getAttribute('dir') === 'rtl';
+      return t.selectVariant || (rtl ? 'בחר אפשרות' : 'Select option');
     }
 
     function _augmentProductFromCardVariants(product) {
@@ -17196,6 +17269,9 @@ function fixContrast(){
     function _isOOS(v) {
       if (window.zappyVariantMatrix) return window.zappyVariantMatrix.isUnavailable(v);
       if (!v) return true;
+      // Matrix rows often only set `available` (no stock_status / inventory).
+      if (typeof v.available === 'boolean') return !v.available;
+      if (v.is_active === false) return true;
       if (v.stock_status === 'out_of_stock') return true;
       var i = v.inventory_quantity != null ? v.inventory_quantity : v.inventoryQuantity;
       if (i != null && i !== '') {
@@ -17291,7 +17367,9 @@ function fixContrast(){
       var product = _variantProduct;
       if (!product) return;
       var keys = _getAttributeKeys();
-      var allSelected = keys.every(function(k) { return selectedAttributes.hasOwnProperty(k); });
+      // keys.length===0 must NOT vacuous-true allSelected — that used to resolve
+      // the first (often OOS) variant and flash "Out of Stock" before a pick.
+      var allSelected = keys.length > 0 && keys.every(function(k) { return selectedAttributes.hasOwnProperty(k); });
       var stockDisplay = document.getElementById('product-stock-display');
       var priceDisplay = document.getElementById('product-price-display');
       var addBtn = document.getElementById('add-to-cart-btn');
@@ -17417,11 +17495,23 @@ function fixContrast(){
           var skuLabel2 = (typeof getEcomText === 'function') ? getEcomText('sku', t.sku || 'SKU') : (t.sku || 'SKU');
           skuDisplay2.textContent = skuLabel2 + ': ' + product.sku;
         }
+        // Incomplete selection: prompt to pick an option when any variant is still
+        // purchasable. Never echo parent stock_status / blanket "In Stock" here —
+        // that flashed OOS or In Stock before the shopper chose (preview path).
+        var avail = _anyVariantAvailable();
         if (stockDisplay) {
-          stockDisplay.className = 'product-stock in-stock';
-          stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>' + (t.inStock || 'In Stock');
+          if (avail) {
+            stockDisplay.className = 'product-stock select-required';
+            stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' + _selectVariantMessage();
+          } else {
+            stockDisplay.className = 'product-stock out-of-stock';
+            stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' + (t.outOfStock || 'Out of Stock');
+          }
         }
-        if (addBtn) { addBtn.disabled = false; addBtn.style.opacity = ''; addBtn.style.cursor = ''; }
+        if (addBtn) {
+          if (avail) { addBtn.disabled = false; addBtn.style.opacity = ''; addBtn.style.cursor = ''; }
+          else { addBtn.disabled = true; addBtn.style.opacity = '0.5'; addBtn.style.cursor = 'not-allowed'; }
+        }
         // Reset price to initial state (Starting at / base price). Same
         // customer-discount path as the variant-matched branch above; without
         // this, partially-selecting a variant and then deselecting another
@@ -17491,6 +17581,7 @@ function fixContrast(){
     
     // Document-level capture handler - fires BEFORE any element-level handlers
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var btn = e.target.closest ? e.target.closest('.variant-option') : null;
       if (!btn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -17521,6 +17612,7 @@ function fixContrast(){
     // This fires before any element-level onclick or inline onclick handlers,
     // preventing the page's original alert()-based validation.
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var addBtn = e.target.closest ? e.target.closest('.add-to-cart-btn, .add-to-cart, #add-to-cart-btn, [onclick*="addProductToCart"]') : null;
       if (!addBtn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -17538,8 +17630,10 @@ function fixContrast(){
           var name = lbl ? lbl.textContent.replace(/[:\s]+$/, '').trim() : keys[i];
           var sd = document.getElementById('product-stock-display');
           if (sd) {
-            sd.className = 'product-stock out-of-stock';
-            sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' +
+            // select-required (not out-of-stock): i18n patch must not rewrite
+            // "Please select Material" → "Out of Stock".
+            sd.className = 'product-stock select-required';
+            sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' +
               (t.pleaseSelect || 'Please select') + ' ' + name;
           }
           if (grp) {
@@ -17569,7 +17663,9 @@ function fixContrast(){
       
       var product = _variantProduct || window.currentProduct;
       var t = _variantTranslations || window.productTranslations || {};
-      if (!product || !product.variants || product.variants.length === 0) return;
+      if (!product) return;
+      if (_isMultiQtyProduct(product)) return;
+      if ((!product.variants || product.variants.length === 0) && !_hasMatrix(product)) return;
       if (document.querySelectorAll('.variant-option').length === 0) return;
       if (window._zappyVariantFixed) return;
       window._zappyVariantFixed = true;
@@ -17667,6 +17763,10 @@ function fixContrast(){
       // Also override addProductToCart as a safety net
       var origAddToCart = window.addProductToCart;
       window.addProductToCart = function() {
+        if (_isMultiQtyProduct(window.currentProduct)) {
+          if (origAddToCart) return origAddToCart.apply(this, arguments);
+          return;
+        }
         var keys = _getAttributeKeys();
         for (var i = 0; i < keys.length; i++) {
           if (!selectedAttributes.hasOwnProperty(keys[i])) {
@@ -17675,8 +17775,8 @@ function fixContrast(){
             var name = lbl ? lbl.textContent.replace(/[:\s]+$/, '').trim() : keys[i];
             var sd = document.getElementById('product-stock-display');
             if (sd) {
-              sd.className = 'product-stock out-of-stock';
-              sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' +
+              sd.className = 'product-stock select-required';
+              sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' +
                 (t.pleaseSelect || 'Please select') + ' ' + name;
             }
             if (grp) {
@@ -18045,6 +18145,8 @@ function fixContrast(){
       en: {
         inStock: 'In Stock',
         outOfStock: 'Out of Stock',
+        selectVariant: 'Select option',
+        pleaseSelect: 'Please select',
         color: 'Color',
         size: 'Size',
         material: 'Material',
@@ -18056,6 +18158,8 @@ function fixContrast(){
       he: {
         inStock: 'במלאי',
         outOfStock: 'אזל מהמלאי',
+        selectVariant: 'בחר אפשרות',
+        pleaseSelect: 'נא לבחור',
         color: 'צבע',
         size: 'מידה',
         material: 'חומר',
@@ -18169,10 +18273,31 @@ function fixContrast(){
 
       var stock = document.getElementById('product-stock-display');
       if (stock) {
-        var inStock = stock.classList.contains('in-stock') && !stock.classList.contains('out-of-stock');
+        // Three-state: in-stock / out-of-stock / select-required.
+        // Also preserve "Please select <Attr>" prompts (ATC validation) — those
+        // used to ship with class out-of-stock, and this rewriter then replaced
+        // them with "Out of Stock" ~100ms later via MutationObserver.
         var svg = stock.querySelector('svg');
-        var nextText = inStock ? getText('inStock') : getText('outOfStock');
-        if ((stock.textContent || '').trim() !== nextText) {
+        var current = (stock.textContent || '').trim();
+        var please = getText('pleaseSelect');
+        var isPleasePrompt = !!(current && (
+          current.indexOf(please) === 0
+          || /^please select\b/i.test(current)
+          || current.indexOf('נא לבחור') === 0
+        ));
+        var nextText;
+        if (isPleasePrompt) {
+          nextText = current;
+        } else if (stock.classList.contains('select-required')) {
+          nextText = (typeof getEcomText === 'function')
+            ? getEcomText('selectVariant', getText('selectVariant'))
+            : getText('selectVariant');
+        } else if (stock.classList.contains('in-stock') && !stock.classList.contains('out-of-stock')) {
+          nextText = getText('inStock');
+        } else {
+          nextText = getText('outOfStock');
+        }
+        if (current !== nextText) {
           stock.textContent = '';
           if (svg) stock.appendChild(svg);
           stock.appendChild(document.createTextNode(nextText));
@@ -18208,6 +18333,7 @@ function fixContrast(){
         subtotal: 'Subtotal',
         vatIncluded: 'Including VAT',
         shipping: 'Shipping',
+        pickup: 'Pickup',
         discount: 'Discount',
         totalToPay: 'Total to Pay',
         days: 'days',
@@ -18219,6 +18345,7 @@ function fixContrast(){
         subtotal: 'סכום ביניים',
         vatIncluded: 'כולל מע"מ',
         shipping: 'משלוח',
+        pickup: 'איסוף',
         discount: 'הנחה',
         totalToPay: 'סה"כ לתשלום',
         days: 'ימים',
@@ -18341,6 +18468,30 @@ function fixContrast(){
       return [street, city].filter(Boolean).join(', ');
     }
 
+    function isPickupShippingSelected() {
+      // Prefer the live checkout flag set by updateOrderTotals / zappySelectShipping.
+      if (typeof window.__zappySelectedShippingIsPickup === 'boolean') {
+        return window.__zappySelectedShippingIsPickup;
+      }
+      var checked = document.querySelector('input[name="shipping"]:checked');
+      var option = checked
+        ? checked.closest('.shipping-option')
+        : document.querySelector('.shipping-option.selected');
+      if (!option) return false;
+      var attr = option.getAttribute('data-is-pickup');
+      if (attr === 'true') return true;
+      if (attr === 'false') return false;
+      if (option.querySelector('.shipping-address')) return true;
+      var methodId = (checked && checked.value) || option.getAttribute('data-method-id');
+      var cached = window.__zappyShippingMethodsCache;
+      if (methodId && Array.isArray(cached)) {
+        for (var i = 0; i < cached.length; i++) {
+          if (String(cached[i].id) === String(methodId)) return !!cached[i].is_pickup;
+        }
+      }
+      return false;
+    }
+
     function patchCheckoutStaticText() {
       ensureCheckoutTotalsStructure();
       var agree = document.querySelector('[data-i18n="ecom_agreeToTerms"]') || document.querySelector('.terms-checkbox-label > span > span:first-child');
@@ -18349,7 +18500,9 @@ function fixContrast(){
       if (terms && terms.textContent !== getText('termsAndConditions')) terms.textContent = getText('termsAndConditions');
       setLabelForValue('#subtotal', 'subtotal');
       setLabelForValue('#vat-amount', 'vatIncluded');
-      setLabelForValue('#shipping-cost', 'shipping');
+      // Must NOT force "Shipping:" over a selected pickup method — the MutationObserver
+      // re-runs this after updateOrderTotals sets "Pickup:" and was flipping it back.
+      setLabelForValue('#shipping-cost', isPickupShippingSelected() ? 'pickup' : 'shipping');
       setLabelForValue('#checkout-discount-amount', 'discount');
       setLabelForValue('#discount', 'discount');
       setLabelForValue('#order-total', 'totalToPay');
@@ -18372,6 +18525,7 @@ function fixContrast(){
         var res = await fetch(apiBase + '/api/ecommerce/storefront/shipping?websiteId=' + encodeURIComponent(websiteId) + '&lang=' + encodeURIComponent(lang));
         var data = await res.json();
         var methods = data && data.data ? data.data : [];
+        window.__zappyShippingMethodsCache = methods;
         methods.forEach(function(method) {
           var block = container.querySelector('.shipping-method-block[data-method-id="' + method.id + '"]');
           if (!block) return;
@@ -18504,10 +18658,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V24 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V26 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 24) return;
-  window.__zappyEcomLanguageRoutingRuntime = 24;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 26) return;
+  window.__zappyEcomLanguageRoutingRuntime = 26;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -18781,7 +18935,11 @@ function fixContrast(){
       setImportant(li, 'overflow', 'visible');
       setImportant(li, 'box-sizing', 'border-box');
 
-      setImportant(trigger, 'display', 'block');
+      // Match ensureMobileNavMenuItemPadding (12px 16px / 44px tap target).
+      // Legacy padding-inline:8px + CSS padding:0 on .menu-group-title
+      // squashed group labels (סיום והעברות / בלוג) vs sibling <a> rows.
+      setImportant(trigger, 'display', 'flex');
+      setImportant(trigger, 'align-items', 'center');
       setImportant(trigger, 'direction', isRtl ? 'rtl' : 'ltr');
       setImportant(trigger, 'flex', '1 1 0');
       setImportant(trigger, 'min-width', '0');
@@ -18790,9 +18948,30 @@ function fixContrast(){
       setImportant(trigger, 'box-sizing', 'border-box');
       setImportant(trigger, 'white-space', 'normal');
       setImportant(trigger, 'overflow-wrap', 'anywhere');
-      setImportant(trigger, 'padding-inline', '8px');
+      setImportant(trigger, 'padding', '12px 16px');
+      setImportant(trigger, 'min-height', '44px');
+      setImportant(trigger, 'line-height', '1.4');
+      setImportant(trigger, 'font-weight', '600');
       setImportant(trigger, 'text-align', isRtl ? 'right' : 'left');
       setImportant(trigger, 'order', isRtl ? '2' : '1');
+
+      // Open mobile drawer: paint .menu-group-title like sibling links.
+      // Scrolled-nav CSS often sets titles to --frosted-text (near-black),
+      // which is invisible on the dark full-bleed panel (Dubai Plus 2026-07).
+      var menuRoot = li.closest('.nav-menu, #navMenu');
+      if (menuRoot && (menuRoot.classList.contains('active') || menuRoot.classList.contains('open'))) {
+        var sampleLink = menuRoot.querySelector(':scope > li > a');
+        var linkColor = '';
+        try { linkColor = sampleLink ? (window.getComputedStyle(sampleLink).color || '') : ''; } catch (e) {}
+        if (!linkColor || linkColor === 'rgba(0, 0, 0, 0)') {
+          try {
+            linkColor = (window.getComputedStyle(menuRoot).getPropertyValue('--nav-text') || '').trim()
+              || (window.getComputedStyle(document.documentElement).getPropertyValue('--nav-text') || '').trim()
+              || '#fff7ed';
+          } catch (e2) { linkColor = '#fff7ed'; }
+        }
+        setImportant(trigger, 'color', linkColor);
+      }
 
       setImportant(btn, 'display', 'flex');
       setImportant(btn, 'position', 'static');
@@ -18920,18 +19099,19 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '29') return;
+    if (existing && existing.getAttribute('data-v') === '31') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '29');
+    style.setAttribute('data-v', '31');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu,body[dir="ltr"] .nav-container > .nav-menu,html[dir="ltr"] .nav-right-group > .nav-menu,body[dir="ltr"] .nav-right-group > .nav-menu{order:1!important;margin-inline-start:0!important;flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu > li,body[dir="ltr"] .nav-container > .nav-menu > li,html[dir="ltr"] .nav-right-group > .nav-menu > li,body[dir="ltr"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
         'html[dir="ltr"] .nav-container > .lang-switcher,body[dir="ltr"] .nav-container > .lang-switcher,html[dir="ltr"] .nav-container > .nav-ecommerce-icons,body[dir="ltr"] .nav-container > .nav-ecommerce-icons,html[dir="ltr"] .nav-container > .nav-cta-container,body[dir="ltr"] .nav-container > .nav-cta-container,html[dir="ltr"] .nav-right-group > .lang-switcher,body[dir="ltr"] .nav-right-group > .lang-switcher,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,html[dir="ltr"] .nav-right-group > .nav-cta-container,body[dir="ltr"] .nav-right-group > .nav-cta-container{order:2!important;flex:0 0 auto!important;min-width:max-content!important}' +
+        '.nav-ecommerce-icons .nav-search-box{order:1!important}.nav-ecommerce-icons .lang-switcher{order:2!important}.nav-ecommerce-icons .login-link.nav-login{order:3!important}.nav-ecommerce-icons .cart-link.nav-cart{order:4!important}' +
         'html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left{margin-inline-start:auto!important;flex:0 0 auto!important;min-width:max-content!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu,body[dir="rtl"] .nav-container > .nav-menu,html[dir="rtl"] .nav-right-group > .nav-menu,body[dir="rtl"] .nav-right-group > .nav-menu{flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu > li,body[dir="rtl"] .nav-container > .nav-menu > li,html[dir="rtl"] .nav-right-group > .nav-menu > li,body[dir="rtl"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
@@ -18961,7 +19141,10 @@ function fixContrast(){
         // Beat any ".nav-menu.active > li { display:block }" (preview/generated)
         // so non-products dropdowns keep the chevron beside the label.
         '.navbar .nav-menu.active>li:has(>.sub-menu),nav.navbar .nav-menu.active>li:has(>.sub-menu),#navMenu.active>li:has(>.sub-menu),.nav-menu.open>li:has(>.sub-menu),.navbar .nav-menu.active>li.menu-item-has-children,nav.navbar .nav-menu.active>li.menu-item-has-children,#navMenu.active>li.menu-item-has-children,.nav-menu.open>li.menu-item-has-children{display:flex!important;flex-wrap:wrap!important;align-items:center!important;position:relative!important}' +
-        '.nav-menu li:has(.sub-menu)>a,.navbar li:has(.sub-menu)>a,nav li:has(.sub-menu)>a,li:has(.sub-menu)>.menu-group-title{display:block!important;flex:1 1 0!important;order:1!important;width:auto!important;min-width:0!important;max-width:calc(100% - 48px)!important;padding-inline:8px!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;line-height:1.35!important;text-align:left!important;direction:ltr!important}' +
+        '.nav-menu li:has(.sub-menu)>a,.navbar li:has(.sub-menu)>a,nav li:has(.sub-menu)>a,li:has(.sub-menu)>.menu-group-title{display:flex!important;align-items:center!important;flex:1 1 0!important;order:1!important;width:auto!important;min-width:0!important;max-width:calc(100% - 48px)!important;padding:12px 16px!important;min-height:44px!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;line-height:1.4!important;font-weight:600!important;text-align:left!important;direction:ltr!important}' +
+        /* Open drawer: beat .navbar.scrolled frosted-text on .menu-group-title
+           (dark-on-dark missing labels on non-home pages). */
+        '.navbar .nav-menu.active>li>.menu-group-title,.navbar #navMenu.active>li>.menu-group-title,.nav-menu.open>li>.menu-group-title,html body .navbar.scrolled .nav-menu.active>li>.menu-group-title,html body .navbar.scrolled #navMenu.active>li>.menu-group-title{color:var(--nav-text,var(--text-light,#fff7ed))!important}' +
         'html[dir="rtl"] .nav-menu li:has(.sub-menu)>a,body[dir="rtl"] .nav-menu li:has(.sub-menu)>a,html[dir="rtl"] .navbar li:has(.sub-menu)>a,body[dir="rtl"] .navbar li:has(.sub-menu)>a,html[dir="rtl"] nav li:has(.sub-menu)>a,body[dir="rtl"] nav li:has(.sub-menu)>a,html[dir="rtl"] li:has(.sub-menu)>.menu-group-title,body[dir="rtl"] li:has(.sub-menu)>.menu-group-title{direction:rtl!important;text-align:right!important;order:2!important}' +
         '.nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,.navbar li:has(.sub-menu)>.mobile-submenu-toggle,nav li:has(.sub-menu)>.mobile-submenu-toggle{display:flex!important;position:static!important;flex:0 0 48px!important;order:2!important;width:48px!important;height:44px!important;min-height:44px!important;align-items:center!important;justify-content:center!important;z-index:5!important;pointer-events:auto!important;margin:0!important;padding:0!important;background:transparent!important;border:none!important}' +
         'html[dir="rtl"] .nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] .nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,html[dir="rtl"] .navbar li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] .navbar li:has(.sub-menu)>.mobile-submenu-toggle,html[dir="rtl"] nav li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] nav li:has(.sub-menu)>.mobile-submenu-toggle{order:1!important}' +
@@ -19180,6 +19363,1124 @@ function fixContrast(){
   window.addEventListener('popstate', function() { setTimeout(applyCheckoutFocusState, 0); });
   setTimeout(boot, 250);
   setTimeout(boot, 1500);
+})();
+
+
+/* ZAPPY_ACCESSIBILITY_RUNTIME_V2 — self-loads Mickidum after publish strips stored third-party tags */
+
+/* Mickidum Accessibility Toolbar Initialization - Zappy Style */
+
+var zappyAccessibilityInitAttempts = 0;
+var zappyAccessibilityMaxAttempts = 50;
+var zappyAccessibilityScriptSrc = 'https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js';
+var zappyAccessibilityLoadPromise = null;
+
+function loadZappyAccessibilityToolbar() {
+    if (typeof window.MicAccessTool === 'function') {
+        return Promise.resolve();
+    }
+    if (zappyAccessibilityLoadPromise) {
+        return zappyAccessibilityLoadPromise;
+    }
+    zappyAccessibilityLoadPromise = new Promise(function(resolve, reject) {
+        var existing = document.querySelector('script[data-zappy-accessibility-toolbar="true"]');
+        if (existing) {
+            // A previously failed/already-complete tag never fires load again.
+            if (existing.getAttribute('data-zappy-load-error') === 'true') {
+                existing.parentNode && existing.parentNode.removeChild(existing);
+            } else if (existing.getAttribute('data-zappy-loaded') === 'true' || existing.readyState === 'complete') {
+                resolve();
+                return;
+            } else {
+                existing.addEventListener('load', function() {
+                    existing.setAttribute('data-zappy-loaded', 'true');
+                    resolve();
+                }, { once: true });
+                existing.addEventListener('error', function(error) {
+                    existing.setAttribute('data-zappy-load-error', 'true');
+                    reject(error);
+                }, { once: true });
+                return;
+            }
+        }
+        var script = document.createElement('script');
+        script.src = zappyAccessibilityScriptSrc;
+        script.async = true;
+        script.defer = true;
+        script.setAttribute('data-zappy-accessibility-toolbar', 'true');
+        script.onload = function() {
+            script.setAttribute('data-zappy-loaded', 'true');
+            resolve();
+        };
+        script.onerror = function(error) {
+            script.setAttribute('data-zappy-load-error', 'true');
+            reject(error);
+        };
+        document.head.appendChild(script);
+    }).then(function() {
+        initZappyAccessibilityToolbar();
+    }).catch(function() {
+        zappyAccessibilityLoadPromise = null;
+    });
+    return zappyAccessibilityLoadPromise;
+}
+
+function initZappyAccessibilityToolbar() {
+
+    try {
+        if (window.__zappyAccessibilityInitialized) {
+            return;
+        }
+        if (typeof window.MicAccessTool !== 'function') {
+            zappyAccessibilityInitAttempts++;
+            if (zappyAccessibilityInitAttempts < zappyAccessibilityMaxAttempts) {
+                // Script load may already be settled; schedule another init pass
+                // so we keep polling until MicAccessTool attaches.
+                setTimeout(function() {
+                    loadZappyAccessibilityToolbar().then(initZappyAccessibilityToolbar);
+                }, 100);
+            }
+            return;
+        }
+        window.__zappyAccessibilityInitialized = true;
+        // Detect current page language and direction from <html> element
+        // so the toolbar matches the active language on multi-language sites.
+        var htmlEl = document.documentElement;
+        var pageLang = (htmlEl.getAttribute('lang') || 'en').toLowerCase().split('-')[0];
+        var pageDir = (htmlEl.getAttribute('dir') || '').toLowerCase();
+        var rtlLangs = ['he', 'ar', 'fa', 'ur', 'yi', 'iw'];
+        var isPageRTL = pageDir === 'rtl' || rtlLangs.indexOf(pageLang) !== -1;
+        var buttonSide = isPageRTL ? 'left' : 'right';
+
+        var langMap = { en: 'en-US', es: 'es-ES', fr: 'fr-FR', de: 'de-DE', it: 'it-IT', pt: 'pt-PT', nl: 'nl-NL', he: 'he-IL', ar: 'ar-SA' };
+        var forceLang = langMap[pageLang] || 'en-US';
+
+        var iconPos = { bottom: { size: 50, units: 'px' }, type: 'fixed' };
+        iconPos[buttonSide] = { size: 20, units: 'px' };
+
+        window.micAccessTool = new MicAccessTool({
+            buttonPosition: buttonSide,
+            forceLang: forceLang,
+            icon: {
+                position: iconPos,
+                backgroundColor: 'transparent',
+                color: 'transparent',
+                img: 'accessible',
+                circular: false
+            },
+            menu: {
+                dimensions: {
+                    width: { size: 300, units: 'px' },
+                    height: { size: 'auto', units: 'px' }
+                }
+            }
+        });
+        
+    } catch (error) {
+    }
+    
+    // Keyboard shortcut handler: ALT+A (Option+A on Mac) to toggle accessibility menu
+    if (!window.__zappyAccessibilityShortcutBound) {
+      window.__zappyAccessibilityShortcutBound = true;
+      document.addEventListener('keydown', function(event) {
+        var isAltOrOption = event.altKey;
+        var isAKey = event.code === 'KeyA' || event.keyCode === 65 || event.which === 65 || 
+                      (event.key && (event.key.toLowerCase() === 'a' || event.key === 'å' || event.key === 'Å'));
+        
+        if (isAltOrOption && isAKey) {
+            event.preventDefault();
+            event.stopPropagation();
+            loadZappyAccessibilityToolbar().then(function() {
+                var accessButton = document.getElementById('mic-access-tool-general-button');
+                if (accessButton) {
+                    accessButton.click();
+                }
+            });
+        }
+      }, true);
+    }
+}
+
+function scheduleZappyAccessibilityLazyLoad() {
+    var start = function() { loadZappyAccessibilityToolbar(); };
+    if (typeof window.requestIdleCallback === 'function') {
+        window.requestIdleCallback(start, { timeout: 8000 });
+    } else {
+        setTimeout(start, 8000);
+    }
+}
+
+if (!window.__zappyAccessibilityShortcutBound) {
+    window.__zappyAccessibilityShortcutBound = true;
+    document.addEventListener('keydown', function(event) {
+        var isAltOrOption = event.altKey;
+        var isAKey = event.code === 'KeyA' || event.keyCode === 65 || event.which === 65 ||
+                      (event.key && (event.key.toLowerCase() === 'a' || event.key === 'å' || event.key === 'Å'));
+        if (isAltOrOption && isAKey) {
+            event.preventDefault();
+            event.stopPropagation();
+            loadZappyAccessibilityToolbar().then(function() {
+                var accessButton = document.getElementById('mic-access-tool-general-button');
+                if (accessButton) accessButton.click();
+            });
+        }
+    }, true);
+}
+
+if (document.readyState === 'complete') {
+    scheduleZappyAccessibilityLazyLoad();
+} else {
+    window.addEventListener('load', scheduleZappyAccessibilityLazyLoad, { once: true });
+}
+
+/* Cookie Consent */
+
+// Helper function to check cookie consent
+function hasConsentFor(category) {
+  if (typeof window.CookieConsent === 'undefined') {
+    return false; // Default to no consent if cookie consent not loaded
+  }
+  
+  return window.CookieConsent.validConsent(category);
+}
+
+// Helper function to execute code only with consent
+function withConsent(category, callback) {
+  if (hasConsentFor(category)) {
+    callback();
+  } else {
+    console.log(`[WARNING] Skipping ${category} code - no user consent`);
+  }
+}
+
+// Cookie Consent Initialization (multi-language) /* __ccConfigCustomBannerV1 */
+
+(function() {
+  'use strict';
+  
+  var initAttempts = 0;
+  var maxAttempts = 50;
+  var cookieConsentScriptSrc = 'https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js';
+  var cookieConsentLoadPromise = null;
+
+  function loadCookieConsentLibrary() {
+    if (typeof window.CookieConsent !== 'undefined') {
+      return Promise.resolve(window.CookieConsent);
+    }
+    if (cookieConsentLoadPromise) {
+      return cookieConsentLoadPromise;
+    }
+    cookieConsentLoadPromise = new Promise(function(resolve, reject) {
+      var existing = document.querySelector('script[data-zappy-cookie-consent="true"]');
+      if (existing) {
+        // A previously failed/already-complete tag never fires load again.
+        if (existing.getAttribute('data-zappy-load-error') === 'true') {
+          existing.parentNode && existing.parentNode.removeChild(existing);
+        } else if (existing.getAttribute('data-zappy-loaded') === 'true' || existing.readyState === 'complete') {
+          resolve(window.CookieConsent);
+          return;
+        } else {
+          existing.addEventListener('load', function() {
+            existing.setAttribute('data-zappy-loaded', 'true');
+            resolve(window.CookieConsent);
+          }, { once: true });
+          existing.addEventListener('error', function(error) {
+            existing.setAttribute('data-zappy-load-error', 'true');
+            reject(error);
+          }, { once: true });
+          return;
+        }
+      }
+      var script = document.createElement('script');
+      script.src = cookieConsentScriptSrc;
+      script.async = true;
+      script.defer = true;
+      script.setAttribute('data-zappy-cookie-consent', 'true');
+      script.onload = function() {
+        script.setAttribute('data-zappy-loaded', 'true');
+        resolve(window.CookieConsent);
+      };
+      script.onerror = function(error) {
+        script.setAttribute('data-zappy-load-error', 'true');
+        reject(error);
+      };
+      document.head.appendChild(script);
+    }).catch(function() {
+      cookieConsentLoadPromise = null;
+    });
+    return cookieConsentLoadPromise;
+  }
+
+  function initCookieConsent() {
+    initAttempts++;
+
+    if (typeof window.CookieConsent === 'undefined') {
+      if (initAttempts < maxAttempts) {
+        // Keep the previous backoff so we wait for the UMD global to attach
+        // after the script load event, instead of exhausting attempts immediately.
+        setTimeout(function() {
+          loadCookieConsentLibrary().then(initCookieConsent);
+        }, 100);
+      }
+      return;
+    }
+
+    if (window.__zappyCookieConsentInitialized) {
+      return;
+    }
+    window.__zappyCookieConsentInitialized = true;
+
+    var cc = window.CookieConsent;
+    
+    try {
+      var __ccConfig = {
+  "autoShow": false,
+  "mode": "opt-in",
+  "revision": 0,
+  "categories": {
+    "necessary": {
+      "enabled": true,
+      "readOnly": true
+    },
+    "analytics": {
+      "enabled": false,
+      "readOnly": false,
+      "autoClear": {
+        "cookies": [
+          {
+            "name": "_ga"
+          },
+          {
+            "name": "_ga_*"
+          },
+          {
+            "name": "_gid"
+          },
+          {
+            "name": "_gat"
+          }
+        ]
+      }
+    },
+    "marketing": {
+      "enabled": false,
+      "readOnly": false,
+      "autoClear": {
+        "cookies": [
+          {
+            "name": "_fbp"
+          },
+          {
+            "name": "_fbc"
+          },
+          {
+            "name": "fr"
+          }
+        ]
+      }
+    }
+  },
+  "language": {
+    "default": "he",
+    "translations": {
+      "en": {
+        "consentModal": {
+          "description": "We use cookies to improve your experience and analyze site usage.",
+          "acceptAllBtn": "Accept",
+          "showPreferencesBtn": "Customize"
+        },
+        "preferencesModal": {
+          "title": "Cookie Preferences",
+          "acceptAllBtn": "Accept",
+          "acceptNecessaryBtn": "Accept Necessary",
+          "savePreferencesBtn": "Save Preferences",
+          "closeIconLabel": "Close",
+          "sections": [
+            {
+              "title": "Essential Cookies",
+              "description": "These cookies are necessary for the website to function and cannot be disabled.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Analytics Cookies",
+              "description": "These cookies help us understand how visitors interact with our website.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Marketing Cookies",
+              "description": "These cookies are used to deliver personalized advertisements.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "es": {
+        "consentModal": {
+          "description": "Usamos cookies para mejorar tu experiencia y analizar el uso del sitio.",
+          "acceptAllBtn": "Aceptar",
+          "showPreferencesBtn": "Personalizar"
+        },
+        "preferencesModal": {
+          "title": "Preferencias de Cookies",
+          "acceptAllBtn": "Aceptar",
+          "acceptNecessaryBtn": "Solo Necesarias",
+          "savePreferencesBtn": "Guardar Preferencias",
+          "closeIconLabel": "Cerrar",
+          "sections": [
+            {
+              "title": "Cookies Esenciales",
+              "description": "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Cookies de Análisis",
+              "description": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Cookies de Marketing",
+              "description": "Estas cookies se utilizan para entregar anuncios personalizados.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "fr": {
+        "consentModal": {
+          "description": "Nous utilisons des cookies pour améliorer votre expérience et analyser l'utilisation du site.",
+          "acceptAllBtn": "Accepter",
+          "showPreferencesBtn": "Personnaliser"
+        },
+        "preferencesModal": {
+          "title": "Préférences des Cookies",
+          "acceptAllBtn": "Accepter",
+          "acceptNecessaryBtn": "Accepter les Nécessaires",
+          "savePreferencesBtn": "Enregistrer les Préférences",
+          "closeIconLabel": "Fermer",
+          "sections": [
+            {
+              "title": "Cookies Essentiels",
+              "description": "Ces cookies sont nécessaires au fonctionnement du site web et ne peuvent pas être désactivés.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Cookies Analytiques",
+              "description": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site web.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Cookies Marketing",
+              "description": "Ces cookies sont utilisés pour diffuser des publicités personnalisées.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "de": {
+        "consentModal": {
+          "description": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern und die Nutzung der Website zu analysieren.",
+          "acceptAllBtn": "Akzeptieren",
+          "showPreferencesBtn": "Anpassen"
+        },
+        "preferencesModal": {
+          "title": "Cookie-Einstellungen",
+          "acceptAllBtn": "Akzeptieren",
+          "acceptNecessaryBtn": "Nur Notwendige",
+          "savePreferencesBtn": "Einstellungen speichern",
+          "closeIconLabel": "Schließen",
+          "sections": [
+            {
+              "title": "Notwendige Cookies",
+              "description": "Diese Cookies sind für die Funktion der Website erforderlich und können nicht deaktiviert werden.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Analyse-Cookies",
+              "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Marketing-Cookies",
+              "description": "Diese Cookies werden verwendet, um personalisierte Werbung zu liefern.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "it": {
+        "consentModal": {
+          "description": "Utilizziamo i cookie per migliorare la tua esperienza e analizzare l'utilizzo del sito.",
+          "acceptAllBtn": "Accetta",
+          "showPreferencesBtn": "Personalizza"
+        },
+        "preferencesModal": {
+          "title": "Preferenze Cookie",
+          "acceptAllBtn": "Accetta",
+          "acceptNecessaryBtn": "Solo Necessari",
+          "savePreferencesBtn": "Salva Preferenze",
+          "closeIconLabel": "Chiudi",
+          "sections": [
+            {
+              "title": "Cookie Essenziali",
+              "description": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Cookie Analitici",
+              "description": "Questi cookie ci aiutano a capire come i visitatori interagiscono con il nostro sito web.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Cookie di Marketing",
+              "description": "Questi cookie vengono utilizzati per fornire pubblicità personalizzate.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "pt": {
+        "consentModal": {
+          "description": "Usamos cookies para melhorar sua experiência e analisar o uso do site.",
+          "acceptAllBtn": "Aceitar",
+          "showPreferencesBtn": "Personalizar"
+        },
+        "preferencesModal": {
+          "title": "Preferências de Cookies",
+          "acceptAllBtn": "Aceitar",
+          "acceptNecessaryBtn": "Apenas Necessários",
+          "savePreferencesBtn": "Salvar Preferências",
+          "closeIconLabel": "Fechar",
+          "sections": [
+            {
+              "title": "Cookies Essenciais",
+              "description": "Estes cookies são necessários para o funcionamento do site e não podem ser desativados.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Cookies Analíticos",
+              "description": "Estes cookies nos ajudam a entender como os visitantes interagem com nosso site.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Cookies de Marketing",
+              "description": "Estes cookies são usados para exibir anúncios personalizados.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "nl": {
+        "consentModal": {
+          "description": "Wij gebruiken cookies om uw ervaring te verbeteren en het sitegebruik te analyseren.",
+          "acceptAllBtn": "Accepteren",
+          "showPreferencesBtn": "Aanpassen"
+        },
+        "preferencesModal": {
+          "title": "Cookie-voorkeuren",
+          "acceptAllBtn": "Accepteren",
+          "acceptNecessaryBtn": "Alleen noodzakelijke",
+          "savePreferencesBtn": "Voorkeuren opslaan",
+          "closeIconLabel": "Sluiten",
+          "sections": [
+            {
+              "title": "Noodzakelijke Cookies",
+              "description": "Deze cookies zijn nodig voor het functioneren van de website en kunnen niet worden uitgeschakeld.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Analytische Cookies",
+              "description": "Deze cookies helpen ons te begrijpen hoe bezoekers onze website gebruiken.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Marketing Cookies",
+              "description": "Deze cookies worden gebruikt om gepersonaliseerde advertenties te tonen.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "he": {
+        "consentModal": {
+          "description": "אנחנו משתמשים בעוגיות כדי לשפר את החוויה שלך ולנתח שימוש באתר.",
+          "acceptAllBtn": "אישור",
+          "showPreferencesBtn": "התאמה אישית"
+        },
+        "preferencesModal": {
+          "title": "העדפות עוגיות",
+          "acceptAllBtn": "אישור",
+          "acceptNecessaryBtn": "רק הכרחי",
+          "savePreferencesBtn": "שמור העדפות",
+          "closeIconLabel": "סגור",
+          "sections": [
+            {
+              "title": "עוגיות חיוניות",
+              "description": "עוגיות אלה הכרחיות לתפקוד האתר ולא ניתן להשבית אותן.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "עוגיות ניתוח",
+              "description": "עוגיות אלה עוזרות לנו להבין איך המבקרים מתקשרים עם האתר שלנו.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "עוגיות שיווקיות",
+              "description": "עוגיות אלה משמשות להצגת פרסומות מותאמות אישית.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "ar": {
+        "consentModal": {
+          "description": "نستخدم ملفات تعريف الارتباط لتحسين تجربتك وتحليل استخدام الموقع.",
+          "acceptAllBtn": "قبول",
+          "showPreferencesBtn": "تخصيص"
+        },
+        "preferencesModal": {
+          "title": "تفضيلات ملفات تعريف الارتباط",
+          "acceptAllBtn": "قبول",
+          "acceptNecessaryBtn": "الضرورية فقط",
+          "savePreferencesBtn": "حفظ التفضيلات",
+          "closeIconLabel": "إغلاق",
+          "sections": [
+            {
+              "title": "ملفات تعريف الارتباط الأساسية",
+              "description": "هذه الملفات ضرورية لعمل الموقع ولا يمكن تعطيلها.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "ملفات تعريف الارتباط التحليلية",
+              "description": "تساعدنا هذه الملفات في فهم كيفية تفاعل الزوار مع موقعنا.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "ملفات تعريف الارتباط التسويقية",
+              "description": "تُستخدم هذه الملفات لعرض إعلانات مخصصة.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "tr": {
+        "consentModal": {
+          "description": "Deneyiminizi geliştirmek ve site kullanımını analiz etmek için çerezler kullanırız.",
+          "acceptAllBtn": "Kabul Et",
+          "showPreferencesBtn": "Özelleştir"
+        },
+        "preferencesModal": {
+          "title": "Çerez Tercihleri",
+          "acceptAllBtn": "Kabul Et",
+          "acceptNecessaryBtn": "Sadece Gerekli",
+          "savePreferencesBtn": "Tercihleri Kaydet",
+          "closeIconLabel": "Kapat",
+          "sections": [
+            {
+              "title": "Zorunlu Çerezler",
+              "description": "Bu çerezler web sitesinin çalışması için gereklidir ve devre dışı bırakılamaz.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Analiz Çerezleri",
+              "description": "Bu çerezler, ziyaretçilerin web sitemizle nasıl etkileşime girdiğini anlamamıza yardımcı olur.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Pazarlama Çerezleri",
+              "description": "Bu çerezler kişiselleştirilmiş reklamlar sunmak için kullanılır.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "ru": {
+        "consentModal": {
+          "description": "Мы используем файлы cookie для улучшения вашего опыта и анализа использования сайта.",
+          "acceptAllBtn": "Принять",
+          "showPreferencesBtn": "Настроить"
+        },
+        "preferencesModal": {
+          "title": "Настройки cookie",
+          "acceptAllBtn": "Принять",
+          "acceptNecessaryBtn": "Только необходимые",
+          "savePreferencesBtn": "Сохранить настройки",
+          "closeIconLabel": "Закрыть",
+          "sections": [
+            {
+              "title": "Необходимые cookie",
+              "description": "Эти файлы cookie необходимы для работы сайта и не могут быть отключены.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Аналитические cookie",
+              "description": "Эти файлы cookie помогают нам понять, как посетители взаимодействуют с нашим сайтом.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Маркетинговые cookie",
+              "description": "Эти файлы cookie используются для показа персонализированной рекламы.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "zh": {
+        "consentModal": {
+          "description": "我们使用 Cookie 来改善您的体验并分析网站使用情况。",
+          "acceptAllBtn": "接受",
+          "showPreferencesBtn": "自定义"
+        },
+        "preferencesModal": {
+          "title": "Cookie 偏好设置",
+          "acceptAllBtn": "接受",
+          "acceptNecessaryBtn": "仅接受必要",
+          "savePreferencesBtn": "保存偏好",
+          "closeIconLabel": "关闭",
+          "sections": [
+            {
+              "title": "必要 Cookie",
+              "description": "这些 Cookie 是网站正常运行所必需的，无法禁用。",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "分析 Cookie",
+              "description": "这些 Cookie 帮助我们了解访问者如何与我们的网站互动。",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "营销 Cookie",
+              "description": "这些 Cookie 用于投放个性化广告。",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "ja": {
+        "consentModal": {
+          "description": "お客様の体験向上とサイト利用状況の分析のためにCookieを使用しています。",
+          "acceptAllBtn": "許可する",
+          "showPreferencesBtn": "カスタマイズ"
+        },
+        "preferencesModal": {
+          "title": "Cookie設定",
+          "acceptAllBtn": "許可する",
+          "acceptNecessaryBtn": "必要なもののみ",
+          "savePreferencesBtn": "設定を保存",
+          "closeIconLabel": "閉じる",
+          "sections": [
+            {
+              "title": "必要なCookie",
+              "description": "これらのCookieはウェブサイトの機能に必要であり、無効にすることはできません。",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "分析Cookie",
+              "description": "これらのCookieは、訪問者がウェブサイトとどのように対話するかを理解するのに役立ちます。",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "マーケティングCookie",
+              "description": "これらのCookieはパーソナライズされた広告を配信するために使用されます。",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "ko": {
+        "consentModal": {
+          "description": "경험 향상과 사이트 사용 분석을 위해 쿠키를 사용합니다.",
+          "acceptAllBtn": "수락",
+          "showPreferencesBtn": "사용자 지정"
+        },
+        "preferencesModal": {
+          "title": "쿠키 설정",
+          "acceptAllBtn": "수락",
+          "acceptNecessaryBtn": "필수만 수락",
+          "savePreferencesBtn": "설정 저장",
+          "closeIconLabel": "닫기",
+          "sections": [
+            {
+              "title": "필수 쿠키",
+              "description": "이 쿠키는 웹사이트 작동에 필요하며 비활성화할 수 없습니다.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "분석 쿠키",
+              "description": "이 쿠키는 방문자가 웹사이트와 어떻게 상호작용하는지 이해하는 데 도움이 됩니다.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "마케팅 쿠키",
+              "description": "이 쿠키는 맞춤형 광고를 제공하는 데 사용됩니다.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "pl": {
+        "consentModal": {
+          "description": "Używamy plików cookie, aby poprawić Twoje wrażenia i analizować korzystanie z witryny.",
+          "acceptAllBtn": "Akceptuję",
+          "showPreferencesBtn": "Dostosuj"
+        },
+        "preferencesModal": {
+          "title": "Preferencje cookie",
+          "acceptAllBtn": "Akceptuję",
+          "acceptNecessaryBtn": "Tylko niezbędne",
+          "savePreferencesBtn": "Zapisz preferencje",
+          "closeIconLabel": "Zamknij",
+          "sections": [
+            {
+              "title": "Niezbędne pliki cookie",
+              "description": "Te pliki cookie są niezbędne do działania strony i nie można ich wyłączyć.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Analityczne pliki cookie",
+              "description": "Te pliki cookie pomagają nam zrozumieć, w jaki sposób odwiedzający korzystają z naszej strony.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Marketingowe pliki cookie",
+              "description": "Te pliki cookie służą do wyświetlania spersonalizowanych reklam.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "uk": {
+        "consentModal": {
+          "description": "Ми використовуємо файли cookie для покращення вашого досвіду та аналізу використання сайту.",
+          "acceptAllBtn": "Прийняти",
+          "showPreferencesBtn": "Налаштувати"
+        },
+        "preferencesModal": {
+          "title": "Налаштування cookie",
+          "acceptAllBtn": "Прийняти",
+          "acceptNecessaryBtn": "Лише необхідні",
+          "savePreferencesBtn": "Зберегти налаштування",
+          "closeIconLabel": "Закрити",
+          "sections": [
+            {
+              "title": "Необхідні cookie",
+              "description": "Ці файли cookie необхідні для роботи сайту і не можуть бути вимкнені.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Аналітичні cookie",
+              "description": "Ці файли cookie допомагають нам зрозуміти, як відвідувачі взаємодіють з нашим сайтом.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Маркетингові cookie",
+              "description": "Ці файли cookie використовуються для показу персоналізованої реклами.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "ro": {
+        "consentModal": {
+          "description": "Folosim cookie-uri pentru a vă îmbunătăți experiența și a analiza utilizarea site-ului.",
+          "acceptAllBtn": "Acceptă",
+          "showPreferencesBtn": "Personalizează"
+        },
+        "preferencesModal": {
+          "title": "Preferințe cookie",
+          "acceptAllBtn": "Acceptă",
+          "acceptNecessaryBtn": "Doar necesare",
+          "savePreferencesBtn": "Salvează preferințele",
+          "closeIconLabel": "Închide",
+          "sections": [
+            {
+              "title": "Cookie-uri esențiale",
+              "description": "Aceste cookie-uri sunt necesare pentru funcționarea site-ului și nu pot fi dezactivate.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Cookie-uri analitice",
+              "description": "Aceste cookie-uri ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Cookie-uri de marketing",
+              "description": "Aceste cookie-uri sunt folosite pentru a afișa reclame personalizate.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      },
+      "bg": {
+        "consentModal": {
+          "description": "Използваме бисквитки, за да подобрим изживяването ви и да анализираме използването на сайта.",
+          "acceptAllBtn": "Приемам",
+          "showPreferencesBtn": "Персонализиране"
+        },
+        "preferencesModal": {
+          "title": "Настройки за бисквитки",
+          "acceptAllBtn": "Приемам",
+          "acceptNecessaryBtn": "Само необходимите",
+          "savePreferencesBtn": "Запазване на предпочитанията",
+          "closeIconLabel": "Затвори",
+          "sections": [
+            {
+              "title": "Необходими бисквитки",
+              "description": "Тези бисквитки са необходими за функционирането на уебсайта и не могат да бъдат деактивирани.",
+              "linkedCategory": "necessary"
+            },
+            {
+              "title": "Аналитични бисквитки",
+              "description": "Тези бисквитки ни помагат да разберем как посетителите взаимодействат с нашия уебсайт.",
+              "linkedCategory": "analytics"
+            },
+            {
+              "title": "Маркетингови бисквитки",
+              "description": "Тези бисквитки се използват за показване на персонализирани реклами.",
+              "linkedCategory": "marketing"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "guiOptions": {
+    "consentModal": {
+      "layout": "bar inline",
+      "position": "bottom",
+      "equalWeightButtons": false,
+      "flipButtons": false
+    },
+    "preferencesModal": {
+      "layout": "box",
+      "equalWeightButtons": false,
+      "flipButtons": false
+    }
+  }
+};
+      var __ccCloseLabels = {"en":"Close","es":"Cerrar","fr":"Fermer","de":"Schließen","it":"Chiudi","pt":"Fechar","nl":"Sluiten","he":"סגור","ar":"إغلاق","tr":"Kapat","ru":"Закрыть","zh":"关闭","ja":"閉じる","ko":"닫기","pl":"Zamknij","uk":"Закрити","ro":"Închide","bg":"Затвори"};
+
+      // Detect the current page language and override the build-time default.
+      // Published multi-language sites set <html lang="…"> per URL prefix;
+      // preview pages may store the active language on zappyI18n.
+      var pageLang = (document.documentElement.getAttribute('lang') || '').split('-')[0].toLowerCase();
+      if (!pageLang && typeof zappyI18n !== 'undefined' && zappyI18n.language) {
+        pageLang = String(zappyI18n.language).split('-')[0].toLowerCase();
+      }
+      if (pageLang && __ccConfig.language.translations[pageLang]) {
+        __ccConfig.language.default = pageLang;
+      }
+
+      function getActiveLanguage() {
+        var lang = (document.documentElement.getAttribute('lang') || '').split('-')[0].toLowerCase();
+        if (!lang && typeof zappyI18n !== 'undefined' && zappyI18n.language) {
+          lang = String(zappyI18n.language).split('-')[0].toLowerCase();
+        }
+        if (!lang || !__ccConfig.language.translations[lang]) {
+          lang = __ccConfig.language.default || 'en';
+        }
+        return __ccConfig.language.translations[lang] ? lang : 'en';
+      }
+
+      function getConsentText() {
+        var lang = getActiveLanguage();
+        var translations = __ccConfig.language.translations || {};
+        var current = translations[lang] || translations.en || {};
+        var consent = current.consentModal || {};
+        var labels = __ccCloseLabels || {};
+        return {
+          description: consent.description || '',
+          accept: consent.acceptAllBtn || 'Accept',
+          customize: consent.showPreferencesBtn || 'Customize',
+          close: labels[lang] || labels.en || 'Close'
+        };
+      }
+
+      function removeCustomBanner() {
+        var banner = document.getElementById('zappy-cookie-banner');
+        if (banner && banner.parentNode) {
+          banner.parentNode.removeChild(banner);
+        }
+        document.documentElement.classList.remove('zappy-cookie-banner-visible');
+      }
+
+      function updateCustomBannerText() {
+        var banner = document.getElementById('zappy-cookie-banner');
+        if (!banner) return;
+        var text = getConsentText();
+        var desc = banner.querySelector('[data-zappy-cookie-description]');
+        var accept = banner.querySelector('[data-zappy-cookie-accept]');
+        var customize = banner.querySelector('[data-zappy-cookie-customize]');
+        var close = banner.querySelector('[data-zappy-cookie-close]');
+        banner.setAttribute('aria-label', text.description || text.close);
+        if (desc) desc.textContent = text.description;
+        if (accept) accept.textContent = text.accept;
+        if (customize) customize.textContent = text.customize;
+        if (close) close.setAttribute('aria-label', text.close);
+      }
+
+      // Google Consent Mode v2 integration
+      function updateGoogleConsentMode() {
+        if (typeof gtag !== 'function') {
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function(){dataLayer.push(arguments);};
+        }
+        
+        var analyticsAccepted = cc.acceptedCategory('analytics');
+        var marketingAccepted = cc.acceptedCategory('marketing');
+        
+        gtag('consent', 'update', {
+          'analytics_storage': analyticsAccepted ? 'granted' : 'denied',
+          'ad_storage': marketingAccepted ? 'granted' : 'denied',
+          'ad_user_data': marketingAccepted ? 'granted' : 'denied',
+          'ad_personalization': marketingAccepted ? 'granted' : 'denied'
+        });
+      }
+
+      function acceptAndClose(categories) {
+        try { cc.acceptCategory(categories); } catch (_) {}
+        removeCustomBanner();
+        updateGoogleConsentMode();
+      }
+
+      function renderCustomBanner() {
+        try {
+          if (typeof cc.validConsent === 'function' && cc.validConsent()) {
+            removeCustomBanner();
+            return;
+          }
+          if (!document.body) {
+            setTimeout(renderCustomBanner, 50);
+            return;
+          }
+          var existing = document.getElementById('zappy-cookie-banner');
+          if (existing) {
+            updateCustomBannerText();
+            return;
+          }
+
+          var text = getConsentText();
+          var banner = document.createElement('div');
+          banner.id = 'zappy-cookie-banner';
+          banner.className = 'zappy-cookie-banner';
+          banner.setAttribute('role', 'region');
+          banner.setAttribute('aria-label', text.description || text.close);
+
+          var inner = document.createElement('div');
+          inner.className = 'zappy-cookie-banner__inner';
+
+          var description = document.createElement('p');
+          description.className = 'zappy-cookie-banner__text';
+          description.setAttribute('data-zappy-cookie-description', 'true');
+          description.textContent = text.description;
+
+          var actions = document.createElement('div');
+          actions.className = 'zappy-cookie-banner__actions';
+
+          var customizeBtn = document.createElement('button');
+          customizeBtn.type = 'button';
+          customizeBtn.className = 'zappy-cookie-banner__button zappy-cookie-banner__button--customize';
+          customizeBtn.setAttribute('data-zappy-cookie-customize', 'true');
+          customizeBtn.textContent = text.customize;
+          customizeBtn.addEventListener('click', function(ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            try { cc.showPreferences(); } catch (_) {}
+          });
+
+          var acceptBtn = document.createElement('button');
+          acceptBtn.type = 'button';
+          acceptBtn.className = 'zappy-cookie-banner__button zappy-cookie-banner__button--accept';
+          acceptBtn.setAttribute('data-zappy-cookie-accept', 'true');
+          acceptBtn.textContent = text.accept;
+          acceptBtn.addEventListener('click', function(ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            acceptAndClose('all');
+          });
+
+          var closeBtn = document.createElement('button');
+          closeBtn.type = 'button';
+          closeBtn.className = 'zappy-cookie-banner__close';
+          closeBtn.setAttribute('data-zappy-cookie-close', 'true');
+          closeBtn.setAttribute('aria-label', text.close);
+          closeBtn.textContent = '\u00D7';
+          closeBtn.addEventListener('click', function(ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            acceptAndClose([]);
+          });
+
+          actions.appendChild(customizeBtn);
+          actions.appendChild(acceptBtn);
+          inner.appendChild(description);
+          inner.appendChild(actions);
+          inner.appendChild(closeBtn);
+          banner.appendChild(inner);
+          document.body.appendChild(banner);
+          document.documentElement.classList.add('zappy-cookie-banner-visible');
+        } catch (_) {
+          // Defensive — never let the custom banner break the page.
+        }
+      }
+
+      function handleConsentResolved() {
+        removeCustomBanner();
+        updateGoogleConsentMode();
+      }
+
+      __ccConfig.onFirstConsent = handleConsentResolved;
+      __ccConfig.onConsent = handleConsentResolved;
+      __ccConfig.onChange = handleConsentResolved;
+
+      var runResult = cc.run(__ccConfig);
+      var afterRun = function() {
+        updateGoogleConsentMode();
+        if (!cc.validConsent || !cc.validConsent()) {
+          renderCustomBanner();
+        }
+      };
+      if (runResult && typeof runResult.then === 'function') {
+        runResult.then(afterRun).catch(afterRun);
+      } else {
+        setTimeout(afterRun, 0);
+      }
+
+      // Keep cookie consent in sync when the user switches language without
+      // a full navigation (preview / embedded-resources path).
+      if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.onLanguageChange === 'function') {
+        zappyI18n.onLanguageChange(function(newLang) {
+          try {
+            if (__ccConfig.language.translations[newLang]) {
+              __ccConfig.language.default = newLang;
+              cc.setLanguage(newLang, true);
+              updateCustomBannerText();
+            }
+          } catch (_) {}
+        });
+      }
+    } catch (error) {
+      window.__zappyCookieConsentInitialized = false;
+    }
+  }
+
+  function scheduleCookieConsentLoad() {
+    var start = function() {
+      loadCookieConsentLibrary().then(initCookieConsent);
+    };
+    if (typeof window.requestIdleCallback === 'function') {
+      window.requestIdleCallback(start, { timeout: 7000 });
+    } else {
+      setTimeout(start, 7000);
+    }
+  }
+
+  if (document.readyState === 'complete') {
+    scheduleCookieConsentLoad();
+  } else if (typeof window !== 'undefined' && window.addEventListener) {
+    window.addEventListener('load', scheduleCookieConsentLoad, { once: true });
+  } else {
+    setTimeout(scheduleCookieConsentLoad, 1000);
+  }
 })();
 
 
@@ -19919,9 +21220,10 @@ function fixContrast(){
   } catch (e) {}
 })();
 
-/* ZAPPY_ANNOUNCEMENT_HEADER_SYNC_V3 */
+/* ZAPPY_ANNOUNCEMENT_HEADER_SYNC_V4 */
 (function(){
-  if (window.__zappyAnnouncementHeaderSyncV3) return;
+  if (window.__zappyAnnouncementHeaderSyncV4) return;
+  window.__zappyAnnouncementHeaderSyncV4 = true;
   window.__zappyAnnouncementHeaderSyncV3 = true;
   window.__zappyAnnouncementHeaderSyncV2 = true;
   window.__zappyAnnouncementHeaderSyncV1 = true; // legacy guards
@@ -19994,17 +21296,35 @@ function fixContrast(){
     document.documentElement.style.setProperty('--zappy-header-stack-height', totalHeight + 'px');
     document.body.style.setProperty('padding-top', totalHeight + 'px', 'important');
 
-    // Transparent nav: pull hero behind the fixed stack immediately (do NOT
-    // wait for lazy storefront-runtime.js — that delay was the ~10s gray bar).
-    // Keep selectors aligned with ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V2 —
+    // Transparent nav: pull hero behind the fixed stack immediately.
+    // Measure the navbar itself rather than trusting --nav-bg, which can be
+    // absent on older published pages or during stylesheet failure. Critical
+    // CSS also paints known opaque navbar colors before this runtime executes.
+    // Keep selectors aligned with ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 —
     // never underlap bare main>section:first-child (catalog /products pages).
-    var navBgValue = '';
-    try { navBgValue = getComputedStyle(document.documentElement).getPropertyValue('--nav-bg').trim(); } catch (e) {}
-    if (!navBgValue || navBgValue === 'transparent') {
-      var heroEl = document.querySelector('section[data-hero-type^="fullscreen"], .index-hero-section, main > section[class*="hero"]:first-of-type');
-      if (heroEl && totalHeight > 0) {
+    var heroEl = document.querySelector('section[data-hero-type^="fullscreen"], .index-hero-section, main > section[class*="hero"]:first-of-type');
+    if (heroEl && totalHeight > 0) {
+      var headerIsTransparent = false;
+      try {
+        var headerStyle = getComputedStyle(header);
+        var backgroundColor = headerStyle.backgroundColor || '';
+        var backgroundImage = headerStyle.backgroundImage || 'none';
+        var alphaMatch = backgroundColor.match(/rgba?\([^)]*[,\s]([0-9.]+)\s*\)$/i);
+        headerIsTransparent =
+          backgroundImage === 'none' &&
+          (backgroundColor === 'transparent' || (alphaMatch && parseFloat(alphaMatch[1]) < 0.3));
+      } catch (e) {}
+      if (headerIsTransparent) {
         heroEl.style.setProperty('margin-top', '-' + totalHeight + 'px', 'important');
         heroEl.style.setProperty('padding-top', totalHeight + 'px', 'important');
+        heroEl.setAttribute('data-zappy-nav-underlap', 'true');
+      } else if (
+        heroEl.getAttribute('data-zappy-nav-underlap') === 'true' ||
+        (heroEl.style.marginTop === '-' + totalHeight + 'px' && heroEl.style.paddingTop === totalHeight + 'px')
+      ) {
+        heroEl.style.removeProperty('margin-top');
+        heroEl.style.removeProperty('padding-top');
+        heroEl.removeAttribute('data-zappy-nav-underlap');
       }
     }
   }
@@ -20064,6 +21384,98 @@ function fixContrast(){
       attributeFilter: ['class', 'style']
     });
   } catch (e) {}
+})();
+
+/* ZAPPY_ANNOUNCEMENT_BAR_ROTATION_V4 */
+(function(){
+  if (window.__zappyAnnouncementBarRotationV4) return;
+  window.__zappyAnnouncementBarRotationV4 = true;
+  window.__zappyAnnouncementBarRotationV3 = true; // legacy guards
+  window.__zappyAnnouncementBarRotationV2 = true;
+
+  function readInterval(bar) {
+    var raw = bar && bar.getAttribute && bar.getAttribute('data-interval');
+    var ms = parseInt(raw, 10);
+    if (!isFinite(ms) || ms < 1000) ms = 4000;
+    return ms;
+  }
+
+  function remountMessages(bar) {
+    // Neutralize orphaned anonymous setIntervals from pre-V2 inline fallbacks
+    // that never stored their timer id — their NodeList closures keep ticking
+    // on the OLD nodes after we replace them with clones.
+    if (!bar) return;
+    var stale = bar.querySelectorAll('.zappy-announcement-message');
+    for (var s = 0; s < stale.length; s++) {
+      var node = stale[s];
+      if (!node || !node.parentNode) continue;
+      node.parentNode.replaceChild(node.cloneNode(true), node);
+    }
+  }
+
+  function startRotation(bar, intervalMs, force) {
+    if (!bar) return;
+    var ms = isFinite(intervalMs) && intervalMs >= 1000 ? intervalMs : readInterval(bar);
+    var messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) {
+      if (window.__zappyAnnouncementRotateTimer) {
+        clearInterval(window.__zappyAnnouncementRotateTimer);
+        window.__zappyAnnouncementRotateTimer = null;
+      }
+      window.__zappyAnnouncementRotateBar = null;
+      window.__zappyAnnouncementRotateMs = null;
+      return;
+    }
+    // Already driving this bar at this interval — leave the active slide alone.
+    if (
+      !force &&
+      window.__zappyAnnouncementRotateTimer &&
+      window.__zappyAnnouncementRotateBar === bar &&
+      window.__zappyAnnouncementRotateMs === ms
+    ) {
+      return;
+    }
+    if (window.__zappyAnnouncementRotateTimer) {
+      clearInterval(window.__zappyAnnouncementRotateTimer);
+      window.__zappyAnnouncementRotateTimer = null;
+    }
+    remountMessages(bar);
+    messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) return;
+    var current = 0;
+    for (var i = 0; i < messages.length; i++) {
+      if (i === 0) messages[i].classList.add('active');
+      else messages[i].classList.remove('active');
+    }
+    window.__zappyAnnouncementRotateBar = bar;
+    window.__zappyAnnouncementRotateMs = ms;
+    window.__zappyAnnouncementRotateTimer = setInterval(function() {
+      var all = bar.querySelectorAll('.zappy-announcement-message');
+      if (!all || all.length <= 1) return;
+      if (current >= all.length) current = 0;
+      all[current].classList.remove('active');
+      current = (current + 1) % all.length;
+      all[current].classList.add('active');
+    }, ms);
+  }
+
+  // Shared entry point — pass force:true after rebuilding message nodes.
+  window.zappyStartAnnouncementRotation = startRotation;
+
+  function boot() {
+    if (document.body && document.body.classList.contains('zappy-focused-page')) return;
+    var bar = document.querySelector('.zappy-announcement-bar');
+    if (!bar) return;
+    startRotation(bar, readInterval(bar), false);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+  // Settings fetch / dynamic bar create may land after first paint.
+  [300, 1000, 2500].forEach(function(ms){ setTimeout(boot, ms); });
 })();
 
 /* ZAPPY_MOBILE_MENU_CLOSED_ICONS_V1 */
@@ -20201,10 +21613,11 @@ function fixContrast(){
 
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V1 */
 
-/* ZAPPY_CART_BUNDLE_DISCOUNT_V3 — non-stacking quantity bundle tiers */
+/* ZAPPY_CART_BUNDLE_DISCOUNT_V4 — native cart summary */
 /* ZAPPY_CART_BUNDLE_SUMMARY_COLOR_V3 */
 ;(function(){var id='zappy-cart-bundle-summary-color-css';var css='.cart-drawer-footer .zappy-cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:.95rem;margin-bottom:8px}.cart-drawer-footer .cart-drawer-subtotal,.cart-drawer-footer .cart-drawer-subtotal span{color:var(--zappy-cart-drawer-total-color,var(--text-light,#f9fafb))}.cart-drawer-footer .zappy-cart-discount-row{color:var(--primary-color,var(--accent,var(--primary,#059669)));font-weight:500}';var el=document.getElementById(id);if(el){el.textContent=css;}else{var s=document.createElement('style');s.id=id;s.textContent=css;(document.head||document.documentElement).appendChild(s);}function sync(){var f=document.querySelector('.cart-drawer-footer');var total=document.querySelector('.cart-drawer-footer .cart-drawer-total');if(!f||!total)return;try{var c=getComputedStyle(total).color;if(c)f.style.setProperty('--zappy-cart-drawer-total-color',c);}catch(e){}}sync();document.addEventListener('DOMContentLoaded',sync);window.addEventListener('load',sync);setTimeout(sync,50);setTimeout(sync,500);})();
 
+/* ZAPPY_CHECKOUT_PICKUP_ORDER_LABEL_V2 */
 
 /* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
 ;(function() {
@@ -20276,4 +21689,110 @@ function fixContrast(){
       observeButtons();
     }
   }
+})();
+
+
+/* ZAPPY_MULTI_QTY_BUNDLE_TOTAL_V2 */
+;(function(){
+  try {
+    if (window.__zappyMultiQtyBundleTotalV2Init) return;
+    window.__zappyMultiQtyBundleTotalV2Init = true;
+
+    function zappyMultiQtyMainContribution(product) {
+      var total = 0;
+      var mainLineCount = 0;
+      var variants = (product && Array.isArray(product.variants)) ? product.variants : [];
+      var matrix = (product && product.card_variants && Array.isArray(product.card_variants.matrix))
+        ? product.card_variants.matrix : [];
+      var inputs = document.querySelectorAll('.multi-qty-input[data-variant-id]');
+      for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i];
+        if (input.disabled) continue;
+        var qty = parseFloat(input.value) || 0;
+        if (qty <= 0) continue;
+        var vid = input.getAttribute('data-variant-id');
+        var variant = null;
+        for (var vi = 0; vi < variants.length; vi++) {
+          if (String(variants[vi].id) === String(vid)) { variant = variants[vi]; break; }
+        }
+        if (!variant) {
+          for (var mi = 0; mi < matrix.length; mi++) {
+            if (String(matrix[mi].id) === String(vid)) { variant = matrix[mi]; break; }
+          }
+        }
+        var unitPrice = window.productBasePrice || 0;
+        if (variant && variant.price !== null && variant.price !== undefined && variant.price !== '') {
+          var vp = parseFloat(variant.price);
+          if (Number.isFinite(vp)) unitPrice = vp;
+        }
+        total += unitPrice * qty;
+        mainLineCount += qty;
+      }
+      return { total: total, mainLineCount: mainLineCount };
+    }
+
+    function zappyIsMultiQtyProduct(product) {
+      if (window.productIsMultiQuantity) return true;
+      if (typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(product)) return true;
+      return !!document.querySelector('[data-multi-quantity="true"]');
+    }
+
+    var orig = window.recomputeBundleTotal;
+    window.recomputeBundleTotal = function() {
+      var amountEl = document.getElementById('upsells-total-amount');
+      if (!amountEl) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var product = window.currentProduct;
+      if (!product || !zappyIsMultiQtyProduct(product)) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var t = window.productTranslations || {};
+      var main = zappyMultiQtyMainContribution(product);
+      var total = main.total;
+      var mainLineCount = main.mainLineCount;
+      var checkedCount = 0;
+      var checkedBoxes = document.querySelectorAll('.upsell-checkbox:checked');
+      for (var ci = 0; ci < checkedBoxes.length; ci++) {
+        var row = checkedBoxes[ci].closest('.upsell-row');
+        if (!row) continue;
+        var p = parseFloat(row.getAttribute('data-upsell-price')) || 0;
+        total += p;
+        checkedCount += 1;
+      }
+      var fmt = (typeof formatMoney === 'function')
+        ? formatMoney
+        : (typeof window.zappyFormatMoney === 'function' ? window.zappyFormatMoney : function(n){ return String(n); });
+      amountEl.textContent = fmt(total);
+      var btn = document.getElementById('add-to-cart-btn');
+      if (btn) {
+        var baseLabel = (typeof getEcomText === 'function')
+          ? getEcomText('addToCart', t.addToCart || 'Add to Cart')
+          : (t.addToCart || 'Add to Cart');
+        if (checkedCount > 0) {
+          var totalCount = mainLineCount + checkedCount;
+          var bundleLabel = (typeof getEcomText === 'function')
+            ? getEcomText('addBundleToCart', t.addBundleToCart || ('Add ' + totalCount + ' items to cart'))
+            : (t.addBundleToCart || ('Add ' + totalCount + ' items to cart'));
+          bundleLabel = String(bundleLabel).replace(/\{count\}/g, String(totalCount));
+          btn.textContent = bundleLabel;
+        } else {
+          btn.textContent = baseLabel;
+        }
+      }
+    };
+
+    document.addEventListener('input', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+    document.addEventListener('change', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+  } catch (err) {}
 })();
