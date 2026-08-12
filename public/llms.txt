@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 122**
+**Total active products: 123**
+
+### חצאית מילה תכלת
+https://hodayaboutique.co.il/product/chtsayt-mylh-tklt-3bzl84
+- Price: 39.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מקסי בגוון שמפניה-תכלת עדין, בגזרה ישרה ונקייה המעניקה מראה אלגנטי ומוקפד. החצאית מעוצבת בגזרה גבוהה עם סגירת כפתור ורוכסן, תפרים מודגשים ושסע קדמי שמוסיף טאץ׳ אופנתי ונוחות בתנועה. פריט ייחודי שמשדר יוקרה ומתאים לשבת, לחג ולאירועים
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786571151806-8228zt.webp
 
 ### חצאית מילה זהוב
 https://hodayaboutique.co.il/product/chtsayt-mylh-zhvb-5xpf4e
