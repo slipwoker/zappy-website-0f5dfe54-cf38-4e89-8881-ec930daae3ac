@@ -1,10 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:34:02.684Z",
+  "generated_at": "2026-08-12T21:35:22.896Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 117,
+  "count": 118,
   "products": [
+    {
+      "id": "36a68ce4-9a65-47f9-9910-34c6aa2c5325",
+      "slug": "chtsayt-kptvrym-yrvk-g6oec3",
+      "name": "חצאית כפתורים ירוק",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מידי בגוון ירוק עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.",
+      "sku": null,
+      "brand": null,
+      "price": 59,
+      "base_price": 59,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-1786570444328-r8n47.webp",
+        "https://hodayaboutique.co.il/assets/product-1786570438255-ey5nmb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-kptvrym-yrvk-g6oec3",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:35:16.571Z"
+    },
     {
       "id": "5aaf29e8-1e0b-4aa0-b21e-dca1bed4ff03",
       "slug": "chtsayt-kptvrym-tklt-okamf4",
