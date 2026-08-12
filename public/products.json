@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:51:03.044Z",
+  "generated_at": "2026-08-12T21:52:13.270Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 125,
   "products": [
     {
       "id": "4352fc15-b87d-4f84-9063-afdeed45c0b8",
-      "slug": "chvltst-kshyrvt-vrvd-g41grk",
+      "slug": "chvltst-kshyrvt-vrvd-luck1w",
       "name": "חולצת קשירות ורוד",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "חולצת אוברסייז ורוד בייבי בגזרה נקייה ומחמיאה, עם שרוולים רחבים באורך מרפק וצווארון גבוה עדין למראה אלגנטי ומודרני. החולצה מגיעה עם קשירה ייחודית במותן שיוצרת טוויסט שיקי ומדגישה את הקו הנשי בצורה מחמיאה. בד נעים ונשפך, מושלם לשילוב עם חצאית ללוק יומיומי מוקפד עם נוכחות.\nהדוגמנית לובשת מידה 1",
       "sku": null,
       "brand": null,
       "price": 69,
@@ -23,11 +23,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-kshyrvt-vrvd-g41grk",
+      "url": "https://hodayaboutique.co.il/product/chvltst-kshyrvt-vrvd-luck1w",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-08-12T21:50:30.346Z"
+      "updated_at": "2026-08-12T21:51:37.333Z"
     },
     {
       "id": "c3f28672-d7bd-4eed-a423-fc7205e6d7e0",
