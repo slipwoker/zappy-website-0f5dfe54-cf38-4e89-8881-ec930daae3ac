@@ -72,7 +72,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 120**
+**Total active products: 121**
+
+### חצאית סיינה
+https://hodayaboutique.co.il/product/chtsayt-syynh-h7epvh
+- Price: 39.00 ILS
+- Availability: In stock
+- Description: חצאית מקסי נשפכת בגוון חרדל עם הדפס אבסטרקטי בגווני ורוד-פוקסיה. גזרה מתרחבת ומחמיאה המעניקה תנועה רכה ואלגנטית, בשילוב כיסים צדדיים לנוחות מושלמת. חצאית עם נוכחות שמקפיצה כל לוק ומתאימה ליום־יום, לשבת ולאירועים
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786570895510-sbe7kv.webp
 
 ### חצאית סאטן חום
 https://hodayaboutique.co.il/product/chtsayt-satn-chvm-traq0a

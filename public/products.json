@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:40:27.785Z",
+  "generated_at": "2026-08-12T21:42:42.807Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 120,
+  "count": 121,
   "products": [
+    {
+      "id": "961d9f0a-1919-4d11-8d2b-7997d91a731d",
+      "slug": "chtsayt-syynh-h7epvh",
+      "name": "חצאית סיינה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מקסי נשפכת בגוון חרדל עם הדפס אבסטרקטי בגווני ורוד-פוקסיה. גזרה מתרחבת ומחמיאה המעניקה תנועה רכה ואלגנטית, בשילוב כיסים צדדיים לנוחות מושלמת. חצאית עם נוכחות שמקפיצה כל לוק ומתאימה ליום־יום, לשבת ולאירועים",
+      "sku": null,
+      "brand": null,
+      "price": 39,
+      "base_price": 39,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786570895510-sbe7kv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-syynh-h7epvh",
+      "categories": [],
+      "updated_at": "2026-08-12T21:42:05.665Z"
+    },
     {
       "id": "dc490f24-a52d-459c-8180-046741fd8d5e",
       "slug": "chtsayt-satn-chvm-traq0a",
