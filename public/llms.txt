@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 113**
+**Total active products: 114**
+
+### חצאית ג׳ינס כיסים בהיר 
+https://hodayaboutique.co.il/product/chtsayt-gyns-kysym-bhyr-kqsssy
+- Price: 85.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית ג׳ינס מקסי בגזרה ישרה ונינוחה, בגוון כחול בהיר עם שטיפות עדינות שמעניקות לה מראה אופנתי. החצאית מעוצבת עם כיסים קדמיים ואחוריים בשילוב פרטי פרימה דקורטיביים, סגירת כפתור ורוכסן ותפר מרכזי לאורך החצאית. פריט קלאסי ונוח שמשתלב בקלות עם מגוון לוקים ליום־יום.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786569799466-xuxlqq.webp
 
 ### חצאית ג׳ינס כיסים
 https://hodayaboutique.co.il/product/chtsayt-gyns-kysym-9vpfiw

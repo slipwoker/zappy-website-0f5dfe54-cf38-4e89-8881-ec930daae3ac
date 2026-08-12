@@ -1,10 +1,36 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:22:27.410Z",
+  "generated_at": "2026-08-12T21:25:12.498Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 113,
+  "count": 114,
   "products": [
+    {
+      "id": "444a643b-03e9-4d51-aed7-cdfead431109",
+      "slug": "chtsayt-gyns-kysym-bhyr-kqsssy",
+      "name": "חצאית ג׳ינס כיסים בהיר ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית ג׳ינס מקסי בגזרה ישרה ונינוחה, בגוון כחול בהיר עם שטיפות עדינות שמעניקות לה מראה אופנתי. החצאית מעוצבת עם כיסים קדמיים ואחוריים בשילוב פרטי פרימה דקורטיביים, סגירת כפתור ורוכסן ותפר מרכזי לאורך החצאית. פריט קלאסי ונוח שמשתלב בקלות עם מגוון לוקים ליום־יום.",
+      "sku": null,
+      "brand": null,
+      "price": 85,
+      "base_price": 85,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569799466-xuxlqq.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569828720-emtbla.webp",
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786569861190-g226fs.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-gyns-kysym-bhyr-kqsssy",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:24:38.709Z"
+    },
     {
       "id": "b53138fe-5be6-4111-9025-ba25959287c3",
       "slug": "chtsayt-gyns-kysym-9vpfiw",
