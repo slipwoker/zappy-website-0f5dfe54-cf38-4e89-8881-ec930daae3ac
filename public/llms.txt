@@ -72,7 +72,15 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 119**
+**Total active products: 120**
+
+### חצאית סאטן חום
+https://hodayaboutique.co.il/product/chtsayt-satn-chvm-traq0a
+- Price: 39.00 ILS
+- Availability: In stock
+- Category: חצאיות
+- Description: חצאית מקסי אלגנטית בגוון בז׳ קלאסי, בגזרה נשפכת ומתרחבת בעדינות כלפי מטה. העיצוב הנקי והמחמיא מעניק לחצאית מראה יוקרתי ועל־זמני, עם תנועה רכה ונשית. פריט ורסטילי שקל לשלב עם מגוון חולצות ונעליים, ומתאים ליום־יום, לעבודה, לשבת ולאירועים.
+- Image: https://hodayaboutique.co.il/assets/product-ai-fit-1786570743149-rkurnk.webp
 
 ### חצאית כפתורים כתום
 https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd

@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T21:38:17.674Z",
+  "generated_at": "2026-08-12T21:40:27.785Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
-  "count": 119,
+  "count": 120,
   "products": [
+    {
+      "id": "dc490f24-a52d-459c-8180-046741fd8d5e",
+      "slug": "chtsayt-satn-chvm-traq0a",
+      "name": "חצאית סאטן חום",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצאית מקסי אלגנטית בגוון בז׳ קלאסי, בגזרה נשפכת ומתרחבת בעדינות כלפי מטה. העיצוב הנקי והמחמיא מעניק לחצאית מראה יוקרתי ועל־זמני, עם תנועה רכה ונשית. פריט ורסטילי שקל לשלב עם מגוון חולצות ונעליים, ומתאים ליום־יום, לעבודה, לשבת ולאירועים.",
+      "sku": null,
+      "brand": null,
+      "price": 39,
+      "base_price": 39,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://hodayaboutique.co.il/assets/product-ai-fit-1786570743149-rkurnk.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-satn-chvm-traq0a",
+      "categories": [
+        "חצאיות"
+      ],
+      "updated_at": "2026-08-12T21:39:55.142Z"
+    },
     {
       "id": "d16c3495-8aab-47c1-bb6b-9ec24e4937a7",
       "slug": "chtsayt-kptvrym-ktvm-v3odpd",
