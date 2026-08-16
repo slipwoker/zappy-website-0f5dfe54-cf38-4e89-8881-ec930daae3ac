@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-16T13:24:32.177Z",
+  "generated_at": "2026-08-16T13:27:07.902Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -1010,7 +1010,7 @@
     },
     {
       "id": "a00a9a77-8824-4275-a1d1-52c59cccc292",
-      "slug": "chtsayt-hds-bz-hz2xw9",
+      "slug": "chtsayt-hds-bz-81apeq",
       "name": "חצאית הדס בז׳",
       "name_translations": {},
       "description": "",
@@ -1029,15 +1029,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-bz-hz2xw9",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-bz-81apeq",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-08-16T13:23:30.490Z"
+      "updated_at": "2026-08-16T13:26:31.643Z"
     },
     {
       "id": "0b436668-6503-4cf8-8d23-35e792848b9e",
-      "slug": "chtsayt-hds-kchvl-8fjd2o",
+      "slug": "chtsayt-hds-kchvl-vamjty",
       "name": "חצאית הדס כחול",
       "name_translations": {},
       "description": "",
@@ -1055,11 +1055,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-8fjd2o",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-hds-kchvl-vamjty",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-16T13:26:06.322Z"
     },
     {
       "id": "e551f8dd-c695-445f-accc-d18930444ae5",
