@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 16 Aug 2026 13:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 13:15:07 GMT</lastBuildDate>
     <item>
       <g:id>cb01cec2-9181-42a1-93a9-134e8fda8b16</g:id>
       <g:title>ג׳קט ג׳ינס כהה - One size</g:title>
@@ -858,10 +858,11 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>beffc839-1245-4f29-952e-ba1d2a0c5e55</g:id>
-      <g:title>שמלת אמילי שחור</g:title>
+      <g:id>1df9d00d-a036-4bef-908e-3630a0161eec</g:id>
+      <g:title>שמלת אמילי שחור - 0</g:title>
       <g:description>שמלת ערב שחורה 🌸 שמלה אלגנטית ומדויקת בצבע שחור, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-shchvr-86gcc0</g:link>
+      <g:item_group_id>beffc839-1245-4f29-952e-ba1d2a0c5e55</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786568954499-4pm3yj.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>339.00 ILS</g:price>
@@ -871,10 +872,53 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>af93b9aa-1f9f-48d2-b010-d3d3d01d65c9</g:id>
-      <g:title>שמלת אמילי לבן</g:title>
+      <g:id>1da8bea4-a019-4040-93c1-2d888c044628</g:id>
+      <g:title>שמלת אמילי שחור - 1</g:title>
+      <g:description>שמלת ערב שחורה 🌸 שמלה אלגנטית ומדויקת בצבע שחור, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-shchvr-86gcc0</g:link>
+      <g:item_group_id>beffc839-1245-4f29-952e-ba1d2a0c5e55</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786568954499-4pm3yj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>b3e851e4-3164-4aa7-ace9-2e589b155040</g:id>
+      <g:title>שמלת אמילי שחור - 2</g:title>
+      <g:description>שמלת ערב שחורה 🌸 שמלה אלגנטית ומדויקת בצבע שחור, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-shchvr-86gcc0</g:link>
+      <g:item_group_id>beffc839-1245-4f29-952e-ba1d2a0c5e55</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786568954499-4pm3yj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>878a6c53-8e51-4525-85d1-c2f4915e03aa</g:id>
+      <g:title>שמלת אמילי שחור - 3</g:title>
+      <g:description>שמלת ערב שחורה 🌸 שמלה אלגנטית ומדויקת בצבע שחור, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-shchvr-86gcc0</g:link>
+      <g:item_group_id>beffc839-1245-4f29-952e-ba1d2a0c5e55</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786568954499-4pm3yj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>4afcd686-b9a2-427c-a258-c6677a370247</g:id>
+      <g:title>שמלת אמילי לבן - 1</g:title>
       <g:description>שמלת ערב לבנה בגזרה קלאסית שמלה אלגנטית ומדויקת בצבע לבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-lbn-eqeoqh</g:link>
+      <g:item_group_id>af93b9aa-1f9f-48d2-b010-d3d3d01d65c9</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471861311-7yk14k.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>339.00 ILS</g:price>
@@ -884,10 +928,39 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>326993fe-adf2-4584-926d-a18e4b968c6f</g:id>
-      <g:title>שמלת אמילי אבן</g:title>
+      <g:id>31f12fdd-087f-4016-ac48-cd94a3146f66</g:id>
+      <g:title>שמלת אמילי לבן - 2</g:title>
+      <g:description>שמלת ערב לבנה בגזרה קלאסית שמלה אלגנטית ומדויקת בצבע לבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-lbn-eqeoqh</g:link>
+      <g:item_group_id>af93b9aa-1f9f-48d2-b010-d3d3d01d65c9</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471861311-7yk14k.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>76f892d1-cda6-4530-a88f-c7d03152c17b</g:id>
+      <g:title>שמלת אמילי לבן - 3</g:title>
+      <g:description>שמלת ערב לבנה בגזרה קלאסית שמלה אלגנטית ומדויקת בצבע לבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-lbn-eqeoqh</g:link>
+      <g:item_group_id>af93b9aa-1f9f-48d2-b010-d3d3d01d65c9</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471861311-7yk14k.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>dab334c7-85c5-427c-a27b-9a9bb73d39f5</g:id>
+      <g:title>שמלת אמילי אבן - 0</g:title>
       <g:description>שמלת ערב אבן בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון אבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-abn-2ye5pk</g:link>
+      <g:item_group_id>326993fe-adf2-4584-926d-a18e4b968c6f</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569016717-yzx7p.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>339.00 ILS</g:price>
@@ -897,10 +970,53 @@
       <g:product_type>שמלות</g:product_type>
     </item>
     <item>
-      <g:id>2e046e77-2aab-4133-af17-cf3e66849822</g:id>
-      <g:title>שמלת אמילי צהוב</g:title>
+      <g:id>ee4c4222-938b-4816-b9cc-06995361497d</g:id>
+      <g:title>שמלת אמילי אבן - 1</g:title>
+      <g:description>שמלת ערב אבן בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון אבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-abn-2ye5pk</g:link>
+      <g:item_group_id>326993fe-adf2-4584-926d-a18e4b968c6f</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569016717-yzx7p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות</g:product_type>
+    </item>
+    <item>
+      <g:id>2aa76763-0727-4ee6-b3e3-8a881d3258a2</g:id>
+      <g:title>שמלת אמילי אבן - 2</g:title>
+      <g:description>שמלת ערב אבן בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון אבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-abn-2ye5pk</g:link>
+      <g:item_group_id>326993fe-adf2-4584-926d-a18e4b968c6f</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569016717-yzx7p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות</g:product_type>
+    </item>
+    <item>
+      <g:id>8e990c3f-9776-4c12-979a-9378b8faccfc</g:id>
+      <g:title>שמלת אמילי אבן - 3</g:title>
+      <g:description>שמלת ערב אבן בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון אבן, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-abn-2ye5pk</g:link>
+      <g:item_group_id>326993fe-adf2-4584-926d-a18e4b968c6f</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569016717-yzx7p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות</g:product_type>
+    </item>
+    <item>
+      <g:id>6855ba03-664e-409a-b011-8e006ffb0d1b</g:id>
+      <g:title>שמלת אמילי צהוב - 0</g:title>
       <g:description>שמלת ערב צהובה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון צהוב עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-tshvb-madzm7</g:link>
+      <g:item_group_id>2e046e77-2aab-4133-af17-cf3e66849822</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471648494-amqlyd.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>339.00 ILS</g:price>
@@ -910,10 +1026,81 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>02edeeff-cccf-475b-aa66-7461a3f099f0</g:id>
-      <g:title>שמלת אמילי ורוד</g:title>
+      <g:id>c4df5de8-43fb-44ba-a813-f5f98c095f5a</g:id>
+      <g:title>שמלת אמילי צהוב - 1</g:title>
+      <g:description>שמלת ערב צהובה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון צהוב עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-tshvb-madzm7</g:link>
+      <g:item_group_id>2e046e77-2aab-4133-af17-cf3e66849822</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471648494-amqlyd.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>6c0cd7e2-585c-4b73-935b-8ddc46188d85</g:id>
+      <g:title>שמלת אמילי צהוב - 2</g:title>
+      <g:description>שמלת ערב צהובה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון צהוב עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-tshvb-madzm7</g:link>
+      <g:item_group_id>2e046e77-2aab-4133-af17-cf3e66849822</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471648494-amqlyd.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>96771835-4d5a-45d4-8ebe-46c5bf6d10f1</g:id>
+      <g:title>שמלת אמילי צהוב - 3</g:title>
+      <g:description>שמלת ערב צהובה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון צהוב עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-tshvb-madzm7</g:link>
+      <g:item_group_id>2e046e77-2aab-4133-af17-cf3e66849822</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471648494-amqlyd.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>724c9248-be77-4aab-bc1e-b61c15d3fc95</g:id>
+      <g:title>שמלת אמילי ורוד - 0</g:title>
       <g:description>שמלת ערב ורודה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון ורוד בייבי עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-vrvd-6zu2fz</g:link>
+      <g:item_group_id>02edeeff-cccf-475b-aa66-7461a3f099f0</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471474034-bmcimd.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>20513ec9-5858-4bf8-8666-b93c562ef75b</g:id>
+      <g:title>שמלת אמילי ורוד - 1</g:title>
+      <g:description>שמלת ערב ורודה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון ורוד בייבי עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-vrvd-6zu2fz</g:link>
+      <g:item_group_id>02edeeff-cccf-475b-aa66-7461a3f099f0</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471474034-bmcimd.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>424ed75a-2d0a-48c7-98a0-4730c914eaaa</g:id>
+      <g:title>שמלת אמילי ורוד - 3</g:title>
+      <g:description>שמלת ערב ורודה בגזרה קלאסית שמלה אלגנטית ומדויקת בגוון ורוד בייבי עדין, בגזרה ארוכה ומחמיאה המדגישה את קווי הגוף בצורה נשית ומעודנת. העיצוב כולל צווארון גבוה ומחויט, שרוולים עד המרפק ושורת כפתורים מצופים לאורך חזית השמלה שמעניקה לה מראה יוקרתי ומיוחד. השסע הקדמי מוסיף נגיעה אופנתית ומשלים את המראה האלגנטי. שמלה על־זמנית שמתאימה לאירועים, שבתות, חגים ואירועים מיוחדים – למראה קלאסי, נשי ומרשים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-amyly-vrvd-6zu2fz</g:link>
+      <g:item_group_id>02edeeff-cccf-475b-aa66-7461a3f099f0</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786471474034-bmcimd.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>339.00 ILS</g:price>
