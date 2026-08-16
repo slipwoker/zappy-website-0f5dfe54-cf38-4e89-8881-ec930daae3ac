@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-16T12:25:50.084Z",
+  "generated_at": "2026-08-16T12:26:50.426Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -57,11 +57,11 @@
     },
     {
       "id": "d496c97c-226e-4a18-b4de-3b1245b960f4",
-      "slug": "chvltst-alyn-chvm-iub0m1",
+      "slug": "chvltst-alyn-chvm-j3ry4r",
       "name": "חולצת אלין חום",
       "name_translations": {},
       "description": "",
-      "short_description": "חולצה חומה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד",
+      "short_description": "חולצה חומה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד\nמגיע בוואן סייז מתאים למידות 0-3",
       "sku": null,
       "brand": null,
       "price": 49,
@@ -74,19 +74,19 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-chvm-iub0m1",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-chvm-j3ry4r",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-08-12T22:04:41.187Z"
+      "updated_at": "2026-08-16T12:26:12.865Z"
     },
     {
       "id": "93ac635d-dd7d-4668-be3f-fae575bcd364",
-      "slug": "chvltst-alyn-tklt-jje4nc",
+      "slug": "chvltst-alyn-tklt-efgbsa",
       "name": "חולצת אלין תכלת",
       "name_translations": {},
       "description": "",
-      "short_description": "חולצה תכלת אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד",
+      "short_description": "חולצה תכלת אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד\nמגיע בוואן סייז מתאים למידות 0-3",
       "sku": null,
       "brand": null,
       "price": 49,
@@ -100,11 +100,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-tklt-jje4nc",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-tklt-efgbsa",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-08-12T22:03:33.693Z"
+      "updated_at": "2026-08-16T12:26:47.453Z"
     },
     {
       "id": "ea673eca-a5cf-4f8a-ab83-cad9c5672eca",
