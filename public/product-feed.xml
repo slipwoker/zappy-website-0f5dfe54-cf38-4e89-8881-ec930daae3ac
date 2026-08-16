@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 16 Aug 2026 13:03:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 13:04:46 GMT</lastBuildDate>
     <item>
       <g:id>cb01cec2-9181-42a1-93a9-134e8fda8b16</g:id>
       <g:title>ג׳קט ג׳ינס כהה - One size</g:title>
@@ -691,10 +691,25 @@
       <g:product_type>שמלות ערב</g:product_type>
     </item>
     <item>
-      <g:id>823eacc6-21c3-4424-9f64-de7eee9cfbb6</g:id>
-      <g:title>שמלת ליז שחור</g:title>
+      <g:id>6afa0453-2056-469d-8bef-645a8aa011ab</g:id>
+      <g:title>שמלת ליז שחור - 0</g:title>
       <g:description>חליפה שחורה אלגנטית ומרשימה בגזרה נשית ומחמיאה. החלק העליון בעיצוב נקי עם מפתח צוואר מרובע, שרוולים קצרים וחגורת מותן עם אבזם שמדגישה את הגזרה. החצאית הארוכה בגזרת בת־ים צמודה באזור המותניים והירכיים ומתרחבת בעדינות כלפי מטה. לוק חגיגי, קלאסי ומדויק שמתאים לאירועים, שבתות וחגים.</g:description>
       <g:link>https://hodayaboutique.co.il/product/shmlt-lyz-shchvr-t8xifb</g:link>
+      <g:item_group_id>823eacc6-21c3-4424-9f64-de7eee9cfbb6</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569459625-uhabmf.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>329.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>שמלות ערב</g:product_type>
+    </item>
+    <item>
+      <g:id>5b75a3b1-d4c1-4228-a4e8-81eb97cf0c55</g:id>
+      <g:title>שמלת ליז שחור - 1</g:title>
+      <g:description>חליפה שחורה אלגנטית ומרשימה בגזרה נשית ומחמיאה. החלק העליון בעיצוב נקי עם מפתח צוואר מרובע, שרוולים קצרים וחגורת מותן עם אבזם שמדגישה את הגזרה. החצאית הארוכה בגזרת בת־ים צמודה באזור המותניים והירכיים ומתרחבת בעדינות כלפי מטה. לוק חגיגי, קלאסי ומדויק שמתאים לאירועים, שבתות וחגים.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/shmlt-lyz-shchvr-t8xifb</g:link>
+      <g:item_group_id>823eacc6-21c3-4424-9f64-de7eee9cfbb6</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786569459625-uhabmf.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>329.00 ILS</g:price>
