@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 16 Aug 2026 12:47:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:48:36 GMT</lastBuildDate>
     <item>
       <g:id>cb01cec2-9181-42a1-93a9-134e8fda8b16</g:id>
       <g:title>ג׳קט ג׳ינס כהה - One size</g:title>
@@ -320,10 +320,39 @@
       <g:product_type>חצאיות</g:product_type>
     </item>
     <item>
-      <g:id>d16c3495-8aab-47c1-bb6b-9ec24e4937a7</g:id>
-      <g:title>חצאית כפתורים כתום</g:title>
+      <g:id>a65de40d-10c3-442b-8c1e-126f8e4e7b91</g:id>
+      <g:title>חצאית כפתורים כתום - 1</g:title>
       <g:description>חצאית מידי בגוון כתום עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.</g:description>
       <g:link>https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd</g:link>
+      <g:item_group_id>d16c3495-8aab-47c1-bb6b-9ec24e4937a7</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1786570575620-zm2l68.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1786570581891-180o3f.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>4cae0c73-97f9-4ed6-b0b4-8bffb5498f1b</g:id>
+      <g:title>חצאית כפתורים כתום - 2</g:title>
+      <g:description>חצאית מידי בגוון כתום עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd</g:link>
+      <g:item_group_id>d16c3495-8aab-47c1-bb6b-9ec24e4937a7</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-1786570575620-zm2l68.webp</g:image_link>
+      <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1786570581891-180o3f.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>ffaa0e07-5afb-4fce-952e-c10a1eca7ce1</g:id>
+      <g:title>חצאית כפתורים כתום - 3</g:title>
+      <g:description>חצאית מידי בגוון כתום עדין, בגזרה מתרחבת ונשית עם קומות כיווצים שמעניקות לה נפח ותנועה יפה. החצאית מעוצבת עם מותן גבוהה וגמישה לנוחות מרבית, חגורת קשירה דקורטיבית ושורת כפתורים לאורך החלק הקדמי. פריט קליל ומחמיא שמשלב מראה קלאסי עם טאץ׳ רומנטי, מושלם ליום־יום, לשבת ולחג.</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-kptvrym-ktvm-v3odpd</g:link>
+      <g:item_group_id>d16c3495-8aab-47c1-bb6b-9ec24e4937a7</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-1786570575620-zm2l68.webp</g:image_link>
       <g:additional_image_link>https://hodayaboutique.co.il/assets/product-1786570581891-180o3f.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
