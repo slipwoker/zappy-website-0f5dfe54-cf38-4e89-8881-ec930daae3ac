@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-16T12:30:04.627Z",
+  "generated_at": "2026-08-16T12:30:15.631Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -134,11 +134,11 @@
     },
     {
       "id": "68b8d542-56f3-41ba-9929-f9e8b9c9e976",
-      "slug": "chvltst-alyn-lbn-x34w10",
+      "slug": "chvltst-alyn-lbn-8uek4x",
       "name": "חולצת אלין לבן",
       "name_translations": {},
       "description": "",
-      "short_description": "חולצה לבנה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד",
+      "short_description": "חולצה לבנה אלגנטית בגזרה רחבה ונשפכת, עם שרוולי 3/4 ומפתח צוואר עגול ונקי. החלק התחתון מעוטר בתחרה שחורה עדינה ובגזרה א-סימטרית שמעניקה לחולצה מראה מיוחד, נשי ומחמיא. פריט ורסטילי שמשתלב נהדר עם חצאיות ומתאים ליום־יום, לשבת וללוק ערב מוקפד\nמגיע בוואן סייז מתאים למידות 0-3",
       "sku": null,
       "brand": null,
       "price": 49,
@@ -152,11 +152,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-lbn-x34w10",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-lbn-8uek4x",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-08-12T21:58:24.025Z"
+      "updated_at": "2026-08-16T12:30:14.977Z"
     },
     {
       "id": "9da8aacc-6b8b-4335-9cf6-73217eb1b2b9",
