@@ -4,7 +4,7 @@
     <title>הודיה</title>
     <link>https://hodayaboutique.co.il</link>
     <description>Product feed for הודיה</description>
-    <lastBuildDate>Sun, 16 Aug 2026 12:40:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:42:07 GMT</lastBuildDate>
     <item>
       <g:id>cb01cec2-9181-42a1-93a9-134e8fda8b16</g:id>
       <g:title>ג׳קט ג׳ינס כהה - One size</g:title>
@@ -268,10 +268,37 @@
       <g:product_type>חצאיות</g:product_type>
     </item>
     <item>
-      <g:id>961d9f0a-1919-4d11-8d2b-7997d91a731d</g:id>
-      <g:title>חצאית סיינה</g:title>
+      <g:id>c7de61f3-2be2-46db-9ef2-6765d1b6528c</g:id>
+      <g:title>חצאית סיינה - S</g:title>
       <g:description>חצאית מקסי נשפכת בגוון חרדל עם הדפס אבסטרקטי בגווני ורוד-פוקסיה. גזרה מתרחבת ומחמיאה המעניקה תנועה רכה ואלגנטית, בשילוב כיסים צדדיים לנוחות מושלמת. חצאית עם נוכחות שמקפיצה כל לוק ומתאימה ליום־יום, לשבת ולאירועים</g:description>
       <g:link>https://hodayaboutique.co.il/product/chtsayt-syynh-h7epvh</g:link>
+      <g:item_group_id>961d9f0a-1919-4d11-8d2b-7997d91a731d</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786570895510-sbe7kv.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>b1c0013e-561a-4dfe-bc89-ebe70884379b</g:id>
+      <g:title>חצאית סיינה - M</g:title>
+      <g:description>חצאית מקסי נשפכת בגוון חרדל עם הדפס אבסטרקטי בגווני ורוד-פוקסיה. גזרה מתרחבת ומחמיאה המעניקה תנועה רכה ואלגנטית, בשילוב כיסים צדדיים לנוחות מושלמת. חצאית עם נוכחות שמקפיצה כל לוק ומתאימה ליום־יום, לשבת ולאירועים</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-syynh-h7epvh</g:link>
+      <g:item_group_id>961d9f0a-1919-4d11-8d2b-7997d91a731d</g:item_group_id>
+      <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786570895510-sbe7kv.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>הודיה</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>f69d649b-f1f0-4366-bcab-21791afd6108</g:id>
+      <g:title>חצאית סיינה - L</g:title>
+      <g:description>חצאית מקסי נשפכת בגוון חרדל עם הדפס אבסטרקטי בגווני ורוד-פוקסיה. גזרה מתרחבת ומחמיאה המעניקה תנועה רכה ואלגנטית, בשילוב כיסים צדדיים לנוחות מושלמת. חצאית עם נוכחות שמקפיצה כל לוק ומתאימה ליום־יום, לשבת ולאירועים</g:description>
+      <g:link>https://hodayaboutique.co.il/product/chtsayt-syynh-h7epvh</g:link>
+      <g:item_group_id>961d9f0a-1919-4d11-8d2b-7997d91a731d</g:item_group_id>
       <g:image_link>https://hodayaboutique.co.il/assets/product-ai-fit-1786570895510-sbe7kv.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>39.00 ILS</g:price>
