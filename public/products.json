@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-16T12:30:56.345Z",
+  "generated_at": "2026-08-16T12:31:46.075Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -160,7 +160,7 @@
     },
     {
       "id": "9da8aacc-6b8b-4335-9cf6-73217eb1b2b9",
-      "slug": "chvltst-alyn-shchvr-ss3zjp",
+      "slug": "chvltst-alyn-shchvr-2ojrsk",
       "name": "חולצת אלין שחור",
       "name_translations": {},
       "description": "",
@@ -178,11 +178,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-shchvr-ss3zjp",
+      "url": "https://hodayaboutique.co.il/product/chvltst-alyn-shchvr-2ojrsk",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-08-16T12:30:49.388Z"
+      "updated_at": "2026-08-16T12:31:13.399Z"
     },
     {
       "id": "04ff5915-e53d-406f-bde5-4aba707fa3df",
