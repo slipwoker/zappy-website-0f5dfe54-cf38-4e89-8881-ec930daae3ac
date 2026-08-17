@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-17T11:15:08.112Z",
+  "generated_at": "2026-08-17T11:17:03.950Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -1573,7 +1573,7 @@
     },
     {
       "id": "3ab1c12d-de4f-43dc-acad-3c4c0590b54e",
-      "slug": "chtsayt-chgvrh-bz-ze9egv",
+      "slug": "chtsayt-chgvrh-bz-d9r99r",
       "name": "חצאית חגורה בז׳",
       "name_translations": {},
       "description": "",
@@ -1592,15 +1592,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-ze9egv",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-bz-d9r99r",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-28T12:21:18.851Z"
+      "updated_at": "2026-08-17T11:15:17.952Z"
     },
     {
       "id": "95fd699a-d328-40c0-942b-976b0461fe2b",
-      "slug": "chtsayt-chgvrh-shmnt-aqjarg",
+      "slug": "chtsayt-chgvrh-shmnt-4y8wom",
       "name": "חצאית חגורה שמנת",
       "name_translations": {},
       "description": "",
@@ -1617,15 +1617,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-aqjarg",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shmnt-4y8wom",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:15:39.601Z"
     },
     {
       "id": "f21a3b68-327e-46d2-9d50-4201c0a19c81",
-      "slug": "chlypt-avpl-chvm-0tts1e",
+      "slug": "chlypt-avpl-chvm-nobng0",
       "name": "חליפת אופל חום",
       "name_translations": {},
       "description": "",
@@ -1643,15 +1643,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-0tts1e",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-chvm-nobng0",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-26T13:55:20.334Z"
+      "updated_at": "2026-08-17T11:16:04.512Z"
     },
     {
       "id": "5d385ee5-8955-47a7-aea9-208e60915747",
-      "slug": "chlypt-avpl-bz-e7o542",
+      "slug": "chlypt-avpl-bz-uo5a7r",
       "name": "חליפת אופל בז׳",
       "name_translations": {},
       "description": "",
@@ -1670,11 +1670,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-bz-e7o542",
+      "url": "https://hodayaboutique.co.il/product/chlypt-avpl-bz-uo5a7r",
       "categories": [
         "חליפות"
       ],
-      "updated_at": "2026-06-26T13:55:03.214Z"
+      "updated_at": "2026-08-17T11:16:26.361Z"
     },
     {
       "id": "e19c56a6-3d13-4fcf-ae01-179810e15ba7",
