@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-17T11:13:47.944Z",
+  "generated_at": "2026-08-17T11:14:43.219Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -1519,7 +1519,7 @@
     },
     {
       "id": "29b4391b-3641-4733-88fb-7fd851a64eee",
-      "slug": "chtsayt-chgvrh-lbnh-tv8vav",
+      "slug": "chtsayt-chgvrh-lbnh-ui51pn",
       "name": "חצאית חגורה לבנה",
       "name_translations": {},
       "description": "",
@@ -1538,15 +1538,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-lbnh-tv8vav",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-lbnh-ui51pn",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:14:07.567Z"
     },
     {
       "id": "18d8fb06-b4e8-4a8d-ad1e-c0e6fcc93b7f",
-      "slug": "chtsayt-chgvrh-shchvrh-we0d3x",
+      "slug": "chtsayt-chgvrh-shchvrh-7b5hw4",
       "name": "חצאית חגורה שחורה ",
       "name_translations": {},
       "description": "",
@@ -1565,11 +1565,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shchvrh-we0d3x",
+      "url": "https://hodayaboutique.co.il/product/chtsayt-chgvrh-shchvrh-7b5hw4",
       "categories": [
         "חצאיות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:14:27.057Z"
     },
     {
       "id": "3ab1c12d-de4f-43dc-acad-3c4c0590b54e",
