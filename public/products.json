@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-17T11:06:33.152Z",
+  "generated_at": "2026-08-17T11:07:27.747Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -1386,7 +1386,7 @@
     },
     {
       "id": "ca3dd2c1-6727-4658-b960-7da2985cdf31",
-      "slug": "chvltst-hdr-chvm-wisxd3",
+      "slug": "chvltst-hdr-chvm-fis4ei",
       "name": "חולצת הדר חום",
       "name_translations": {},
       "description": "",
@@ -1405,15 +1405,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-chvm-wisxd3",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-chvm-fis4ei",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:06:50.177Z"
     },
     {
       "id": "d1a238ab-93f0-4eb5-b961-a2e0753d71a7",
-      "slug": "chvltst-hdr-tshvb-3gk8m6",
+      "slug": "chvltst-hdr-tshvb-3lfxyc",
       "name": "חולצת הדר צהוב",
       "name_translations": {},
       "description": "",
@@ -1432,11 +1432,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-3gk8m6",
+      "url": "https://hodayaboutique.co.il/product/chvltst-hdr-tshvb-3lfxyc",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:07:16.045Z"
     },
     {
       "id": "ba17f997-5528-4d36-a2e4-adf94b5d696c",
