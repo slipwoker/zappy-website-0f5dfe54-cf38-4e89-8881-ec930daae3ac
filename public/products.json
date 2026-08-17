@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-17T11:02:12.563Z",
+  "generated_at": "2026-08-17T11:03:07.606Z",
   "base_url": "https://hodayaboutique.co.il",
   "currency": "ILS",
   "count": 133,
@@ -1278,7 +1278,7 @@
     },
     {
       "id": "deefd4d8-8b1e-4f73-a30a-9c89a10c9296",
-      "slug": "chvltst-tchrh-bz-f9jtsr",
+      "slug": "chvltst-tchrh-bz-zysfbe",
       "name": "חולצת תחרה בז׳",
       "name_translations": {},
       "description": "",
@@ -1297,11 +1297,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-bz-f9jtsr",
+      "url": "https://hodayaboutique.co.il/product/chvltst-tchrh-bz-zysfbe",
       "categories": [
         "חולצות"
       ],
-      "updated_at": "2026-06-25T20:49:38.520Z"
+      "updated_at": "2026-08-17T11:03:04.979Z"
     },
     {
       "id": "88407656-8c6a-4560-9dce-0e79b9a5840e",
